@@ -91,10 +91,11 @@ test('reduced motion preference is respected', async ({ page }) => {
   await expect(page.locator('.hero-copy')).toHaveCSS('opacity', '1');
 });
 test('important WCAG accessibility checks', async ({page}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/');
   const AxeBuilder = require('@axe-core/playwright').default;
   const results = await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
   const serious = results.violations.filter(v=>v.impact==='critical'||v.impact==='serious');
-  console.log('Accessibility: '+JSON.stringify(serious.map(v=>({id:v.id,impact:v.impact,description:v.description,targets:v.nodes.slice(0,3).map(n=>n.target)}))));
+  console.log('Accessibility: '+JSON.stringify(serious.map(v=>({id:v.id,impact:v.impact,description:v.description,targets:v.nodes.map(n=>n.target).slice(0,60)}))));
   expect(serious).toEqual([]);
 });
