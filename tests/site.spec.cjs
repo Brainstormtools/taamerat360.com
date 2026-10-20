@@ -79,6 +79,16 @@ test('responsive page has no root horizontal overflow', async ({ page }) => {
   await expect.poll(async () => await page.evaluate(() =>
     document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2
   )).toBe(true);
+  // Scroll through the actual page before capturing to trigger every revealed section.
+  const maxY = await page.evaluate(() => document.documentElement.scrollHeight);
+  const step = Math.max(280, Math.floor(page.viewportSize().height * .7));
+  for (let y = 0; y < maxY; y += step) {
+    await page.evaluate(y => window.scrollTo(0, y), y);
+    await page.waitForTimeout(85);
+  }
+  await page.waitForTimeout(850);
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForTimeout(170);
   require('node:fs').mkdirSync('screenshots', { recursive: true });
   await page.screenshot({ path: 'screenshots/taamerat360-' + (MOBILE() ? 'mobile' : 'desktop') + '.png', fullPage: true });
 });
@@ -98,4 +108,17 @@ test('important WCAG accessibility checks', async ({page}) => {
   const serious = results.violations.filter(v=>v.impact==='critical'||v.impact==='serious');
   console.log('Accessibility: '+JSON.stringify(serious.map(v=>({id:v.id,impact:v.impact,description:v.description,targets:v.nodes.map(n=>n.target).slice(0,60)}))));
   expect(serious).toEqual([]);
+});
+
+test('essential content remains readable if JavaScript is disabled', async ({browser}) => {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  try {
+    const page = await context.newPage();
+    await page.goto('http://127.0.0.1:4173/');
+    await expect(page.locator('h1')).toContainText('Business,');
+    await expect(page.locator('.hero-copy')).toHaveCSS('opacity', '1');
+    await expect(page.locator('.journey-heading')).toHaveCSS('opacity', '1');
+  } finally {
+    await context.close();
+  }
 });
