@@ -76,10 +76,10 @@ test('motion preference can be paused and resumed', async ({ page }) => {
 
 test('responsive page has no root horizontal overflow', async ({ page }) => {
   await page.goto('/');
-  await expect.poll(async () => await page.evaluate(() => ({
-    view: document.documentElement.clientWidth,
-    content: document.documentElement.scrollWidth
-  }))).toSatisfy(({ view, content }) => content <= view + 2);
+  await expect.poll(async () => await page.evaluate(() =>
+    document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2
+  )).toBe(true);
+  require('node:fs').mkdirSync('qa-report', { recursive: true });
   await page.screenshot({ path: 'qa-report/taamerat360-' + (MOBILE() ? 'mobile' : 'desktop') + '.png', fullPage: true });
 });
 
