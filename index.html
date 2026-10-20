@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./cinematic.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -49,7 +50,8 @@
           <span class="art-word" aria-hidden="true">360</span>
           <div class="art-frame">
             <div class="art-glow"></div>
-            <img class="scene-image hero-image" src="https://taamerat360-motion.margotdperrin67761.chatgpt.site/assets/connected-world-1000.webp" alt="A sculptural orange pathway connects a blue storefront, a customer conversation and an organised handover." fetchpriority="high">
+            <div class="art-reflection" aria-hidden="true"></div>
+            <img class="scene-image hero-image" src="./assets/artwork-connected.svg" alt="A sculptural orange pathway connects a blue storefront, a customer conversation and an organised handover." fetchpriority="high">
           </div>
           <span class="art-tag art-tag-one"><span class="tag-pip blue"></span> FIND</span>
           <span class="art-tag art-tag-two"><span class="tag-pip yellow"></span> CONNECT</span>
@@ -75,12 +77,15 @@
           <div class="journey-visual" aria-label="Interactive illustration showing the three stages of business growth">
             <div class="visual-stage">
               <div class="visual-counter"><span id="stage-index">01</span> <span>/ 03</span></div>
+              <div class="cinematic-chapter-label" aria-hidden="true">A BETTER BUSINESS JOURNEY</div>
               <div class="stage-images" id="stage-images">
-                <img class="stage-img is-current" src="https://taamerat360-motion.margotdperrin67761.chatgpt.site/assets/find-1000.webp" alt="Customers find a welcoming blue storefront.">
-                <img class="stage-img" src="https://taamerat360-motion.margotdperrin67761.chatgpt.site/assets/connect-1000.webp" alt="A conversation connects an enquiry to a productive meeting.">
-                <img class="stage-img" src="https://taamerat360-motion.margotdperrin67761.chatgpt.site/assets/deliver-1000.webp" alt="Organised folders and a clear handover keep a team moving.">
+                <div class="chapter-flare" aria-hidden="true"></div>
+                <img class="stage-img is-current" src="./assets/artwork-find.svg" alt="Customers find a welcoming blue storefront.">
+                <img class="stage-img" src="./assets/artwork-connect.svg" alt="A conversation connects an enquiry to a productive meeting.">
+                <img class="stage-img" src="./assets/artwork-deliver.svg" alt="Organised folders and a clear handover keep a team moving.">
               </div>
               <span class="stage-badge" id="stage-badge">THE DISCOVERY MOMENT</span>
+              <span class="visual-watermark" aria-hidden="true">360°</span>
               <div class="stage-bottom"><div class="stage-rail" aria-hidden="true"><span id="stage-fill"></span></div><div class="stage-selector" role="group" aria-label="Choose journey stage"><button type="button" data-stage="0" class="is-current" aria-pressed="true">01</button><button type="button" data-stage="1" aria-pressed="false">02</button><button type="button" data-stage="2" aria-pressed="false">03</button></div></div>
             </div>
           </div>
