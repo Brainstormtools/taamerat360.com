@@ -1,6 +1,7 @@
 (()=>{"use strict";
 const $=(s,ctx=document)=>ctx.querySelector(s),$$=(s,ctx=document)=>Array.from(ctx.querySelectorAll(s));
 const prefersReduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(!prefersReduced)document.documentElement.classList.add("js-motion");
 const motionToggle=$(".motion-toggle");let paused=prefersReduced;
 function applyMotion(){document.body.classList.toggle("motion-off",paused);motionToggle.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
 applyMotion();motionToggle.addEventListener("click",()=>{paused=!paused;applyMotion()});
