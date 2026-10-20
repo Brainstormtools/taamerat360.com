@@ -45,3 +45,13 @@ html,body{max-width:100%;overflow-x:clip}
 /* Progressive enhancement: content remains visible when JavaScript fails or is disabled. */
 [data-reveal]{opacity:1;transform:none}
 html.js-motion [data-reveal]:not(.is-visible){opacity:0;transform:translateY(22px)}
+
+/* Tablet navigation switches to compact menu before the five links collide. */
+@media(min-width:761px) and (max-width:980px){
+  .nav-toggle{display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid #b7ad9e;background:transparent}
+  .nav-toggle span{width:20px;height:2px;background:#242321;display:block}
+  .nav-links{position:absolute;left:0;right:0;top:83px;background:#f6f2ea;border-bottom:1px solid #d8cebf;display:none;flex-direction:column;align-items:stretch;padding:18px;gap:0}
+  .nav-links.is-open{display:flex}
+  .nav-links>a{padding:13px;font-size:14px}
+  .nav-links .nav-cta{margin-top:12px;justify-content:space-between}
+}
