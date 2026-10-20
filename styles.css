@@ -18,3 +18,18 @@
 /* QA: transformed full-width banners must not enlarge the page's scrollable area. */
 .marquee{transform:none}
 html,body{max-width:100%;overflow-x:clip}
+
+/* Phase 3: readable color contrast for captions, controls and body copy. */
+.hero-footnote,.hero-bottom{color:#59544c}
+.hero-description,.section-heading>p,.section-heading>div+p{color:#5e5a54}
+.step-name,.journey-step p,.industries-grid>div:first-child>p:last-child{color:#5b544c}
+.journey-step{opacity:1}
+.journey-step:not(.is-current) h3{color:#57514a}
+.solution-choice{color:#62594f}
+.solution-choice-no,.detail-top,.visual-counter span+span{color:#62594f}
+.solution-detail p,.industry-output p{color:#5d564d}
+.industry-output>span{color:#bc3020}
+.stage-selector button:not(.is-current){color:#59544c}
+.step-index,.underlined-link span,.package-mark,.package-link span,.industry-output a span{color:#bc3020}
+.method-intro p:not(.eyebrow){color:#5b544c}
+@media(max-width:760px){.hero-footnote,.hero-bottom{color:#59544c}}
