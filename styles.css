@@ -14,3 +14,7 @@
   .hero-art .art-frame{inset:5% 0 8% 0}
   .method-grid,.industries-grid{grid-template-columns:minmax(0,1fr)}
 }
+
+/* QA: transformed full-width banners must not enlarge the page's scrollable area. */
+.marquee{transform:none}
+html,body{max-width:100%;overflow-x:clip}
