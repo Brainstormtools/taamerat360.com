@@ -1,5 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const MOBILE = () => test.info().project.name.includes('mobile');
+const MENU = () => MOBILE() || test.info().project.name.includes('tablet');
+const VIEW = () => test.info().project.name.replace('-chromium', '');
 
 test('homepage loads without script errors or missing illustrations', async ({ page }) => {
   const errors = [];
@@ -20,7 +22,7 @@ test('main navigation reaches section targets', async ({ page }) => {
   const missing = await page.evaluate(() => [...document.querySelectorAll('a[href^="#"]')]
     .map(a => a.getAttribute('href')).filter(href => href.length > 1 && !document.getElementById(href.slice(1))));
   expect(missing).toEqual([]);
-  if (MOBILE()) {
+  if (MENU()) {
     const toggle = page.locator('.nav-toggle');
     await expect(toggle).toBeVisible();
     await toggle.click();
@@ -87,10 +89,11 @@ test('responsive page has no root horizontal overflow', async ({ page }) => {
     await page.waitForTimeout(85);
   }
   await page.waitForTimeout(850);
-  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.evaluate(() => { document.documentElement.style.scrollBehavior = 'auto'; window.scrollTo({ top: 0, behavior: 'instant' }); });
   await page.waitForTimeout(170);
   require('node:fs').mkdirSync('screenshots', { recursive: true });
-  await page.screenshot({ path: 'screenshots/taamerat360-' + (MOBILE() ? 'mobile' : 'desktop') + '.png', fullPage: true });
+  await expect(page.locator('.site-header')).toBeVisible();
+  await page.screenshot({ path: 'screenshots/taamerat360-' + VIEW() + '.png', fullPage: true });
 });
 
 test('reduced motion preference is respected', async ({ page }) => {
@@ -120,5 +123,37 @@ test('essential content remains readable if JavaScript is disabled', async ({bro
     await expect(page.locator('.journey-heading')).toHaveCSS('opacity', '1');
   } finally {
     await context.close();
+  }
+});
+
+test('navigation supports Escape and returns focus to the menu button', async ({ page }) => {
+  if (!MENU()) return;
+  await page.goto('/');
+  const toggle = page.locator('.nav-toggle');
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+  await page.keyboard.press('Escape');
+  await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+  await expect(toggle).toBeFocused();
+});
+
+test('preview indexing restrictions and proposal destinations remain explicit', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
+  const robots = await page.request.get('/robots.txt');
+  expect(robots.status()).toBe(200);
+  expect(await robots.text()).toContain('Disallow: /');
+  const links = await page.locator('a[href*="/contact-us/"]').evaluateAll(nodes => nodes.map(n => ({
+    href: n.getAttribute('href'),
+    label: n.textContent.trim(),
+    target: n.getAttribute('target'),
+    rel: n.getAttribute('rel')
+  })));
+  expect(links.length).toBeGreaterThanOrEqual(6);
+  for (const link of links) {
+    expect(link.href).toMatch(/^https:\/\/taamerat360-motion\.margotdperrin67761\.chatgpt\.site\/contact-us\//);
+    expect(link.label.length).toBeGreaterThan(3);
+    expect(link.target).toBe('_blank');
+    expect(link.rel).toContain('noopener');
   }
 });
