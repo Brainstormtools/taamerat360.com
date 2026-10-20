@@ -79,8 +79,8 @@ test('responsive page has no root horizontal overflow', async ({ page }) => {
   await expect.poll(async () => await page.evaluate(() =>
     document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2
   )).toBe(true);
-  require('node:fs').mkdirSync('qa-report', { recursive: true });
-  await page.screenshot({ path: 'qa-report/taamerat360-' + (MOBILE() ? 'mobile' : 'desktop') + '.png', fullPage: true });
+  require('node:fs').mkdirSync('screenshots', { recursive: true });
+  await page.screenshot({ path: 'screenshots/taamerat360-' + (MOBILE() ? 'mobile' : 'desktop') + '.png', fullPage: true });
 });
 
 test('reduced motion preference is respected', async ({ page }) => {
@@ -89,4 +89,12 @@ test('reduced motion preference is respected', async ({ page }) => {
   await expect(page.locator('.motion-toggle')).toHaveAttribute('aria-pressed','true');
   await expect(page.locator('body')).toHaveClass(/motion-off/);
   await expect(page.locator('.hero-copy')).toHaveCSS('opacity', '1');
+});
+test('important WCAG accessibility checks', async ({page}) => {
+  await page.goto('/');
+  const AxeBuilder = require('@axe-core/playwright').default;
+  const results = await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+  const serious = results.violations.filter(v=>v.impact==='critical'||v.impact==='serious');
+  console.log('Accessibility: '+JSON.stringify(serious.map(v=>({id:v.id,impact:v.impact,description:v.description,targets:v.nodes.slice(0,3).map(n=>n.target)}))));
+  expect(serious).toEqual([]);
 });
