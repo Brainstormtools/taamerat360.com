@@ -6,6 +6,9 @@ const motionToggle=$(".motion-toggle");let paused=prefersReduced;
 function applyMotion(){document.body.classList.toggle("motion-off",paused);motionToggle.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
 applyMotion();motionToggle.addEventListener("click",()=>{paused=!paused;applyMotion()});
 const menu=$(".nav-toggle"), nav=$(".nav-links");
+function closeMenu(returnFocus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");menu.setAttribute("aria-expanded","false");menu.setAttribute("aria-label","Open navigation");if(returnFocus)menu.focus()}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu(true)});
+document.addEventListener("pointerdown",e=>{if(window.innerWidth<=760&&!e.target.closest(".site-header"))closeMenu()});
 menu.addEventListener("click",()=>{const open=!nav.classList.contains("is-open");nav.classList.toggle("is-open",open);menu.setAttribute("aria-expanded",String(open));menu.setAttribute("aria-label",open?"Close navigation":"Open navigation")});
 $$(".nav-links a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("is-open");menu.setAttribute("aria-expanded","false");menu.setAttribute("aria-label","Open navigation")}));
 function reveal(){const targets=$$("[data-reveal]");if(!("IntersectionObserver"in window)||prefersReduced){targets.forEach(e=>e.classList.add("is-visible"));return}const io=new IntersectionObserver(entries=>entries.forEach(x=>{if(x.isIntersecting){x.target.classList.add("is-visible");io.unobserve(x.target)}}),{threshold:.07});targets.forEach(x=>io.observe(x))}reveal();
