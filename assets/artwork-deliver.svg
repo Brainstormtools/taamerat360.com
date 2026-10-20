@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="728 112 375 440" width="1100" height="700" role="img" aria-hidden="true"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="728 112 375 440" width="375" height="440" role="img" aria-hidden="true"><defs>
 <linearGradient id="road" x1="0" y1="0" x2=".6" y2="1"><stop stop-color="#ff7841"/><stop offset=".43" stop-color="#ef5228"/><stop offset="1" stop-color="#c93423"/></linearGradient>
 <linearGradient id="bluefront" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#477be8"/><stop offset=".6" stop-color="#1a57cc"/><stop offset="1" stop-color="#144397"/></linearGradient>
 <linearGradient id="awning" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#356dde"/><stop offset="1" stop-color="#0f3eaa"/></linearGradient>
