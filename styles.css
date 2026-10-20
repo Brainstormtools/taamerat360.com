@@ -41,3 +41,7 @@ html,body{max-width:100%;overflow-x:clip}
 .final-inner h2 em{color:#92291d}
 .package-dark .package-mark,.package-dark .package-link span{color:#ffad82}
 .nav-links>a:hover{color:#bc3020}
+
+/* Progressive enhancement: content remains visible when JavaScript fails or is disabled. */
+[data-reveal]{opacity:1;transform:none}
+html.js-motion [data-reveal]:not(.is-visible){opacity:0;transform:translateY(22px)}
