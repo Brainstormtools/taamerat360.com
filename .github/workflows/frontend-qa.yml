@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install --no-save @playwright/test@1.56.1
+      - run: npm install --no-save @playwright/test@1.56.1 @axe-core/playwright@4.10.2
       - run: npx playwright install --with-deps chromium
       - name: Start local site
         run: |
@@ -25,6 +25,13 @@ jobs:
           cat /tmp/taamerat360-server.log
           exit 1
       - run: npx playwright test
+      - name: Check live proposal-link destination
+        if: always()
+        shell: bash
+        run: |
+          code=$(curl -L -s -o /tmp/taamerat-contact.html -w "%{http_code}" --connect-timeout 10 --max-time 20 "https://taamerat360-motion.margotdperrin67761.chatgpt.site/contact-us/" || true)
+          echo "Original proposal destination HTTP status: $code"
+          if [ "$code" != "200" ]; then echo "::warning::Original proposal destination is not confirmed accessible (HTTP $code)"; fi
       - name: Upload browser reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -32,6 +39,7 @@ jobs:
           name: browser-qa-report
           path: |
             qa-report/
+            screenshots/
             test-results/
           if-no-files-found: ignore
           retention-days: 7
