@@ -33,3 +33,11 @@ html,body{max-width:100%;overflow-x:clip}
 .step-index,.underlined-link span,.package-mark,.package-link span,.industry-output a span{color:#bc3020}
 .method-intro p:not(.eyebrow){color:#5b544c}
 @media(max-width:760px){.hero-footnote,.hero-bottom{color:#59544c}}
+
+/* Final WCAG AA contrast corrections from measured axe results. */
+.marquee{background:#b92e20}
+.solution-choice.is-active .solution-choice-no{color:#ffae89}
+.method-intro h2 em{color:#b02a1c}
+.final-inner h2 em{color:#92291d}
+.package-dark .package-mark,.package-dark .package-link span{color:#ffad82}
+.nav-links>a:hover{color:#bc3020}
