@@ -1,0 +1,57 @@
+/* Taamerat360 V3 — purposeful cinematic layer. Pure CSS; respects reduced motion. */
+:root{--scene-shift:0px;--pointer-x:0px;--pointer-y:0px;--journey-tint:#315be9}
+.hero-art{transform:translate3d(calc(var(--pointer-x)*.5),calc(var(--pointer-y)*.5),0);transition:transform .7s cubic-bezier(.18,.7,.2,1);will-change:transform}
+.hero-art .art-frame{isolation:isolate}
+.hero-art .art-frame::before{content:"";position:absolute;left:1%;right:0;top:8%;bottom:4%;border:1px solid #d7c8b745;border-radius:50%;transform:rotate(-25deg);pointer-events:none}
+.hero-art .art-reflection{position:absolute;width:43%;height:38%;top:13%;right:17%;border-radius:50%;background:#fff8e5;opacity:.24;filter:blur(60px);pointer-events:none}
+.hero-art .scene-image{animation:arrival 1.3s cubic-bezier(.13,.74,.26,1) both,hero-float 7s ease-in-out 1.3s infinite alternate;transform-origin:55% 65%}
+.hero-art .orbit-one{animation:orbit-one 55s linear infinite}
+.hero-art .orbit-two{animation:orbit-two 40s linear infinite}
+.hero-art .art-tag-one{animation:tag-in .8s .45s both,tag-float 6s 1.2s ease-in-out infinite alternate}
+.hero-art .art-tag-two{animation:tag-in .8s .65s both,tag-float 6.7s 1.8s ease-in-out infinite alternate}
+.hero-art .art-tag-three{animation:tag-in .8s .85s both,tag-float 5.7s 2.1s ease-in-out infinite alternate}
+.hero h1 em{position:relative;display:inline-block}
+.hero h1 em::after{content:"";position:absolute;left:0;bottom:-.11em;width:98%;height:.065em;background:#ed482d;transform:scaleX(.1);transform-origin:left center;animation:hand-line 1.1s .4s cubic-bezier(.17,.77,.24,1) both;border-radius:90% 80% 90% 20%}
+.journey-visual{isolation:isolate}
+.visual-stage{--chapter-color:#315be9;background:linear-gradient(152deg,#eee8de,#f6f2e9 54%,#ece1d2);border:1px solid #dcd2c5;transition:background .5s,border-color .5s}
+.visual-stage::before{content:"";position:absolute;width:430px;height:430px;top:5%;right:-15%;background:radial-gradient(circle,var(--chapter-color),transparent 67%);opacity:.075;filter:blur(8px);pointer-events:none;transition:background .5s}
+.visual-stage::after{content:"";position:absolute;inset:15px;border:1px solid #ffffff7d;pointer-events:none}
+.stage-images{overflow:visible;isolation:isolate}
+.stage-images::before{content:"";position:absolute;left:8%;right:8%;bottom:0;height:70px;background:radial-gradient(ellipse,#87694826,transparent 75%);pointer-events:none}
+.stage-images .stage-img{transform:translate3d(27px,20px,0) scale(.91) rotate(2deg);filter:blur(5px);transition:opacity .65s ease,transform .85s cubic-bezier(.16,.75,.29,1),filter .7s}
+.stage-images .stage-img.is-current{opacity:1;transform:translate3d(0,0,0) scale(1) rotate(0);filter:blur(0)}
+.chapter-flare{position:absolute;width:140px;height:140px;top:15%;left:16%;background:#fff2cc;filter:blur(60px);opacity:.7;pointer-events:none}
+.cinematic-chapter-label{position:absolute;top:31px;right:29px;letter-spacing:1.2px;font-weight:800;color:#a09380;font-size:9px}
+.visual-watermark{position:absolute;bottom:81px;right:23px;opacity:.12;font-size:72px;font-weight:800;letter-spacing:-8px;pointer-events:none}
+.stage-badge{transition:background .35s,color .35s}
+.stage-selector button{transition:background .2s,transform .2s}
+.stage-selector button:hover{transform:translateY(-3px)}
+.journey-step.is-current .step-index{animation:number-pulse 2.5s ease-in-out infinite alternate}
+.journey-step.is-current h3 em{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:10px;text-decoration-color:#ee432c62}
+.solution-detail{position:relative;overflow:hidden}
+.solution-detail::after{content:"";position:absolute;right:-110px;bottom:-195px;width:350px;height:350px;border-radius:50%;border:1px solid #d5c7b5;pointer-events:none}
+.detail-visual{overflow:hidden;isolation:isolate;transition:background .4s}
+.detail-visual .visual-road{transform-origin:center;animation:road-enter .8s cubic-bezier(.16,.8,.25,1) both}
+.detail-visual .visual-circles span{transition:transform .5s}
+.solution-detail:hover .visual-circles span:nth-child(2){transform:translateY(-5px)}
+.solution-detail:hover .visual-circles span:nth-child(3){transform:translateY(6px)}
+.package-card{position:relative;overflow:hidden}
+.package-card::before{content:"";position:absolute;top:-65px;right:-65px;width:200px;height:200px;border:1px solid currentColor;opacity:.07;border-radius:50%;transition:transform .5s}
+.package-card:hover::before{transform:scale(1.22)}
+.package-mark{transition:transform .35s}
+.package-card:hover .package-mark{transform:translate(5px,-5px)}
+.industry-chip{transition:background .2s,color .2s,transform .2s}
+.industry-chip:hover{transform:translateY(-2px)}
+.motion-toggle{min-height:43px}
+@keyframes arrival{from{opacity:0;transform:translateY(55px) scale(.94);filter:blur(7px)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+@keyframes hero-float{to{transform:translateY(-12px) rotate(-.8deg)}}
+@keyframes orbit-one{to{transform:rotate(332deg)}}
+@keyframes orbit-two{to{transform:rotate(395deg)}}
+@keyframes tag-in{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes tag-float{to{transform:translateY(-8px)}}
+@keyframes hand-line{to{transform:scaleX(1)}}
+@keyframes number-pulse{to{opacity:.6}}
+@keyframes road-enter{from{opacity:0;transform:translateX(-45px) skew(-30deg) rotate(-8deg)}to{opacity:1;transform:translateX(0) skew(-30deg) rotate(-8deg)}}
+@media(max-width:760px){.hero-art{transform:none!important}.hero-art .orbit{border-color:#dccdbd}.hero-art .scene-image{animation:arrival 1s ease both}.visual-stage{min-height:0}.cinematic-chapter-label{top:21px;right:20px;font-size:8px}.visual-watermark{font-size:55px;bottom:68px}.journey-step h3 em{text-underline-offset:7px}.art-tag-one{left:0}.art-tag-three{right:0}.stage-images .stage-img{max-height:100%}}
+@media(prefers-reduced-motion:reduce){.hero-art{transform:none!important}.hero-art .scene-image,.hero-art .orbit,.hero-art .art-tag,.hero h1 em::after,.journey-step.is-current .step-index,.detail-visual .visual-road{animation:none!important}.stage-images .stage-img{transition:none!important;filter:none!important}}
+body.motion-off .hero-art,body.motion-off .hero-art .scene-image,body.motion-off .stage-images .stage-img{transform:none!important;filter:none!important}
