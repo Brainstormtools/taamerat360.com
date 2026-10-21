@@ -22,8 +22,8 @@ test('insurance landing loads concept art, sections, placeholders and no JS erro
 const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(route);
 for(const id of ['challenges','journey','solutions','evidence','brief','questions'])await expect(page.locator('#'+id)).toHaveCount(1);
 await expect(page.locator('h1')).toContainText('feel connected.');
-await expect.poll(()=>page.locator('.i-artwork img').evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);
-await expect(page.locator('.i-proof-label')).toContainText('CONTENT PLACEHOLDER');
+await expect.poll(()=>page.locator('.i-art img').evaluate(img=>img.complete&&img.naturalWidth>0)).toBe(true);
+await expect(page.locator('.i-proof-head')).toContainText('CONTENT PLACEHOLDER');
 expect(errors).toEqual([]);
 });
 
@@ -81,7 +81,7 @@ await page.goto(route);const details=page.locator('#questions details');await ex
 await details.first().locator('summary').click();await expect(details.first()).toHaveAttribute('open','');
 await expect(details.first()).toContainText('underwriting');
 await details.nth(1).locator('summary').click();await expect(details.nth(1)).toContainText('medical details');
-await details.nth(2).locator('summary').click();await expect(details.nth(2)).toContainText('security review');
+await details.nth(2).locator('summary').click();await expect(details.nth(2)).toContainText('security approval');
 });
 
 test('information and placeholder proof remain accessible without JavaScript',async({browser})=>{
