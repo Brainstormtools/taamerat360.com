@@ -28,16 +28,17 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 ## Industry landing pages — one at a time
 
-1. Construction — source completed and merged.
-2. Real Estate — source completed and merged.
-3. E-commerce — source completed and merged.
-4. Architecture — source completed and merged.
-5. Healthcare — source completed and merged; production was previously quota-blocked.
-6. Education — source completed, tested (292/292), and merged.
-7. Banking & Fintech — completed, tested (336/336 browser checks), and merged to `main`; original artwork, four-stage non-transactional business journey, fixed-choice private brief, evidence placeholders and responsible finance-service boundaries.
-8–11. Insurance, Telecom, Travel & Tourism, Ride Hailing — pending (4 industries remain).
+1. Construction — completed and source merged.
+2. Real Estate — completed and source merged.
+3. E-commerce — completed and source merged.
+4. Architecture — completed and source merged.
+5. Healthcare — completed and source merged; production previously quota-blocked.
+6. Education — completed, tested (292/292), and source merged.
+7. Banking & Fintech — completed, tested (336/336), and source merged.
+8. Insurance — developed on `feature/industry-insurance`; original illustration, four-stage non-claims business journey, safe fixed-choice private brief, FAQ and verified-proof placeholders.
+9–11. Telecom, Travel & Tourism, Ride Hailing — pending.
 
-The repository is the development source of truth. The website owner initiates any production deployment. A GitHub merge does **not** confirm the live site is updated. Download handoff packages via the Export Website Source workflow; see `DEPLOYMENT_HANDOFF.md`. Approved client proof, images, scope, sector-specific compliance checks and testimonials remain tracked in `docs/industry-placeholder-register.md`.
+The repository is the development source of truth. Production deployments belong to the website owner, not the assistant. A GitHub merge does not mean the live site has updated. Complete ZIP exports are created from GitHub `main`. See `DEPLOYMENT_HANDOFF.md` and `docs/industry-placeholder-register.md` for handoff steps and missing client evidence.
 
 ## Current development & release boundaries
 
