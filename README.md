@@ -34,8 +34,8 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 4. Architecture — source completed and merged.
 5. Healthcare — source completed and merged; production was previously quota-blocked.
 6. Education — source completed, tested (292/292), and merged.
-7. Banking & Fintech — developed on `feature/industry-banking-fintech`; distinct original artwork, four-stage non-transactional journey, browser-only fixed-choice business brief and explicit proof placeholders.
-8–11. Insurance, Telecom, Travel & Tourism, Ride Hailing — pending.
+7. Banking & Fintech — completed, tested (336/336 browser checks), and merged to `main`; original artwork, four-stage non-transactional business journey, fixed-choice private brief, evidence placeholders and responsible finance-service boundaries.
+8–11. Insurance, Telecom, Travel & Tourism, Ride Hailing — pending (4 industries remain).
 
 The repository is the development source of truth. The website owner initiates any production deployment. A GitHub merge does **not** confirm the live site is updated. Download handoff packages via the Export Website Source workflow; see `DEPLOYMENT_HANDOFF.md`. Approved client proof, images, scope, sector-specific compliance checks and testimonials remain tracked in `docs/industry-placeholder-register.md`.
 
