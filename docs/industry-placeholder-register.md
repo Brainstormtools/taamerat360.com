@@ -130,6 +130,25 @@ Implementation: complete responsive Education landing page; original campus artw
 
 Implementation: original responsive financial-services visual language, non-transactional four-stage public-offer/business-enquiry journey, keyboard-accessible controls, fixed-choice local brief builder with copy fallback, business service cards, three privacy/scope FAQs, evidence placeholders, explicit no-data/no-financial-advice messaging and source-only GitHub workflow. Nothing in the demo provides banking, payments, KYC, lending, financial advice, security certification, account access or a regulatory claim.
 
+## 08 — Insurance
+
+**URL:** /industries/insurance/
+
+| Priority | Area | Required client-supplied information / guardrail | Status |
+|---|---|---|---|
+| High | Client identity | [Approved insurer or project name], verified client permission and sector-approved attribution | Awaiting client |
+| High | Images | APPROVED INSURANCE BUSINESS IMAGE TO BE PROVIDED; publication rights and exclusion of policyholder-identifying content | Awaiting client |
+| High | Business results | [Client-verified business challenge, approved approach and substantiated results] — never invent claim performance, premiums, coverage or conversion figures | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution], documented public permission | Awaiting client |
+| High | Sector compliance | Any licences, intermediary status, product or regulatory claims need client and legal approval before use | Review pending |
+| High | Data protection | No policyholder, claims, underwriting, health, identification, payment or account information processing | Outside current scope |
+| High | Contact link | /contact-us/?industry=insurance is external; verify real end-to-end delivery without sensitive information | Verification pending |
+| Medium | Scope and packages | General Taamerat360 offerings to be tailored only after approved insurance-business positioning, fees, responsibilities and exclusions | Awaiting client |
+| Medium | Workflow language | Illustrative public information, general enquiries and non-claims business coordination | Review pending |
+| Low | Hero | Conceptual illustrated information desk, shield arch and connected service path (not an insurer or guarantee) | Completed, replaceable |
+
+Implementation: complete responsive insurance-business landing page, original SVG hero, three insurance-specific communication challenges, keyboard-friendly four-stage non-claims journey, general business packages, clear evidence placeholders, fixed-choice browser-only copyable brief, accessibility and mobile motion controls, responsible FAQ. No quotes, policies, underwriting, claim handling, coverage decisions, licensing representations, secure integrations or legal compliance claims are made.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
@@ -138,7 +157,7 @@ Implementation: original responsive financial-services visual language, non-tran
 5. Healthcare — developed (awaiting approved content and privacy/scope review)
 6. Education — developed (awaiting client-approved proof and scope details)
 7. Banking & Fintech — developed (awaiting approved sector proof and privacy/compliance review)
-8. Insurance — pending
+8. Insurance — developed (awaiting proof and legal/sector approval)
 9. Telecom — pending
 10. Travel & Tourism — pending
 11. Ride Hailing — pending
