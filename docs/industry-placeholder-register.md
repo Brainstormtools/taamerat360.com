@@ -59,11 +59,28 @@ Implementation: full editorial layout; original illustration; interactive four-s
 
 Implementation: full unique responsive landing page, original SVG artwork, customer challenge cards, four-stage interactive journey with keyboard access, package routing, evidence placeholders and browser-only brief builder with copy fallback. The page does not imply Taamerat360 performs payment processing, fulfillment or guaranteed sales.
 
+## 04 — Architecture
+
+**URL:** /industries/architecture/
+
+| Priority | Section | Placeholder / decision | What is required | Status |
+|---|---|---|---|---|
+| High | Practice proof | [Approved practice or project name] | Approved client/practice identity with publishing permission | Awaiting client |
+| High | Portfolio visual | APPROVED PRACTICE / PROJECT IMAGE TO BE PROVIDED | Owned or licensed photo or rendering with authorization | Awaiting client |
+| High | Evidence | [Client-approved business challenge, approach and verified outcomes] | Accurate results, scope and business impact (if available) | Awaiting client |
+| High | Testimonial | [Approved client testimonial and attribution] | Approved verbatim quote and use permission | Awaiting client |
+| High | Proposal | /contact-us/?industry=architecture | Confirm real submission is received by business | Verification pending |
+| Medium | Offers | Existing generic service packages | Confirm architecture-market positioning, fees, exclusions and exact services | Awaiting client |
+| Medium | Sector workflow | Enquiry, brief, proposal and coordination illustrations | Confirm target studios and supported integrations / system boundaries | Review pending |
+| Low | Original illustrative hero | Conceptual architectural model and blueprints | Optional approved project photos; no claim the concept is built or delivered | Optional |
+
+Implementation: complete responsive architecture-practice landing page, original conceptual studio SVG, three sector-specific friction cards, four-stage interactive client-journey controls with keyboard access, relevant package links, marked proof placeholders, FAQ clarifying business support versus professional design, and local-only copyable starting brief.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
 3. E-commerce — developed (awaiting proof content)
-4. Architecture — pending
+4. Architecture — developed (awaiting verified client content)
 5. Healthcare — pending
 6. Education — pending
 7. Banking & Fintech — pending
