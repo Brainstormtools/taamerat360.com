@@ -28,17 +28,18 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 ## Industry landing pages — one at a time
 
-1. Construction — completed and source merged.
-2. Real Estate — completed and source merged.
-3. E-commerce — completed and source merged.
-4. Architecture — completed and source merged.
-5. Healthcare — completed and source merged; production previously quota-blocked.
-6. Education — completed, tested (292/292), and source merged.
-7. Banking & Fintech — completed, tested (336/336), and source merged.
-8. Insurance — developed, tested (380/380 browser checks), and merged to `main`; original illustration, interactive four-stage non-claims business journey, safe browser-only brief and client-evidence placeholders.
-9–11. Telecom, Travel & Tourism, Ride Hailing — pending (3 industries remain).
+1. Construction — source completed and merged.
+2. Real Estate — source completed and merged.
+3. E-commerce — source completed and merged.
+4. Architecture — source completed and merged.
+5. Healthcare — source completed and merged; production previously quota-blocked.
+6. Education — source completed, tested (292/292), and merged.
+7. Banking & Fintech — source completed, tested (336/336), and merged.
+8. Insurance — source completed, tested (380/380), and merged.
+9. Telecom — in development on `feature/industry-telecom`; original illustration, interactive four-stage commercial journey, fixed-choice browser-only brief, responsible telecom service boundaries and verified-proof placeholders.
+10–11. Travel & Tourism and Ride Hailing — pending.
 
-The repository is the development source of truth. Production deployments belong to the website owner, not the assistant. A GitHub merge does not mean the live site has updated. Complete ZIP exports are created from GitHub `main`. See `DEPLOYMENT_HANDOFF.md` and `docs/industry-placeholder-register.md` for handoff steps and missing client evidence.
+This repository holds developed source, not verified production deployments. The website owner deploys the live site. Use `DEPLOYMENT_HANDOFF.md` for the owner-controlled handoff process and `docs/industry-placeholder-register.md` to replace unverified client evidence and clarify scope.
 
 ## Current development & release boundaries
 

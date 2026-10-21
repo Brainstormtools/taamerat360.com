@@ -149,6 +149,25 @@ Implementation: original responsive financial-services visual language, non-tran
 
 Implementation: complete responsive insurance-business landing page, original SVG hero, three insurance-specific communication challenges, keyboard-friendly four-stage non-claims journey, general business packages, clear evidence placeholders, fixed-choice browser-only copyable brief, accessibility and mobile motion controls, responsible FAQ. No quotes, policies, underwriting, claim handling, coverage decisions, licensing representations, secure integrations or legal compliance claims are made.
 
+## 09 — Telecom
+
+**URL:** /industries/telecom/
+
+| Priority | Area | Placeholder / requirement | Status |
+|---|---|---|---|
+| High | Verified case study | [Approved telecom provider or project name] — approved public organisation and project information | Awaiting client |
+| High | Approved imagery | APPROVED TELECOM BUSINESS IMAGE TO BE PROVIDED; licensed or owned imagery without exposing subscribers | Awaiting client |
+| High | Results | [Client-verified business challenge, approved approach and substantiated results] — no invented speed, coverage, uptime or network KPIs | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution] with permission | Awaiting client |
+| High | Telecom compliance | Sector-specific advertising, spectrum, licence and consumer protection claims require operator/legal review | Review pending |
+| High | Data boundary | No subscriber names, numbers, location, identification, billing records, credentials, network data or support tickets in this page | Outside current scope |
+| High | Contact form | External /contact-us/?industry=telecom needs a real delivery and receipt test; do not transmit private subscriber information | Verification pending |
+| Medium | Service packages | Client-approved commercial positioning, exclusions, package details and pricing for general Taamerat360 services | Awaiting client |
+| Medium | Integrations | Network, CRM, provisioning, account or billing integrations require separate security, privacy, technical and regulator assessment | Not promised |
+| Low | Concept art | Original stylised telecom kiosk, service information tablet, connectivity arch and orange path | Complete; replaceable with approved material |
+
+Implementation: original illustrative responsive Telecom landing page; three general communication pain points; keyboard-accessible four-stage public information / understanding / enquiry / coordination journey; four business-solution cards; fixed-choice local-only copyable discussion brief; FAQ, mobile navigation, pause-motion control and verified-proof placeholders. The page makes no claims of actual telecom service activation, technical support, network management, availability verification, licensing, signal coverage, performance or uptime.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
@@ -158,6 +177,6 @@ Implementation: complete responsive insurance-business landing page, original SV
 6. Education — developed (awaiting client-approved proof and scope details)
 7. Banking & Fintech — developed (awaiting approved sector proof and privacy/compliance review)
 8. Insurance — developed (awaiting proof and legal/sector approval)
-9. Telecom — pending
+9. Telecom — developed (pending client proof and telecom-sector review)
 10. Travel & Tourism — pending
 11. Ride Hailing — pending

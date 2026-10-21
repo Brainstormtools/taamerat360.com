@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780" role="img" aria-label="Conceptual telecommunications business illustration with mobile service kiosk, connected network nodes and an orange communications pathway">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7da7f4"/><stop offset="1" stop-color="#3259c2"/></linearGradient><linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#73bea2"/><stop offset="1" stop-color="#246453"/></linearGradient><linearGradient id="path" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#ffb078"/><stop offset=".55" stop-color="#f36a3c"/><stop offset="1" stop-color="#b43e2d"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="20"/></filter></defs>
+<ellipse cx="563" cy="636" rx="465" ry="65" fill="#606456" opacity=".17" filter="url(#blur)"/>
+<path d="M-35 558C113 471 252 666 410 575S711 422 851 533 1022 616 1155 502" fill="none" stroke="#a84635" stroke-width="83" opacity=".17" filter="url(#blur)"/>
+<path d="M-35 549C113 462 252 657 410 566S711 413 851 524 1022 607 1155 493" fill="none" stroke="#bb3f2d" stroke-width="78" stroke-linecap="round"/>
+<path d="M-35 539C113 452 252 647 410 556S711 403 851 514 1022 597 1155 483" fill="none" stroke="url(#path)" stroke-width="75" stroke-linecap="round"/>
+<path d="M-35 518C113 431 252 626 410 535S711 381 851 490 1022 572 1155 460" fill="none" stroke="#fff2c8" opacity=".29" stroke-width="6"/>
+<!-- Blue communications kiosk -->
+<polygon points="115,337 318,235 485,319 272,424" fill="#c8dbeb"/>
+<polygon points="115,337 272,424 272,549 115,466" fill="#3159a6"/>
+<polygon points="272,424 485,319 485,454 272,549" fill="url(#sky)"/>
+<polygon points="102,330 320,220 501,312 274,415" fill="#2c6458" stroke="#e4d8c2" stroke-width="4"/>
+<polygon points="145,371 251,427 251,501 145,442" fill="#d3ebec" stroke="#fff3df" stroke-width="8"/>
+<path d="M195 400v75" stroke="#f4f9e9" stroke-width="5"/>
+<polygon points="303,438 458,363 458,464 303,535" fill="#ebf3df" stroke="#fff8e7" stroke-width="8"/>
+<path d="M327 436l107-50 M327 460l91-42 M327 484l104-47" stroke="#8ab3bd" stroke-width="8" stroke-linecap="round"/>
+<!-- Antenna and signal waves -->
+<path d="M305 274v-88" stroke="#2d6356" stroke-width="10" stroke-linecap="round"/>
+<circle cx="305" cy="179" r="13" fill="#f1cb7b" stroke="#2d6356" stroke-width="6"/>
+<path d="M275 158q-36 34 0 64M335 158q36 34 0 64M254 139q-60 55 0 101M356 139q60 55 0 101" stroke="#ed7b55" stroke-width="7" stroke-linecap="round" fill="none"/>
+<!-- Communication and process tablet -->
+<g transform="rotate(7 648 281)">
+<rect x="507" y="116" width="293" height="318" rx="18" fill="#f8f6ed" stroke="#bdbfb1" stroke-width="5"/>
+<rect x="527" y="139" width="252" height="58" rx="6" fill="url(#mint)"/>
+<g font-family="Arial,sans-serif" font-weight="700"><text x="547" y="161" font-size="16" fill="#fff9ec">SERVICE JOURNEY</text><text x="547" y="181" font-size="11" fill="#f5e6b8" letter-spacing="1.5">CLEAR NEXT STEPS</text></g>
+<g fill="#d1e3d6"><rect x="530" y="225" width="56" height="56" rx="9"/><rect x="603" y="225" width="56" height="56" rx="9"/><rect x="676" y="225" width="56" height="56" rx="9"/></g>
+<g stroke="#396c5b" stroke-width="7" fill="none" stroke-linecap="round"><path d="M543 252h30M558 238v30"/><path d="M615 253l11 11 23-25"/><path d="M690 240h28M690 252h28M690 265h28"/></g>
+<path d="M539 319h220 M539 348h172 M539 377h191" stroke="#a5bcb6" stroke-linecap="round" stroke-width="9"/>
+<circle cx="736" cy="370" r="24" fill="#ed7445"/><path d="M726 370l8 9 17-19" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none"/>
+</g>
+<!-- Network portal rings -->
+<path d="M830 488V342q0-72 73-72 74 0 74 72v144" fill="none" stroke="#2b6a5a" stroke-width="38"/>
+<path d="M831 489V342q0-72 72-72 74 0 74 72v144" fill="none" stroke="#87bda8" stroke-width="9"/>
+<g fill="#f7e3ac" stroke="#396e5c" stroke-width="5"><circle cx="834" cy="391" r="14"/><circle cx="976" cy="392" r="14"/><circle cx="905" cy="277" r="14"/></g>
+<path d="M834 391L905 277 976 392" stroke="#f1d380" stroke-width="5" stroke-dasharray="12 8" fill="none"/>
+<!-- Service cards -->
+<polygon points="744,506 841,459 959,518 854,564" fill="#ebd18c"/>
+<polygon points="744,506 854,564 854,596 744,540" fill="#d3ab54"/>
+<polygon points="854,564 959,518 959,548 854,596" fill="#f9e7b9"/>
+<polygon points="782,545 874,505 974,555 882,597" fill="#5379ca"/>
+<polygon points="782,545 882,597 882,627 782,574" fill="#2b4caa"/>
+<polygon points="882,597 974,555 974,584 882,627" fill="#f3e9ce"/>
+<!-- Wayfinding callouts -->
+<g font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.7">
+<rect x="50" y="101" width="250" height="60" rx="4" fill="#f9f4e9" stroke="#c1b6a5"/><circle cx="78" cy="130" r="7" fill="#f16d44"/><text x="100" y="126" font-size="12" fill="#535149">DISCOVER / 01</text><text x="100" y="145" font-size="10" fill="#a14c35">GET CONNECTED WITH INFO</text>
+<rect x="833" y="100" width="260" height="60" rx="4" fill="#f9f4e9" stroke="#c1b6a5"/><circle cx="859" cy="129" r="7" fill="#457ac7"/><text x="881" y="126" font-size="12" fill="#535149">COORDINATE / 04</text><text x="881" y="145" font-size="10" fill="#a14c35">FOLLOW THROUGH CLEARLY</text>
+</g></svg>
