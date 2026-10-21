@@ -168,6 +168,25 @@ Implementation: complete responsive insurance-business landing page, original SV
 
 Implementation: original illustrative responsive Telecom landing page; three general communication pain points; keyboard-accessible four-stage public information / understanding / enquiry / coordination journey; four business-solution cards; fixed-choice local-only copyable discussion brief; FAQ, mobile navigation, pause-motion control and verified-proof placeholders. The page makes no claims of actual telecom service activation, technical support, network management, availability verification, licensing, signal coverage, performance or uptime.
 
+## 10 — Travel & Tourism
+
+**URL:** /industries/travel-tourism/
+
+| Priority | Area | Missing information or launch boundary | Status |
+|---|---|---|---|
+| High | Approved client | [Approved travel organisation or project name], permission and authorised public attribution | Awaiting client |
+| High | Photography | APPROVED TRAVEL BUSINESS IMAGE TO BE PROVIDED; owned or licensed imagery, subject releases where applicable | Awaiting client |
+| High | Verified outcomes | [Client-verified business challenge, approved approach and substantiated results]; no invented bookings, conversion, ratings or guest outcomes | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution], verified quotation and permission | Awaiting client |
+| High | Tourism scope | Clarify markets, target operator types, partner access, permitted advertising and destination-specific legal claims | Client and legal review |
+| High | Personal data | No passport numbers, traveller names, travel documents, payment cards, personal itineraries or booking references | Outside current scope |
+| High | Enquiry destination | Existing external /contact-us/?industry=travel-tourism; real submission/receipt test required; no traveller information should be shared | Verification pending |
+| Medium | Service details | Confirm approved packages, business value proposition, scope, pricing, exclusions, actual features and any supported partnerships | Awaiting client |
+| Medium | Integrations | Any reservation, guest-service, ticketing or payment integration requires formal technical discovery, security, privacy and operator authorisation | Not promised |
+| Low | Original hero | Conceptual travel information kiosk, itinerary card, abstract luggage and connected route; not a real destination or booking | Completed |
+
+Implementation: responsive industry landing page, original conceptual SVG, three sector-specific discovery/enquiry/handover cards, four-stage accessible business journey, four general Taamerat360 package links, verified-client proof placeholders, browser-only fixed-choice copyable starting brief, reduced-motion control, privacy/scope FAQ, and four-device QA. No booking, live availability, ticketing, payment, itinerary certification, travel safety assurance or actual tour-operating capability is represented.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
@@ -178,5 +197,5 @@ Implementation: original illustrative responsive Telecom landing page; three gen
 7. Banking & Fintech — developed (awaiting approved sector proof and privacy/compliance review)
 8. Insurance — developed (awaiting proof and legal/sector approval)
 9. Telecom — developed (pending client proof and telecom-sector review)
-10. Travel & Tourism — pending
+10. Travel & Tourism — developed (awaiting approved proof, scope and travel-sector review)
 11. Ride Hailing — pending
