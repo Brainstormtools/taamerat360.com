@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-label="Illustrated city buildings, residential homes and a connecting orange route">
+<defs><linearGradient id="sky" x2=".9" y2="1"><stop stop-color="#e9e4d7"/><stop offset="1" stop-color="#f6ecd5"/></linearGradient><linearGradient id="brick" x2=".9" y2="1"><stop stop-color="#f4cd95"/><stop offset="1" stop-color="#c9865b"/></linearGradient><linearGradient id="pine" x2="1" y2="1"><stop stop-color="#36795b"/><stop offset="1" stop-color="#183d32"/></linearGradient><linearGradient id="blue" x2=".8" y2="1"><stop stop-color="#91b8bb"/><stop offset="1" stop-color="#3e737d"/></linearGradient><linearGradient id="route" x2="1" y2=".4"><stop stop-color="#ff9752"/><stop offset=".6" stop-color="#ed5930"/><stop offset="1" stop-color="#bb2e24"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="20"/></filter></defs>
+<ellipse cx="500" cy="600" rx="420" ry="60" fill="#7d6e53" opacity=".17" filter="url(#blur)"/>
+<path d="M-33 594 C161 460 206 646 386 590 S643 483 750 565 871 644 1012 544" fill="none" stroke="#742c26" stroke-opacity=".15" stroke-width="70" filter="url(#blur)"/>
+<path d="M-33 574 C161 440 206 626 386 570 S643 463 750 545 871 624 1012 524" fill="none" stroke="#b43726" stroke-width="61" stroke-linecap="round"/>
+<path d="M-33 564 C161 430 206 616 386 560 S643 453 750 535 871 614 1012 514" fill="none" stroke="url(#route)" stroke-width="62" stroke-linecap="round"/>
+<path d="M-33 546 C161 410 206 594 386 541 S643 438 750 516 871 595 1012 496" fill="none" stroke="#ffe3ad" stroke-width="5" stroke-opacity=".27" stroke-linecap="round"/>
+<g stroke-linejoin="round">
+<!-- left house -->
+<polygon points="79,392 218,322 341,387 201,455" fill="#e8bd84"/>
+<polygon points="79,392 201,455 201,563 79,504" fill="#da9c65"/>
+<polygon points="201,455 341,387 341,498 201,563" fill="url(#brick)"/>
+<polygon points="57,392 214,306 357,386 201,468" fill="#db814e" stroke="#b56d48" stroke-width="3"/>
+<path d="M74 393L214 321L336 388" fill="none" stroke="#ffe3a7" stroke-width="6"/>
+<polygon points="119,436 172,461 172,509 119,483" fill="#366779" stroke="#f1e1c4" stroke-width="6"/>
+<polygon points="248,455 302,427 302,480 248,510" fill="#468e8a" stroke="#fff0cb" stroke-width="6"/>
+<path d="M146 449V498 M276 443V495" stroke="#f8e8ce" stroke-width="4"/>
+<!-- city high-rise behind -->
+<polygon points="339,175 488,126 570,170 425,222" fill="#e2d8c3"/>
+<polygon points="339,175 425,222 425,511 339,465" fill="#8a9a99"/>
+<polygon points="425,222 570,170 570,458 425,511" fill="url(#blue)"/>
+<polygon points="329,168 483,115 581,162 425,220" fill="#376973"/>
+<path d="M360 204V449 M390 218V467 M450 226V487 M482 213V477 M515 202V462 M549 190V449" stroke="#e1eee4" stroke-width="5" opacity=".75"/>
+<path d="M340 260L425 300L569 249 M340 315L425 355L569 303 M340 373L425 414L569 362 M340 427L425 467L569 418" stroke="#edf1dd" opacity=".7" stroke-width="5" fill="none"/>
+<!-- apartment tower -->
+<polygon points="593,229 715,180 805,226 681,275" fill="#f7d59f"/>
+<polygon points="593,229 681,275 681,526 593,475" fill="#b67d56"/>
+<polygon points="681,275 805,226 805,476 681,526" fill="#e9b47d"/>
+<polygon points="582,219 711,162 819,218 682,275" fill="#274f40"/>
+<path d="M600 264L675 304 M600 321L675 359 M600 383L675 420 M600 442L675 479" stroke="#f4d5a5" stroke-width="8"/>
+<g fill="#4c8587" stroke="#f3e5c6" stroke-width="5">
+<path d="M701 303L737 286V330L701 347Z M752 279L786 263V310L752 326Z M701 364L737 346V393L701 408Z M752 339L786 323V369L752 385Z M701 425L737 409V456L701 473Z M752 399L786 383V430L752 446Z"/>
+</g>
+</g>
+<!-- street tree and human -->
+<path d="M838 522L838 406" stroke="#6f6149" stroke-width="12"/><ellipse cx="814" cy="412" rx="56" ry="36" fill="#2e6e4f"/><ellipse cx="859" cy="398" rx="49" ry="46" fill="url(#pine)"/><ellipse cx="817" cy="366" rx="44" ry="39" fill="#3f8256"/>
+<ellipse cx="253" cy="582" rx="24" ry="6" fill="#523f30" opacity=".25"/>
+<circle cx="251" cy="473" r="16" fill="#d29a7c"/><path d="M234 470Q237 449 253 452Q272 452 267 475L256 461Z" fill="#2f2a29"/>
+<path d="M236 492L270 492L274 545L238 546Z" fill="#2f6451"/>
+<path d="M245 545L238 573M268 545L277 573" stroke="#243c39" stroke-width="12" stroke-linecap="round"/>
+<path d="M235 504L217 523 M272 505L294 515" stroke="#d29a7c" stroke-width="9" stroke-linecap="round"/>
+<!-- data pins -->
+<g font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">
+<path d="M191 267C191 224 257 224 257 267Q257 294 224 331Q191 294 191 267" fill="#ed5930"/><circle cx="224" cy="266" r="16" fill="#fff5de"/>
+<path d="M682 110C682 68 748 68 748 110Q748 139 715 174Q682 139 682 110" fill="#ecbf61"/><circle cx="715" cy="109" r="15" fill="#254c3b"/>
+<rect x="16" y="40" rx="3" width="174" height="49" fill="#f7f2e9" stroke="#b7a68f"/><text x="103" y="61" font-size="12" fill="#61564b" letter-spacing="2">FIND</text><text x="103" y="77" font-size="10" fill="#c5422b" letter-spacing="1">THE RIGHT FIT</text>
+<rect x="725" y="28" rx="3" width="206" height="49" fill="#f7f2e9" stroke="#b7a68f"/><text x="828" y="49" font-size="12" fill="#61564b" letter-spacing="2">CONNECT</text><text x="828" y="65" font-size="10" fill="#c5422b" letter-spacing="1">THE NEXT STEP</text>
+</g>
+</svg>
