@@ -25,9 +25,26 @@ This register tracks factual inputs needed from Taamerat360. **Do not invent cli
 - Deployment is configured `noindex` until the business approves public indexing.
 - Replace placeholder content and register statuses only after confirmed source information has been supplied.
 
+## 02 — Real Estate
+
+**URL:** /industries/real-estate/
+
+| Priority | Section | Placeholder | What is needed | Status |
+|---|---|---|---|---|
+| High | Proof / case study | [Approved client or project title] | Verified case study name and permission to use it | Awaiting client |
+| High | Proof / image | APPROVED PROPERTY / CLIENT IMAGE TO BE PROVIDED | Licensed real-world image with client permission | Awaiting client |
+| High | Proof / outcomes | [Verified business challenge, approach and outcomes] | Approved scope and evidenced results, no invented sales or ROI | Awaiting client |
+| High | Proof / testimonial | [Approved client testimonial and attribution] | Permission, verified wording and attribution | Awaiting client |
+| High | Contact | /contact-us/?industry=real-estate | Real end-to-end enquiry submission confirmation | Verification pending |
+| Medium | Packages | Generic Taamerat360 services | Approved sector positioning, final scope/pricing/terms | Awaiting client |
+| Medium | Content | Buyer/tenant/seller workflow examples | Confirm intended customer segments, availability and operational scope | Review pending |
+| Low | Brand artwork | Conceptual connected-city scene | Optional approved actual properties or agency photography; no false listing data | Optional |
+
+Implementation: full editorial layout; original illustration; interactive four-stage property journey with keyboard navigation; packages; visible proof placeholders; client-side starting brief (no server submission); responsive mobile/desktop navigation; crawl protection retained.
+
 ## Remaining industry pages
 
-2. Real Estate — pending
+2. Real Estate — developed (awaiting proof content)
 3. E-commerce — pending
 4. Architecture — pending
 5. Healthcare — pending
