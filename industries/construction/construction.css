@@ -159,6 +159,7 @@ body.motion-off #stage-path{transition:none!important}
 .c-process-detail{padding:22px}
 }
 @media(max-width:760px){
+.motion-toggle{left:auto;right:10px;bottom:10px}
 .site-header .nav-links{top:70px}
 .c-hero-grid{gap:0}
 .c-breadcrumb{margin-bottom:30px}
