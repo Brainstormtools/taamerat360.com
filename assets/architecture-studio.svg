@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780" width="1100" height="780" role="img" aria-label="Conceptual architectural studio scene with isometric building model, blueprint sheets, materials, and orange connecting process path">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff9ed"/><stop offset="1" stop-color="#d9d0bf"/></linearGradient>
+<linearGradient id="roof" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#f5eddd"/><stop offset="1" stop-color="#c8bca8"/></linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5779d8"/><stop offset="1" stop-color="#163b92"/></linearGradient>
+<linearGradient id="road" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#ffa26d"/><stop offset=".5" stop-color="#f05530"/><stop offset="1" stop-color="#bb2e23"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+<filter id="cast" x="-35%" y="-40%" width="180%" height="210%"><feDropShadow dx="6" dy="11" stdDeviation="8" flood-color="#6e573d" flood-opacity=".19"/></filter>
+</defs>
+<!-- blueprint and ground -->
+<ellipse cx="564" cy="622" rx="452" ry="74" fill="#8d775f" opacity=".17" filter="url(#shadow)"/>
+<path d="M14 582 Q151 516 259 587 T495 604 Q599 559 692 524 T940 579 Q1016 608 1119 554" fill="none" stroke="#8d3526" stroke-opacity=".17" stroke-width="82" filter="url(#shadow)"/>
+<path d="M14 570 Q151 504 259 575 T495 592 Q599 547 692 512 T940 567 Q1016 596 1119 542" fill="none" stroke="#b63825" stroke-width="72" stroke-linecap="round"/>
+<path d="M14 559 Q151 493 259 564 T495 581 Q599 536 692 501 T940 556 Q1016 585 1119 531" fill="none" stroke="url(#road)" stroke-width="72" stroke-linecap="round"/>
+<path d="M17 537 Q150 470 261 542 T497 559 Q600 513 691 480 T941 534 Q1019 560 1120 508" fill="none" stroke="#ffd9ae" stroke-opacity=".24" stroke-width="7" stroke-linecap="round"/>
+<!-- isometric desk -->
+<g filter="url(#cast)">
+<polygon points="180,446 596,242 971,431 553,649" fill="#e3d6c2"/>
+<polygon points="180,446 553,649 553,671 180,466" fill="#a99b87"/>
+<polygon points="553,649 971,431 971,455 553,671" fill="#b6a18a"/>
+<!-- blueprints -->
+<polygon points="220,455 463,338 635,428 391,550" fill="#2d59af"/>
+<polygon points="236,455 463,349 619,430 391,539" fill="#2e65bf" stroke="#c6d9f6" stroke-width="3"/>
+<g fill="none" stroke="#cee2ff" stroke-width="2" opacity=".83">
+<path d="M267 450L444 367L567 430L388 516Z M297 450L442 381L535 430L385 502Z"/>
+<path d="M339 430L339 476L393 500L393 446Z M393 446L478 404 M328 480L478 403"/>
+<path d="M280 466L378 511 M349 406L398 429L445 407 M486 395L555 430"/>
+<path d="M258 489L391 554 M386 556L642 432"/>
+</g>
+<!-- model plinth -->
+<polygon points="455,408 658,305 866,418 664,523" fill="#eee2d0" stroke="#b8aa95" stroke-width="2"/>
+<polygon points="455,408 664,523 664,540 455,426" fill="#c2b29e"/>
+<polygon points="664,523 866,418 866,436 664,540" fill="#b19c88"/>
+<!-- tiered architectural pavilion -->
+<polygon points="516,312 634,257 792,330 676,394" fill="#fffdf4" stroke="#afa391" stroke-width="2"/>
+<polygon points="516,312 676,394 676,492 516,412" fill="url(#wall)" stroke="#b9ac98" stroke-width="2"/>
+<polygon points="676,394 792,330 792,426 676,492" fill="#dbd1c1" stroke="#ab9c88" stroke-width="2"/>
+<polygon points="506,308 631,247 806,329 677,399" fill="#f8f3e9" stroke="#a8a296" stroke-width="5"/>
+<!-- horizontal slats -->
+<g stroke="#d5b98e" stroke-width="7"><path d="M521 335L671 411 M521 359L671 436 M521 387L671 465"/></g>
+<!-- big glass arcade -->
+<path d="M698 403L765 369V448L698 484Z" fill="#94b7b4"/>
+<path d="M698 403L765 369V448L698 484Z" fill="none" stroke="#315c57" stroke-width="6"/>
+<path d="M733 384V465 M699 442L765 406" stroke="#f8f5e3" stroke-width="4" opacity=".85"/>
+<!-- pitched model tower -->
+<polygon points="585,241 663,201 727,233 649,274" fill="#e9e4d6"/>
+<polygon points="585,241 649,274 649,326 585,293" fill="#c2b5a2"/>
+<polygon points="649,274 727,233 727,281 649,326" fill="#e4d9c8"/>
+<polygon points="579,238 660,194 738,233 651,282" fill="url(#roof)" stroke="#827e6e" stroke-width="3"/>
+<path d="M642 268L642 316 M606 250L606 299" stroke="#aaa08f" stroke-width="3"/>
+<!-- trees, model plants -->
+<path d="M797 428V356 M830 435V385" stroke="#685840" stroke-width="5"/>
+<ellipse cx="793" cy="349" rx="28" ry="32" fill="#2f7655"/>
+<ellipse cx="813" cy="357" rx="24" ry="24" fill="#42795b"/>
+<ellipse cx="834" cy="381" rx="20" ry="25" fill="#537e55"/>
+<path d="M794 429L824 416" stroke="#ffffff77" stroke-width="3"/>
+</g>
+<!-- swatches and pens -->
+<polygon points="749,543 796,520 861,552 816,574" fill="#f2d274"/>
+<polygon points="762,568 812,543 876,573 826,600" fill="#335a92"/>
+<polygon points="773,587 827,565 878,591 829,614" fill="#d65c45"/>
+<path d="M296 298L438 232" stroke="#c34b31" stroke-width="13" stroke-linecap="round"/>
+<path d="M436 229L462 214" stroke="#d5ad82" stroke-width="9" stroke-linecap="round"/>
+<path d="M461 214L476 206" stroke="#343333" stroke-width="5" stroke-linecap="round"/>
+<path d="M273 344L454 258" stroke="#285e8a" stroke-width="5" stroke-linecap="round"/>
+<path d="M273 344L460 252" stroke="#dae4e6" stroke-width="2" stroke-linecap="round"/>
+<!-- dimension lines -->
+<g fill="none" stroke="#8c6f59" stroke-width="2" opacity=".83">
+<path d="M499 225L581 186 M499 225L508 241 M581 186L590 206 M507 224L585 188"/>
+<path d="M485 227L480 240 M584 177L594 190"/>
+<path d="M935 362V472 M927 363H948 M926 472H950"/>
+</g>
+<!-- labels -->
+<g font-family="Arial,Helvetica,sans-serif" font-weight="bold" letter-spacing="2" font-size="12">
+<rect x="55" y="104" width="230" height="64" rx="3" fill="#faf6ee" stroke="#cab8a4"/>
+<circle cx="83" cy="135" r="7" fill="#f05a30"/>
+<text x="104" y="131" fill="#5f554c">BRIEF / 01</text><text x="104" y="149" font-size="10" fill="#a44c35">START WITH CLARITY</text>
+<rect x="812" y="130" width="229" height="64" rx="3" fill="#faf6ee" stroke="#cab8a4"/>
+<circle cx="843" cy="159" r="7" fill="#315aa5"/>
+<text x="865" y="155" fill="#5f554c">REVIEW / 03</text><text x="865" y="172" font-size="10" fill="#a44c35">KEEP WORK MOVING</text>
+<rect x="401" y="684" width="246" height="53" rx="3" fill="#faf6ee" stroke="#cab8a4"/>
+<circle cx="428" cy="711" r="7" fill="#2d664e"/><text x="448" y="715" fill="#5f554c">DELIVER / 04</text>
+</g>
+</svg>
