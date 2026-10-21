@@ -3,6 +3,8 @@ name: Export Website Source
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -18,9 +20,11 @@ jobs:
       - name: Create complete source ZIP
         shell: bash
         run: |
-          git archive --format=zip --output="Taamerat360-Complete-Website.zip" HEAD
+          git fetch --no-tags --depth=1 origin main
+          git archive --format=zip --output="Taamerat360-Complete-Website.zip" origin/main
+          git rev-parse origin/main > SOURCE_COMMIT.txt
           sha256sum Taamerat360-Complete-Website.zip > SHA256SUMS.txt
-          echo "Source commit: $(git rev-parse HEAD)"
+          echo "Source commit: $(cat SOURCE_COMMIT.txt)"
           unzip -t Taamerat360-Complete-Website.zip | tail -1
       - name: Upload handoff package
         uses: actions/upload-artifact@v4
@@ -29,5 +33,6 @@ jobs:
           path: |
             Taamerat360-Complete-Website.zip
             SHA256SUMS.txt
+            SOURCE_COMMIT.txt
           if-no-files-found: error
           retention-days: 30
