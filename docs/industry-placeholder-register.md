@@ -94,13 +94,31 @@ Implementation: complete responsive architecture-practice landing page, original
 
 Implementation: complete responsive landing page, conceptual clinic-reception illustration, public-information and general administrative journey selector, business-solution cards, content placeholders, client-side fixed-choice starting brief, keyboard navigation and FAQ. No medical advice, patient record processing, booking, triage, emergency support or clinical outcome guarantee is represented.
 
+## 06 — Education
+
+**URL:** /industries/education/
+
+| Priority | Section | Placeholder / outstanding item | Information required | Status |
+|---|---|---|---|---|
+| High | Verified proof | [Approved institution or project title] | Approved institution/project name and written permission to publish | Awaiting client |
+| High | Image proof | APPROVED EDUCATION ORGANISATION IMAGE TO BE PROVIDED | Owned/licensed photo or artwork showing approved institution, no identifying minors without proper consent | Awaiting client |
+| High | Outcomes | [Verified business challenge, approved approach and measurable outcomes] | Client-verified results; do not invent admissions growth, exam results, accreditation or learning outcomes | Awaiting client |
+| High | Testimonial | [Approved institutional testimonial and attribution] | Approved quotation and attribution; no learner identifying information | Awaiting client |
+| High | Enquiry journey | External /contact-us/?industry=education | Perform real proposal submission and confirm business receives it | Verification pending |
+| High | Privacy | Any future admissions, student or LMS integrations | Separate privacy, security, safeguarding and sector compliance assessment; not part of current scope | Not included |
+| Medium | Packages | Existing Taamerat360 categories | Confirm education-sector service commitments, pricing, integrations and exclusions | Awaiting client |
+| Medium | Market copy | School, university, academy and online learning examples | Validate intended educational organisation types and approved language | Review pending |
+| Low | Hero illustration | Conceptual campus, books and discovery path | Optional approved institution photography with permissions | Optional |
+
+Implementation: complete responsive Education landing page; original campus artwork; sector-specific challenge cards; interactive four-stage programme discovery / enquiry / welcome / admin-team journey with keyboard controls; package cards; clearly marked case-study placeholders; three-question fixed-choice private discussion-brief generator, copy fallback, accessible mobile navigation, motion control and FAQ. No student data, information about minors, admissions decisions, accreditations or educational outcomes are collected or guaranteed.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
 3. E-commerce — developed (awaiting proof content)
 4. Architecture — developed (awaiting verified client content)
 5. Healthcare — developed (awaiting approved content and privacy/scope review)
-6. Education — pending
+6. Education — developed (awaiting client-approved proof and scope details)
 7. Banking & Fintech — pending
 8. Insurance — pending
 9. Telecom — pending
