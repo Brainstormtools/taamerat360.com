@@ -45,7 +45,7 @@ All 11 planned industry landing pages have been developed, browser-tested, and m
 ## Business-need solution pages — editorial rollout
 
 1. **Reach More Customers** — source at `/solutions/reach-more-customers/`: original static shop-to-customer illustration, visible problem/approach sequence, Lead Growth and Connected Growth options, approved-proof placeholder, and externally linked Request a Proposal. Built with readable no-script HTML and four-viewport QA.
-2. **Move Sales Forward** — pending development.
+2. **Move Sales Forward** — source at `/solutions/move-sales-forward/`: original illustrated sales conversation, three friction points, interactive keyboard-accessible four-stage follow-up journey with no-JS fallback, Sales Momentum and Connected Growth package directions, client-proof placeholders and external proposal links. Scope and CRM boundaries require written approval.
 3. **Improve Customer Experience** — pending development.
 4. **Simplify Business Operations** — pending development (homepage currently says “Simplify everyday operations”).
 
