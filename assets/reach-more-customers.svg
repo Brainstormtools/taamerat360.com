@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850" width="1100" height="850" role="img" aria-labelledby="title desc">
+<title id="title">A small business becoming easier to discover</title>
+<desc id="desc">Hand-drawn editorial scene with a shopkeeper preparing a storefront display, an adult visitor approaching along an orange pathway, and a visible enquiry sign.</desc>
+<defs>
+<pattern id="paper" patternUnits="userSpaceOnUse" width="22" height="22"><path d="M1 4h2M8 17h1M16 8h2" stroke="#6f6656" stroke-width=".55" opacity=".11"/></pattern>
+<pattern id="brick" patternUnits="userSpaceOnUse" width="46" height="28"><path d="M0 0h46M0 28h46M23 0v14M0 14h46M0 14v14M46 14v14" stroke="#6b7e95" stroke-width="1" opacity=".28"/></pattern>
+<linearGradient id="route" x1="0" x2="1" y1="0" y2=".5"><stop stop-color="#be462d"/><stop offset=".6" stop-color="#ea8044"/><stop offset="1" stop-color="#efba6c"/></linearGradient>
+</defs>
+<rect width="1100" height="850" fill="#e4e3d8"/><rect width="1100" height="850" fill="url(#paper)"/>
+<!-- garden and horizon -->
+<path d="M0 619Q226 568 466 609T1100 569V850H0Z" fill="#bfd1bd"/>
+<path d="M0 659Q225 610 480 644T1100 607" fill="none" stroke="#8ca990" stroke-width="3" stroke-dasharray="5 16"/>
+<path d="M42 802C211 760 368 812 469 727S695 603 844 665 1050 702 1176 583" fill="none" stroke="#bd6b4c" stroke-width="86" stroke-linecap="round" opacity=".12"/>
+<path d="M42 787C211 745 368 797 469 712S695 588 844 650 1050 687 1176 568" fill="none" stroke="url(#route)" stroke-width="63" stroke-linecap="round"/>
+<path d="M46 785C211 742 368 794 469 710S695 585 844 648 1050 684 1176 565" fill="none" stroke="#f2d69d" stroke-width="5" stroke-dasharray="16 18" stroke-linecap="round"/>
+<!-- shop silhouette -->
+<path d="M120 353L404 207 700 359 700 669 119 673Z" fill="#4165ad" stroke="#283a42" stroke-width="7" stroke-linejoin="round"/>
+<path d="M126 355L403 219 690 358 403 503Z" fill="#7392d1" stroke="#2b3b52" stroke-width="6"/>
+<path d="M398 495L699 355V663L400 759Z" fill="#2f5297" stroke="#253d50" stroke-width="6"/>
+<path d="M118 355L401 500V754L118 672Z" fill="#496bab" stroke="#253d50" stroke-width="6"/>
+<path d="M118 355L403 214 700 352" fill="none" stroke="#f8eed8" stroke-width="12" stroke-linecap="round"/>
+<!-- side bricks -->
+<path d="M421 501L686 377V647L421 731Z" fill="url(#brick)"/>
+<!-- shop front awning -->
+<path d="M88 362L390 509 390 568 82 416Z" fill="#eedeb8" stroke="#273744" stroke-width="5"/>
+<path d="M82 416L138 444V384L82 359Z" fill="#e36942"/><path d="M194 470L244 494V417L194 390Z" fill="#e36942"/><path d="M296 520L346 543V468L296 441Z" fill="#e36942"/>
+<path d="M88 360L391 511" stroke="#253a4a" stroke-width="6"/>
+<!-- storefront windows and clear messaging -->
+<polygon points="147,450 278,515 278,650 147,588" fill="#e5f0e9" stroke="#f3e4cc" stroke-width="9"/>
+<path d="M212 483V622M151 530L272 590" stroke="#5e8190" stroke-width="5"/>
+<polygon points="302,527 375,564 375,718 302,681" fill="#e2b77c" stroke="#f3e4cc" stroke-width="8"/>
+<path d="M340 546V697" stroke="#855838" stroke-width="5"/>
+<polygon points="451,512 646,419 646,541 451,630" fill="#faf0d6" stroke="#253e47" stroke-width="6"/>
+<path d="M482 523L619 459M482 548L610 487M482 572L565 530" stroke="#577a6f" stroke-width="9" stroke-linecap="round"/>
+<circle cx="584" cy="534" r="13" fill="#e36b41"/>
+<!-- a larger sign displaying a visual arrow only -->
+<path d="M271 258L514 378 514 445 270 323Z" fill="#f1d786" stroke="#303c3b" stroke-width="6"/>
+<path d="M323 318L444 379M426 351L444 379L413 378" fill="none" stroke="#294f45" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- owner: apron, gestures, mature features -->
+<ellipse cx="403" cy="728" rx="102" ry="22" fill="#324436" opacity=".18"/>
+<path d="M402 554Q362 568 354 643L348 731 446 751 468 642Q460 567 425 550Z" fill="#315f50" stroke="#273c39" stroke-width="5"/>
+<path d="M365 633L340 715M449 631L468 730" stroke="#edd6bd" stroke-width="17" stroke-linecap="round"/>
+<path d="M373 627Q402 663 441 633L433 731 378 730Z" fill="#edd08e" stroke="#2b4c44" stroke-width="5"/>
+<path d="M388 555L388 528 422 521 428 554" fill="#bc845b" stroke="#433b31" stroke-width="4"/>
+<ellipse cx="404" cy="496" rx="36" ry="46" fill="#bf885c" stroke="#443b34" stroke-width="5"/>
+<path d="M371 488Q361 438 400 440Q444 442 441 490Q433 470 421 463 394 476 371 488" fill="#303434"/>
+<path d="M384 499h4M414 501h4" stroke="#3a332d" stroke-width="4" stroke-linecap="round"/>
+<path d="M391 518Q403 528 419 518" fill="none" stroke="#5a4031" stroke-width="3" stroke-linecap="round"/>
+<path d="M448 594Q489 564 531 573" fill="none" stroke="#bf885c" stroke-width="18" stroke-linecap="round"/>
+<circle cx="529" cy="573" r="11" fill="#bf885c" stroke="#423d32" stroke-width="2"/>
+<!-- visiting customer, adult with everyday bag -->
+<ellipse cx="813" cy="756" rx="96" ry="23" fill="#2e5c56" opacity=".17"/>
+<path d="M776 570Q742 600 755 653L748 744 821 744 837 645Q828 590 807 569Z" fill="#edc477" stroke="#534333" stroke-width="5"/>
+<path d="M773 739L766 783M809 742L831 783" stroke="#3c5b57" stroke-width="20" stroke-linecap="round"/>
+<path d="M764 784L744 790M833 787L854 791" stroke="#3f3b34" stroke-width="13" stroke-linecap="round"/>
+<path d="M775 581L775 550 806 550 805 580" stroke="#a96f4f" stroke-width="21" stroke-linecap="round"/>
+<ellipse cx="790" cy="516" rx="38" ry="47" fill="#bd8259" stroke="#53453b" stroke-width="5"/>
+<path d="M751 513Q744 464 785 463Q824 462 830 508Q801 502 787 484 777 507 751 513" fill="#333d36"/>
+<path d="M778 522h4M805 522h4" stroke="#35352d" stroke-width="4" stroke-linecap="round"/>
+<path d="M785 541Q795 548 808 536" fill="none" stroke="#6e4835" stroke-width="3" stroke-linecap="round"/>
+<path d="M822 607Q845 615 859 632" fill="none" stroke="#b7855d" stroke-width="17" stroke-linecap="round"/>
+<path d="M755 608Q733 636 713 653" fill="none" stroke="#bd8259" stroke-width="17" stroke-linecap="round"/>
+<path d="M849 640L892 636 907 716 863 718Z" fill="#345d51" stroke="#263d37" stroke-width="5"/>
+<path d="M860 638Q858 608 887 610Q906 613 899 637" fill="none" stroke="#263d37" stroke-width="6"/>
+<!-- thought cloud: recognition and communication, no words -->
+<path d="M828 368Q793 345 807 312Q818 284 850 292Q872 264 907 280Q928 271 947 295Q977 299 978 329Q1005 354 973 379Q944 389 924 377Q904 395 872 376Z" fill="#fff7e8" stroke="#31524c" stroke-width="5"/>
+<path d="M849 332h85M849 350h62" stroke="#497b6d" stroke-width="7" stroke-linecap="round"/>
+<path d="M934 340l15-14-15-14" fill="none" stroke="#d6653e" stroke-width="7" stroke-linecap="round"/>
+<circle cx="835" cy="407" r="7" fill="#fff7e8" stroke="#31524c" stroke-width="3"/>
+<!-- flourishes -->
+<g fill="none" stroke="#b35139" stroke-width="5" stroke-linecap="round"><path d="M116 173v47M93 195h46M930 180l21 19M951 179l-20 22"/><path d="M678 207l16 26M703 202l-14 32"/></g>
+<g fill="#2f6958"><circle cx="76" cy="610" r="10"/><circle cx="1008" cy="546" r="14"/><circle cx="1024" cy="568" r="6"/></g>
+</svg>
