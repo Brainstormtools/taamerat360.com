@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780" role="img" aria-label="Conceptual travel-business illustration of a blue journey kiosk, itinerary card, luggage, a green gateway, and an orange connecting path">
+<defs><linearGradient id="roof" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5c9cdf"/><stop offset="1" stop-color="#2f56b6"/></linearGradient><linearGradient id="arch" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#4d9670"/><stop offset="1" stop-color="#285b4d"/></linearGradient><linearGradient id="path" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#ffb56f"/><stop offset=".54" stop-color="#f26b37"/><stop offset="1" stop-color="#c94b2f"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="20"/></filter></defs>
+<ellipse cx="555" cy="648" rx="480" ry="61" fill="#6f5a51" opacity=".15" filter="url(#shadow)"/>
+<path d="M-40 570C100 482 260 669 424 573S706 433 861 534 1002 617 1160 490" fill="none" stroke="#a34b39" opacity=".2" stroke-width="84" filter="url(#shadow)"/>
+<path d="M-40 557C100 469 260 656 424 560S706 420 861 521 1002 604 1160 477" fill="none" stroke="#be452f" stroke-width="79" stroke-linecap="round"/>
+<path d="M-40 545C100 457 260 644 424 548S706 408 861 509 1002 592 1160 465" fill="none" stroke="url(#path)" stroke-width="76" stroke-linecap="round"/>
+<path d="M-40 523C100 435 260 622 424 526S706 386 861 488 1002 571 1160 445" fill="none" stroke="#ffe6ba" stroke-width="6" opacity=".28"/>
+<!-- Blue travel-info kiosk -->
+<polygon points="102,327 309,233 493,323 273,425" fill="#c4d9dd"/>
+<polygon points="102,327 273,425 273,561 102,459" fill="#3759a8"/>
+<polygon points="273,425 493,323 493,463 273,561" fill="url(#roof)"/>
+<polygon points="91,321 307,224 506,317 273,420" fill="#285f58" stroke="#f4dfbe" stroke-width="3"/>
+<polygon points="123,367 252,437 252,505 123,435" fill="#cfe3e3" stroke="#fff4e0" stroke-width="8"/>
+<path d="M166 391v67 M208 414v65" stroke="#f8faed" stroke-width="5"/>
+<polygon points="303,445 463,368 463,465 303,542" fill="#f6edd9" stroke="#fff4e1" stroke-width="8"/>
+<path d="M329 439l111-52 M329 464l95-46 M329 490l96-45" stroke="#92adb1" stroke-width="8" stroke-linecap="round"/>
+<path d="M259 331l45-23 43 20-44 23z" fill="#faf1db"/>
+<path d="M299 320h8v21h-8z" fill="#dc6143"/>
+<!-- itinerary planner -->
+<g transform="rotate(7 648 278)"><rect x="501" y="107" width="309" height="329" rx="14" fill="#fbf5e8" stroke="#c8b9a4" stroke-width="4"/>
+<rect x="523" y="129" width="265" height="63" rx="6" fill="#2d7665"/>
+<g fill="#fff9ed" font-family="Arial,sans-serif" font-weight="700"><text x="543" y="153" font-size="17">TRAVEL JOURNEY</text><text x="543" y="175" font-size="11" letter-spacing="1.6">CLEAR FROM THE START</text></g>
+<rect x="531" y="217" width="101" height="100" rx="7" fill="#e9d48c"/>
+<path d="M547 286c18-29 29-28 42-44 12 16 19 26 28 44" fill="none" stroke="#38705c" stroke-width="7" stroke-linecap="round"/>
+<circle cx="587" cy="239" r="9" fill="#f4a15c"/>
+<path d="M649 235h124M649 265h106M649 295h114 M536 348h235 M536 379h154" stroke="#b1b9aa" stroke-width="9" stroke-linecap="round"/>
+<circle cx="748" cy="368" r="24" fill="#ef7049"/><path d="M738 368l8 9 16-19" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- Architectural gateway -->
+<path d="M828 506V335q0-76 72-76 75 0 75 76v170" stroke="#2f6755" stroke-width="40" fill="none"/>
+<path d="M828 506V335q0-76 72-76 75 0 75 76v170" stroke="#80ae93" stroke-width="9" fill="none" opacity=".85"/>
+<circle cx="899" cy="271" r="13" fill="#f7d98c"/>
+<!-- Suitcase, nonpersonal icon -->
+<g><rect x="732" y="491" width="127" height="114" rx="12" fill="#e2b765" stroke="#bf8c47" stroke-width="5"/>
+<rect x="775" y="469" width="43" height="24" rx="9" fill="none" stroke="#955f3a" stroke-width="8"/>
+<path d="M757 505v87M834 505v87" stroke="#f6deb3" stroke-width="8"/><circle cx="757" cy="608" r="9" fill="#825a4b"/><circle cx="835" cy="608" r="9" fill="#825a4b"/>
+<rect x="851" y="500" width="123" height="91" rx="10" fill="#4f7bc3" stroke="#2f5396" stroke-width="5"/>
+<path d="M889 500v-16q0-14 17-14 17 0 17 14v16" stroke="#31548f" stroke-width="8" fill="none"/>
+<path d="M869 544h88M909 517v62" stroke="#d6e3e9" stroke-width="7"/></g>
+<!-- service journey labels -->
+<g font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.7"><rect x="49" y="102" width="238" height="60" rx="3" fill="#fbf7eb" stroke="#c7b7a6"/>
+<circle cx="77" cy="130" r="7" fill="#ec6b40"/><text x="98" y="126" font-size="12" fill="#514c43">DISCOVER / 01</text><text x="98" y="145" font-size="10" fill="#9f4e35">EXPLAIN THE JOURNEY</text>
+<rect x="819" y="103" width="268" height="61" rx="3" fill="#fbf7eb" stroke="#c7b7a6"/>
+<circle cx="845" cy="132" r="7" fill="#457ec5"/><text x="867" y="128" font-size="12" fill="#514c43">COORDINATE / 04</text><text x="867" y="147" font-size="10" fill="#9f4e35">MAKE FOLLOW-UP SIMPLE</text></g>
+</svg>
