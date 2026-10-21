@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780" role="img" aria-label="Conceptual ride-hailing business illustration: cobalt city buildings, a compact car, destination marker, and an orange connected pathway">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#779ce3"/><stop offset="1" stop-color="#2b50b1"/></linearGradient>
+<linearGradient id="green" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#60a18b"/><stop offset="1" stop-color="#235b4c"/></linearGradient>
+<linearGradient id="orange" x1="0" y1="0" x2="1" y2=".6"><stop stop-color="#ffb16b"/><stop offset=".5" stop-color="#f2683d"/><stop offset="1" stop-color="#b73d2c"/></linearGradient>
+<filter id="shade"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<ellipse cx="557" cy="643" rx="466" ry="57" fill="#5f6258" opacity=".17" filter="url(#shade)"/>
+<path d="M-35 576C118 487 247 669 417 575S695 413 843 516 1021 618 1150 484" fill="none" stroke="#9d4535" opacity=".2" stroke-width="86" filter="url(#shade)"/>
+<path d="M-35 561C118 472 247 654 417 560S695 398 843 501 1021 603 1150 469" fill="none" stroke="#bb3c30" stroke-width="78" stroke-linecap="round"/>
+<path d="M-35 549C118 460 247 642 417 548S695 386 843 489 1021 591 1150 457" fill="none" stroke="url(#orange)" stroke-width="75" stroke-linecap="round"/>
+<path d="M-35 527C118 438 247 620 417 526S695 364 843 468 1021 570 1150 436" fill="none" stroke="#ffe4b3" opacity=".33" stroke-width="6"/>
+<!-- cobalt city service kiosk -->
+<polygon points="109,325 311,239 484,327 270,423" fill="#ccd9df"/>
+<polygon points="109,325 270,423 270,563 109,468" fill="#2f52a1"/>
+<polygon points="270,423 484,327 484,465 270,563" fill="url(#sky)"/>
+<polygon points="100,315 309,222 499,317 271,413" fill="#2b6354" stroke="#e7d9c2" stroke-width="4"/>
+<polygon points="133,362 250,428 250,511 133,443" fill="#dce7de" stroke="#faf6e9" stroke-width="8"/>
+<path d="M169 385v75 M213 410v74" stroke="#fff7ea" stroke-width="5"/>
+<polygon points="301,440 453,369 453,473 301,544" fill="#f7eedc" stroke="#fff7e8" stroke-width="8"/>
+<path d="M324 439l109-50M324 467l87-41M324 492l101-47" stroke="#8aa9b9" stroke-width="8" stroke-linecap="round"/>
+<rect x="271" y="290" width="71" height="42" rx="9" fill="#fbedd5" stroke="#29564c" stroke-width="4"/>
+<path d="M287 312h39M298 302v20" stroke="#f07449" stroke-width="5" stroke-linecap="round"/>
+<!-- city towers behind vehicle -->
+<g opacity=".97">
+<polygon points="718,356 771,325 819,348 766,376" fill="#e6daaf"/>
+<polygon points="718,356 766,376 766,470 718,446" fill="#e4bf70"/>
+<polygon points="766,376 819,348 819,446 766,470" fill="#f3da97"/>
+<polygon points="826,323 879,302 931,325 879,350" fill="#6f9cab"/>
+<polygon points="826,323 879,350 879,454 826,431" fill="#2f7468"/>
+<polygon points="879,350 931,325 931,432 879,454" fill="url(#green)"/>
+<g fill="#fff1ce"><rect x="736" y="379" width="13" height="17"/><rect x="736" y="410" width="13" height="17"/><rect x="780" y="378" width="13" height="18"/><rect x="847" y="351" width="13" height="19"/><rect x="847" y="390" width="13" height="18"/><rect x="895" y="350" width="13" height="19"/></g>
+</g>
+<!-- conceptual mobility service card -->
+<g transform="rotate(7 642 279)">
+<rect x="506" y="111" width="293" height="316" rx="16" fill="#faf6ed" stroke="#c7b9a8" stroke-width="4"/>
+<rect x="525" y="132" width="254" height="62" rx="6" fill="#2e6358"/>
+<g font-family="Arial,sans-serif" font-weight="700"><text x="545" y="158" font-size="17" fill="#fff9ed">MOBILITY JOURNEY</text><text x="545" y="178" font-size="11" letter-spacing="1.5" fill="#f7dfb2">PUBLIC INFORMATION ONLY</text></g>
+<rect x="534" y="219" width="237" height="102" rx="8" fill="#e5e5d4"/>
+<path d="M549 295C593 255 612 289 647 244S709 277 757 231" fill="none" stroke="#f27b50" stroke-width="10" stroke-linecap="round"/>
+<g fill="#f9f5e8" stroke="#2c6557" stroke-width="4"><circle cx="549" cy="295" r="12"/><circle cx="757" cy="231" r="12"/></g>
+<path d="M541 352h213 M541 384h170" fill="none" stroke="#aebdb3" stroke-width="9" stroke-linecap="round"/>
+<circle cx="743" cy="373" r="22" fill="#e66844"/><path d="M734 373l7 8 16-18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- destination marker above scene -->
+<path d="M991 258c0 45-48 101-48 101s-48-56-48-101a48 48 0 0 1 96 0z" fill="#24654f" stroke="#f9e8c0" stroke-width="6"/>
+<circle cx="943" cy="259" r="17" fill="#f4dd9c"/>
+<!-- stylised car on route -->
+<g>
+<ellipse cx="705" cy="557" rx="163" ry="22" opacity=".16" fill="#4a463f"/>
+<path d="M573 518l28-58q15-26 54-26h97q40 0 60 28l29 56h19q20 0 20 20v30q0 14-18 14H569q-21 0-21-20v-25q0-19 25-19z" fill="#f4d478" stroke="#bf9853" stroke-width="6"/>
+<path d="M618 467q9-16 39-16h95q24 0 38 18l18 37H598z" fill="#d6e9e9" stroke="#fdf4dc" stroke-width="6"/>
+<path d="M698 451v54" stroke="#5f8690" stroke-width="5"/>
+<path d="M579 529h284" stroke="#ffe6af" stroke-width="6"/>
+<rect x="560" y="536" width="27" height="16" rx="5" fill="#fbf4de"/><rect x="846" y="536" width="22" height="16" rx="5" fill="#f4ab80"/>
+<circle cx="628" cy="574" r="23" fill="#273c42" stroke="#f7e6b7" stroke-width="7"/><circle cx="803" cy="574" r="23" fill="#273c42" stroke="#f7e6b7" stroke-width="7"/>
+</g>
+<!-- small labels -->
+<g font-family="Arial,sans-serif" font-weight="700" letter-spacing="1.6">
+<rect x="48" y="101" width="232" height="61" rx="3" fill="#faf6ed" stroke="#c8bbac"/><circle cx="77" cy="130" r="7" fill="#ed7048"/><text x="100" y="127" font-size="12" fill="#565048">DISCOVER / 01</text><text x="100" y="145" font-size="10" fill="#a64b37">EXPLAIN THE SERVICE</text>
+<rect x="827" y="102" width="261" height="62" rx="3" fill="#faf6ed" stroke="#c8bbac"/><circle cx="855" cy="132" r="7" fill="#4072bd"/><text x="878" y="128" font-size="12" fill="#565048">COORDINATE / 04</text><text x="878" y="148" font-size="10" fill="#a64b37">KEEP TEAMS CONNECTED</text>
+</g></svg>

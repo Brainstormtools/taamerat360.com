@@ -187,6 +187,25 @@ Implementation: original illustrative responsive Telecom landing page; three gen
 
 Implementation: responsive industry landing page, original conceptual SVG, three sector-specific discovery/enquiry/handover cards, four-stage accessible business journey, four general Taamerat360 package links, verified-client proof placeholders, browser-only fixed-choice copyable starting brief, reduced-motion control, privacy/scope FAQ, and four-device QA. No booking, live availability, ticketing, payment, itinerary certification, travel safety assurance or actual tour-operating capability is represented.
 
+## 11 — Ride Hailing
+
+**URL:** /industries/ride-hailing/
+
+| Priority | Area | Required approval or restriction | Status |
+|---|---|---|---|
+| High | Approved organisation | [Approved ride-hailing organisation or project name] and written public attribution permission | Awaiting client |
+| High | Evidence imagery | APPROVED MOBILITY BUSINESS IMAGE TO BE PROVIDED; licensed/client-owned imagery, no identifiable riders or drivers without permission | Awaiting client |
+| High | Verified results | [Client-verified business challenge, approved approach and substantiated results]; no invented trip volumes, driver income, safety metrics, earnings, fare reductions or service coverage | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution] with written permission | Awaiting client |
+| High | Service scope | Confirm target customers, operator/partner offering, jurisdictions, legally approved claims and actual business capabilities | Client and transport-sector/legal review |
+| High | Sensitive records | No personal ride histories, rider or driver identities, GPS locations, identity/vehicle registrations, passwords, payment cards or regulated operational data | Outside current scope |
+| High | Contact workflow | External /contact-us/?industry=ride-hailing: real enquiry delivery test needed without sharing rider/driver personal data | Verification pending |
+| Medium | Business packages | Confirm scope, pricing, compliance boundaries, deliverables, exclusions and integration feasibility | Awaiting client |
+| Medium | Integration | Any dispatch, trip management, identity, fleet data or payments work requires separate written authorization, security/privacy/transport compliance review | Not promised |
+| Low | Hero image | Conceptual city kiosk, illustrated car, service card, destination marker and orange connection path; no real trip coverage | Completed, replaceable |
+
+Implementation: original responsive Ride Hailing landing page; SVG illustration; three mobility-business communication challenges; keyboard-operated four-stage informational journey; four general Taamerat360 business packages; client-proof placeholders; fixed-choice, browser-only and copyable organisation brief; reduced-motion control, navigation, FAQs and four-device regression tests. The page does not book rides, calculate fares, connect drivers and riders, process payments, track GPS, operate dispatch or claim safety/security certification.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
@@ -198,4 +217,4 @@ Implementation: responsive industry landing page, original conceptual SVG, three
 8. Insurance — developed (awaiting proof and legal/sector approval)
 9. Telecom — developed (pending client proof and telecom-sector review)
 10. Travel & Tourism — developed (awaiting approved proof, scope and travel-sector review)
-11. Ride Hailing — pending
+11. Ride Hailing — developed (awaiting client-approved evidence and mobility-sector review)
