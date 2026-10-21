@@ -62,7 +62,7 @@ test('solution selector stays consistent and industry switching works', async ({
   await expect(page.locator('#solution-title')).toHaveText('Turn interest into the next step.');
   await page.locator('[data-industry="Education"]').click();
   await expect(page.locator('#industry-name')).toHaveText('Education');
-  await expect(page.locator('#industry-action')).toHaveAttribute('href', /industry=education/);
+  await expect(page.locator('#industry-action')).toHaveAttribute('href', './industries/education/');
 });
 
 test('motion preference can be paused and resumed', async ({ page }) => {
