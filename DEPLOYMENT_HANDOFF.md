@@ -28,10 +28,10 @@ If you already use the repository's `main`, do not upload a duplicate ZIP over t
 
 ## Current industry delivery status
 
-- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare.
+- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare, Education (6 of 11).
 - Last independently confirmed production deployment: Architecture version, commit `66cdada5`.
-- Healthcare page is merged into GitHub `main`, but **production deployment was blocked by Vercel's daily free quota**; deploy the new main commit manually once the quota resets.
-- The next planned industry is Education. There are six industry landing pages remaining.
+- Healthcare and Education source are merged into GitHub `main`, but the latest production deployment is not independently verified. The previous Healthcare Vercel deploy was blocked by the daily free quota; the site owner will manually deploy the current `main` commit when ready.
+- The next planned industry is Banking & Fintech. Five industry landing pages remain.
 
 ## Before launching publicly
 
