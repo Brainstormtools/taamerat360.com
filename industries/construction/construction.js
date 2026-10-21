@@ -91,7 +91,7 @@
       if (!["ArrowDown", "ArrowUp", "ArrowLeft", "ArrowRight"].includes(event.key)) return;
       event.preventDefault();
       const step = event.key === "ArrowRight" || event.key === "ArrowDown" ? 1 : -1;
-      const index = Math.max(0, Math.min(keys.length - 1, keys.indexOf(current) + step));
+      const index = Math.max(0, Math.min(keys.length - 1, keys.indexOf(b.dataset.stage) + step));
       setStage(keys[index]);
       $$('.c-process-button')[index].focus();
     });
