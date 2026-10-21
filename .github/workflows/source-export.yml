@@ -1,0 +1,33 @@
+name: Export Website Source
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  complete-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out current source
+        uses: actions/checkout@v4
+      - name: Create complete source ZIP
+        shell: bash
+        run: |
+          git archive --format=zip --output="Taamerat360-Complete-Website.zip" HEAD
+          sha256sum Taamerat360-Complete-Website.zip > SHA256SUMS.txt
+          echo "Source commit: $(git rev-parse HEAD)"
+          unzip -t Taamerat360-Complete-Website.zip | tail -1
+      - name: Upload handoff package
+        uses: actions/upload-artifact@v4
+        with:
+          name: taamerat360-complete-source
+          path: |
+            Taamerat360-Complete-Website.zip
+            SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30
