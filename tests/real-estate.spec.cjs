@@ -44,7 +44,7 @@ await expect(page.locator('#r-result-title')).toHaveText('Your priorities, clear
 await expect(page.locator('#r-copy')).toBeEnabled();
 await expect(page.locator('#r-result-text')).toContainText('Property developer');
 await expect(page.locator('#r-result-text')).toContainText('Viewing appointments and communication');
-await expect(page.locator('#r-result-text')).toContainText('Scope');
+await expect(page.locator('#r-result-text')).toContainText('Service scope, deliverables, pricing');
 await page.locator('#r-business').selectOption('Real estate agency');
 await expect(page.locator('#r-copy')).toBeDisabled();
 await expect(page.locator('#r-result-text')).toBeHidden();
