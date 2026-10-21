@@ -39,3 +39,6 @@ body.motion-off .t-art img,body.motion-off .t-ribbon-track{animation:none!import
 
 /* Telecom identity: cobalt and green signals, without implying an operating network */
 .t-stamp{background:#315c80}.t-card-blue{background:#d7e5f2}.t-s-blue{background:#d9e5f3}.t-hero h1 em{color:#b3452d}.t-step.is-active{background:#e6d988;border-color:#e6d988}.t-proof-image{background:linear-gradient(135deg,#d4e6e9,#e4e7d9)}
+
+/* Keep conceptual-art disclosure clear of the fixed motion control on larger screens. */
+@media (min-width:761px){.t-art-caption{bottom:13%;right:4%;max-width:320px}}
