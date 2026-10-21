@@ -48,7 +48,7 @@ const industryCopy={
 "Ride Hailing":"Improve customer communication and coordination across everyday service journeys."
 };
 $$("[data-industry]").forEach(b=>b.addEventListener("click",()=>{const name=b.dataset.industry;$$("[data-industry]").forEach(el=>{const yes=el===b;el.classList.toggle("is-active",yes);el.setAttribute("aria-pressed",String(yes))});$("#industry-name").textContent=name;$("#industry-message").textContent=industryCopy[name];const industryLink=$("#industry-action");
-const built={"Construction":"construction","Real Estate":"real-estate","E-commerce":"e-commerce","Architecture":"architecture","Healthcare":"healthcare","Education":"education","Banking & Fintech":"banking-fintech","Insurance":"insurance","Telecom":"telecom","Travel & Tourism":"travel-tourism"};
+const built={"Construction":"construction","Real Estate":"real-estate","E-commerce":"e-commerce","Architecture":"architecture","Healthcare":"healthcare","Education":"education","Banking & Fintech":"banking-fintech","Insurance":"insurance","Telecom":"telecom","Travel & Tourism":"travel-tourism","Ride Hailing":"ride-hailing"};
 if(built[name]){
  industryLink.href="./industries/"+built[name]+"/";
  industryLink.removeAttribute("target");industryLink.removeAttribute("rel");
