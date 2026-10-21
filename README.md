@@ -37,7 +37,7 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 7. Banking & Fintech — source completed, tested (336/336), and merged.
 8. Insurance — source completed, tested (380/380), and merged.
 9. Telecom — source completed, tested (424/424), and merged.
-10. Travel & Tourism — under development on `feature/industry-travel-tourism`; original illustrated page, four-stage enquiry/discovery journey, fixed-choice private business brief, FAQ and client-evidence placeholders.
+10. Travel & Tourism — developed, tested (468/468 browser checks), and merged into `main`; original illustrated page, accessible four-stage travel enquiry journey, browser-only business brief and approved-proof placeholders.
 11. Ride Hailing — pending.
 
 The repository is the source of developed website work, not proof of production deployment. The website owner initiates production deployments; see `DEPLOYMENT_HANDOFF.md`. Missing content, approvals and data/integration boundaries remain tracked in `docs/industry-placeholder-register.md`.
