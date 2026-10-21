@@ -24,7 +24,7 @@ test('homepage sales choice links to new route and other choices remain intact',
  await page.locator('[data-solution="leads"]').click();
  await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/reach-more-customers/');
  await page.locator('[data-solution="experience"]').click();
- await expect(page.locator('#solution-action')).toHaveAttribute('href','#packages');
+ await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/improve-customer-experience/');
  await page.locator('[data-solution="operations"]').click();
  await expect(page.locator('#solution-action')).toHaveAttribute('href','#packages');
 });
