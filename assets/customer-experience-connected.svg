@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850" role="img" aria-labelledby="title desc">
+<title id="title">A more connected customer experience</title>
+<desc id="desc">An original editorial illustration showing a customer and a helpful team member at an information desk, with visible conversation cards and a warm curved orange path linking their next steps.</desc>
+<defs>
+<linearGradient id="desk" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#608da2"/><stop offset="1" stop-color="#335c75"/></linearGradient>
+<linearGradient id="route" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#ad4835"/><stop offset=".6" stop-color="#e1794d"/><stop offset="1" stop-color="#f4b774"/></linearGradient>
+<pattern id="paper" patternUnits="userSpaceOnUse" width="28" height="28"><path d="M3 8h2M15 19h2M25 4h1" stroke="#60544b" opacity=".14" stroke-width="1"/></pattern>
+</defs>
+<rect width="1100" height="850" fill="#e6ded2"/><rect width="1100" height="850" fill="url(#paper)"/>
+<path d="M0 626Q210 575 446 622T1100 596V850H0Z" fill="#ccdbd2"/>
+<path d="M-52 727C116 606 278 839 438 699S775 586 909 685 1084 736 1165 600" fill="none" stroke="#b07054" stroke-width="84" opacity=".13"/>
+<path d="M-52 711C116 590 278 823 438 683S775 570 909 669 1084 720 1165 584" fill="none" stroke="url(#route)" stroke-width="64" stroke-linecap="round"/>
+<path d="M-52 693C116 572 278 805 438 665S775 552 909 651 1084 702 1165 566" fill="none" stroke="#f9e2b7" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 19"/>
+<!-- Overhead service information sign -->
+<path d="M338 248L537 153 795 261 587 365Z" fill="#7094a0" stroke="#365e65" stroke-width="6"/>
+<path d="M338 248L587 365V408L338 295Z" fill="#37657c" stroke="#34565d" stroke-width="6"/>
+<path d="M587 365L795 261V307L587 408Z" fill="#315569" stroke="#34565d" stroke-width="6"/>
+<path d="M404 260L531 198 713 277 582 344Z" fill="#f6ead4" stroke="#315569" stroke-width="5"/>
+<path d="M492 256L557 287M555 253l-17 27 31 6" fill="none" stroke="#bd5c3b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- The help desk -->
+<path d="M280 556L577 429 861 561 550 695Z" fill="#f3dbb3" stroke="#345b64" stroke-width="7" stroke-linejoin="round"/>
+<path d="M280 555L550 683 861 558V664L550 800 281 658Z" fill="url(#desk)" stroke="#355863" stroke-width="7" stroke-linejoin="round"/>
+<path d="M550 687V797" stroke="#284956" stroke-width="7"/>
+<path d="M336 612l142 70M613 692l181-78" stroke="#e3eddc" stroke-width="7" opacity=".4"/>
+<!-- Service notes -->
+<path d="M477 512L589 462 695 510 574 559Z" fill="#fff8e8" stroke="#527067" stroke-width="5"/>
+<path d="M519 512l81-35M534 525l92-37M559 540l74-31" stroke="#71948a" stroke-width="7" stroke-linecap="round"/>
+<circle cx="662" cy="518" r="12" fill="#d46c48"/>
+<!-- left team member -->
+<path d="M206 514Q164 560 173 645L255 678 346 628Q331 553 287 515Z" fill="#3a766c" stroke="#345145" stroke-width="6"/>
+<path d="M226 516L223 472 272 475 271 516" fill="#c38b65" stroke="#594334" stroke-width="4"/>
+<ellipse cx="245" cy="443" rx="52" ry="61" fill="#c38b65" stroke="#594334" stroke-width="6"/>
+<path d="M194 431Q183 363 245 368Q301 374 295 424Q275 411 260 386 240 422 194 431" fill="#35453d"/>
+<path d="M228 450h4M259 450h4" stroke="#44362e" stroke-width="5" stroke-linecap="round"/>
+<path d="M227 475Q247 491 263 472" fill="none" stroke="#6b4332" stroke-width="4"/>
+<path d="M279 554Q344 551 395 528" fill="none" stroke="#c38b65" stroke-width="20" stroke-linecap="round"/>
+<circle cx="397" cy="528" r="13" fill="#c38b65"/>
+<path d="M191 638l-3 103M297 642l21 92" stroke="#294f56" stroke-width="26" stroke-linecap="round"/>
+<path d="M173 741l36 7M308 738l39 6" stroke="#353a33" stroke-width="15" stroke-linecap="round"/>
+<!-- right customer -->
+<path d="M805 493Q756 523 743 602L839 649 931 596Q923 530 874 497Z" fill="#e0b274" stroke="#594333" stroke-width="6"/>
+<path d="M800 505l-2-45 42-2 8 47" fill="#ab7452" stroke="#594333" stroke-width="4"/>
+<ellipse cx="818" cy="428" rx="54" ry="61" fill="#bb815b" stroke="#594638" stroke-width="6"/>
+<path d="M766 426Q759 353 819 359Q878 359 867 430Q847 401 825 383 808 413 766 426" fill="#353b38"/>
+<path d="M801 438h4M834 438h4" stroke="#44362e" stroke-width="5" stroke-linecap="round"/>
+<path d="M801 464Q821 478 836 462" fill="none" stroke="#624131" stroke-width="4"/>
+<path d="M779 540Q726 549 691 560" fill="none" stroke="#bb815b" stroke-width="20" stroke-linecap="round"/>
+<circle cx="692" cy="559" r="13" fill="#bb815b"/>
+<path d="M830 639l-7 94M896 629l16 98" stroke="#355e75" stroke-width="27" stroke-linecap="round"/>
+<path d="M803 733l43 8M900 728l41 6" stroke="#343932" stroke-width="16" stroke-linecap="round"/>
+<!-- Friendly question-and-answer shapes, without fake chat product branding -->
+<path d="M117 189Q91 173 101 145Q114 121 141 129Q159 107 190 126Q215 116 229 139Q260 145 248 172Q232 199 203 193Q170 212 150 194Z" fill="#fff6e6" stroke="#3a655e" stroke-width="5"/>
+<path d="M134 158h79M135 175h49" stroke="#73988c" stroke-width="7" stroke-linecap="round"/>
+<circle cx="120" cy="211" r="8" fill="#fff6e6" stroke="#3a655e" stroke-width="3"/>
+<path d="M825 167Q793 150 813 116Q831 92 856 110Q882 81 916 105Q947 95 958 121Q989 125 980 155Q974 183 941 182Q919 202 887 183Z" fill="#fff4dd" stroke="#3c665f" stroke-width="5"/>
+<path d="M853 139l25 23 48-44" fill="none" stroke="#bc6244" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="846" cy="203" r="7" fill="#fff4dd" stroke="#3c665f" stroke-width="3"/>
+<!-- A small supporting info card -->
+<path d="M846 295L1023 282 1029 409 850 422Z" fill="#fff9e9" stroke="#496b68" stroke-width="5"/>
+<circle cx="899" cy="337" r="20" fill="#e5b77b"/>
+<path d="M928 329h73M928 348h62M875 386h129" stroke="#71948c" stroke-width="7" stroke-linecap="round"/>
+<g stroke="#b85b3d" stroke-width="5" stroke-linecap="round" fill="none"><path d="M68 398l23 25M92 398l-24 25M1022 511v43M1001 532h42"/></g>
+<g fill="#387365"><circle cx="99" cy="615" r="13"/><circle cx="1014" cy="699" r="15"/><circle cx="990" cy="730" r="6"/></g>
+</svg>
