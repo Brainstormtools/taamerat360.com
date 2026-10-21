@@ -6,7 +6,7 @@ The four business-need landing pages are original editorial source components. M
 |---|---|---|---|
 | Reach More Customers | /solutions/reach-more-customers/ | Developed and awaiting PR QA | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Source developed, pending CI and merge | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
-| Improve Customer Experience | /solutions/improve-customer-experience/ | Pending | Support-channel scope, privacy handling, business examples, approval |
+| Improve Customer Experience | /solutions/improve-customer-experience/ | Source developed; pending full CI and merge | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
 | Simplify Business Operations | /solutions/simplify-business-operations/ | Pending | Workflow scope, third-party integrations and access approvals, evidence |
 
 ## Reach More Customers — required before claims/public launch
@@ -27,6 +27,17 @@ The four business-need landing pages are original editorial source components. M
 - [ ] Keep preview-only `noindex, nofollow` until public launch is approved.
 
 The page's four-stage timeline is a **fictional business-process illustration**; stage selection happens only in the visitor's browser. Nothing is saved or sent, and no customer records, automated follow-ups, sales forecasts, or actual conversion outcomes are implied.
+
+## Improve Customer Experience — content and compliance boundaries
+
+- [ ] Confirm actual support channels, operating hours, roles, response practices, escalation and handovers. This page **does not** provide live customer support or a ticketing platform.
+- [ ] Approve Connected Growth and Business Efficiency package scope, deliverables, exclusions, integration feasibility, pricing and timelines before making firm commitments.
+- [ ] Obtain written client approvals for case-study identities, imagery, quotations and any verified service improvements. No customer satisfaction metrics or outcomes are assumed.
+- [ ] Review privacy, security, contact consent, permitted data collection and any regulated content before considering future customer-data integrations. No personal information is collected by the demonstration.
+- [ ] Conduct a real submitted-and-received enquiry test of the existing external `/contact-us/` page. HTTP 200 alone does not prove delivery.
+- [ ] Keep preview-only search indexing restrictions until public launch approval.
+
+The journey explorer is a **fictional service-communication model**. It contains no ticket creation, live status, chat, bots, databases, uploads or account access. Any future integration requires separate authorization.
 
 The editorial illustration depicts a **fictional small business**. It is not a client case study, photo, or quantified before/after result. This static page contains **no live submission form and no personal-data collection**.
 
