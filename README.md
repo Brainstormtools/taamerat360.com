@@ -42,6 +42,15 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 All 11 planned industry landing pages have been developed, browser-tested, and merged to GitHub `main`. This completes the industry-page development increment, not every live-website requirement. Production release is owner-managed; merging to GitHub is not deployment. See `DEPLOYMENT_HANDOFF.md` for ZIP export and manual launch instructions. Missing facts, proofs, claims, photos, pricing and integrations remain in `docs/industry-placeholder-register.md`.
 
+## Business-need solution pages — editorial rollout
+
+1. **Reach More Customers** — source at `/solutions/reach-more-customers/`: original static shop-to-customer illustration, visible problem/approach sequence, Lead Growth and Connected Growth options, approved-proof placeholder, and externally linked Request a Proposal. Built with readable no-script HTML and four-viewport QA.
+2. **Move Sales Forward** — pending development.
+3. **Improve Customer Experience** — pending development.
+4. **Simplify Business Operations** — pending development (homepage currently says “Simplify everyday operations”).
+
+These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
+
 ## Current development & release boundaries
 
 - The original ChatGPT-hosted website is separate from this GitHub repository.
