@@ -46,7 +46,7 @@ All 11 planned industry landing pages have been developed, browser-tested, and m
 
 1. **Reach More Customers** — source at `/solutions/reach-more-customers/`: original static shop-to-customer illustration, visible problem/approach sequence, Lead Growth and Connected Growth options, approved-proof placeholder, and externally linked Request a Proposal. Built with readable no-script HTML and four-viewport QA.
 2. **Move Sales Forward** — source at `/solutions/move-sales-forward/`: original illustrated sales conversation, three friction points, interactive keyboard-accessible four-stage follow-up journey with no-JS fallback, Sales Momentum and Connected Growth package directions, client-proof placeholders and external proposal links. Scope and CRM boundaries require written approval.
-3. **Improve Customer Experience** — pending development.
+3. **Improve Customer Experience** — source at `/solutions/improve-customer-experience/`: original customer-and-service illustration, three communication friction points, accessible four-touchpoint explorer (discover, connect, continue, improve) with no-script fallback, Connected Growth and Business Efficiency package directions, verified-proof placeholder and externally linked proposal destination. Service channel and integration boundaries require approval.
 4. **Simplify Business Operations** — pending development (homepage currently says “Simplify everyday operations”).
 
 These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
