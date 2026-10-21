@@ -21,7 +21,7 @@ test('homepage challenge selector reaches Reach More Customers; other options re
  await expect(page).toHaveURL(/\/solutions\/reach-more-customers\/$/);
  await page.goto('/');
  await page.locator('[data-solution="sales"]').click();
- await expect(page.locator('#solution-action')).toHaveAttribute('href','#packages');
+ await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/move-sales-forward/');
 });
 test('editorial sections and proposal destinations stay fully discoverable',async({page})=>{
  await page.goto(path);
