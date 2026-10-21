@@ -18,9 +18,9 @@ coordinate:{number:"04 / 04",word:"COORDINATE",label:"NON-CLAIMS BUSINESS TEAM /
 };
 const keys=Object.keys(stages);
 function setStage(key){const v=stages[key];if(!v)return;
-$$(".i-stage").forEach(b=>{const active=b.dataset.stage===key;b.classList.toggle("is-active",active);b.setAttribute("aria-pressed",String(active))});
+$(".i-step").forEach(b=>{const active=b.dataset.stage===key;b.classList.toggle("is-active",active);b.setAttribute("aria-pressed",String(active))});
 $("#i-stage-number").textContent=v.number;$("#i-stage-word").textContent=v.word;$("#i-stage-label").textContent=v.label;$("#i-stage-title").textContent=v.title;$("#i-stage-description").textContent=v.description;$("#i-stage-focus").textContent=v.focus;$("#i-stage-count").textContent=v.count+" OF 4";$("#i-progress-path").setAttribute("stroke-dashoffset",String(v.offset))}
-$$(".i-stage").forEach(b=>{b.addEventListener("click",()=>setStage(b.dataset.stage));b.addEventListener("keydown",e=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key))return;e.preventDefault();const step=e.key==="ArrowDown"||e.key==="ArrowRight"?1:-1;const i=Math.max(0,Math.min(keys.length-1,keys.indexOf(b.dataset.stage)+step));setStage(keys[i]);$$(".i-stage")[i].focus()})});
+$(".i-step").forEach(b=>{b.addEventListener("click",()=>setStage(b.dataset.stage));b.addEventListener("keydown",e=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key))return;e.preventDefault();const step=e.key==="ArrowDown"||e.key==="ArrowRight"?1:-1;const i=Math.max(0,Math.min(keys.length-1,keys.indexOf(b.dataset.stage)+step));setStage(keys[i]);$(".i-step")[i].focus()})});
 const form=$("#i-form"),copy=$("#i-copy"),result=$("#i-result-text"),status=$("#i-status"),business=$("#i-business"),challenge=$("#i-challenge"),priority=$("#i-priority");let brief="";
 form.addEventListener("submit",e=>{e.preventDefault();
 brief=["TAAMERAT360 / INSURANCE — NON-CLAIMS BUSINESS DISCUSSION BRIEF",
