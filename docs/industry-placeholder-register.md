@@ -42,10 +42,27 @@ This register tracks factual inputs needed from Taamerat360. **Do not invent cli
 
 Implementation: full editorial layout; original illustration; interactive four-stage property journey with keyboard navigation; packages; visible proof placeholders; client-side starting brief (no server submission); responsive mobile/desktop navigation; crawl protection retained.
 
+## 03 — E-commerce
+
+**URL:** /industries/e-commerce/
+
+| Priority | Section | Placeholder | What is needed | Status |
+|---|---|---|---|---|
+| High | Case study | [Approved brand or project] | Verified client brand/project name and publishing permission | Awaiting client |
+| High | Visual proof | APPROVED STORE IMAGE / SCREENSHOT TO BE PROVIDED | Approved storefront screenshots or photographs; licensing confirmation | Awaiting client |
+| High | Measured results | [Verified challenge, solution scope and measurable outcomes] | Approved project approach, reliable before/after evidence and correctly scoped claims | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution] | Verbatim approved quotation with permission and attribution | Awaiting client |
+| High | Contact | External /contact-us/?industry=e-commerce | Real end-to-end proposal submission and receipt confirmation | Verification pending |
+| Medium | Packages | Existing generic Taamerat360 packages | Approved scope/pricing/terms and any integrations promised to customers | Awaiting client |
+| Medium | Workflow copy | Illustrative online commerce customer journey | Confirm relevant sales channels, customer types and services supported | Review pending |
+| Low | Hero illustration | Original conceptual e-commerce scene | Optional client-approved product photography and store imagery | Optional |
+
+Implementation: full unique responsive landing page, original SVG artwork, customer challenge cards, four-stage interactive journey with keyboard access, package routing, evidence placeholders and browser-only brief builder with copy fallback. The page does not imply Taamerat360 performs payment processing, fulfillment or guaranteed sales.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
-3. E-commerce — pending
+3. E-commerce — developed (awaiting proof content)
 4. Architecture — pending
 5. Healthcare — pending
 6. Education — pending

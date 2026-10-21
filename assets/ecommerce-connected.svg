@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="760" viewBox="0 0 1080 760" role="img" aria-label="Concept illustration showing an online storefront, shopping bag, packages and connecting orange customer journey">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5f85eb"/><stop offset="1" stop-color="#1749c7"/></linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8662"/><stop offset="1" stop-color="#d83c27"/></linearGradient>
+<linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#51886c"/><stop offset="1" stop-color="#1a513f"/></linearGradient>
+<linearGradient id="box" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fce8af"/><stop offset="1" stop-color="#e6b56f"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<ellipse cx="554" cy="624" rx="450" ry="52" fill="#8b725e" opacity=".16" filter="url(#shadow)"/>
+<path d="M-40 595 C130 544 238 686 394 598 S655 461 812 553 991 639 1130 560" fill="none" stroke="#af3523" stroke-width="76" opacity=".16" filter="url(#shadow)"/>
+<path d="M-40 574 C130 523 238 665 394 577 S655 440 812 532 991 618 1130 539" fill="none" stroke="#b92f24" stroke-width="72" stroke-linecap="round"/>
+<path d="M-40 559 C130 508 238 650 394 562 S655 425 812 517 991 603 1130 524" fill="none" stroke="#f06436" stroke-width="72" stroke-linecap="round"/>
+<path d="M-40 539 C130 488 238 628 394 542 S655 405 812 496 991 583 1130 504" fill="none" stroke="#ffa979" stroke-opacity=".38" stroke-width="6" stroke-linecap="round"/>
+<!-- computer screen store -->
+<g>
+<polygon points="81,249 376,218 425,247 127,282" fill="#bcd1fb"/>
+<polygon points="127,282 425,247 425,481 127,517" fill="#1549ad"/>
+<polygon points="81,249 127,282 127,517 81,483" fill="#0e388f"/>
+<polygon points="108,267 395,237 395,466 108,498" fill="url(#blue)"/>
+<polygon points="123,310 380,282 380,437 123,465" fill="#f7f0e2"/>
+<polygon points="123,309 380,281 380,332 123,360" fill="#f5d47e"/>
+<path d="M123 311L380 281" stroke="#f9ede3" stroke-width="5"/>
+<g stroke="#3565cb" stroke-width="3" fill="none"><path d="M146 380H354 M146 407H235 M246 407H354 M146 431H354"/></g>
+<rect x="151" y="338" width="72" height="42" rx="3" fill="#e8b878" transform="skewY(-7)"/>
+<path d="M170 349Q175 328 187 340Q193 346 194 357" stroke="#fff0c7" stroke-width="4" fill="none"/>
+<circle cx="344" cy="304" r="10" fill="#ee5433"/>
+<path d="M200 508L224 557 317 547 342 489" fill="#2c5fbd"/>
+<polygon points="218,551 316,540 348,554 248,566" fill="#3979e5"/>
+<rect x="115" y="501" width="313" height="17" rx="4" fill="#243d73" transform="rotate(-7 115 501)"/>
+</g>
+<!-- card floating -->
+<g transform="rotate(8 581 247)">
+<rect x="442" y="141" width="246" height="252" rx="10" fill="#fdf6e9" stroke="#d7c7af" stroke-width="4"/>
+<rect x="460" y="159" width="210" height="144" rx="4" fill="#dce7da"/>
+<circle cx="564" cy="221" r="59" fill="#f4d277"/>
+<path d="M530 211Q557 182 600 207 L590 267 L529 269Z" fill="#1d644c"/>
+<path d="M545 213Q545 190 563 190Q582 191 583 214" fill="none" stroke="#f7df9f" stroke-width="7"/>
+<path d="M465 327H610 M465 349H568" stroke="#d1c1ad" stroke-width="8" stroke-linecap="round"/>
+<rect x="608" y="329" width="61" height="37" rx="19" fill="#f05f39"/><path d="M622 345L634 354L653 338" stroke="white" fill="none" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- shopping bag -->
+<g>
+<ellipse cx="790" cy="561" rx="138" ry="32" fill="#5e644d" opacity=".15"/>
+<polygon points="723,345 875,332 920,365 772,380" fill="#7ca990"/>
+<polygon points="772,380 920,365 920,542 772,563" fill="url(#green)"/>
+<polygon points="723,345 772,380 772,563 723,527" fill="#184837"/>
+<path d="M788 382Q788 317 829 315Q870 313 871 372" fill="none" stroke="#f4dd9e" stroke-width="12" stroke-linecap="round"/>
+<circle cx="845" cy="459" r="38" fill="#e7cc77" opacity=".98"/>
+<path d="M823 463L839 477L869 441" fill="none" stroke="#25593e" stroke-width="9" stroke-linecap="round"/>
+</g>
+<!-- packages -->
+<g>
+<polygon points="496,489 560,465 626,489 561,514" fill="#f7d489"/>
+<polygon points="496,489 561,514 561,587 496,563" fill="#dfa961"/>
+<polygon points="561,514 626,489 626,564 561,587" fill="url(#box)"/>
+<path d="M541 472L602 499L602 568 M530 502L560 513" stroke="#fdf0c7" stroke-width="9"/>
+<polygon points="600,541 654,522 708,541 653,563" fill="#e5af70"/>
+<polygon points="600,541 653,563 653,620 600,599" fill="#ca8d5b"/>
+<polygon points="653,563 708,541 708,600 653,620" fill="#efcb8d"/>
+<path d="M628 532L681 553L681 610" fill="none" stroke="#fff0c8" stroke-width="7"/>
+</g>
+<!-- stage annotations -->
+<g font-family="Arial,sans-serif" font-weight="700" font-size="12" letter-spacing="2">
+<rect x="48" y="128" width="164" height="45" rx="23" fill="#f9f3e9" stroke="#e0d3bf"/><circle cx="75" cy="150" r="7" fill="#f15d37"/><text x="97" y="155" fill="#433e36">DISCOVER</text>
+<rect x="795" y="170" width="172" height="45" rx="23" fill="#f9f3e9" stroke="#e0d3bf"/><circle cx="820" cy="193" r="7" fill="#3159c9"/><text x="841" y="198" fill="#433e36">DELIVER</text>
+<rect x="390" y="653" width="177" height="45" rx="23" fill="#f9f3e9" stroke="#e0d3bf"/><circle cx="415" cy="675" r="7" fill="#33765a"/><text x="435" y="680" fill="#433e36">CONNECT</text>
+</g>
+</svg>
