@@ -1,0 +1,63 @@
+/* Business need / 04 — Simplify Business Operations.
+   Shared editorial tokens inherited from Reach More Customers; scoped page variations. */
+.op-page{background:#f0eee5;color:#263631}
+.op-hero{background:#f0eee5}
+.op-page .rc-crumb strong,.op-page .rc-label,.op-page .rc-overline{color:#833e2b}
+.op-page .rc-hero h1{font-size:clamp(57px,6.2vw,106px)}
+.op-page .rc-hero h1 em{color:#9e442f}
+.op-page .rc-note{color:#565448}
+.op-art-panel{background:#dce8d9;aspect-ratio:1.09;border-radius:30px 30px 190px 30px}
+.op-art-panel::before{border-color:#b4c8ad;border-radius:20px 20px 175px 20px}
+.op-marquee{background:#3c685c;color:#fff8e7}
+.op-marquee span{color:#f6d590}
+.op-problems .rc-problem:nth-child(1){background:#e0e6d2}
+.op-problems .rc-problem:nth-child(2){background:#ebdbc4}
+.op-problems .rc-problem:nth-child(3){background:#d9e4ea}
+.op-problems .rc-big-icon{font-family:"DM Serif Display",Georgia,serif;color:#8c412e}
+.op-flow{background:#e3e9e0}
+.op-flow .rc-section-heading>p:last-child{max-width:730px}
+.op-explorer{display:grid;grid-template-columns:minmax(225px,.78fr) minmax(0,1.22fr);gap:15px;align-items:stretch}
+.op-controls{display:flex;flex-direction:column;gap:10px}
+.op-step-button{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:center;gap:9px;min-height:117px;padding:21px 23px;background:#fbf8ee;color:#264035;border:1px solid #b7c8b7;text-align:left;cursor:pointer;transition:background-color .17s,color .17s}
+.op-step-button:hover{background:#e4efdc}
+.op-step-button[aria-pressed=true]{background:#325d53;color:#fff9eb;border-color:#325d53}
+.op-step-button small{font-size:10px;font-weight:800;letter-spacing:.12em;color:#89442c;grid-column:1/-1}
+.op-step-button[aria-pressed=true] small{color:#f4d494}
+.op-step-button strong{font-size:clamp(19px,2.15vw,31px);line-height:1.13;letter-spacing:-.045em;font-weight:500}
+.op-step-button span{font-size:23px;align-self:center}
+.op-workspace{background:#faf5eb;border:1px solid #adbeae;min-height:512px;padding:clamp(24px,4.4vw,57px);display:flex;flex-direction:column}
+.op-workspace-top{display:flex;justify-content:space-between;align-items:start;gap:14px;padding-bottom:24px;border-bottom:1px solid #b8c6b7;font-size:10px;font-weight:800;letter-spacing:.1em;color:#596759}
+.op-workspace-symbol{font-size:18px;white-space:nowrap;letter-spacing:.12em;color:#934b34}
+.op-step-panel{padding-top:26px;flex:1}
+.op-step-panel[hidden]{display:none!important}
+.op-panel-eyebrow{font-size:10px!important;font-weight:800!important;letter-spacing:.12em!important;color:#843c2b!important}
+.op-step-panel h3{font-size:clamp(37px,4.15vw,68px);line-height:1.07;letter-spacing:-.07em;font-weight:500;margin:19px 0 24px}
+.op-step-panel h3 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#9c4531}
+.op-step-panel>p:not(.op-panel-eyebrow){font-size:15px;line-height:1.8;max-width:570px;color:#4d5c51}
+.op-outcome{display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px 25px;border-top:1px solid #b8c6b7;margin-top:31px;padding:22px 0}
+.op-outcome span{font-size:10px;font-weight:800;letter-spacing:.11em;color:#88422f}
+.op-outcome strong{color:#275849;font-weight:700;font-size:15px;line-height:1.5;max-width:335px}
+.op-demo-note{border-top:1px solid #b8c6b7;padding-top:20px;margin:0;font-size:11px;line-height:1.7;color:#536155}
+.op-dark{background:#2c4340;color:#f9f1e5}
+.op-dark .rc-label{color:#f4d19c}
+.op-dark .rc-section-heading>p:last-child{color:#e3e9dd}
+.op-dark .rc-section-heading h2 em{color:#f3d69b}
+.op-dark .rc-steps,.op-dark .rc-steps article+article{border-color:#75968b}
+.op-dark .rc-step-num,.op-dark .rc-step-tag{color:#f2d493}
+.op-dark .rc-steps p{color:#e2e8df}
+.op-efficiency-card{background:#315d55}
+.op-connected-card{background:#375795}
+.op-page .rc-package-intro strong{color:#2c5d4e}
+.op-page .rc-package-card p{color:#f6f5ed}
+.op-page .rc-proof-card strong{line-height:1.15}
+.op-final{background:#eadca7}
+.op-final .rc-label{color:#743323}
+.op-final h2 em{color:#83402f}
+.op-final .rc-button{background:#294d40}
+.op-final .rc-button:hover{background:#346653}
+.op-footer{background:#263a33}
+.op-page :focus-visible{outline:3px solid #a64d31!important;outline-offset:4px}
+@media(max-width:980px){.op-art-panel{border-radius:22px 22px 135px 22px}.op-art-panel::before{border-radius:16px 16px 120px 16px}}
+@media(max-width:760px){.op-page .rc-hero h1{font-size:clamp(49px,10vw,74px)}.op-art-panel{border-radius:16px 16px 85px 16px}.op-art-panel::before{border-radius:11px 11px 76px 11px}.op-explorer{grid-template-columns:1fr}.op-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.op-step-button{min-height:105px;padding:16px}.op-step-button strong{font-size:clamp(17px,4vw,25px)}.op-workspace{min-height:0;padding:25px}.op-step-panel{padding-top:22px}.op-step-panel h3{font-size:clamp(35px,9vw,62px)}}
+@media(max-width:370px){.op-page .rc-hero h1{font-size:46px}.op-step-button{padding:12px;min-height:101px}.op-step-button small{font-size:9px;letter-spacing:.03em}.op-step-button strong{font-size:17px}.op-workspace-top{font-size:9px;letter-spacing:0}.op-workspace-symbol{letter-spacing:0}}
+@media(prefers-reduced-motion:reduce){.op-step-button{transition:none}}
