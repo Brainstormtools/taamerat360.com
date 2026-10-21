@@ -41,13 +41,13 @@ await expect(page.locator('#t-stage-count')).toHaveText('1 OF 4');
 
 test('telecom brief is created from fixed business categories and stale drafts invalidate',async({page})=>{
 await page.goto(route);await expect(page.locator('#t-copy')).toBeDisabled();
-await page.locator('#t-business').selectOption('Telecom agency or brokerage');
+await page.locator('#t-business').selectOption('Internet service provider');
 await page.locator('#t-challenge').selectOption('General commercial enquiries');
 await page.locator('#t-priority').selectOption('Consistent enquiry follow-up');
 await page.locator('.t-submit').click();
 await expect(page.locator('#t-result-title')).toHaveText('Your communication priorities, connected.');
 await expect(page.locator('#t-copy')).toBeEnabled();
-await expect(page.locator('#t-result-text')).toContainText('Telecom agency or brokerage');
+await expect(page.locator('#t-result-text')).toContainText('Internet service provider');
 await expect(page.locator('#t-result-text')).toContainText('General commercial enquiries');
 await expect(page.locator('#t-result-text')).toContainText('Never include subscriber names');
 await expect(page.locator('#t-result-text')).toContainText('regulatory/privacy review');
