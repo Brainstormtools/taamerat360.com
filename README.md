@@ -16,6 +16,12 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Source ZIP and owner-managed release
+
+The complete website can be downloaded after a push to `main` from **Actions → Export Website Source → taamerat360-complete-source**. Extract the artifact, then extract the inner `Taamerat360-Complete-Website.zip`. See `DEPLOYMENT_HANDOFF.md` for manual GitHub and hosting steps.
+
+**Release ownership:** Development, tests and source pushes remain on GitHub; the website owner initiates Vercel/production deployments. Pushing to an auto-connected hosting provider may still trigger its configured auto-deploy integration.
+
 ## Local use
 This is a static site; serve from the repository root with `python3 -m http.server 8000`, then open `http://localhost:8000`.
 To run QA, install Node.js and dependencies listed in the workflow and run `npx playwright test`.
