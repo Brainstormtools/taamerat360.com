@@ -37,10 +37,10 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 7. Banking & Fintech — source completed, tested (336/336), and merged.
 8. Insurance — source completed, tested (380/380), and merged.
 9. Telecom — source completed, tested (424/424), and merged.
-10. Travel & Tourism — developed, tested (468/468 browser checks), and merged into `main`; original illustrated page, accessible four-stage travel enquiry journey, browser-only business brief and approved-proof placeholders.
-11. Ride Hailing — pending.
+10. Travel & Tourism — source completed, tested (468/468), and merged.
+11. Ride Hailing — developed on `feature/industry-ride-hailing`; original mobility illustration, accessible four-stage commercial journey, local fixed-choice brief, scope/privacy FAQ and verified-proof placeholders.
 
-The repository is the source of developed website work, not proof of production deployment. The website owner initiates production deployments; see `DEPLOYMENT_HANDOFF.md`. Missing content, approvals and data/integration boundaries remain tracked in `docs/industry-placeholder-register.md`.
+All 11 planned industry landing pages now have developed source, subject to the final Ride Hailing review and merge. Production release is owner-managed; merging to GitHub is not deployment. See `DEPLOYMENT_HANDOFF.md` for ZIP export and manual launch instructions. Missing facts, proofs, claims, photos, pricing and integrations remain in `docs/industry-placeholder-register.md`.
 
 ## Current development & release boundaries
 
