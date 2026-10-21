@@ -1,0 +1,63 @@
+/* Business need / 03 — Improve Customer Experience.
+   Existing editorial components are shared; all variations stay scoped to this page. */
+.cx-page{background:#f2eee5;color:#293730}
+.cx-hero{background:#f2eee5}
+.cx-page .rc-crumb strong,.cx-page .rc-label,.cx-page .rc-overline{color:#843b30}
+.cx-page .rc-hero h1{font-size:clamp(50px,5.8vw,96px)}
+.cx-page .rc-hero h1 em{color:#a1483a}
+.cx-page .rc-note{color:#534f48}
+.cx-art-panel{background:#e6ded2;border-radius:190px 24px 190px 24px;aspect-ratio:1.1}
+.cx-art-panel::before{border-radius:173px 16px 173px 16px;border-color:#c5bab0}
+.cx-marquee{background:#315c67;color:#fff7e7}
+.cx-marquee span{color:#f5d498}
+.cx-problems .rc-problem:nth-child(1){background:#d6e5df}
+.cx-problems .rc-problem:nth-child(2){background:#f0d9c8}
+.cx-problems .rc-problem:nth-child(3){background:#e0e5ed}
+.cx-problems .rc-big-icon{color:#a64635;font-family:"DM Serif Display",Georgia,serif}
+.cx-touchpoints{background:#e6e9e4}
+.cx-explorer{display:grid;grid-template-columns:minmax(220px,.75fr) minmax(0,1.25fr);gap:15px}
+.cx-touchpoint-buttons{display:flex;flex-direction:column;gap:10px}
+.cx-touchpoint-button{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:center;gap:8px;min-height:119px;width:100%;text-align:left;border:1px solid #adbeb6;background:#f9f5ea;color:#233a34;padding:24px;cursor:pointer;transition:background-color .2s}
+.cx-touchpoint-button:hover{background:#e6f0eb}
+.cx-touchpoint-button[aria-pressed=true]{background:#315d61;border-color:#315d61;color:#fff8e9}
+.cx-touchpoint-num{grid-column:1/-1;font-size:10px;font-weight:800;letter-spacing:.12em;color:#824632}
+.cx-touchpoint-button[aria-pressed=true] .cx-touchpoint-num{color:#f5cf95}
+.cx-touchpoint-button strong{font-size:clamp(20px,2.3vw,32px);line-height:1.1;font-weight:500;letter-spacing:-.04em}
+.cx-touchpoint-button>span:last-child{align-self:center;font-size:22px}
+.cx-stage-display{background:#f9f5ec;border:1px solid #b7c5bb;padding:clamp(24px,4.5vw,56px);display:flex;flex-direction:column;min-height:515px}
+.cx-display-heading{display:flex;justify-content:space-between;gap:12px;align-items:start;padding-bottom:24px;border-bottom:1px solid #b6c6be;color:#5e6a63;font-size:10px;font-weight:800;letter-spacing:.11em}
+.cx-display-mark{color:#a14636;white-space:nowrap;letter-spacing:.1em}
+.cx-stage-panel{flex:1;padding:26px 0 0}
+.cx-stage-panel[hidden]{display:none!important}
+.cx-panel-number{color:#853c2b!important;font-size:11px!important;font-weight:800!important;letter-spacing:.12em!important}
+.cx-stage-panel h3{font-size:clamp(36px,4.15vw,68px);font-weight:500;line-height:1.08;letter-spacing:-.067em;margin:17px 0 24px}
+.cx-stage-panel h3 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#a44636}
+.cx-stage-panel>p:not(.cx-panel-number){font-size:15px;line-height:1.78;color:#4e5d55;max-width:575px}
+.cx-example{margin-top:30px;border-top:1px solid #b6c6be;padding:23px 0;display:flex;justify-content:space-between;gap:15px 26px;flex-wrap:wrap}
+.cx-example span{font-size:10px;font-weight:800;letter-spacing:.1em;color:#884431}
+.cx-example strong{font-size:15px;font-weight:700;line-height:1.45;max-width:335px;color:#285a57}
+.cx-private-note{border-top:1px solid #b6c6be;padding-top:20px;margin:0;color:#536259;font-size:11px;line-height:1.65}
+.cx-dark{background:#2e414b;color:#f8f1e5}
+.cx-dark .rc-label{color:#f2ce9c}
+.cx-dark .rc-section-heading>p:last-child{color:#dce6e4}
+.cx-dark .rc-section-heading h2 em{color:#f5d69b}
+.cx-dark .rc-steps{border-color:#849ba1}
+.cx-dark .rc-steps article+article{border-color:#849ba1}
+.cx-dark .rc-steps p{color:#dce5e5}
+.cx-dark .rc-step-tag,.cx-dark .rc-step-num{color:#f4d5a4}
+.cx-connected-card{background:#305e69}
+.cx-efficiency-card{background:#315d50}
+.cx-page .rc-package-intro strong{color:#275950}
+.cx-page .rc-package-card p{color:#fff7eb}
+.cx-page .rc-proof-card strong{line-height:1.15}
+.cx-final{background:#efdfa8}
+.cx-final .rc-label{color:#693222}
+.cx-final h2 em{color:#843827}
+.cx-final .rc-button{background:#294d4b}
+.cx-final .rc-button:hover{background:#38645e}
+.cx-footer{background:#253b3f}
+.cx-page :focus-visible{outline:3px solid #a8432a!important;outline-offset:4px}
+@media(max-width:980px){.cx-art-panel{border-radius:130px 18px 130px 18px}.cx-art-panel::before{border-radius:113px 12px 113px 12px}}
+@media(max-width:760px){.cx-page .rc-hero h1{font-size:clamp(47px,9.5vw,73px)}.cx-art-panel{border-radius:85px 15px 85px 15px}.cx-art-panel::before{border-radius:73px 10px 73px 10px}.cx-explorer{grid-template-columns:1fr}.cx-touchpoint-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.cx-touchpoint-button{min-height:112px;padding:17px}.cx-touchpoint-button strong{font-size:clamp(17px,4vw,27px)}.cx-stage-display{min-height:0;padding:26px}.cx-stage-panel{padding-top:19px}.cx-stage-panel h3{font-size:clamp(35px,8.8vw,60px)}}
+@media(max-width:370px){.cx-page .rc-hero h1{font-size:43px}.cx-touchpoint-button{min-height:105px;padding:12px}.cx-touchpoint-num{font-size:9px;letter-spacing:.03em}.cx-touchpoint-button strong{font-size:17px}.cx-display-heading{letter-spacing:0;font-size:9px}.cx-display-mark{letter-spacing:0}}
+@media(prefers-reduced-motion:reduce){.cx-touchpoint-button{transition:none}}
