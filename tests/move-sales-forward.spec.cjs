@@ -26,7 +26,7 @@ test('homepage sales choice links to new route and other choices remain intact',
  await page.locator('[data-solution="experience"]').click();
  await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/improve-customer-experience/');
  await page.locator('[data-solution="operations"]').click();
- await expect(page.locator('#solution-action')).toHaveAttribute('href','#packages');
+ await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/simplify-business-operations/');
 });
 test('illustrative route changes stages and handles keyboard directions',async({page})=>{
  await page.goto(route);

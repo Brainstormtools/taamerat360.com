@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850" role="img" aria-labelledby="title desc">
+<title id="title">Work moves more easily when handovers are clear</title>
+<desc id="desc">Original editorial artwork with a planning desk, two team members, an orange coordination path and four illustrated task cards.</desc>
+<defs><linearGradient id="desk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55789b"/><stop offset="1" stop-color="#284a79"/></linearGradient><linearGradient id="path" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#af4531"/><stop offset=".55" stop-color="#e77f44"/><stop offset="1" stop-color="#f3c67c"/></linearGradient><pattern id="grain" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M4 8h2M19 24h1M28 2h2" stroke="#5b5f52" opacity=".15" stroke-width=".7"/></pattern></defs>
+<rect width="1100" height="850" fill="#dce8d9"/><rect width="1100" height="850" fill="url(#grain)"/>
+<path d="M-50 721C127 625 266 798 454 685S806 515 1024 624 1110 685 1170 572" fill="none" stroke="#b1694a" stroke-width="89" opacity=".14"/>
+<path d="M-50 710C127 614 266 787 454 674S806 504 1024 613 1110 674 1170 561" fill="none" stroke="url(#path)" stroke-width="65" stroke-linecap="round"/>
+<path d="M-50 692C127 596 266 769 454 656S806 486 1024 595 1110 656 1170 543" fill="none" stroke="#fff3c6" stroke-width="5" stroke-linecap="round" stroke-dasharray="19 17"/>
+<!-- floating workflow cards -->
+<g transform="rotate(-8 166 172)"><rect x="71" y="98" width="178" height="141" rx="12" fill="#fff6e6" stroke="#456b59" stroke-width="5"/><rect x="89" y="117" width="55" height="46" rx="5" fill="#ebd39a"/><path d="M105 130h22M105 142h22" stroke="#a34b36" stroke-width="6" stroke-linecap="round"/><path d="M157 131h67M157 148h49M92 189h133M92 208h97" stroke="#7f9a90" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="rotate(5 408 159)"><rect x="323" y="89" width="179" height="142" rx="12" fill="#f9edd1" stroke="#456b59" stroke-width="5"/><circle cx="367" cy="141" r="19" fill="#87a89e"/><path d="M358 141l7 8 15-20" fill="none" stroke="#fff8e6" stroke-width="6" stroke-linecap="round"/><path d="M393 133h89M393 153h68M347 189h131" stroke="#7e9d8e" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="rotate(-5 646 162)"><rect x="558" y="93" width="185" height="142" rx="12" fill="#f3f5df" stroke="#456b59" stroke-width="5"/><path d="M581 160l23-20 23 13 27-35" fill="none" stroke="#bc6545" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M671 133h49M671 151h39M585 198h134" stroke="#7e9d8e" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="rotate(7 873 178)"><rect x="788" y="102" width="179" height="143" rx="12" fill="#e8f1e7" stroke="#456b59" stroke-width="5"/><path d="M816 157l21 23 43-53" fill="none" stroke="#af5d3a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M898 134h47M898 152h39M807 202h132" stroke="#7e9d8e" stroke-width="7" stroke-linecap="round"/></g>
+<!-- desk, visible documents -->
+<path d="M228 528L624 399 934 530 531 670Z" fill="#d5e2d0" stroke="#365e5e" stroke-width="7" stroke-linejoin="round"/>
+<path d="M228 528L531 658 934 530V572L532 717 228 575Z" fill="url(#desk)" stroke="#365963" stroke-width="7"/>
+<path d="M266 565l1 124 51 22 1-120M847 604l4 99 54-18v-94" fill="#3c5887" stroke="#33525d" stroke-width="5"/>
+<!-- folder for handover -->
+<path d="M493 480l81-26 25 10 89-29 109 47-201 71Z" fill="#edbb6a" stroke="#5f604e" stroke-width="5"/>
+<path d="M506 489l91 39 168-57-89-35-79 26-24-11Z" fill="#fff5dd" stroke="#5f604e" stroke-width="4"/>
+<path d="M562 493l85-30M571 509l111-37" stroke="#8b9f8f" stroke-width="6" stroke-linecap="round"/>
+<!-- clipboard -->
+<path d="M407 535l84-32 94 42-86 34Z" fill="#fff8e7" stroke="#476861" stroke-width="5"/>
+<path d="M463 533l46-17M472 546l60-19" stroke="#6e9786" stroke-width="5" stroke-linecap="round"/>
+<circle cx="452" cy="541" r="7" fill="#c76c48"/>
+<!-- teammate left -->
+<path d="M197 515Q155 556 166 633L258 678 348 622Q338 539 281 510Z" fill="#3b7465" stroke="#2f5349" stroke-width="6"/>
+<path d="M231 514l-1-44 43 1 3 47" fill="#bf8763" stroke="#624536" stroke-width="4"/>
+<ellipse cx="253" cy="429" rx="53" ry="61" fill="#bf8763" stroke="#624536" stroke-width="6"/>
+<path d="M196 424Q189 348 252 354Q305 359 304 421Q285 412 270 382 236 426 196 424" fill="#39443f"/>
+<path d="M235 439h3M267 439h3" stroke="#42362f" stroke-width="5" stroke-linecap="round"/>
+<path d="M235 467q16 11 31-4" fill="none" stroke="#5b3b30" stroke-width="4"/>
+<path d="M284 548q53 5 111-11" fill="none" stroke="#bf8763" stroke-width="18" stroke-linecap="round"/><circle cx="395" cy="535" r="11" fill="#bf8763"/>
+<path d="M205 652l-8 90M304 637l22 102" stroke="#294e62" stroke-width="25" stroke-linecap="round"/>
+<path d="M176 744l48 6M310 739l44 7" stroke="#333c3b" stroke-width="15" stroke-linecap="round"/>
+<!-- teammate right -->
+<path d="M774 480Q733 524 736 603L835 646 925 585Q913 523 871 485Z" fill="#e2ad66" stroke="#605045" stroke-width="6"/>
+<path d="M789 490l3-44 39 0 7 45" fill="#b27958" stroke="#5d4739" stroke-width="4"/>
+<ellipse cx="813" cy="408" rx="52" ry="62" fill="#b27958" stroke="#5d4739" stroke-width="6"/>
+<path d="M761 405Q755 336 817 340Q876 346 865 411Q846 394 831 366 808 402 761 405" fill="#363c38"/>
+<path d="M795 419h4M828 419h4" stroke="#43372f" stroke-width="5" stroke-linecap="round"/>
+<path d="M795 449q18 11 36-3" fill="none" stroke="#594135" stroke-width="4"/>
+<path d="M766 525q-24 8-68 21" fill="none" stroke="#b27958" stroke-width="18" stroke-linecap="round"/><circle cx="696" cy="546" r="12" fill="#b27958"/>
+<path d="M822 637l-11 100M901 609l19 112" stroke="#365974" stroke-width="27" stroke-linecap="round"/>
+<path d="M790 739l45 10M900 729l43 9" stroke="#363e3d" stroke-width="16" stroke-linecap="round"/>
+<!-- small geometric accents -->
+<path d="M109 368l24 22M133 369l-24 21M1037 396v46M1014 419h46" fill="none" stroke="#bf6544" stroke-width="6" stroke-linecap="round"/>
+<g fill="#3b7767"><circle cx="104" cy="543" r="15"/><circle cx="1007" cy="725" r="13"/><circle cx="979" cy="746" r="6"/></g>
+</svg>

@@ -7,7 +7,7 @@ The four business-need landing pages are original editorial source components. M
 | Reach More Customers | /solutions/reach-more-customers/ | Developed and awaiting PR QA | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Source developed, pending CI and merge | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
 | Improve Customer Experience | /solutions/improve-customer-experience/ | Source developed; pending full CI and merge | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
-| Simplify Business Operations | /solutions/simplify-business-operations/ | Pending | Workflow scope, third-party integrations and access approvals, evidence |
+| Simplify Business Operations | /solutions/simplify-business-operations/ | Source developed; pending CI and merge | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — required before claims/public launch
 
@@ -27,6 +27,17 @@ The four business-need landing pages are original editorial source components. M
 - [ ] Keep preview-only `noindex, nofollow` until public launch is approved.
 
 The page's four-stage timeline is a **fictional business-process illustration**; stage selection happens only in the visitor's browser. Nothing is saved or sent, and no customer records, automated follow-ups, sales forecasts, or actual conversion outcomes are implied.
+
+## Simplify Business Operations — workflow and integration boundaries
+
+- [ ] Approve the Business Efficiency and Connected Growth scope, actual services, exclusions, prices and delivery expectations.
+- [ ] Confirm ownership, roles, approvals, and permitted workflow changes for each real client before building any operational tool.
+- [ ] Document security, staff-data/privacy boundaries, access controls, credentials, consent, supplier terms and integration feasibility for any future systems. No external tools or data stores are connected in this page.
+- [ ] Verify any productivity, saving, cost, or client-success claim against real approved documentation. The case-study block remains an explicitly unverified placeholder.
+- [ ] Test a real enquiry submission and receipt on the separately hosted proposal destination; HTTP 200 alone is insufficient.
+- [ ] Maintain `noindex, nofollow` and preview-only robots policy until the website owner approves public release.
+
+The operations journey is **fictional and browser-only**. Selecting stages does not create tasks, trigger messages, assign staff, share data, update workflow tools or persist anything.
 
 ## Improve Customer Experience — content and compliance boundaries
 

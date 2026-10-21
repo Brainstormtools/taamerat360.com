@@ -26,7 +26,7 @@ test('Homepage customer-experience selection opens new page without breaking oth
  await page.locator('[data-solution="sales"]').click();
  await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/move-sales-forward/');
  await page.locator('[data-solution="operations"]').click();
- await expect(page.locator('#solution-action')).toHaveAttribute('href','#packages');
+ await expect(page.locator('#solution-action')).toHaveAttribute('href','./solutions/simplify-business-operations/');
 });
 test('Touchpoint journey changes stages by mouse and keyboard',async({page})=>{
  await page.goto(route);
