@@ -20,19 +20,19 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 This is a static site; serve from the repository root with `python3 -m http.server 8000`, then open `http://localhost:8000`.
 To run QA, install Node.js and dependencies listed in the workflow and run `npx playwright test`.
 
-## Release state — October 21, 2026
-- GitHub main is ahead of the Vercel alias: Vercel has reached its free-deployment daily quota and refused a manual deploy with HTTP 402, resource `api-deployments-free-per-day`, retry after 86400 seconds.
-- The newer website files, tests, metadata, preview-only robots rule and security header configuration are committed to GitHub but **not yet confirmed deployed**.
-- **Do not treat the old Vercel alias as the newest preview until its commit SHA matches main.**
-- Preview deliberately has `noindex, nofollow` and `robots.txt` disallowing crawlers. Remove and replace these before public production launch.
-- The original contact destination has been observed returning HTTP 200; actual successful enquiry submission still requires a real end-to-end test.
+## Industry landing pages — one at a time
 
-## Before public launch
-1. When Vercel quota resets, deploy the latest commit and verify that the project alias serves the exact SHA.
-2. Verify production response headers, source artwork, menu behavior and contact URLs against the deployed site.
-3. Remove preview indexing restrictions; add the approved production domain canonical and public crawl policy.
-4. Complete at least one real user-led proposal submission and verify it is received by the business.
-5. Review launch domain/branding and approve the final public cutover. No paid changes are authorized here.
+- **01 Construction** — developed on branch `feature/industry-construction`. Includes an industry-specific responsive page, interactive stage selector, browser-only starting brief, original illustration, and placeholder case-study section. Integrates with the homepage industry explorer.
+- **02–11** — not yet developed. See `docs/industry-placeholder-register.md` for the remaining industry queue and Construction's outstanding verified content.
+- Scope, deliverables and proof are not fabricated. Placeholder data remains visible until approved client content is supplied.
+
+## Current development & release boundaries
+
+- The original ChatGPT-hosted website is separate from this GitHub repository.
+- Vercel project `taamerat360.com` is linked to `main`. A merge into `main` can trigger a new deployment, subject to Vercel quotas.
+- The website intentionally retains preview-only `noindex` and `robots.txt` restrictions. Remove these **only after** approved public-domain launch.
+- External proposal links remain on the existing ChatGPT-hosted contact destination. An HTTP 200 response **does not verify a submitted enquiry**; an end-to-end test is still required.
+- The latest construction PR uses GitHub Actions cross-device browser checks, accessibility scans, JavaScript-disabled readability checks and screenshot artifacts.
 
 ## Boundaries
 The illustration work uses original vector compositions rather than photorealistic 3D renders. No backend, lead database or email delivery service has been configured in this repository.

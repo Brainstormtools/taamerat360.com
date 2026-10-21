@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" width="980" height="720" role="img" aria-label="Conceptual architectural diagram of a building, a crane and a connecting orange project pathway">
+<defs>
+<linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9f3e9"/><stop offset="1" stop-color="#d4c6b3"/></linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#4075d8"/><stop offset="1" stop-color="#134093"/></linearGradient>
+<linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9a5c"/><stop offset=".55" stop-color="#f04b2c"/><stop offset="1" stop-color="#bd331e"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8dce0"/><stop offset="1" stop-color="#69a8af"/></linearGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="19"/></filter>
+</defs>
+<ellipse cx="515" cy="631" rx="375" ry="60" fill="#86715a" opacity=".13" filter="url(#shadow)"/>
+<path d="M46 573 Q171 525 275 602 Q360 660 477 579 Q607 486 712 557 T987 581" stroke="#b73f24" stroke-opacity=".2" stroke-width="63" fill="none" filter="url(#shadow)"/>
+<path d="M46 564 Q171 516 275 593 Q360 651 477 570 Q607 477 712 548 T987 572" stroke="#c03620" stroke-width="60" stroke-linecap="round" fill="none"/>
+<path d="M46 554 Q171 506 275 583 Q360 641 477 560 Q607 467 712 538 T987 562" stroke="url(#orange)" stroke-width="60" stroke-linecap="round" fill="none"/>
+<path d="M46 545 Q171 499 275 576 Q360 633 477 553 Q607 460 712 531 T987 555" stroke="#ffd1a4" stroke-opacity=".34" stroke-width="4" fill="none"/>
+<!-- Platform -->
+<polygon points="267,516 521,388 772,487 512,617" fill="#b6a48a" opacity=".45"/>
+<polygon points="267,498 521,370 772,469 512,599" fill="#e3d5c2"/>
+<polygon points="267,498 512,599 512,616 267,515" fill="#c4b19a"/>
+<polygon points="512,599 772,469 772,487 512,616" fill="#ab9980"/>
+<!-- Building body -->
+<polygon points="341,277 529,188 664,252 477,348" fill="#f8f5ed" stroke="#c1b4a2" stroke-width="2"/>
+<polygon points="341,277 477,348 477,532 341,463" fill="#e7ddcf" stroke="#c5b7a5" stroke-width="2"/>
+<polygon points="477,348 664,252 664,440 477,532" fill="#f1e7d8" stroke="#b8ad9c" stroke-width="2"/>
+<!-- left windows -->
+<path d="M369 325 L452 364 452 405 369 366Z M369 384 L452 423 452 466 369 427Z" fill="url(#glass)" stroke="#497585" stroke-width="2"/>
+<path d="M411 344V386 M410 404V445" stroke="#eef9f5" stroke-width="4" opacity=".9"/>
+<!-- right windows -->
+<path d="M501 366 L553 340 553 386 501 412Z M573 329 L637 297 637 343 573 375Z M501 432 L553 406 553 463 501 490Z M573 397 L637 365 637 422 573 455Z" fill="url(#glass)" stroke="#396c80" stroke-width="2"/>
+<path d="M526 353V402 M602 315V355 M526 417V478 M605 385V440" stroke="#e9f7f3" stroke-width="4" opacity=".85"/>
+<!-- roof -->
+<path d="M327 271 L530 166 682 242 477 351 Z" fill="none" stroke="#2559b6" stroke-width="11" stroke-linejoin="round"/>
+<path d="M327 272 L341 279 M477 351 L477 531 M682 242 L664 252" stroke="#285db5" stroke-width="9"/>
+<path d="M348 280 L528 192 M366 289 L545 201 M388 299 L565 212 M409 311 L586 221 M431 324 L609 233" stroke="#e5eaf2" stroke-width="2.5" opacity=".68"/>
+<!-- Construction scaffold left -->
+<g stroke="#315c85" stroke-width="4" fill="none" opacity=".94">
+<path d="M294 255 V501 M326 243 V517 M294 278 L326 291 M294 343 L326 355 M294 411 L326 426 M294 473 L326 488"/>
+<path d="M291 278L328 355 M328 291L291 343 M291 411L328 488"/>
+<path d="M279 348L340 366 M279 420L340 439" stroke="#d69c5e" stroke-width="7"/>
+</g>
+<!-- Crane -->
+<g stroke="#275747" stroke-width="8" fill="none" stroke-linecap="square">
+<path d="M737 109V470 M735 110H942 M737 109L859 65 L942 110"/>
+<path d="M748 109L797 165 M797 109L747 165 M748 172L798 230 M796 171L745 235 M748 235L795 294 M796 234L744 303 M745 303L799 360 M798 302L744 365 M745 368L795 432"/>
+<path d="M887 109V222" stroke="#2b6d51" stroke-width="4"/>
+<path d="M870 226L906 226L898 264L876 264Z" fill="#f0bb55" stroke="#c89b42" stroke-width="3"/>
+</g>
+<path d="M730 104L951 104" stroke="#286c4f" stroke-width="12"/>
+<path d="M718 470H761" stroke="#286c4f" stroke-width="22"/>
+<!-- Diagram notation -->
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2" font-weight="bold" fill="#41433d">
+<path d="M222 260H305 M219 259L230 252 M219 259L230 266" fill="none" stroke="#c04928" stroke-width="2"/>
+<text x="109" y="252">SCOPE / 01</text>
+<path d="M668 375H746" stroke="#c04928" stroke-width="2"/>
+<text x="749" y="376">SITE / 03</text>
+<path d="M593 556L655 615L757 615" fill="none" stroke="#c04928" stroke-width="2"/>
+<text x="760" y="620">HANDOVER</text>
+</g>
+<g fill="#f04b2e"><circle cx="218" cy="259" r="5"/><circle cx="668" cy="375" r="5"/><circle cx="590" cy="555" r="5"/></g>
+</svg>
