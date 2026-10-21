@@ -35,8 +35,8 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 5. Healthcare — completed and source merged; production previously quota-blocked.
 6. Education — completed, tested (292/292), and source merged.
 7. Banking & Fintech — completed, tested (336/336), and source merged.
-8. Insurance — developed on `feature/industry-insurance`; original illustration, four-stage non-claims business journey, safe fixed-choice private brief, FAQ and verified-proof placeholders.
-9–11. Telecom, Travel & Tourism, Ride Hailing — pending.
+8. Insurance — developed, tested (380/380 browser checks), and merged to `main`; original illustration, interactive four-stage non-claims business journey, safe browser-only brief and client-evidence placeholders.
+9–11. Telecom, Travel & Tourism, Ride Hailing — pending (3 industries remain).
 
 The repository is the development source of truth. Production deployments belong to the website owner, not the assistant. A GitHub merge does not mean the live site has updated. Complete ZIP exports are created from GitHub `main`. See `DEPLOYMENT_HANDOFF.md` and `docs/industry-placeholder-register.md` for handoff steps and missing client evidence.
 
