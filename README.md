@@ -23,8 +23,11 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 ## Industry landing pages — one at a time
 
 - **01 Construction** — developed on branch `feature/industry-construction`. Includes an industry-specific responsive page, interactive stage selector, browser-only starting brief, original illustration, and placeholder case-study section. Integrates with the homepage industry explorer.
-- **02–11** — not yet developed. See `docs/industry-placeholder-register.md` for the remaining industry queue and Construction's outstanding verified content.
+- **03–11** — not yet developed. See `docs/industry-placeholder-register.md` for the remaining industry queue and Construction's outstanding verified content.
 - Scope, deliverables and proof are not fabricated. Placeholder data remains visible until approved client content is supplied.
+
+- **02 Real Estate** — complete and tested with approved content still pending.
+- **03 E-commerce** — complete in the `feature/industry-ecommerce` development branch with a dedicated customer-journey landing page, interactive workflow, illustrative artwork, content placeholders and browser-only brief builder.
 
 ## Current development & release boundaries
 
