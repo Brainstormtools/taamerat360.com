@@ -70,6 +70,7 @@ body{background:var(--rc-paper);color:var(--rc-ink)}
 .rc-proof-card strong{font-size:clamp(24px,2.6vw,37px);font-weight:500;letter-spacing:-.055em}
 .rc-proof-card p{font-size:14px;line-height:1.7;color:#625e55}
 .rc-final{background:#e6d688;padding:clamp(75px,8vw,115px) 0}
+.rc-final .rc-label{color:#76301f}/* WCAG AA contrast on warm yellow */
 .rc-final-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:end;gap:45px}
 .rc-final h2{font-size:clamp(48px,6vw,94px);line-height:1.02;letter-spacing:-.07em;font-weight:500;margin:24px 0}
 .rc-final-grid>div:first-child>p:last-child{font-size:15px;line-height:1.8;max-width:540px}
