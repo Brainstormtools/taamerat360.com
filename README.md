@@ -28,14 +28,15 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 ## Industry landing pages — one at a time
 
-1. Construction — developed and deployed; approved proof outstanding.
-2. Real Estate — developed and deployed; approved proof outstanding.
-3. E-commerce — developed and deployed; approved proof outstanding.
-4. Architecture — developed and deployed; approved proof outstanding.
-5. Healthcare — under development on `feature/industry-healthcare`; includes a distinct administrative workflow, original illustrations, FAQ, fixed-choice business brief, and visible content placeholders.
-6–11. Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing — not yet developed.
+1. Construction — completed and source merged.
+2. Real Estate — completed and source merged.
+3. E-commerce — completed and source merged.
+4. Architecture — completed and source merged.
+5. Healthcare — completed and source merged; Vercel deployment was quota-blocked (owner-controlled deployment).
+6. Education — newly developed on `feature/industry-education`; contains original campus artwork, responsive page, four-stage admissions business workflow, fixed-choice private brief and explicit proof placeholders.
+7–11. Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing — pending.
 
-All missing imagery, clients, results, testimonials, pricing and sector claims are documented under `docs/industry-placeholder-register.md`. Do not invent clinical outcomes or suggest patient-data handling capability. Healthcare's business brief must remain nonclinical and not collect medical or patient information.
+The repository is source-of-truth for completed work. Website owner controls all production deployments; do not automatically claim that a GitHub merge means the production site has updated. Source export and manual deployment instructions: `DEPLOYMENT_HANDOFF.md`. Client-supplied verified outcomes, photos, endorsements, exact service offers and other missing information are tracked in `docs/industry-placeholder-register.md`.
 
 ## Current development & release boundaries
 
