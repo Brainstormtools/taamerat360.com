@@ -112,6 +112,24 @@ Implementation: complete responsive landing page, conceptual clinic-reception il
 
 Implementation: complete responsive Education landing page; original campus artwork; sector-specific challenge cards; interactive four-stage programme discovery / enquiry / welcome / admin-team journey with keyboard controls; package cards; clearly marked case-study placeholders; three-question fixed-choice private discussion-brief generator, copy fallback, accessible mobile navigation, motion control and FAQ. No student data, information about minors, admissions decisions, accreditations or educational outcomes are collected or guaranteed.
 
+## 07 — Banking & Fintech
+
+**URL:** /industries/banking-fintech/
+
+| Priority | Section | Placeholder or boundary | Information required | Status |
+|---|---|---|---|---|
+| High | Verified client | [Approved institution or project name] | Client's approved name and permission to publish | Awaiting client |
+| High | Imagery | APPROVED FINANCIAL-SERVICES BUSINESS IMAGE TO BE PROVIDED | Licensed or client-owned non-sensitive business imagery | Awaiting client |
+| High | Results | [Verified business challenge, approved scope and substantiated outcomes] | Evidence of approved business improvements, no invented money/security metrics | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution] | Approved wording and public attribution | Awaiting client |
+| High | Sector authority | No certification or regulatory claims | Confirm allowed positioning and any applicable licensing or legal review before final publication | Legal/sector review pending |
+| High | Privacy/security | No accounts, cards, credentials, customer data or transaction processing | Formal legal, regulatory, privacy, data-protection and security review required before any future regulated integration | Outside current scope |
+| High | Contact destination | External /contact-us/?industry=banking-fintech | End-to-end real submission and receipt, without sending sensitive data | Verification pending |
+| Medium | Packages and copy | Taamerat360 general business services | Client-approved product scopes, fees, exclusions and sector positioning | Awaiting client |
+| Low | Hero artwork | Conceptual public-information journey | Optional approved real organisation imagery with permission | Optional |
+
+Implementation: original responsive financial-services visual language, non-transactional four-stage public-offer/business-enquiry journey, keyboard-accessible controls, fixed-choice local brief builder with copy fallback, business service cards, three privacy/scope FAQs, evidence placeholders, explicit no-data/no-financial-advice messaging and source-only GitHub workflow. Nothing in the demo provides banking, payments, KYC, lending, financial advice, security certification, account access or a regulatory claim.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
@@ -119,7 +137,7 @@ Implementation: complete responsive Education landing page; original campus artw
 4. Architecture — developed (awaiting verified client content)
 5. Healthcare — developed (awaiting approved content and privacy/scope review)
 6. Education — developed (awaiting client-approved proof and scope details)
-7. Banking & Fintech — pending
+7. Banking & Fintech — developed (awaiting approved sector proof and privacy/compliance review)
 8. Insurance — pending
 9. Telecom — pending
 10. Travel & Tourism — pending
