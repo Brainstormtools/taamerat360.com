@@ -76,12 +76,30 @@ Implementation: full unique responsive landing page, original SVG artwork, custo
 
 Implementation: complete responsive architecture-practice landing page, original conceptual studio SVG, three sector-specific friction cards, four-stage interactive client-journey controls with keyboard access, relevant package links, marked proof placeholders, FAQ clarifying business support versus professional design, and local-only copyable starting brief.
 
+## 05 — Healthcare
+
+**URL:** /industries/healthcare/
+
+| Priority | Section | Placeholder / review | Information required | Status |
+|---|---|---|---|---|
+| High | Evidence | [Approved client or practice name] | Verified organisation and explicit permission to publish | Awaiting client |
+| High | Imagery | APPROVED HEALTHCARE BUSINESS IMAGE TO BE PROVIDED | Owned or licensed image and approved non-patient depiction | Awaiting client |
+| High | Measured outcomes | [Verified nonclinical business challenge, approach and outcomes] | Factual, client-approved business results, with no inferred clinical benefit | Awaiting client |
+| High | Testimonial | [Client-approved testimonial and attribution] | Authorized quote and attribution, excluding patient-identifying details | Awaiting client |
+| High | Proposal | External /contact-us/?industry=healthcare | End-to-end form submission and receipt test; avoid sensitive medical data | Verification pending |
+| High | Privacy / compliance | Any future practice-system integrations | Approved legal/privacy, security review, roles and data-processing agreements before implementation | Not in this site's scope |
+| Medium | Healthcare copy | General enquiries and front-office coordination | Confirm target practice categories, sector-specific terms and approved administrative support | Review pending |
+| Medium | Package details | Existing Taamerat360 package categories | Approved services, scope, exclusions, price and any supported integrations | Awaiting client |
+| Low | Hero artwork | Original illustrated administrative pathway | Optional approved non-patient photos or visuals | Optional |
+
+Implementation: complete responsive landing page, conceptual clinic-reception illustration, public-information and general administrative journey selector, business-solution cards, content placeholders, client-side fixed-choice starting brief, keyboard navigation and FAQ. No medical advice, patient record processing, booking, triage, emergency support or clinical outcome guarantee is represented.
+
 ## Remaining industry pages
 
 2. Real Estate — developed (awaiting proof content)
 3. E-commerce — developed (awaiting proof content)
 4. Architecture — developed (awaiting verified client content)
-5. Healthcare — pending
+5. Healthcare — developed (awaiting approved content and privacy/scope review)
 6. Education — pending
 7. Banking & Fintech — pending
 8. Insurance — pending

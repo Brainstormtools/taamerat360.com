@@ -22,13 +22,14 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 ## Industry landing pages — one at a time
 
-1. **Construction** — deployed with a project workflow, original art and explicit evidence placeholders.
-2. **Real Estate** — deployed with a property-client journey, original art and explicit evidence placeholders.
-3. **E-commerce** — deployed with customer-journey controls, original art and a local starting brief.
-4. **Architecture** — built on the `feature/industry-architecture` development branch, with a distinctive studio visual, client-brief workflow, local starting brief and an FAQ about service boundaries.
-5–11. **Remaining industries** — not yet developed.
+1. Construction — developed and deployed; approved proof outstanding.
+2. Real Estate — developed and deployed; approved proof outstanding.
+3. E-commerce — developed and deployed; approved proof outstanding.
+4. Architecture — developed and deployed; approved proof outstanding.
+5. Healthcare — under development on `feature/industry-healthcare`; includes a distinct administrative workflow, original illustrations, FAQ, fixed-choice business brief, and visible content placeholders.
+6–11. Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing — not yet developed.
 
-The site keeps a shared record of missing case study images, approved results, testimonials and service details under `docs/industry-placeholder-register.md`. Unverified business information is never invented. The contact form remains an external destination requiring a real end-to-end submission test.
+All missing imagery, clients, results, testimonials, pricing and sector claims are documented under `docs/industry-placeholder-register.md`. Do not invent clinical outcomes or suggest patient-data handling capability. Healthcare's business brief must remain nonclinical and not collect medical or patient information.
 
 ## Current development & release boundaries
 

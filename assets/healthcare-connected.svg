@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="760" viewBox="0 0 1080 760" role="img" aria-label="Conceptual healthcare reception, calendar and connected orange service path illustration">
+<defs><linearGradient id="clinic" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7eee7"/><stop offset="1" stop-color="#90c8b8"/></linearGradient><linearGradient id="window" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8dfea"/><stop offset="1" stop-color="#7cacba"/></linearGradient><linearGradient id="path" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#ffae72"/><stop offset=".57" stop-color="#f0633d"/><stop offset="1" stop-color="#bd392c"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<ellipse cx="544" cy="619" rx="459" ry="56" fill="#64786d" opacity=".18" filter="url(#soft)"/>
+<path d="M-30 569C150 485 239 666 422 575S713 475 848 554 1000 603 1129 506" fill="none" stroke="#a75038" opacity=".15" stroke-width="78" filter="url(#soft)"/>
+<path d="M-30 553C150 469 239 650 422 559S713 459 848 538 1000 587 1129 490" fill="none" stroke="#be382b" stroke-width="74" stroke-linecap="round"/>
+<path d="M-30 543C150 459 239 640 422 549S713 449 848 528 1000 577 1129 480" fill="none" stroke="url(#path)" stroke-width="72" stroke-linecap="round"/>
+<path d="M-30 522C150 438 239 618 422 528S713 426 848 504 1000 552 1129 457" fill="none" stroke="#ffd4a2" opacity=".30" stroke-width="5" stroke-linecap="round"/>
+<!-- Reception kiosk -->
+<g stroke-linejoin="round">
+<polygon points="103,282 306,205 452,281 246,370" fill="#f7f6eb" stroke="#a9baaf" stroke-width="3"/>
+<polygon points="103,282 246,370 246,520 103,441" fill="#c5d6c6"/>
+<polygon points="246,370 452,281 452,427 246,520" fill="url(#clinic)"/>
+<polygon points="92,277 306,193 469,278 248,376" fill="#2d7465"/>
+<polygon points="137,326 226,371 226,445 137,401" fill="url(#window)" stroke="#f6f6e8" stroke-width="7"/>
+<polygon points="280,374 418,314 418,402 280,467" fill="url(#window)" stroke="#f4f7e9" stroke-width="8"/>
+<path d="M349 349V435 M281 418L418 353" stroke="#e6f4ec" stroke-width="5"/>
+<g stroke="#edf2dd" stroke-width="6"><path d="M111 283L250 360 M267 358L449 278"/></g>
+<!-- Cross emblem, nonclinical -->
+<circle cx="298" cy="255" r="31" fill="#fbf5e6"/><path d="M290 237H306V247H317V263H306V274H290V263H279V247H290Z" fill="#ed7057"/>
+<!-- reception front desk -->
+<polygon points="267,454 402,409 470,445 331,498" fill="#f4f0e4"/>
+<polygon points="267,454 331,498 331,559 267,515" fill="#356c65"/>
+<polygon points="331,498 470,445 470,506 331,559" fill="#4b9085"/>
+<path d="M343 509L454 468" stroke="#d2e5d8" stroke-width="4"/>
+</g>
+<!-- client journey cards -->
+<g transform="rotate(8 612 266)">
+<rect x="497" y="122" width="258" height="284" rx="11" fill="#fff9ed" stroke="#b9c3ad" stroke-width="4"/>
+<rect x="517" y="146" width="216" height="49" rx="5" fill="#336f69"/>
+<text x="536" y="177" fill="#fff7e7" font-family="Arial" font-weight="700" font-size="18">NEXT STEP</text>
+<g stroke="#b4baaa" stroke-width="8" stroke-linecap="round"><path d="M557 238H698 M557 277H676 M557 317H691"/></g>
+<g fill="none" stroke="#d0b99d" stroke-width="4"><rect x="526" y="218" width="20" height="20" rx="2"/><rect x="526" y="258" width="20" height="20" rx="2"/><rect x="526" y="298" width="20" height="20" rx="2"/></g>
+<path d="M528 264L536 271L552 252" stroke="#f06c47" stroke-width="5" fill="none" stroke-linecap="round"/>
+<circle cx="669" cy="367" r="24" fill="#e8cf77"/><path d="M657 367H682 M669 355V380" stroke="#336e60" stroke-width="6" stroke-linecap="round"/>
+</g>
+<!-- Calendaring visual -->
+<g transform="rotate(-7 850 424)">
+<rect x="743" y="285" width="229" height="244" rx="12" fill="#f8f2e4" stroke="#aeafa0" stroke-width="4"/>
+<path d="M743 312Q743 285 770 285H946Q973 285 973 312V345H743Z" fill="#4776ab"/>
+<path d="M791 274V308 M925 274V308" stroke="#eed8ae" stroke-width="13" stroke-linecap="round"/>
+<g fill="#d5e2d3"><rect x="770" y="372" width="46" height="37" rx="3"/><rect x="836" y="372" width="46" height="37" rx="3"/><rect x="902" y="372" width="46" height="37" rx="3"/><rect x="770" y="425" width="46" height="37" rx="3"/><rect x="836" y="425" width="46" height="37" rx="3"/><rect x="902" y="425" width="46" height="37" rx="3"/></g>
+<rect x="836" y="425" width="46" height="37" rx="3" fill="#f17650"/><path d="M847 443L856 451L872 435" stroke="white" fill="none" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- floating plant -->
+<path d="M146 529L164 577L204 576L219 527Z" fill="#d9b789"/>
+<path d="M178 531L161 471M179 531L201 466M179 530L177 437" stroke="#386c4e" stroke-width="6" fill="none"/>
+<ellipse cx="153" cy="473" rx="19" ry="34" fill="#377f59" transform="rotate(-38 153 473)"/><ellipse cx="198" cy="463" rx="20" ry="34" fill="#346f58" transform="rotate(35 198 463)"/><ellipse cx="176" cy="439" rx="19" ry="32" fill="#49865b"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="12" letter-spacing="1.9">
+<rect x="46" y="94" width="243" height="59" rx="3" fill="#f9f5eb" stroke="#b5b4a4"/><circle cx="73" cy="122" r="7" fill="#ed6848"/><text x="95" y="119" fill="#4f5c52">CLEAR ENQUIRIES</text><text x="95" y="138" fill="#9e6547" font-size="10">START THE CONVERSATION</text>
+<rect x="778" y="113" width="260" height="59" rx="3" fill="#f9f5eb" stroke="#b5b4a4"/><circle cx="806" cy="142" r="7" fill="#4977ad"/><text x="829" y="139" fill="#4f5c52">BETTER FOLLOW-UPS</text><text x="829" y="157" fill="#9e6547" font-size="10">CONNECT THE NEXT STEP</text>
+</g>
+</svg>
