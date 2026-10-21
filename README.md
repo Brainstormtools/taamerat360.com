@@ -22,12 +22,13 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 
 ## Industry landing pages — one at a time
 
-- **01 Construction** — developed on branch `feature/industry-construction`. Includes an industry-specific responsive page, interactive stage selector, browser-only starting brief, original illustration, and placeholder case-study section. Integrates with the homepage industry explorer.
-- **03–11** — not yet developed. See `docs/industry-placeholder-register.md` for the remaining industry queue and Construction's outstanding verified content.
-- Scope, deliverables and proof are not fabricated. Placeholder data remains visible until approved client content is supplied.
+1. **Construction** — deployed with a project workflow, original art and explicit evidence placeholders.
+2. **Real Estate** — deployed with a property-client journey, original art and explicit evidence placeholders.
+3. **E-commerce** — deployed with customer-journey controls, original art and a local starting brief.
+4. **Architecture** — built on the `feature/industry-architecture` development branch, with a distinctive studio visual, client-brief workflow, local starting brief and an FAQ about service boundaries.
+5–11. **Remaining industries** — not yet developed.
 
-- **02 Real Estate** — complete and tested with approved content still pending.
-- **03 E-commerce** — complete in the `feature/industry-ecommerce` development branch with a dedicated customer-journey landing page, interactive workflow, illustrative artwork, content placeholders and browser-only brief builder.
+The site keeps a shared record of missing case study images, approved results, testimonials and service details under `docs/industry-placeholder-register.md`. Unverified business information is never invented. The contact form remains an external destination requiring a real end-to-end submission test.
 
 ## Current development & release boundaries
 
