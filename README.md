@@ -36,8 +36,8 @@ To run QA, install Node.js and dependencies listed in the workflow and run `npx 
 6. Education — source completed, tested (292/292), and merged.
 7. Banking & Fintech — source completed, tested (336/336), and merged.
 8. Insurance — source completed, tested (380/380), and merged.
-9. Telecom — in development on `feature/industry-telecom`; original illustration, interactive four-stage commercial journey, fixed-choice browser-only brief, responsible telecom service boundaries and verified-proof placeholders.
-10–11. Travel & Tourism and Ride Hailing — pending.
+9. Telecom — developed, tested (424/424 browser checks), and merged into `main`; custom illustration, four-stage public-information/commercial journey, private fixed-choice brief and proof placeholders.
+10–11. Travel & Tourism and Ride Hailing — pending (2 industry pages remain).
 
 This repository holds developed source, not verified production deployments. The website owner deploys the live site. Use `DEPLOYMENT_HANDOFF.md` for the owner-controlled handoff process and `docs/industry-placeholder-register.md` to replace unverified client evidence and clarify scope.
 
