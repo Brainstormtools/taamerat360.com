@@ -28,10 +28,10 @@ If you already use the repository's `main`, do not upload a duplicate ZIP over t
 
 ## Current industry delivery status
 
-- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism (10 of 11).
+- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing (11 of 11)..
 - Last independently confirmed production deployment: Architecture version, commit `66cdada5`.
-- Healthcare, Education, Banking & Fintech, Insurance, Telecom and Travel & Tourism source are merged into GitHub `main`, but the latest production deployment is not independently verified. The previous Healthcare Vercel deploy was blocked by the daily free quota; the site owner will manually deploy the current `main` commit when ready.
-- The next planned industry is Ride Hailing. One industry landing page remains.
+- Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism and Ride Hailing source are merged into GitHub `main`, but the latest production deployment is not independently verified. The previous Healthcare Vercel deploy was blocked by the daily free quota; the site owner will manually deploy the current `main` commit when ready.
+- All 11 planned industry landing pages have development-complete source. Client-provided content and approvals, end-to-end proposal submission validation, and manual production release are still outstanding.
 
 ## Before launching publicly
 
