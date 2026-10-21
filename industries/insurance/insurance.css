@@ -1,6 +1,6 @@
 /* Taamerat360 / Industry 07 — Insurance; conceptual service information and non-claims business communications */
 :root{--i-paper:#f6f1e9;--i-ink:#252925;--i-orange:#b13b28;--i-blue:#335db5;--i-green:#275c50}
-.i-hero{background:#f6f1e9;overflow:hidden}.i-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.04fr);align-items:center;gap:12px;min-height:700px}.i-hero-copy{position:relative;z-index:2;padding:43px 0}
+.motion-toggle{left:auto;right:16px;bottom:14px}.i-hero{background:#f6f1e9;overflow:hidden}.i-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.04fr);align-items:center;gap:12px;min-height:700px}.i-hero-copy{position:relative;z-index:2;padding:43px 0}
 .i-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:13px;font-size:10px;font-weight:800;letter-spacing:1.2px;color:#575247;margin-bottom:52px}.i-breadcrumb span{color:#aa9b8a}.i-breadcrumb strong{color:#a53b2a}.i-breadcrumb a:hover{text-decoration:underline}
 .i-kicker{color:#555348}.i-dot{display:inline-block;width:9px;height:9px;background:#e35b37;border-radius:50%;margin-right:8px}
 .i-hero h1{font-size:clamp(65px,7.75vw,118px);line-height:1;letter-spacing:-.085em;font-weight:500;margin:0 0 33px}
