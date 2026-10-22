@@ -90,9 +90,9 @@ Implementation: complete responsive architecture-practice landing page; native-W
 | High | Privacy / compliance | Any future practice-system integrations | Approved legal/privacy, security review, roles and data-processing agreements before implementation | Not in this site's scope |
 | Medium | Healthcare copy | General enquiries and front-office coordination | Confirm target practice categories, sector-specific terms and approved administrative support | Review pending |
 | Medium | Package details | Existing Taamerat360 package categories | Approved services, scope, exclusions, price and any supported integrations | Awaiting client |
-| Low | Hero artwork | Original illustrated administrative pathway | Optional approved non-patient photos or visuals | Optional |
+| Low | Hero and scroll artwork | Fictional WebGL reception and nonclinical service pathway with original SVG fallback | Optional approved non-patient business photography, verified descriptions and visual acceptance; no real patient, appointment or clinical workflow representation | Illustrative 3D developed; practice proof optional |
 
-Implementation: complete responsive landing page, conceptual clinic-reception illustration, public-information and general administrative journey selector, business-solution cards, content placeholders, client-side fixed-choice starting brief, keyboard navigation and FAQ. No medical advice, patient record processing, booking, triage, emergency support or clinical outcome guarantee is represented.
+Implementation: complete responsive landing page; fictional native-WebGL healthcare-reception hero and four-stage reversible scroll story with original SVG/no-JS fallback; public-information and general administrative journey selector; business-solution cards; content placeholders; client-side fixed-choice brief; keyboard navigation and FAQ. No medical advice, patient record processing, appointment booking, triage, emergency support, clinical integration or outcome guarantee is represented.
 
 ## 06 — Education
 
