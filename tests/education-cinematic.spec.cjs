@@ -23,6 +23,13 @@ test('Education scene is actual WebGL with dimensional geometry when available',
   expect(scene.vertices).toBeGreaterThan(250);
   await expect(page.locator('body')).toHaveClass(/education-webgl-ready/);
   await expect(page.locator('canvas.immersive-webgl')).toHaveCount(2);
+  // Both canvases must receive a first frame even if below the initial
+  // mobile viewport: a blank off-screen WebGL canvas must not hide the SVG.
+  const initialFrames=await page.locator('canvas.immersive-webgl').evaluateAll(list=>list.map(c=>({w:c.width,h:c.height})));
+  for(const frame of initialFrames){
+   expect(frame.w).toBeGreaterThan(100);
+   expect(frame.h).toBeGreaterThan(100);
+  }
   const gl=await page.locator('canvas.immersive-webgl').first().evaluate(c=>{const g=c.getContext('webgl');return{width:c.width,height:c.height,depth:g.isEnabled(g.DEPTH_TEST)};});
   expect(gl.width).toBeGreaterThan(100);expect(gl.height).toBeGreaterThan(100);expect(gl.depth).toBe(true);
  }
