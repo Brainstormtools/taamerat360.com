@@ -1,13 +1,13 @@
 # Taamerat360 — Business-need page placeholders and approvals
 
-The four business-need landing pages are original editorial source components. Marketing descriptions explain intended processes and proposed benefits; no invented clients, metrics, testimonials, promises, or research results are permitted. The site owner manages production deployment.
+The four business-need landing pages are original editorial source components, committed in `main` and covered by the full 16-page regression suite (968/968 passing on the 23 October 2026 baseline). Their distinct cinematic native-WebGL upgrades are future work. Marketing descriptions explain intended processes and proposed benefits; no invented clients, metrics, testimonials, promises, or research results are permitted. The site owner manages production deployment.
 
 | Page | Route | Source status | Still required |
 |---|---|---|---|
-| Reach More Customers | /solutions/reach-more-customers/ | Developed and awaiting PR QA | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
-| Move Sales Forward | /solutions/move-sales-forward/ | Source developed, pending CI and merge | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
-| Improve Customer Experience | /solutions/improve-customer-experience/ | Source developed; pending full CI and merge | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
-| Simplify Business Operations | /solutions/simplify-business-operations/ | Source developed; pending CI and merge | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
+| Reach More Customers | /solutions/reach-more-customers/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
+| Move Sales Forward | /solutions/move-sales-forward/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
+| Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
+| Simplify Business Operations | /solutions/simplify-business-operations/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — required before claims/public launch
 
