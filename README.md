@@ -24,6 +24,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Reach More Customers — first cinematic Business Need page
+
+The page at `/solutions/reach-more-customers/` now has a **fictional 3D discovery constellation** in deep forest green, warm paper, copper and sea-glass. Its original native-WebGL gallery and imagined audience arcs advance through four reversible business communication chapters: **FIND → ATTRACT → EXPLAIN → CONNECT**.
+
+- Native self-hosted WebGL reuses `assets/immersive-scene-kit.js`, with distinct `solutions/reach-more-customers/reach-more-customers-3d.js` geometry and responsive `reach-more-customers-3d.css` styling; no CDN, external map, tracking, customer database or back-end integration.
+- Hero and below-the-fold story canvases render an initial frame before the original `assets/reach-more-customers.svg` is faded. Blocked WebGL and no-JavaScript modes retain the complete original SVG, editorial content and proposal links.
+- Four continuous, reversible scroll chapters with accessible direct stage buttons (including keyboard arrows), a pause-motion control, system reduced-motion handling, mobile and compact-viewport layouts.
+- Preserves all existing challenge, approach, package, evidence and CTA sections; opening the separately hosted proposal page is **not** a verified submitted enquiry.
+- `tests/reach-more-customers-cinematic.spec.cjs` adds eight browser scenarios across all four viewport profiles to verify depth-tested WebGL, initial frames, scroll reversal, stage controls, motion settings, blocked WebGL and no-JavaScript fallback.
+- The business visuals contain **no actual customer, campaign performance, conversions, measured traffic, qualified lead counts or proven project outcome**; client proof, commercial terms, legal disclosures, and real proposal receipt remain pending owner approval. The entire page remains preview-only `noindex`.
+
 ## Ride Hailing — eleventh cinematic industry landing page
 
 The Ride Hailing page at `/industries/ride-hailing/` has a **fictional dimensional mobility-business information district**, combining simplified city architecture, abstract public-service panels, a stylized decorative car and non-transactional orange wayfinding. The urban cobalt, orange and mint scene advances and reverses through DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE.
