@@ -145,9 +145,9 @@ Implementation: original responsive financial-services visual language plus a fi
 | High | Contact link | /contact-us/?industry=insurance is external; verify real end-to-end delivery without sensitive information | Verification pending |
 | Medium | Scope and packages | General Taamerat360 offerings to be tailored only after approved insurance-business positioning, fees, responsibilities and exclusions | Awaiting client |
 | Medium | Workflow language | Illustrative public information, general enquiries and non-claims business coordination | Review pending |
-| Low | Hero | Conceptual illustrated information desk, shield arch and connected service path (not an insurer or guarantee) | Completed, replaceable |
+| Low | Hero / cinematic artwork | Fictional native-WebGL communications atrium with architectural arch, public cards and SVG fallback (not an insurer, insurance system or coverage guarantee) | Stylized 3D developed; real case imagery awaits permission and sector review |
 
-Implementation: complete responsive insurance-business landing page, original SVG hero, three insurance-specific communication challenges, keyboard-friendly four-stage non-claims journey, general business packages, clear evidence placeholders, fixed-choice browser-only copyable brief, accessibility and mobile motion controls, responsible FAQ. No quotes, policies, underwriting, claim handling, coverage decisions, licensing representations, secure integrations or legal compliance claims are made.
+Implementation: complete responsive insurance-business landing page, original SVG fallback plus native-WebGL 3D communications atrium and four reversible scroll chapters, three insurance-specific communication challenges, keyboard-friendly four-stage non-claims journey, general business packages, clear evidence placeholders, fixed-choice browser-only copyable brief, accessibility and mobile motion controls, responsible FAQ. No quotes, policies, underwriting, claim handling, coverage decisions, licensing representations, secure integrations or legal compliance claims are made.
 
 ## 09 — Telecom
 
