@@ -16,6 +16,18 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Healthcare — fifth cinematic industry landing page
+
+The Healthcare page at `/industries/healthcare/` now has a **fictional, nonclinical WebGL reception scene** with four scroll-controlled stages: DISCOVER → ENQUIRE → FOLLOW UP → COORDINATE.
+
+- A calm dimensional reception, public information signage, general enquiry cards, an illustrative administrative checklist and team handover cues progressively appear while scrolling. Reverse scrolling reverses the model progression.
+- The visual environment is **not a real clinic, medical service, clinical workflow, patient portal, booking system, medical record, triage path or diagnosis/treatment service**. No patient stories or actual clinical outcomes are shown.
+- Uses existing `assets/immersive-scene-kit.js`; page-specific WebGL geometry, motion and styles are `industries/healthcare/healthcare-3d.js` and `healthcare-3d.css`. No third-party 3D library or network service is introduced.
+- Preserves the original `assets/healthcare-connected.svg` as no-JavaScript/no-WebGL fallback, and existing keyboard-operable journey controls, pause/reduced-motion settings, FAQ, external proposal link, proof placeholders and fixed-choice browser-only discussion brief.
+- `tests/healthcare-cinematic.spec.cjs` adds cross-device native depth, bidirectional scroll, button/keyboard, paused/reduced-motion, blocked-WebGL and JavaScript-disabled regression checks.
+- Any healthcare client photos, case-study evidence, practice details, pricing, actual integrations or health-related claims still require approval and privacy/security review.
+- Preview `noindex` and owner-managed production deployment remain unchanged; no live enquiries or patient data are collected by this scene.
+
 ## Architecture — fourth cinematic industry landing page
 
 The Architecture page at `/industries/architecture/` includes a **fictional blueprint-to-3D studio maquette** that moves through four scroll-controlled business chapters: DISCOVERY → BRIEF → PROPOSAL → COORDINATION.

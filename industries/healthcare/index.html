@@ -8,7 +8,7 @@
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/healthcare-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./healthcare.css"><script src="./healthcare.js" defer></script>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./healthcare.css"><link rel="stylesheet" href="./healthcare-3d.css"><script src="./healthcare.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./healthcare-3d.js" defer></script>
 </head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
@@ -17,15 +17,15 @@
 <div class="nav-links" id="nav-links"><a href="../../#industries">All industries</a><a href="#challenges">Challenges</a><a href="#journey">Practice journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Discuss a project <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="h-hero" aria-labelledby="h-hero-title"><div class="shell h-hero-grid">
+<section class="h-hero h-cinema-hero" aria-labelledby="h-hero-title"><div class="shell h-hero-grid">
 <div class="h-hero-copy"><nav class="h-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>HEALTHCARE</strong></nav>
 <p class="eyebrow h-kicker"><span class="h-dot" aria-hidden="true"></span> INDUSTRY 05 / HEALTHCARE BUSINESSES</p>
 <h1 id="h-hero-title">More time for<br><em>what matters.</em></h1>
 <p class="h-lead">The experience around healthcare should feel considered, too. Help people find clear information, reach the right team and understand the next administrative step—while keeping clinical care with qualified professionals.</p>
-<div class="h-hero-actions"><a class="btn btn-dark" href="#journey">Explore the journey <span aria-hidden="true">↗</span></a><a class="h-simple-link" href="#brief">Plan a better process <span aria-hidden="true">↗</span></a></div>
+<div class="h-hero-actions"><a class="btn btn-dark" href="#cinema-healthcare">Explore the journey <span aria-hidden="true">↗</span></a><a class="h-simple-link" href="#brief">Plan a better process <span aria-hidden="true">↗</span></a></div>
 <div class="h-hero-note"><span aria-hidden="true"></span> CLEAR INFORMATION. CONSIDERATE COMMUNICATION.</div>
 </div>
-<div class="h-hero-visual"><div class="h-hero-orbit" aria-hidden="true"></div><img src="../../assets/healthcare-connected.svg" alt="Conceptual illustration of a healthcare reception, an administrative checklist, appointment calendar and connected orange path." width="1080" height="760" decoding="async" fetchpriority="high"><div class="h-stamp"><span>THE PEOPLE<br>BEHIND THE</span><strong>PROCESS.</strong><span>05 / 11</span></div><p class="h-art-caption">CONCEPTUAL ARTWORK / NOT A CLINICAL SERVICE OR PATIENT RECORD</p></div>
+<div class="h-hero-visual" data-healthcare-hero><div class="h-hero-orbit" aria-hidden="true"></div><img src="../../assets/healthcare-connected.svg" alt="Conceptual illustration of a healthcare reception, an administrative checklist, appointment calendar and connected orange path." width="1080" height="760" decoding="async" fetchpriority="high"><div class="h-stamp"><span>THE PEOPLE<br>BEHIND THE</span><strong>PROCESS.</strong><span>05 / 11</span></div><p class="h-art-caption">CONCEPTUAL ARTWORK / NOT A CLINICAL SERVICE OR PATIENT RECORD</p></div>
 </div><div class="shell h-hero-foot"><span>DISCOVERY / ENQUIRY / FOLLOW-UP / COORDINATION</span><a href="#challenges">Explore the challenges ↓</a></div>
 </section>
 <div class="h-ribbon" aria-hidden="true"><div class="h-ribbon-inner"><span>CLEAR FIRST CONTACT <b>✳</b> ADMINISTRATIVE FOLLOW-UPS <b>✳</b> CONNECTED FRONT-OFFICE TEAMS <b>✳</b></span><span>CLEAR FIRST CONTACT <b>✳</b> ADMINISTRATIVE FOLLOW-UPS <b>✳</b> CONNECTED FRONT-OFFICE TEAMS <b>✳</b></span></div></div>
@@ -36,8 +36,51 @@
 <article class="h-challenge h-card-sand"><div class="h-card-index"><span>02 / GENERAL ENQUIRIES</span><span aria-hidden="true">↗</span></div><div class="h-symbol" aria-hidden="true">↗</div><h3>Questions arrive.<br><em>Responses get delayed.</em></h3><p>Administrative enquiries can become fragmented across channels and teams.</p></article>
 <article class="h-challenge h-card-green"><div class="h-card-index"><span>03 / COORDINATION</span><span aria-hidden="true">↗</span></div><div class="h-symbol" aria-hidden="true">≋</div><h3>Busy front desks.<br><em>Disconnected updates.</em></h3><p>Clear responsibility for nonclinical follow-up helps teams respond consistently.</p></article>
 </div></div></section>
+
+<section class="h-cinema-scroll" id="cinema-healthcare" aria-labelledby="healthcare-cinema-title">
+<div class="shell">
+  <div class="healthcare-cinema-heading">
+    <p class="eyebrow">02 / A CONSIDERATE NONCLINICAL SERVICE PATH</p>
+    <h2 id="healthcare-cinema-title">Help people find<br><em>the right next step.</em></h2>
+    <p>Explore a <strong>fictional healthcare reception and administrative journey</strong>, focusing only on public information, general business enquiries, nonclinical follow-up and staff responsibilities. This illustration is not a real practice, patient portal, appointment system, clinical workflow or medical service.</p>
+  </div>
+  <div class="healthcare-cinema-layout">
+    <div class="healthcare-cinema-sticky">
+      <div class="healthcare-cinema-frame" data-healthcare-scene role="img" aria-label="Conceptual 3D healthcare reception progressively showing public information, general enquiry guidance, administrative checklist and team handovers">
+        <img src="../../assets/healthcare-connected.svg" class="healthcare-cinema-fallback" width="1080" height="760" alt="" decoding="async">
+        <span class="healthcare-cinema-watermark" aria-hidden="true">CARE / 04</span>
+        <div class="healthcare-cinema-hud"><span>NONCLINICAL SERVICES / CONCEPT ONLY</span><strong id="healthcare-cinema-progress" aria-live="off">01 / 04</strong></div>
+      </div>
+      <p class="healthcare-cinema-caption">Scroll to reveal each administrative step · Scroll up to reverse · Use the existing journey controls below for direct selection.</p>
+    </div>
+    <div class="healthcare-cinema-chapters">
+      <article class="healthcare-cinema-chapter" data-healthcare-chapter="0">
+        <span>01 / DISCOVER</span><h3>Make public information<br><em>clear and approachable.</em></h3>
+        <p>People should find approved business details, accessibility information and appropriate contact options without encountering confusing claims.</p>
+        <small>DISCOVERY / PUBLIC INFORMATION</small>
+      </article>
+      <article class="healthcare-cinema-chapter" data-healthcare-chapter="1">
+        <span>02 / ENQUIRE</span><h3>Give general questions<br><em>a responsible route.</em></h3>
+        <p>Direct nonclinical business enquiries to an administrative contact, with transparent expectations and no capture of symptoms or medical information.</p>
+        <small>GENERAL ENQUIRIES / CONTACT CLARITY</small>
+      </article>
+      <article class="healthcare-cinema-chapter" data-healthcare-chapter="2">
+        <span>03 / FOLLOW UP</span><h3>Keep administrative steps<br><em>easy to understand.</em></h3>
+        <p>Illustrate clear owners, useful business updates and a simple follow-up checklist without creating appointments or patient records.</p>
+        <small>ADMINISTRATION / NONCLINICAL FOLLOW-UP</small>
+      </article>
+      <article class="healthcare-cinema-chapter" data-healthcare-chapter="3">
+        <span>04 / COORDINATE</span><h3>Help the front-office team<br><em>stay connected.</em></h3>
+        <p>Make general responsibilities visible while clinicians retain control of patient care, clinical decisions and regulated information.</p>
+        <small>STAFF RESPONSIBILITY / BUSINESS COMMUNICATION</small>
+      </article>
+    </div>
+  </div>
+</div>
+</section>
+
 <section id="journey" class="h-section h-journey" aria-labelledby="h-journey-title"><div class="shell">
-<div class="h-heading h-heading-dark"><div><p class="eyebrow">02 / THE CONNECTED PRACTICE JOURNEY</p><h2 id="h-journey-title">A smoother experience<br>starts <em>before the visit.</em></h2></div><p>Explore an example nonclinical workflow. No patient records, appointments or medical advice are processed by this demonstration.</p></div>
+<div class="h-heading h-heading-dark"><div><p class="eyebrow">03 / THE CONNECTED PRACTICE JOURNEY</p><h2 id="h-journey-title">A smoother experience<br>starts <em>before the visit.</em></h2></div><p>Explore an example nonclinical workflow. No patient records, appointments or medical advice are processed by this demonstration.</p></div>
 <div class="h-journey-grid"><div class="h-stage-options" role="group" aria-label="Healthcare administrative workflow stages">
 <button type="button" class="h-stage is-active" data-stage="discover" aria-pressed="true"><span>01</span><strong>Make information clear</strong><span aria-hidden="true">↗</span></button>
 <button type="button" class="h-stage" data-stage="enquire" aria-pressed="false"><span>02</span><strong>Guide the general enquiry</strong><span aria-hidden="true">↗</span></button>
@@ -55,7 +98,7 @@
 <div class="h-stage-foot"><span>NO PATIENT DATA / NO CLINICAL PROCESSING</span><span id="h-stage-count">1 OF 4</span></div></div></div>
 </div></section>
 <section class="h-section" id="solutions" aria-labelledby="h-sol-title"><div class="shell">
-<div class="h-heading"><div><p class="eyebrow">03 / PRACTICAL BUSINESS SUPPORT</p><h2 id="h-sol-title">A better process<br>around <em>the people.</em></h2></div><p>Taamerat360 supports general business growth and nonclinical operations. Patient portals, health records, medical devices and regulated integrations require separate review and are not offered or represented here.</p></div>
+<div class="h-heading"><div><p class="eyebrow">04 / PRACTICAL BUSINESS SUPPORT</p><h2 id="h-sol-title">A better process<br>around <em>the people.</em></h2></div><p>Taamerat360 supports general business growth and nonclinical operations. Patient portals, health records, medical devices and regulated integrations require separate review and are not offered or represented here.</p></div>
 <div class="h-solution-grid">
 <article class="h-solution h-s-blue"><span>01 / VISIBILITY</span><div class="h-s-glyph" aria-hidden="true">◎</div><h3>Lead Growth</h3><p>Make practice information easier to discover and understand.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 <article class="h-solution h-s-rose"><span>02 / COMMUNICATION</span><div class="h-s-glyph" aria-hidden="true">↗</div><h3>Sales Momentum</h3><p>Improve responses and follow-ups for appropriate business enquiries.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
@@ -63,14 +106,14 @@
 <article class="h-solution h-s-dark"><span>04 / COORDINATION</span><div class="h-s-glyph" aria-hidden="true">✳</div><h3>Connected Growth</h3><p>Connect discovery, business communication and operational follow-through.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 </div></div></section>
 <section class="h-section h-evidence" id="evidence" aria-labelledby="h-evidence-title"><div class="shell h-proof-grid">
-<div><p class="eyebrow">04 / VERIFIED WORK ONLY</p><h2 id="h-evidence-title">Trust needs<br><em>real evidence.</em></h2>
+<div><p class="eyebrow">05 / VERIFIED WORK ONLY</p><h2 id="h-evidence-title">Trust needs<br><em>real evidence.</em></h2>
 <p>Verified client case studies, practice imagery, measurable business outcomes and approved testimonials will appear here when supplied and authorized. We will not present fabricated patient stories or clinical outcomes.</p>
 <a class="h-simple-link" href="#brief">Explore your own opportunity <span aria-hidden="true">↗</span></a></div>
 <article class="h-proof-card"><div class="h-placeholder-label"><span>CONTENT PLACEHOLDER</span><span aria-hidden="true">◌</span></div><div class="h-proof-image"><span>APPROVED HEALTHCARE BUSINESS<br>IMAGE TO BE PROVIDED</span></div>
 <div class="h-proof-detail"><span>HEALTHCARE / APPROVED BUSINESS CASE STUDY</span><h3>[Approved client or practice name]</h3><p>[Verified nonclinical business challenge, approach and outcomes]</p><footer>[Client-approved testimonial and attribution]</footer></div></article>
 </div></section>
 <section class="h-section h-brief-section" id="brief" aria-labelledby="h-brief-title"><div class="shell">
-<div class="h-heading"><div><p class="eyebrow">05 / BEGIN WITH BUSINESS NEEDS</p><h2 id="h-brief-title">A better plan starts<br>with <em>clear priorities.</em></h2></div><p>Select three general business preferences to create a shareable starting brief. Do not include patient names, medical details or other sensitive information.</p></div>
+<div class="h-heading"><div><p class="eyebrow">06 / BEGIN WITH BUSINESS NEEDS</p><h2 id="h-brief-title">A better plan starts<br>with <em>clear priorities.</em></h2></div><p>Select three general business preferences to create a shareable starting brief. Do not include patient names, medical details or other sensitive information.</p></div>
 <div class="h-brief-grid"><form id="h-brief-form" class="h-form"><div class="h-form-head"><strong>NONCLINICAL PROJECT BRIEF</strong><span>03 QUESTIONS</span></div>
 <label for="h-practice">What kind of organisation?</label><select id="h-practice" required><option value="General healthcare practice">General healthcare practice</option><option value="Dental practice">Dental practice</option><option value="Diagnostic service business">Diagnostic service business</option><option value="Specialist outpatient practice">Specialist outpatient practice</option><option value="Other healthcare organisation">Other healthcare organisation</option></select>
 <label for="h-challenge">Where is the administrative friction?</label><select id="h-challenge" required><option value="Making service information easy to find">Making service information easy to find</option><option value="Handling general nonclinical enquiries">Handling general nonclinical enquiries</option><option value="Clarifying administrative follow-ups">Clarifying administrative follow-ups</option><option value="Coordinating nonclinical staff updates">Coordinating nonclinical staff updates</option><option value="Connecting the complete business journey">Connecting the complete business journey</option></select>
@@ -84,7 +127,7 @@
 <p id="h-status" role="status" aria-live="polite">Your answers remain in this browser. Do not share health information through this brief.</p></div>
 </div></div></section>
 <section class="h-section h-faq" id="questions" aria-labelledby="h-faq-title"><div class="shell h-faq-grid">
-<div><p class="eyebrow">06 / TRUST & BOUNDARIES</p><h2 id="h-faq-title">Responsible by<br><em>design.</em></h2><p>We keep the business conversation separate from clinical decisions and sensitive health data.</p></div>
+<div><p class="eyebrow">07 / TRUST & BOUNDARIES</p><h2 id="h-faq-title">Responsible by<br><em>design.</em></h2><p>We keep the business conversation separate from clinical decisions and sensitive health data.</p></div>
 <div class="h-faq-items">
 <details><summary>Does this page provide medical advice or clinical services?<span aria-hidden="true">+</span></summary><p>No. This page is about general business communication, service discovery and nonclinical coordination. Medical advice, diagnosis, treatment, triage and emergency response must remain with qualified providers and appropriate official channels.</p></details>
 <details><summary>Should we enter patient or medical information in the brief?<span aria-hidden="true">+</span></summary><p>No. The brief contains only fixed business categories. Do not paste patient names, medical histories, appointment details or sensitive health data into enquiries. Any future handling of regulated data requires a separately agreed security, privacy and compliance review.</p></details>
