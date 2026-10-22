@@ -1,0 +1,64 @@
+/* Healthcare cinematic visual direction: calm nonclinical environments.
+   WebGL is progressive enhancement. Original SVGs remain the usable fallback. */
+.h-cinema-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 73% 40%,#416f72 0,#284d58 47%,#172f3d 100%);color:#f9f5e9}
+.h-cinema-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#e0f7ec14 1px,transparent 1px),linear-gradient(90deg,#e0f7ec14 1px,transparent 1px);background-size:82px 82px;mask-image:linear-gradient(90deg,transparent,#000)}
+.h-cinema-hero .h-breadcrumb{color:#dfebe2}.h-cinema-hero .h-breadcrumb strong{color:#f3c59a}.h-cinema-hero .h-breadcrumb span{color:#b6cfc5}
+.h-cinema-hero .h-kicker{color:#dde9d9}.h-cinema-hero .h-dot{background:#f5ac85}
+.h-cinema-hero h1{font-size:clamp(64px,7.9vw,120px)}.h-cinema-hero h1 em{color:#efbd94}
+.h-cinema-hero .h-lead{color:#e3eee9}.h-cinema-hero .h-hero-actions .btn-dark{background:#f3c18e;color:#193e43}
+.h-cinema-hero .h-hero-actions .btn-dark:hover{background:#ffe0b5}.h-cinema-hero .h-simple-link{color:#fff6e4}
+.h-cinema-hero .h-hero-note{color:#deeee5}.h-cinema-hero .h-hero-note span{background:#f1b38a}
+.h-cinema-hero .h-hero-foot{border-color:#e3eee74b;color:#e2ebe5}.h-cinema-hero .h-hero-foot a{color:#f1c59f}
+.h-cinema-hero .h-hero-orbit{border-color:#d9f1e14c}.h-cinema-hero .h-hero-orbit:before{border-color:#d1f0db3d}
+.h-cinema-hero .h-stamp{background:#d6a47c;color:#153840;z-index:5}.h-cinema-hero .h-stamp span{color:#23494b}
+.h-cinema-hero .h-art-caption{z-index:5;color:#e5e9de;background:#1a3845c9;padding:7px 11px}
+.h-cinema-hero .h-hero-visual>img{filter:drop-shadow(0 24px 30px #071a2775)}
+.immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3;opacity:0;transition:opacity .55s ease}
+body.healthcare-webgl-ready .immersive-webgl{opacity:1}
+body.healthcare-webgl-ready .h-cinema-hero .h-hero-visual>img{opacity:.03;filter:blur(12px);transition:opacity .55s}
+body.healthcare-webgl-ready .healthcare-cinema-fallback{opacity:.04;filter:blur(12px)}
+.h-cinema-scroll{background:#193640;color:#f7f4e6;padding:108px 0 126px;position:relative;isolation:isolate}
+.h-cinema-scroll::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(90deg,#e1f2e20d 1px,transparent 1px);background-size:91px 91px}
+.healthcare-cinema-heading{position:relative;max-width:980px;padding-bottom:74px}
+.healthcare-cinema-heading .eyebrow{color:#f4c59d}
+.healthcare-cinema-heading h2{font-size:clamp(51px,6.2vw,98px);line-height:1.045;letter-spacing:-.072em;font-weight:500;margin:0 0 28px}
+.healthcare-cinema-heading h2 em{font-family:"DM Serif Display",Georgia,serif;color:#f1bd96;font-weight:400;letter-spacing:-.026em}
+.healthcare-cinema-heading>p:last-child{font-size:16px;line-height:1.85;max-width:710px;color:#dcebe5;margin:0}
+.healthcare-cinema-heading strong{color:#fff7e9}
+.healthcare-cinema-layout{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);gap:clamp(28px,5vw,81px);align-items:start}
+.healthcare-cinema-sticky{position:sticky;top:105px;min-width:0;z-index:2}
+.healthcare-cinema-frame{height:clamp(440px,46vw,670px);position:relative;overflow:hidden;isolation:isolate;border:1px solid #bddbd276;background:radial-gradient(ellipse at 52% 38%,#64888a 0,#345863 55%,#1c3947 100%);box-shadow:0 31px 95px #061f285a}
+.healthcare-cinema-frame::before{content:"";position:absolute;inset:18px;border:1px solid #e2f0e331;pointer-events:none;z-index:4}
+.healthcare-cinema-fallback{position:absolute;width:108%;height:92%;top:4%;left:-4%;object-fit:contain;opacity:.74;transition:opacity .5s}
+.healthcare-cinema-watermark{position:absolute;right:22px;top:15px;font-size:70px;letter-spacing:-.10em;font-weight:800;opacity:.07;color:#f6fff0;pointer-events:none;z-index:5}
+.healthcare-cinema-hud{position:absolute;inset:auto 0 0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:22px 23px;border-top:1px solid #e5f0df43;background:#173743ed;color:#e9f2e3;font-size:10px;font-weight:800;letter-spacing:.085em}
+.healthcare-cinema-hud strong{font-size:17px;color:#f8c59b;white-space:nowrap}
+.healthcare-cinema-caption{margin:16px 0 0;line-height:1.75;font-size:11px;color:#cfdfd7}
+.healthcare-cinema-chapters{min-width:0;display:flex;flex-direction:column}
+.healthcare-cinema-chapter{min-height:clamp(385px,56vh,575px);border-top:1px solid #b4cfc25c;padding:51px 5px 56px 8px;display:flex;flex-direction:column;justify-content:center;scroll-margin-top:135px;transition:background-color .25s,padding-left .25s}
+.healthcare-cinema-chapter:last-child{border-bottom:1px solid #b4cfc25c}
+.healthcare-cinema-chapter>span{font-size:11px;letter-spacing:.16em;font-weight:800;color:#f2c29b}
+.healthcare-cinema-chapter h3{font-size:clamp(37px,4vw,63px);line-height:1.1;letter-spacing:-.056em;font-weight:500;margin:22px 0}
+.healthcare-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;color:#f0bb98;font-weight:400}
+.healthcare-cinema-chapter p{max-width:475px;line-height:1.88;font-size:15px;color:#e0eae4;margin:0 0 31px}
+.healthcare-cinema-chapter small{font-size:10px;letter-spacing:.10em;font-weight:700;color:#d9e3d7}
+body.healthcare-webgl-ready .healthcare-cinema-chapter.is-current{background:linear-gradient(90deg,#f3be9b18,transparent 76%);border-left:2px solid #f6c49c;padding-left:20px}
+@media(max-width:980px){
+ .healthcare-cinema-layout{grid-template-columns:minmax(0,1fr);gap:25px}
+ .healthcare-cinema-sticky{top:86px}.healthcare-cinema-frame{height:338px}
+ .healthcare-cinema-chapter{min-height:335px;padding:38px 14px}
+ .healthcare-cinema-heading{padding-bottom:39px}.h-cinema-scroll{padding:77px 0 96px}
+}
+@media(max-width:760px){
+ .h-cinema-hero h1{font-size:clamp(51px,11.9vw,82px)}
+ .healthcare-cinema-sticky{top:76px}.healthcare-cinema-frame{height:262px}
+ .healthcare-cinema-watermark{font-size:48px;top:8px}
+ .healthcare-cinema-hud{padding:13px;font-size:9px}.healthcare-cinema-hud strong{font-size:13px}
+ .healthcare-cinema-caption{font-size:10px}
+ .healthcare-cinema-chapter{min-height:316px;padding:31px 9px}
+ .healthcare-cinema-chapter h3{font-size:clamp(35px,9vw,48px)}
+ .healthcare-cinema-chapter p{font-size:14px}
+}
+@media(max-width:370px){.h-cinema-hero h1{font-size:47px}.healthcare-cinema-frame{height:220px}.healthcare-cinema-sticky{top:72px}.healthcare-cinema-hud{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.healthcare-cinema-fallback,.healthcare-cinema-chapter{transition:none!important}}
+body.motion-off .immersive-webgl,body.motion-off .healthcare-cinema-chapter{transition:none!important}
