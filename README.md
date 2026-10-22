@@ -11,10 +11,18 @@ This repository contains the independent Taamerat360 interactive website preview
 
 ## Testing
 GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
-- **44 automated Chromium checks passing** at commit `cc81e40a`
+- Full Chromium regression suite across all 16 pages; latest audited counts and the exact commit are recorded in GitHub Actions → Frontend QA (620/620 passed at the fourth-page milestone)
 - 1440px desktop, 820px tablet, standard mobile, 320px compact mobile
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
+
+## Site-wide quality and release readiness
+
+- The **16-page** structural and navigation audit covers the homepage, all eleven industries and all four business-need pages.
+- The homepage default business-need CTA now opens Reach More Customers directly; all 15 landing pages have no-JavaScript fallback links.
+- Expanded Playwright coverage validates all primary routes, initial selected states, accessibility-related structure, local assets and navigation.
+- **Not yet approved for public launch:** real submitted-and-received proposal test, authorized client proof and scope, production access/deployment, privacy review, and indexing decision.
+- See `docs/site-release-readiness.md` for the complete blocker register and suggested owner sign-off sequence.
 
 ## Source ZIP and owner-managed release
 
@@ -57,7 +65,7 @@ All **four business-need pages** now have source implementations; they remain su
 - Vercel project `taamerat360.com` is linked to `main`. A merge into `main` can trigger a new deployment, subject to Vercel quotas.
 - The website intentionally retains preview-only `noindex` and `robots.txt` restrictions. Remove these **only after** approved public-domain launch.
 - External proposal links remain on the existing ChatGPT-hosted contact destination. An HTTP 200 response **does not verify a submitted enquiry**; an end-to-end test is still required.
-- The latest construction PR uses GitHub Actions cross-device browser checks, accessibility scans, JavaScript-disabled readability checks and screenshot artifacts.
+- All 16 current site routes are included in the GitHub Actions regression checks; comprehensive sign-off and source/export status are tracked in `docs/site-release-readiness.md`.
 
 ## Boundaries
 The illustration work uses original vector compositions rather than photorealistic 3D renders. No backend, lead database or email delivery service has been configured in this repository.
