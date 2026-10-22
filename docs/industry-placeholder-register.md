@@ -126,9 +126,9 @@ Implementation: responsive Education landing page; fictional native-WebGL campus
 | High | Privacy/security | No accounts, cards, credentials, customer data or transaction processing | Formal legal, regulatory, privacy, data-protection and security review required before any future regulated integration | Outside current scope |
 | High | Contact destination | External /contact-us/?industry=banking-fintech | End-to-end real submission and receipt, without sending sensitive data | Verification pending |
 | Medium | Packages and copy | Taamerat360 general business services | Client-approved product scopes, fees, exclusions and sector positioning | Awaiting client |
-| Low | Hero artwork | Conceptual public-information journey | Optional approved real organisation imagery with permission | Optional |
+| Low | Hero / cinematic artwork | Fictional dimensional public information pavilion with original SVG fallback | Optional owner-approved, permissioned sector imagery and visual acceptance; never portray concept art as a bank, real platform or security certification | Illustrative 3D developed; real proof optional |
 
-Implementation: original responsive financial-services visual language, non-transactional four-stage public-offer/business-enquiry journey, keyboard-accessible controls, fixed-choice local brief builder with copy fallback, business service cards, three privacy/scope FAQs, evidence placeholders, explicit no-data/no-financial-advice messaging and source-only GitHub workflow. Nothing in the demo provides banking, payments, KYC, lending, financial advice, security certification, account access or a regulatory claim.
+Implementation: original responsive financial-services visual language plus a fictional native-WebGL pavilion, reversible four-chapter scroll progression and intact original SVG fallback; non-transactional four-stage public-offer/business-enquiry journey, keyboard-accessible controls, fixed-choice local brief builder with copy fallback, business service cards, three privacy/scope FAQs, evidence placeholders, explicit no-data/no-financial-advice messaging and source-only GitHub workflow. Nothing in the demo provides banking, payments, KYC, lending, financial advice, security certification, account access or a regulatory claim.
 
 ## 08 — Insurance
 
