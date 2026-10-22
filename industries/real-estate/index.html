@@ -9,7 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/real-estate-journey.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./real-estate.css"><script src="./real-estate.js" defer></script>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./real-estate.css"><link rel="stylesheet" href="./real-estate-3d.css">
+<script src="./real-estate.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./real-estate-3d.js" defer></script>
 </head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
@@ -19,17 +20,17 @@
 <a href="../../#industries">All industries</a><a href="#challenges">Challenges</a><a href="#journey">The journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Plan a conversation <span aria-hidden="true">↗</span></a>
 </div></nav></header>
 <main id="main">
-<section class="r-hero">
+<section class="r-hero r-cinema-hero">
 <div class="shell r-hero-grid">
 <div class="r-hero-copy">
 <nav aria-label="Breadcrumb" class="r-breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>REAL ESTATE</strong></nav>
 <p class="eyebrow r-kicker"><span class="r-pip" aria-hidden="true"></span> INDUSTRY 02 / PROPERTY BUSINESSES</p>
 <h1>Every address<br>starts with <em>a connection.</em></h1>
 <p class="r-lead">Behind every property enquiry is a person making a big decision. Make it easier to get noticed, respond with clarity, and keep the conversation moving.</p>
-<div class="r-actions"><a class="btn btn-dark" href="#journey">Explore the journey <span aria-hidden="true">↗</span></a><a class="r-simple-link" href="#brief">Find my starting point <span aria-hidden="true">↗</span></a></div>
+<div class="r-actions"><a class="btn btn-dark" href="#cinema-property">Explore the journey <span aria-hidden="true">↗</span></a><a class="r-simple-link" href="#brief">Find my starting point <span aria-hidden="true">↗</span></a></div>
 <p class="r-note">MARKETING → ENQUIRY → VIEWING → FOLLOW-UP</p>
 </div>
-<div class="r-hero-scene">
+<div class="r-hero-scene" data-property-hero>
 <div class="r-scene-orbit" aria-hidden="true"></div>
 <img src="../../assets/real-estate-journey.svg" width="960" height="720" alt="Conceptual illustration of several properties linked by a continuous orange path with enquiry markers." decoding="async" fetchpriority="high">
 <div class="r-scene-stamp">A BETTER<br><em>PROPERTY</em><br>JOURNEY <span>02/11</span></div>
@@ -45,8 +46,51 @@
 <article class="r-challenge"><div class="r-card-index">02 / RESPONSE <span aria-hidden="true">↗</span></div><div class="r-symbol" aria-hidden="true">⌁</div><h3>Enquiries arrive.<br><em>Conversations stall.</em></h3><p>Interest fades when the right person does not receive a timely, relevant response.</p></article>
 <article class="r-challenge"><div class="r-card-index">03 / FOLLOW-THROUGH <span aria-hidden="true">↗</span></div><div class="r-symbol" aria-hidden="true">↗</div><h3>Viewings happen.<br><em>Next steps get lost.</em></h3><p>Appointments, feedback and decisions need clear ownership, not scattered messages.</p></article>
 </div></div></section>
+
+<section class="r-cinema-scroll" id="cinema-property" aria-labelledby="property-cinema-title">
+<div class="shell">
+  <div class="property-cinema-heading">
+    <p class="eyebrow">02 / PROPERTY, PEOPLE AND NEXT STEPS</p>
+    <h2 id="property-cinema-title">A place gets noticed.<br><em>A conversation begins.</em></h2>
+    <p>Follow an <strong>illustrative property neighbourhood</strong> from first discovery to the next decision. This visual is a fictional customer-communication concept—not an actual property listing, availability claim, real viewing appointment, brokerage service, or client transaction.</p>
+  </div>
+  <div class="property-cinema-grid">
+    <div class="property-cinema-sticky">
+      <div class="property-cinema-frame" data-property-scene role="img" aria-label="Conceptual 3D property neighbourhood with communication, viewing and follow-up layers that progressively appear while scrolling">
+        <img src="../../assets/real-estate-journey.svg" class="property-cinema-fallback" width="960" height="720" alt="" decoding="async">
+        <span aria-hidden="true" class="property-cinema-watermark">01—04</span>
+        <div class="property-cinema-hud"><span>3D BUSINESS JOURNEY / ILLUSTRATIVE</span><strong id="property-cinema-progress" aria-live="off">01 / 04</strong></div>
+      </div>
+      <p class="property-cinema-caption">Scroll downward to advance · Scroll upward to reverse · Use the journey buttons below to jump directly to a stage.</p>
+    </div>
+    <div class="property-cinema-chapters">
+      <article class="property-cinema-chapter" data-property-chapter="0">
+        <span>01 / DISCOVER</span><h3>First, be<br><em>worth finding.</em></h3>
+        <p>Introduce an offer with accurate property information and a clear path to the appropriate business contact.</p>
+        <small>VISIBILITY / A CLEAR FIRST IMPRESSION</small>
+      </article>
+      <article class="property-cinema-chapter" data-property-chapter="1">
+        <span>02 / QUALIFY</span><h3>Hear the person<br><em>behind the enquiry.</em></h3>
+        <p>Listen for relevant needs, expectations and timescales before proposing an appropriate next conversation.</p>
+        <small>RELEVANCE / RESPONSIBLE COMMUNICATION</small>
+      </article>
+      <article class="property-cinema-chapter" data-property-chapter="2">
+        <span>03 / VIEWING</span><h3>Coordinate<br><em>without confusion.</em></h3>
+        <p>Help the responsible property team confirm accurate information, arrangements and follow-up ownership.</p>
+        <small>COORDINATION / SHARED EXPECTATIONS</small>
+      </article>
+      <article class="property-cinema-chapter" data-property-chapter="3">
+        <span>04 / FOLLOW THROUGH</span><h3>Make the next step<br><em>easy to understand.</em></h3>
+        <p>Keep decisions, open questions and customer updates clear while respecting the team's agreed role.</p>
+        <small>FOLLOW-UP / HUMAN DECISION-MAKING</small>
+      </article>
+    </div>
+  </div>
+</div>
+</section>
+
 <section class="r-journey r-section" id="journey" aria-labelledby="r-journey-title"><div class="shell">
-<div class="r-heading r-heading-light"><div><p class="eyebrow">02 / FOLLOW THE OPPORTUNITY</p><h2 id="r-journey-title">From curiosity<br>to <em>confidence.</em></h2></div><p>Explore how a real estate business can create a more connected experience. These are example workflows, not claims about a specific client.</p></div>
+<div class="r-heading r-heading-light"><div><p class="eyebrow">03 / FOLLOW THE OPPORTUNITY</p><h2 id="r-journey-title">From curiosity<br>to <em>confidence.</em></h2></div><p>Explore how a real estate business can create a more connected experience. These are example workflows, not claims about a specific client.</p></div>
 <div class="r-journey-grid">
 <div class="r-stage-list" role="group" aria-label="Real estate business journey stages">
 <button class="r-stage is-active" data-stage="discover" aria-pressed="true"><span>01</span><strong>Be discovered</strong><span aria-hidden="true">↗</span></button>
@@ -65,7 +109,7 @@
 <div class="r-stage-foot">EXAMPLE CUSTOMER WORKFLOW <span id="r-stage-count">1 OF 4</span></div></div>
 </div></div></section>
 <section class="r-section r-solutions" id="solutions" aria-labelledby="r-sol-title"><div class="shell">
-<div class="r-heading"><div><p class="eyebrow">03 / TAAMERAT360 SOLUTIONS</p><h2 id="r-sol-title">Support the people.<br><em>Connect the process.</em></h2></div><p>Our role is business growth, customer communication and operations—not property brokerage, legal advice, valuations or a guarantee of sales.</p></div>
+<div class="r-heading"><div><p class="eyebrow">04 / TAAMERAT360 SOLUTIONS</p><h2 id="r-sol-title">Support the people.<br><em>Connect the process.</em></h2></div><p>Our role is business growth, customer communication and operations—not property brokerage, legal advice, valuations or a guarantee of sales.</p></div>
 <div class="r-solutions-grid">
 <article class="r-sol r-sol-blue"><span>01 / ATTRACT</span><div aria-hidden="true" class="r-sol-glyph">◎</div><h3>Lead Growth</h3><p>Bring relevant audiences closer to the right property or business offering.</p><a href="../../#packages">Explore package ↗</a></article>
 <article class="r-sol r-sol-gold"><span>02 / ENGAGE</span><div aria-hidden="true" class="r-sol-glyph">↗</div><h3>Sales Momentum</h3><p>Keep enquiries, response times and conversations organised.</p><a href="../../#packages">Explore package ↗</a></article>
@@ -73,12 +117,12 @@
 <article class="r-sol r-sol-dark"><span>04 / CONNECT</span><div aria-hidden="true" class="r-sol-glyph">✳</div><h3>Connected Growth</h3><p>Give teams a clearer picture from enquiry through follow-up.</p><a href="../../#packages">Explore package ↗</a></article>
 </div></div></section>
 <section class="r-section r-evidence" id="evidence" aria-labelledby="r-evidence-title"><div class="shell r-evidence-grid"><div>
-<p class="eyebrow">04 / PROOF OVER PROMISES</p><h2 id="r-evidence-title">A real story.<br><em>When it's ready.</em></h2>
+<p class="eyebrow">05 / PROOF OVER PROMISES</p><h2 id="r-evidence-title">A real story.<br><em>When it's ready.</em></h2>
 <p>Approved client work, project results and testimonials will be shown here when evidence is provided. Until then, we keep the placeholder visible rather than making unsupported claims.</p><a class="r-simple-link" href="#brief">Explore your own opportunity ↗</a></div>
 <article class="r-case"><div class="r-case-top">CONTENT PLACEHOLDER <span>◌</span></div><div class="r-case-image" aria-label="Placeholder for approved property case study photo"><span>APPROVED PROPERTY / CLIENT IMAGE<br>TO BE PROVIDED</span></div><div class="r-case-info"><span>REAL ESTATE / VERIFIED CASE STUDY</span><h3>[Approved client or project title]</h3><p>[Verified business challenge, approach and outcomes]</p><footer>[Approved client testimonial and attribution]</footer></div></article>
 </div></section>
 <section class="r-section r-brief" id="brief" aria-labelledby="r-brief-title"><div class="shell">
-<div class="r-heading"><div><p class="eyebrow">05 / FIND YOUR STARTING POINT</p><h2 id="r-brief-title">What's the next<br><em>move for your business?</em></h2></div><p>Use this quick builder to shape a discussion brief. Nothing is submitted or stored automatically.</p></div>
+<div class="r-heading"><div><p class="eyebrow">06 / FIND YOUR STARTING POINT</p><h2 id="r-brief-title">What's the next<br><em>move for your business?</em></h2></div><p>Use this quick builder to shape a discussion brief. Nothing is submitted or stored automatically.</p></div>
 <div class="r-brief-grid">
 <form class="r-brief-form" id="r-brief-form"><div class="r-form-top"><strong>PROJECT BRIEF BUILDER</strong><span>03 QUESTIONS</span></div>
 <label for="r-business">What kind of property business do you run?</label>

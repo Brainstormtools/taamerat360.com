@@ -16,6 +16,18 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Real Estate — second cinematic industry landing page
+
+The Real Estate landing page at `/industries/real-estate/` now uses a **fictional 3D property neighbourhood** with a four-chapter scroll sequence: DISCOVER → QUALIFY → VIEWING → FOLLOW THROUGH.
+
+- Cinematic hero: a stylized property maquette in a dark editorial environment; the original connected-city illustration remains available without WebGL or JavaScript.
+- Scroll narrative: a sticky interactive property scene progressively reveals customer-communication markers, viewing coordination and a clear follow-up concept; reverse scrolling reverses the progression.
+- Built on the shared native-WebGL `assets/immersive-scene-kit.js`, with property-specific model and animation in `industries/real-estate/real-estate-3d.js` and styling in `real-estate-3d.css`.
+- Existing keyboard journey buttons and site motion toggle update the scene, while the browser-only discussion brief, packages and case-study placeholders remain unchanged.
+- New `tests/real-estate-cinematic.spec.cjs` covers genuine WebGL depth, scroll progress/reversal, manual stage controls, reduced motion, WebGL failure and disabled-JavaScript content across all four viewport profiles.
+- The stylized model is **not a real listing, property for sale, available viewing, delivered client project, valuation or brokerage service**. Any future photography, listing names, results, testimonials and service commitments require owner/client permission.
+- No external dependencies, personal-data storage, real transaction, contact form submission or production deployment are added. Preview-only `noindex` remains.
+
 ## Construction — first cinematic industry landing page
 
 The Construction industry landing page at `/industries/construction/` now includes a **3D construction maquette**, with a scroll-controlled four-chapter storyline: FIND → SCOPE → COORDINATE → DELIVER. The geometric sequence progresses from groundwork and foundations to structural frame, crane/envelope and closing details. It is a **fictional visual metaphor for construction business communication**, not an engineering model, client project or claim that Taamerat360 performs construction.

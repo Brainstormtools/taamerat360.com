@@ -3,7 +3,7 @@ const $=(s,root=document)=>root.querySelector(s),$$=(s,root=document)=>Array.fro
 const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 let paused=reduced;
 const motion=$(".motion-toggle");
-function reflectMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+function reflectMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";window.dispatchEvent(new CustomEvent("property:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;reflectMotion()});reflectMotion();
 const toggle=$(".nav-toggle"),nav=$(".nav-links");
 function closeMenu(focus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation");if(focus)toggle.focus()}
@@ -20,7 +20,7 @@ followup:{index:"04 / 04",word:"FOLLOW THROUGH",tag:"FEEDBACK / NEXT DECISION",t
 const keys=Object.keys(stages);let selected="discover";
 function stage(id){const v=stages[id];if(!v)return;selected=id;
 $$(".r-stage").forEach(b=>{const yes=b.dataset.stage===id;b.classList.toggle("is-active",yes);b.setAttribute("aria-pressed",String(yes))});
-$("#r-stage-index").textContent=v.index;$("#r-stage-word").textContent=v.word;$("#r-stage-eyebrow").textContent=v.tag;$("#r-stage-title").textContent=v.title;$("#r-stage-desc").textContent=v.desc;$("#r-stage-focus").textContent=v.focus;$("#r-stage-count").textContent=v.n+" OF 4";$("#r-path").setAttribute("stroke-dashoffset",String(v.offset))}
+$("#r-stage-index").textContent=v.index;$("#r-stage-word").textContent=v.word;$("#r-stage-eyebrow").textContent=v.tag;$("#r-stage-title").textContent=v.title;$("#r-stage-desc").textContent=v.desc;$("#r-stage-focus").textContent=v.focus;$("#r-stage-count").textContent=v.n+" OF 4";$("#r-path").setAttribute("stroke-dashoffset",String(v.offset));window.dispatchEvent(new CustomEvent("property:stage",{detail:{key:id}}))}
 $$(".r-stage").forEach(b=>{b.addEventListener("click",()=>stage(b.dataset.stage));b.addEventListener("keydown",e=>{if(!["ArrowDown","ArrowUp","ArrowRight","ArrowLeft"].includes(e.key))return;e.preventDefault();const step=e.key==="ArrowRight"||e.key==="ArrowDown"?1:-1;const index=Math.max(0,Math.min(keys.length-1,keys.indexOf(b.dataset.stage)+step));stage(keys[index]);$$(".r-stage")[index].focus()})});
 const form=$("#r-brief-form"),copy=$("#r-copy");let draft="";
 const role=$("#r-business"),problem=$("#r-challenge"),priority=$("#r-priority"),status=$("#r-copy-status"),result=$("#r-result-text");
