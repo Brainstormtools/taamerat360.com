@@ -98,19 +98,19 @@ function renderer(mount,kind){
 const a=renderer(hero,'hero'),b=renderer(stage,'journey');if(!a&&!b)return;
 document.body.classList.add('cinema-webgl-ready');
 const steps=[...document.querySelectorAll('[data-journey]')];
-let pending=false,display=0,visible=!document.hidden,timer=null;
+let pending=false,display=0,visible=!document.hidden,timer=null,manualLockUntil=0;
 const onscreen=el=>{const r=el.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;};
 function position(){if(!steps.length)return state.stage;const center=innerHeight*.53,c=steps.map(e=>{const r=e.getBoundingClientRect();return r.top+r.height/2;});if(center<=c[0])return 0;if(center>=c[2])return 2;for(let i=0;i<2;i++)if(center>=c[i]&&center<=c[i+1])return i+(center-c[i])/(c[i+1]-c[i]);return state.stage;}
 function frame(ms){pending=false;if(!visible)return;const target=clamp(state.paused?(state.manual??state.stage):(state.manual??state.scroll),0,2);display=state.paused?target:mix(display,target,.11);
- if(a)a.draw(display,ms*.001);if(b)b.draw(display,ms*.001);
- if(!state.paused&&visible&&(onscreen(hero)||onscreen(stage))&&timer===null){timer=setTimeout(()=>{timer=null;request();},32);}
+ if(a&&onscreen(hero))a.draw(display,ms*.001);if(b&&onscreen(stage))b.draw(display,ms*.001);
+ if(!state.paused&&visible&&(onscreen(hero)||onscreen(stage))&&timer===null){timer=setTimeout(()=>{timer=null;request();},75);}
  else if(!state.paused&&Math.abs(target-display)>.003)request();
 }
 function request(){if(!pending){pending=true;requestAnimationFrame(frame);}}
-function scroll(){state.scroll=position();state.manual=null;request();}
+function scroll(){state.scroll=position();if(performance.now()>manualLockUntil)state.manual=null;request();}
 addEventListener('scroll',scroll,{passive:true});addEventListener('resize',()=>{state.scroll=position();request();},{passive:true});
 addEventListener('pointermove',e=>{if(state.paused||!onscreen(hero))return;const r=hero.getBoundingClientRect();state.hover=clamp((e.clientX-r.left)/Math.max(r.width,1)-.5,-.5,.5);request();},{passive:true});
-addEventListener('taamerat:stage',e=>{state.stage=e.detail.index;state.manual=e.detail.index;request();});
+addEventListener('taamerat:stage',e=>{state.stage=e.detail.index;state.manual=e.detail.index;manualLockUntil=performance.now()+1500;request();});
 addEventListener('taamerat:motion',e=>{state.paused=!!e.detail.paused;state.manual=state.stage;request();});
 document.addEventListener('visibilitychange',()=>{visible=!document.hidden;if(visible)request();});
 if(prefersReduced.addEventListener)prefersReduced.addEventListener('change',e=>{if(e.matches){state.paused=true;state.manual=state.stage;request();}});
