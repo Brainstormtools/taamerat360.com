@@ -28,10 +28,16 @@ If you already use the repository's `main`, do not upload a duplicate ZIP over t
 
 ## Current industry delivery status
 
-- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing (11 of 11)..
+- Developed and merged to GitHub `main`: Construction, Real Estate, E-commerce, Architecture, Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism, Ride Hailing (11 of 11).
 - Last independently confirmed production deployment: Architecture version, commit `66cdada5`.
 - Healthcare, Education, Banking & Fintech, Insurance, Telecom, Travel & Tourism and Ride Hailing source are merged into GitHub `main`, but the latest production deployment is not independently verified. The previous Healthcare Vercel deploy was blocked by the daily free quota; the site owner will manually deploy the current `main` commit when ready.
 - All 11 planned industry landing pages have development-complete source. Client-provided content and approvals, end-to-end proposal submission validation, and manual production release are still outstanding.
+
+## Verified GitHub handoff baseline
+
+- On **23 October 2026**, the complete 11-industry source archive was reconciled against the merged GitHub `main` revision `d66b71c6f4fe8819c18dd683ec290a83984f3f61`: all **133 tracked files matched**, and **968/968 automated browser checks passed** in [run 39859970649](https://github.com/Brainstormtools/taamerat360.com/actions/runs/39859970649).
+- This baseline is a reference only: download a fresh **successful post-merge `main`** export if the repository has newer documentation or source changes. Always confirm `SOURCE_COMMIT.txt` and `SHA256SUMS.txt` before handoff or deployment.
+- No successful lead submission, owner production deployment, or public indexing approval is implied by a passing GitHub test.
 
 ## Before launching publicly
 
