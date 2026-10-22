@@ -4,15 +4,15 @@
 .i-cinema-hero .i-breadcrumb{color:#d7e3e0}.i-cinema-hero .i-breadcrumb strong{color:#ffb995}.i-cinema-hero .i-breadcrumb span{color:#9fb7b6}
 .i-cinema-hero .i-kicker{color:#bed9d0}.i-cinema-hero h1 em{color:#f4b796}
 .i-cinema-hero .i-lead{color:#d1e2df}.i-cinema-hero .i-text-link{color:#f9e8d6}
-.i-cinema-hero .i-hero-actions .btn-dark{background:#eebc8f;color:#102f37}.i-cinema-hero .i-hero-actions .btn-dark:hover{background:#ffdbb6}
-.i-cinema-hero .i-hero-note{color:#cce1da}.i-cinema-hero .i-hero-bottom{color:#dae7de;border-color:#9eb6af55}.i-cinema-hero .i-hero-bottom a{color:#ffd0a1}
+.i-cinema-hero .i-actions .btn-dark{background:#eebc8f;color:#102f37}.i-cinema-hero .i-actions .btn-dark:hover{background:#ffdbb6}
+.i-cinema-hero .i-hero-note{color:#cce1da}.i-cinema-hero .i-hero-foot{color:#dae7de;border-color:#9eb6af55}.i-cinema-hero .i-hero-foot a{color:#ffd0a1}
 .i-cinema-hero .i-orbit,.i-cinema-hero .i-orbit:before{border-color:#c5e6d742}
 .i-cinema-hero .i-stamp{background:#edbb88;color:#163c41;z-index:5}.i-cinema-hero .i-stamp small{color:#254b4c}
 .i-cinema-hero .i-art-caption{z-index:5;color:#e0e8e1;background:#0d2737bd;padding:7px}
-.i-cinema-hero .i-artwork>img{filter:drop-shadow(0 25px 37px #07182488)}
+.i-cinema-hero .i-art>img{filter:drop-shadow(0 25px 37px #07182488)}
 .immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:3;opacity:0;pointer-events:none;transition:opacity .52s ease}
 body.insurance-webgl-ready .immersive-webgl{opacity:1}
-body.insurance-webgl-ready .i-cinema-hero .i-artwork>img{opacity:.035;filter:blur(14px);transition:opacity .52s}
+body.insurance-webgl-ready .i-cinema-hero .i-art>img{opacity:.035;filter:blur(14px);transition:opacity .52s}
 body.insurance-webgl-ready .insurance-cinema-fallback{opacity:.035;filter:blur(14px)}
 .i-cinema-scroll{background:#183934;color:#f9f1e3;isolation:isolate;position:relative;padding:112px 0 128px}
 .i-cinema-scroll:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(90deg,#b4d1d20d 1px,transparent 1px);background-size:93px 93px}
