@@ -38,9 +38,9 @@ This register tracks factual inputs needed from Taamerat360. **Do not invent cli
 | High | Contact | /contact-us/?industry=real-estate | Real end-to-end enquiry submission confirmation | Verification pending |
 | Medium | Packages | Generic Taamerat360 services | Approved sector positioning, final scope/pricing/terms | Awaiting client |
 | Medium | Content | Buyer/tenant/seller workflow examples | Confirm intended customer segments, availability and operational scope | Review pending |
-| Low | Brand artwork | Conceptual connected-city scene | Optional approved actual properties or agency photography; no false listing data | Optional |
+| Low | Hero / cinematic artwork | Fictional WebGL property neighbourhood with original SVG fallback | Optional client-owned photography, real property permission and visual-acceptance review; never present the model as an actual listing or available viewing | 3D concept developed; real proof optional |
 
-Implementation: full editorial layout; original illustration; interactive four-stage property journey with keyboard navigation; packages; visible proof placeholders; client-side starting brief (no server submission); responsive mobile/desktop navigation; crawl protection retained.
+Implementation: full editorial layout; cinematic WebGL property hero and four-chapter reversible scroll journey with original SVG fallback; existing interactive four-stage property controls with keyboard navigation; packages; visible proof placeholders; client-side starting brief (no server submission); responsive mobile/desktop navigation; reduced-motion controls; preview-only crawl protection retained. No live listing/booking/brokerage, actual property viewing, or verified client result is represented.
 
 ## 03 — E-commerce
 
