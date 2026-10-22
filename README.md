@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Insurance — eighth cinematic industry landing page
+
+The Insurance landing page at `/industries/insurance/` now has an original **fictional 3D communications atrium** in deep forest, bronze and chalk tones, with an abstract open architectural arch. Its four reversible scroll chapters follow DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE for general insurance-business communications.
+
+- Native WebGL geometry and camera rendering reuse `assets/immersive-scene-kit.js`. Insurance-specific code and visual treatment live in `industries/insurance/insurance-3d.js` and `insurance-3d.css`.
+- Two canvases — hero and sticky scroll story — are drawn before hiding SVG artwork, including below-the-fold mobile layouts. The original `assets/insurance-connected.svg` remains available for browsers without WebGL or JavaScript.
+- Existing four-stage keyboard-selectable business journey, reduced-motion and pause controls, fixed-choice browser-only business brief, solutions, evidence placeholders, FAQs and responsive navigation all remain in use.
+- `tests/insurance-cinematic.spec.cjs` covers real depth-tested WebGL, both initial canvas frames, reverse scroll, stage/keyboard synchronization, pause/reduced-motion and WebGL/JavaScript-disabled fallbacks across four viewports.
+- **The artwork is not an actual insurer, policy, quotation, licensed advice, coverage promise, underwriting decision, claims service, customer record, regulated integration or verified client work.** No health, identity, financial, claims or policyholder data are collected.
+- Legal/sector-specific review, publication rights, genuine evidence and end-to-end contact verification remain owner/client gates. Preview `noindex` and owner-controlled production deployment are unchanged.
+
 ## Banking & Fintech — seventh cinematic industry landing page
 
 The Banking & Fintech page at `/industries/banking-fintech/` now uses an **unbranded, fictional 3D public-service pavilion** with four reversible scroll chapters: DISCOVER → UNDERSTAND → ENQUIRE → CONNECT. Layered glass/metal panels represent public descriptions, information clarity, general enquiry routing and non-sensitive business-team coordination.

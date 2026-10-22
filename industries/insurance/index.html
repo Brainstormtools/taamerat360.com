@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/insurance-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./insurance.css"><script src="./insurance.js" defer></script></head><body>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./insurance.css"><link rel="stylesheet" href="./insurance-3d.css"><script src="./insurance.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./insurance-3d.js" defer></script></head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
 <a href="../../" class="brand" aria-label="Taamerat360 home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Taamerat<span class="brand-accent">360</span><span class="brand-arrow">↗</span></span></a>
@@ -17,15 +17,15 @@
 <div id="nav-links" class="nav-links"><a href="../../#industries">Industries</a><a href="#challenges">Challenges</a><a href="#journey">The journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Discuss a project <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="i-hero" aria-labelledby="i-hero-title"><div class="shell i-hero-grid">
+<section class="i-hero i-cinema-hero" aria-labelledby="i-hero-title"><div class="shell i-hero-grid">
 <div class="i-hero-copy">
 <nav class="i-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>INSURANCE</strong></nav>
 <p class="eyebrow i-kicker"><span class="i-dot" aria-hidden="true"></span> INDUSTRY 08 / INSURANCE BUSINESSES</p>
 <h1 id="i-hero-title">Make confidence<br><em>feel connected.</em></h1>
 <p class="i-lead">Insurance is built on important conversations. Make approved service information easier to find, general enquiries easier to direct and the people behind routine business follow-ups better connected.</p>
-<div class="i-actions"><a class="btn btn-dark" href="#journey">Explore the journey <span aria-hidden="true">↗</span></a><a class="i-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
+<div class="i-actions"><a class="btn btn-dark" href="#cinema-insurance">Explore the journey <span aria-hidden="true">↗</span></a><a class="i-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
 <p class="i-hero-note">DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE</p>
-</div><div class="i-art"><div class="i-orbit" aria-hidden="true"></div><img src="../../assets/insurance-connected.svg" alt="Conceptual insurance information desk, shield motif, business documents and orange connected pathway." width="1120" height="780" decoding="async" fetchpriority="high">
+</div><div class="i-art" data-insurance-hero><div class="i-orbit" aria-hidden="true"></div><img src="../../assets/insurance-connected.svg" alt="Conceptual insurance information desk, shield motif, business documents and orange connected pathway." width="1120" height="780" decoding="async" fetchpriority="high">
 <div class="i-stamp"><span>THE VALUE OF</span><strong>CLEAR<br>COMMUNICATION.</strong><small>08 / 11</small></div><p class="i-art-caption">CONCEPTUAL ARTWORK / NOT A REAL INSURER OR COVERAGE GUARANTEE</p></div></div>
 <div class="shell i-hero-foot"><span>APPROVED INFORMATION. PURPOSEFUL FOLLOW-UP.</span><a href="#challenges">Explore the opportunities ↓</a></div></section>
 <div class="i-ribbon" aria-hidden="true"><div class="i-ribbon-track"><span>PUBLIC INFORMATION <b>✳</b> CLEAR GENERAL ENQUIRIES <b>✳</b> CONSISTENT FOLLOW-UP <b>✳</b> CONNECTED BUSINESS TEAMS <b>✳</b></span><span>PUBLIC INFORMATION <b>✳</b> CLEAR GENERAL ENQUIRIES <b>✳</b> CONSISTENT FOLLOW-UP <b>✳</b> CONNECTED BUSINESS TEAMS <b>✳</b></span></div></div>
@@ -36,6 +36,49 @@
 <article class="i-card i-card-gold"><div class="i-card-top">02 / ENQUIRIES <span aria-hidden="true">↗</span></div><div class="i-card-symbol" aria-hidden="true">↗</div><h3>Questions arrive.<br><em>Context gets lost.</em></h3><p>General business enquiries need an appropriate owner and clearly communicated next steps.</p></article>
 <article class="i-card i-card-green"><div class="i-card-top">03 / COORDINATION <span aria-hidden="true">↗</span></div><div class="i-card-symbol" aria-hidden="true">≋</div><h3>Busy teams.<br><em>Scattered handovers.</em></h3><p>Marketing and operations teams benefit from a consistent, non-claims workflow.</p></article>
 </div></div></section>
+
+<section class="i-cinema-scroll" id="cinema-insurance" aria-labelledby="insurance-cinema-title">
+<div class="shell">
+ <div class="insurance-cinema-heading">
+  <p class="eyebrow">02 / INFORMATION THAT LEADS TO RESPONSIBLE NEXT STEPS</p>
+  <h2 id="insurance-cinema-title">Clarity first.<br><em>Connection follows.</em></h2>
+  <p>Explore a <strong>fictional 3D public-information atrium</strong> built around an illustrative non-claims business conversation. It is not a real insurer, policy, licensed advice, quotation, coverage guarantee, underwriting process, claim system or verified client project.</p>
+ </div>
+ <div class="insurance-cinema-layout">
+  <div class="insurance-cinema-sticky">
+   <div class="insurance-cinema-frame" data-insurance-scene role="img" aria-label="Conceptual dimensional information atrium with a symbolic open arch, public explanation cards, general enquiry path and administrative handover markers">
+    <img src="../../assets/insurance-connected.svg" width="1120" height="780" class="insurance-cinema-fallback" alt="" decoding="async">
+    <span class="insurance-cinema-watermark" aria-hidden="true">CLARITY / 04</span>
+    <div class="insurance-cinema-hud"><span>INSURANCE / NON-CLAIMS BUSINESS CONCEPT</span><strong id="insurance-cinema-progress" aria-live="off">01 / 04</strong></div>
+   </div>
+   <p class="insurance-cinema-caption">Scroll to move through the visual story · Scroll back to reverse · The existing keyboard-operable stage controls below can also select each chapter.</p>
+  </div>
+  <div class="insurance-cinema-chapters">
+   <article class="insurance-cinema-chapter" data-insurance-chapter="0">
+    <span>01 / DISCOVER</span><h3>Make approved<br><em>information findable.</em></h3>
+    <p>Make public descriptions of insurance business services easy to discover, with clear routes to official authorised teams.</p>
+    <small>DISCOVER / APPROVED PUBLIC INFORMATION</small>
+   </article>
+   <article class="insurance-cinema-chapter" data-insurance-chapter="1">
+    <span>02 / UNDERSTAND</span><h3>Explain essentials<br><em>without overpromising.</em></h3>
+    <p>Provide approved general information, visible limitations and authorised channels; never imply a coverage or eligibility recommendation.</p>
+    <small>UNDERSTAND / GENERAL EXPLANATIONS, NOT ADVICE</small>
+   </article>
+   <article class="insurance-cinema-chapter" data-insurance-chapter="2">
+    <span>03 / ENQUIRE</span><h3>Guide questions<br><em>to the right people.</em></h3>
+    <p>Illustrate responsible non-sensitive enquiry routing without collecting policy numbers, health information, claims history or identity data.</p>
+    <small>ENQUIRE / NON-SENSITIVE BUSINESS CONTACT</small>
+   </article>
+   <article class="insurance-cinema-chapter" data-insurance-chapter="3">
+    <span>04 / COORDINATE</span><h3>Help business teams<br><em>stay connected.</em></h3>
+    <p>Keep routine marketing and administrative handovers coordinated; licensed insurance work stays with authorised providers.</p>
+    <small>COORDINATE / NON-CLAIMS RESPONSIBILITY</small>
+   </article>
+  </div>
+ </div>
+</div>
+</section>
+
 <section class="i-section i-dark" id="journey" aria-labelledby="i-journey-title"><div class="shell">
 <div class="i-heading i-heading-dark"><div><p class="eyebrow">02 / THE CONNECTED BUSINESS JOURNEY</p><h2 id="i-journey-title">Every conversation<br>needs <em>a next step.</em></h2></div><p>This is an illustrative public-information and administrative business journey. No policy issuance, eligibility assessment, claims adjudication or coverage decision is performed.</p></div>
 <div class="i-journey-grid"><div class="i-steps" role="group" aria-label="Insurance non-claims business journey">

@@ -1,0 +1,45 @@
+/* Banking & Insurance cinematic concept: forest-bronze insurance communication atrium. */
+.i-cinema-hero{background:radial-gradient(ellipse at 82% 46%,#345b51,#193a39 50%,#102b2e);color:#f8efe3;isolation:isolate;position:relative}
+.i-cinema-hero:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#dce8e710 1px,transparent 1px),linear-gradient(90deg,#dce8e710 1px,transparent 1px);background-size:88px 88px;mask-image:linear-gradient(90deg,transparent,#000)}
+.i-cinema-hero .i-breadcrumb{color:#d7e3e0}.i-cinema-hero .i-breadcrumb strong{color:#ffb995}.i-cinema-hero .i-breadcrumb span{color:#9fb7b6}
+.i-cinema-hero .i-kicker{color:#bed9d0}.i-cinema-hero h1 em{color:#f4b796}
+.i-cinema-hero .i-lead{color:#d1e2df}.i-cinema-hero .i-text-link{color:#f9e8d6}
+.i-cinema-hero .i-actions .btn-dark{background:#eebc8f;color:#102f37}.i-cinema-hero .i-actions .btn-dark:hover{background:#ffdbb6}
+.i-cinema-hero .i-hero-note{color:#cce1da}.i-cinema-hero .i-hero-foot{color:#dae7de;border-color:#9eb6af55}.i-cinema-hero .i-hero-foot a{color:#ffd0a1}
+.i-cinema-hero .i-orbit,.i-cinema-hero .i-orbit:before{border-color:#c5e6d742}
+.i-cinema-hero .i-stamp{background:#edbb88;color:#163c41;z-index:5}.i-cinema-hero .i-stamp small{color:#254b4c}
+.i-cinema-hero .i-art-caption{z-index:5;color:#e0e8e1;background:#0d2737bd;padding:7px}
+.i-cinema-hero .i-art>img{filter:drop-shadow(0 25px 37px #07182488)}
+.immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:3;opacity:0;pointer-events:none;transition:opacity .52s ease}
+body.insurance-webgl-ready .immersive-webgl{opacity:1}
+body.insurance-webgl-ready .i-cinema-hero .i-art>img{opacity:.035;filter:blur(14px);transition:opacity .52s}
+body.insurance-webgl-ready .insurance-cinema-fallback{opacity:.035;filter:blur(14px)}
+.i-cinema-scroll{background:#183934;color:#f9f1e3;isolation:isolate;position:relative;padding:112px 0 128px}
+.i-cinema-scroll:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(90deg,#b4d1d20d 1px,transparent 1px);background-size:93px 93px}
+.insurance-cinema-heading{position:relative;max-width:920px;padding-bottom:68px}
+.insurance-cinema-heading .eyebrow{color:#ffc695}
+.insurance-cinema-heading h2{font-size:clamp(51px,6.3vw,98px);font-weight:500;line-height:1.05;letter-spacing:-.075em;margin:0 0 29px}
+.insurance-cinema-heading h2 em,.insurance-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;color:#ffc39e;font-weight:400;letter-spacing:-.025em}
+.insurance-cinema-heading>p:last-child{font-size:15px;line-height:1.85;max-width:760px;color:#d6e1dd}
+.insurance-cinema-layout{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);gap:clamp(26px,4.5vw,72px);align-items:start}
+.insurance-cinema-sticky{position:sticky;top:105px;min-width:0;z-index:2}
+.insurance-cinema-frame{height:clamp(435px,44vw,660px);position:relative;isolation:isolate;overflow:hidden;border:1px solid #aac6bd75;background:radial-gradient(ellipse at 52% 40%,#46756b,#285149 60%,#183632);box-shadow:0 27px 80px #06182499}
+.insurance-cinema-frame:before{content:"";position:absolute;inset:16px;border:1px solid #f6dccd2e;z-index:4;pointer-events:none}
+.insurance-cinema-fallback{position:absolute;inset:4% auto auto -3%;width:106%;height:92%;object-fit:contain;opacity:.78;transition:opacity .52s}
+.insurance-cinema-watermark{position:absolute;top:14px;right:23px;z-index:5;font-size:61px;letter-spacing:-.09em;font-weight:800;opacity:.10;pointer-events:none}
+.insurance-cinema-hud{position:absolute;inset:auto 0 0;z-index:5;padding:19px 21px;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#112f3be8;border-top:1px solid #b3d3c95c;font-size:10px;letter-spacing:.07em;font-weight:800;color:#e2e9e0}
+.insurance-cinema-hud strong{color:#ffd0a8;font-size:18px;white-space:nowrap}
+.insurance-cinema-caption{font-size:11px;line-height:1.75;color:#c7dcdb;margin:14px 0 0}
+.insurance-cinema-chapters{min-width:0;display:flex;flex-direction:column}
+.insurance-cinema-chapter{min-height:clamp(380px,55vh,570px);border-top:1px solid #a1c3b66b;scroll-margin-top:130px;display:flex;flex-direction:column;justify-content:center;padding:52px 8px;transition:background-color .25s,padding-left .25s}
+.insurance-cinema-chapter:last-child{border-bottom:1px solid #a1c3b66b}
+.insurance-cinema-chapter>span{color:#ffc695;font-size:11px;font-weight:800;letter-spacing:.15em}
+.insurance-cinema-chapter h3{font-size:clamp(37px,4vw,62px);letter-spacing:-.06em;line-height:1.08;font-weight:500;margin:22px 0}
+.insurance-cinema-chapter p{font-size:15px;line-height:1.8;max-width:440px;color:#d1e3df;margin:0 0 27px}
+.insurance-cinema-chapter small{color:#e7dcc5;font-size:10px;font-weight:800;letter-spacing:.08em}
+body.insurance-webgl-ready .insurance-cinema-chapter.is-current{padding-left:21px;background:linear-gradient(90deg,#e6b8891b,transparent 76%);border-left:2px solid #f6b88d}
+@media(max-width:980px){.insurance-cinema-layout{grid-template-columns:minmax(0,1fr);gap:26px}.insurance-cinema-sticky{top:87px}.insurance-cinema-frame{height:350px}.insurance-cinema-chapter{min-height:340px;padding:38px 14px}.insurance-cinema-heading{padding-bottom:37px}.i-cinema-scroll{padding:75px 0 90px}}
+@media(max-width:760px){.insurance-cinema-sticky{top:75px}.insurance-cinema-frame{height:263px}.insurance-cinema-watermark{font-size:45px;top:8px}.insurance-cinema-hud{padding:13px;font-size:9px}.insurance-cinema-hud strong{font-size:13px}.insurance-cinema-chapter{min-height:315px;padding:31px 9px}.insurance-cinema-chapter h3{font-size:clamp(34px,9vw,49px)}.insurance-cinema-chapter p{font-size:14px}.insurance-cinema-caption{font-size:10px}}
+@media(max-width:370px){.insurance-cinema-frame{height:218px}.insurance-cinema-sticky{top:71px}.insurance-cinema-hud{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.insurance-cinema-fallback,.insurance-cinema-chapter{transition:none!important}}
+body.motion-off .immersive-webgl,body.motion-off .insurance-cinema-chapter{transition:none!important}
