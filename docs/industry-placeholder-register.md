@@ -15,7 +15,7 @@ This register tracks factual inputs needed from Taamerat360. **Do not invent cli
 | High | Proposal journey | Link to original /contact-us/ | Perform a real end-to-end enquiry submission and verify receipt | Verification pending |
 | Medium | Package detail links | Homepage packages | Final client-approved pricing and exact commitments; leave scope/pricing unspecified until approved | Awaiting client |
 | Medium | Industry messaging | Generic workflow examples | Confirm sector-specific terminology, supported features and service positioning | Review pending |
-| Low | Hero art | Conceptual construction illustration | Optional approved photos / project visuals; illustrative asset is clearly labeled | Optional |
+| Low | Hero and scroll art | Conceptual 3D construction model with original SVG fallback | Optional approved photos, licensed project visuals and animation acceptance; the model is fictional, not construction design or completed project proof | Illustrative 3D developed; approval optional |
 
 ## Implementation boundaries
 
