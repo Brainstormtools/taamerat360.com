@@ -1,0 +1,80 @@
+/* Architecture industry / cinematic study-model visual system.
+   Real WebGL geometry progressively assembles; original studio SVG remains the fallback. */
+.a-cinema-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 76% 40%,#3d6065 0,#263d4c 49%,#172936 100%);color:#f9f1de}
+.a-cinema-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#deede715 1px,transparent 1px),linear-gradient(90deg,#deede715 1px,transparent 1px);background-size:80px 80px;mask-image:linear-gradient(90deg,transparent,#000)}
+.a-cinema-hero .a-crumb{color:#e8e4d9}
+.a-cinema-hero .a-crumb strong{color:#f9c898}
+.a-cinema-hero .a-crumb span{color:#c6c6bf}
+.a-cinema-hero .a-kicker{color:#eed5b5}
+.a-cinema-hero .a-point{background:#ef9c70}
+.a-cinema-hero h1{font-size:clamp(65px,7.8vw,119px)}
+.a-cinema-hero h1 em{color:#efb58b}
+.a-cinema-hero .a-lead{color:#e8e8e0}
+.a-cinema-hero .a-hero-actions .btn-dark{background:#f4bd87;color:#172d36}
+.a-cinema-hero .a-hero-actions .btn-dark:hover{background:#ffe1ad}
+.a-cinema-hero .a-text-link{color:#f9eddf}
+.a-cinema-hero .a-smallline{color:#eee3d1}
+.a-cinema-hero .a-smallline span{background:#f2b58c}
+.a-cinema-hero .a-hero-foot{border-color:#efebdc45;color:#e3e5dc}
+.a-cinema-hero .a-hero-foot a{color:#f9c79f}
+.a-cinema-hero .a-ring{border-color:#f9efdf4a}
+.a-cinema-hero .a-ring::before{border-color:#d8eddf40}
+.a-cinema-hero .a-gridplane{background-image:linear-gradient(#d6e9df35 1px,transparent 1px),linear-gradient(90deg,#d6e9df35 1px,transparent 1px)}
+.a-cinema-hero .a-studio-mark{background:#efbb8b;color:#213845;z-index:5}
+.a-cinema-hero .a-studio-mark strong{color:#183644}
+.a-cinema-hero .a-studio-mark span{color:#3b4c4b}
+.a-cinema-hero .a-art-caption{z-index:5;color:#eee5d6;background:#1c3544c9;padding:7px 11px}
+.a-cinema-hero .a-visual>img{filter:drop-shadow(0 20px 29px #08172362)}
+.immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3;opacity:0;transition:opacity .56s ease}
+body.architecture-webgl-ready .immersive-webgl{opacity:1}
+body.architecture-webgl-ready .a-cinema-hero .a-visual>img{opacity:.025;filter:blur(13px);transition:opacity .56s}
+body.architecture-webgl-ready .architecture-cinema-fallback{opacity:.03;filter:blur(11px)}
+.a-cinema-scroll{background:#1b303c;color:#f7f0df;padding:107px 0 132px;position:relative;isolation:isolate}
+.a-cinema-scroll::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(90deg,#dfebdc0d 1px,transparent 1px);background-size:90px 90px}
+.architecture-cinema-heading{position:relative;max-width:970px;padding-bottom:74px}
+.architecture-cinema-heading .eyebrow{color:#f5c79c}
+.architecture-cinema-heading h2{font-size:clamp(51px,6.25vw,99px);font-weight:500;line-height:1.035;letter-spacing:-.075em;margin:0 0 27px}
+.architecture-cinema-heading h2 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#f1bd91;letter-spacing:-.022em}
+.architecture-cinema-heading>p:last-child{line-height:1.81;font-size:16px;max-width:705px;color:#dce5e1;margin:0}
+.architecture-cinema-heading strong{color:#fff3dc}
+.architecture-cinema-layout{display:grid;grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr);gap:clamp(28px,5vw,80px);align-items:start}
+.architecture-cinema-sticky{position:sticky;top:105px;min-width:0;z-index:2}
+.architecture-cinema-frame{height:clamp(435px,46vw,675px);position:relative;isolation:isolate;overflow:hidden;border:1px solid #a8c3c171;background:radial-gradient(ellipse at 51% 38%,#5b7a80 0,#2b4654 55%,#1b3341 100%);box-shadow:0 32px 93px #08182358}
+.architecture-cinema-frame::before{content:"";position:absolute;inset:17px;border:1px solid #d7e7db31;pointer-events:none;z-index:4}
+.architecture-cinema-fallback{position:absolute;top:3%;left:-4%;width:108%;height:92%;object-fit:contain;opacity:.73;transition:opacity .52s}
+.architecture-cinema-watermark{position:absolute;right:22px;top:17px;font-weight:800;font-size:71px;letter-spacing:-.10em;color:#fff6e5;opacity:.075;pointer-events:none;z-index:5}
+.architecture-cinema-hud{position:absolute;inset:auto 0 0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:21px 23px;border-top:1px solid #dceadd3d;background:#152d3be9;color:#f0e7d6;font-size:10px;font-weight:800;letter-spacing:.085em}
+.architecture-cinema-hud strong{color:#f8c18a;font-size:17px;white-space:nowrap}
+.architecture-cinema-caption{margin:16px 0 0;font-size:11px;line-height:1.7;color:#c9d9d2}
+.architecture-cinema-chapters{display:flex;flex-direction:column;min-width:0}
+.architecture-cinema-chapter{min-height:clamp(375px,56vh,580px);border-top:1px solid #aec4b264;padding:51px 5px 55px 8px;display:flex;flex-direction:column;justify-content:center;scroll-margin-top:138px;transition:background-color .25s,padding-left .25s}
+.architecture-cinema-chapter:last-child{border-bottom:1px solid #aec4b264}
+.architecture-cinema-chapter>span{font-size:11px;font-weight:800;letter-spacing:.17em;color:#f4c18f}
+.architecture-cinema-chapter h3{font-size:clamp(38px,4vw,62px);line-height:1.09;font-weight:500;letter-spacing:-.06em;margin:23px 0}
+.architecture-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#f1ba8c}
+.architecture-cinema-chapter p{font-size:15px;line-height:1.86;color:#e0e7df;max-width:470px;margin:0 0 31px}
+.architecture-cinema-chapter small{font-size:10px;font-weight:700;letter-spacing:.105em;color:#dce2d8}
+body.architecture-webgl-ready .architecture-cinema-chapter.is-current{padding-left:20px;border-left:2px solid #f0b98c;background:linear-gradient(90deg,#f0b98c18,transparent 76%)}
+@media(max-width:980px){
+ .architecture-cinema-layout{grid-template-columns:minmax(0,1fr);gap:25px}
+ .architecture-cinema-sticky{top:86px}
+ .architecture-cinema-frame{height:340px}
+ .architecture-cinema-chapter{min-height:337px;padding:38px 13px}
+ .architecture-cinema-heading{padding-bottom:39px}
+ .a-cinema-scroll{padding:76px 0 95px}
+}
+@media(max-width:760px){
+ .a-cinema-hero h1{font-size:clamp(52px,11.9vw,83px)}
+ .architecture-cinema-sticky{top:76px}
+ .architecture-cinema-frame{height:260px}
+ .architecture-cinema-watermark{font-size:48px;top:8px}
+ .architecture-cinema-hud{padding:14px;font-size:9px}
+ .architecture-cinema-hud strong{font-size:13px}
+ .architecture-cinema-caption{font-size:10px}
+ .architecture-cinema-chapter{min-height:320px;padding:31px 10px}
+ .architecture-cinema-chapter h3{font-size:clamp(35px,9vw,50px)}
+ .architecture-cinema-chapter p{font-size:14px}
+}
+@media(max-width:370px){.a-cinema-hero h1{font-size:48px}.architecture-cinema-frame{height:219px}.architecture-cinema-sticky{top:72px}.architecture-cinema-hud{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.architecture-cinema-fallback,.architecture-cinema-chapter{transition:none!important}}
+body.motion-off .immersive-webgl,body.motion-off .architecture-cinema-chapter{transition:none!important}
