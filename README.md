@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Education — sixth cinematic industry landing page
+
+The Education landing page at `/industries/education/` now has a **fictional campus and learning-business WebGL scene**. Its scroll-controlled narrative moves through DISCOVER → ENQUIRE → WELCOME → CONNECT. The dimensional world progressively reveals a model campus, general information cards, administrative welcome guidance and business handover signals; reverse scrolling reverses the phases.
+
+- Reuses `assets/immersive-scene-kit.js`; the Education-specific 3D source is `industries/education/education-3d.js` and its cinematic styling in `education-3d.css`.
+- Preserves the original `assets/education-connected.svg` as the no-JavaScript/no-WebGL fallback, existing keyboard-operable stage buttons, site pause/reduced-motion controls, browser-only three-question brief, FAQ, business package descriptions, proof placeholders and navigation.
+- New `tests/education-cinematic.spec.cjs` verifies actual WebGL geometry/depth when available, forward/reverse scrolling, stage synchronization, keyboard selection, motion preferences, disabled WebGL and JavaScript-disabled content across four viewport profiles.
+- The model is **not a real institution, school, university, accredited programme, LMS, teaching environment, application portal, student record, admissions decision or actual client commission**. No minor-identifying data, student information, learning outcomes or admissions claims are represented.
+- Any real campus imagery, institution names, programme results, claimed integrations and testimonial evidence still require explicit authorization and review.
+- Preview-only `noindex` and owner-managed production deployment are retained, with no client data transmission or new external dependencies.
+
 ## Healthcare — fifth cinematic industry landing page
 
 The Healthcare page at `/industries/healthcare/` now has a **fictional, nonclinical WebGL reception scene** with four scroll-controlled stages: DISCOVER → ENQUIRE → FOLLOW UP → COORDINATE.
