@@ -21,8 +21,10 @@
   <link rel="preload" href="./assets/artwork-connected.svg" as="image" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./cinematic.css">
+  <link rel="stylesheet" href="./cinematic-3d.css">
   <noscript><style>.solution-menu .solution-choice,.industry-list .industry-chip{display:none!important}</style></noscript>
   <script src="./app.js" defer></script>
+  <script src="./cinematic-3d.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -41,7 +43,7 @@
     </nav>
   </header>
   <main id="main">
-    <section class="hero section-shell" aria-labelledby="hero-title">
+    <section class="hero cinema-hero section-shell" aria-labelledby="hero-title">
       <div class="shell hero-inner">
         <div class="hero-copy" data-reveal>
           <p class="eyebrow"><span class="signal-dot"></span> THE NEXT CHAPTER FOR YOUR BUSINESS</p>
@@ -56,7 +58,7 @@
         <div class="hero-art" data-reveal>
           <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
           <span class="art-word" aria-hidden="true">360</span>
-          <div class="art-frame">
+          <div class="art-frame" data-cinema-hero="true">
             <div class="art-glow"></div>
             <div class="art-reflection" aria-hidden="true"></div>
             <img class="scene-image hero-image" src="./assets/artwork-connected.svg" alt="A sculptural orange pathway connects a blue storefront, a customer conversation and an organised handover." width="1100" height="610" fetchpriority="high" decoding="async">
@@ -75,7 +77,7 @@
       <span>FIND THE RIGHT CUSTOMERS <b>✳</b> TURN INTEREST INTO ACTION <b>✳</b> KEEP WORK MOVING <b>✳</b></span>
       <span>FIND THE RIGHT CUSTOMERS <b>✳</b> TURN INTEREST INTO ACTION <b>✳</b> KEEP WORK MOVING <b>✳</b></span>
     </div></div>
-    <section class="journey-section section-space" id="journey" aria-labelledby="journey-title">
+    <section class="journey-section cinema-journey section-space" id="journey" aria-labelledby="journey-title">
       <div class="shell">
         <div class="section-heading journey-heading" data-reveal>
           <div><p class="eyebrow">01 / THE CONNECTED JOURNEY</p><h2 id="journey-title">Good things happen<br>when the steps <em>connect.</em></h2></div>
@@ -83,7 +85,7 @@
         </div>
         <div class="journey-grid">
           <div class="journey-visual" aria-label="Interactive illustration showing the three stages of business growth">
-            <div class="visual-stage">
+            <div class="visual-stage" data-cinema-stage="true">
               <div class="visual-counter"><span id="stage-index">01</span> <span>/ 03</span></div>
               <div class="cinematic-chapter-label" aria-hidden="true">A BETTER BUSINESS JOURNEY</div>
               <div class="stage-images" id="stage-images">
