@@ -164,9 +164,9 @@ Implementation: complete responsive insurance-business landing page, original SV
 | High | Contact form | External /contact-us/?industry=telecom needs a real delivery and receipt test; do not transmit private subscriber information | Verification pending |
 | Medium | Service packages | Client-approved commercial positioning, exclusions, package details and pricing for general Taamerat360 services | Awaiting client |
 | Medium | Integrations | Network, CRM, provisioning, account or billing integrations require separate security, privacy, technical and regulator assessment | Not promised |
-| Low | Concept art | Original stylised telecom kiosk, service information tablet, connectivity arch and orange path | Complete; replaceable with approved material |
+| Low | Hero / cinematic 3D concept | Fictional midnight-cobalt public information district, illustrative signal arcs, non-sensitive enquiry route and original SVG fallback; not actual telecom infrastructure or performance evidence | Illustrative 3D developed; owner-approved imagery and visual acceptance optional |
 
-Implementation: original illustrative responsive Telecom landing page; three general communication pain points; keyboard-accessible four-stage public information / understanding / enquiry / coordination journey; four business-solution cards; fixed-choice local-only copyable discussion brief; FAQ, mobile navigation, pause-motion control and verified-proof placeholders. The page makes no claims of actual telecom service activation, technical support, network management, availability verification, licensing, signal coverage, performance or uptime.
+Implementation: original illustrative responsive Telecom landing page upgraded with native-WebGL dimensional hero, reversible four-stage scroll storytelling and original SVG fallback; three general communication pain points; keyboard-accessible four-stage public information / understanding / enquiry / coordination journey; four business-solution cards; fixed-choice local-only copyable discussion brief; FAQ, mobile navigation, pause-motion control and verified-proof placeholders. The page makes no claims of actual telecom service activation, technical support, network management, availability verification, licensing, signal coverage, performance or uptime.
 
 ## 10 — Travel & Tourism
 
