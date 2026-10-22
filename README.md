@@ -2,6 +2,14 @@
 
 This repository contains the independent Taamerat360 interactive website preview. The original ChatGPT-hosted site is not changed by edits to this repository.
 
+## Verified GitHub source baseline (23 October 2026)
+
+- Latest independently compared cinematic-industry source baseline: `d66b71c6f4fe8819c18dd683ec290a83984f3f61` on `main`.
+- Verified the exported website ZIP against the repository's entire recursive Git tree: **133 of 133 tracked files matched by Git blob SHA-1**; 16 HTML pages, eleven cinematic industry pages and four editorial Business Need pages were present.
+- All 16 HTML pages passed local source checks for existing linked assets and local fragments, unique element IDs and preview-only `noindex`; no missing local asset or anchor was found.
+- Both `Frontend QA` and `Export Website Source` completed successfully on that baseline; **968/968 browser checks passed** over four viewport configurations. This source audit is described in `docs/github-source-synchronization-2026-10-23.md`.
+- Source parity does **not** establish production deployment, approval of client evidence, regulatory sign-off or successful external enquiry delivery. The GitHub-to-host connection might auto-deploy when `main` is updated; the site owner controls hosting settings and intended releases.
+
 ## Experience
 - Responsive FIND → CONNECT → DELIVER scene journey with self-hosted SVG artwork
 - Scroll-linked chapter switching, animated orange connector, pointer micro-parallax
@@ -11,7 +19,7 @@ This repository contains the independent Taamerat360 interactive website preview
 
 ## Testing
 GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
-- Full Chromium regression suite across all 16 pages; latest audited counts and the exact commit are recorded in GitHub Actions → Frontend QA (620/620 passed at the fourth-page milestone)
+- Full Chromium regression suite across all 16 pages. The latest verified complete 11-industry baseline (`d66b71c6f4fe8819c18dd683ec290a83984f3f61`) passed **968/968 browser tests** in [Frontend QA run 39859970649](https://github.com/Brainstormtools/taamerat360.com/actions/runs/39859970649). Always check GitHub Actions for results on newer commits.
 - 1440px desktop, 820px tablet, standard mobile, 320px compact mobile
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
@@ -196,7 +204,7 @@ All 11 planned industry landing pages have been developed, browser-tested, and m
 3. **Improve Customer Experience** — source at `/solutions/improve-customer-experience/`: original customer-and-service illustration, three communication friction points, accessible four-touchpoint explorer (discover, connect, continue, improve) with no-script fallback, Connected Growth and Business Efficiency package directions, verified-proof placeholder and externally linked proposal destination. Service channel and integration boundaries require approval.
 4. **Simplify Business Operations** — source at `/solutions/simplify-business-operations/`: custom coordination illustration, three operational friction points, keyboard-accessible four-step request-to-review workflow explorer with no-JS fallback, Business Efficiency and Connected Growth package directions, client-proof placeholder and external proposal CTA. Workflow integrations and deliverables require separate approval.
 
-All **four business-need pages** now have source implementations; they remain subject to full QA, client approvals, live-proposal receipt testing and owner-managed production publication. These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
+All **four business-need pages** are already implemented, merged into `main`, and included in the site-wide **968/968 passing browser regression baseline**. Their separate cinematic 3D upgrades are **not yet implemented**. Client approvals, live-proposal receipt testing and owner-managed production publication remain outstanding. These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
 
 ## Current development & release boundaries
 
@@ -207,4 +215,4 @@ All **four business-need pages** now have source implementations; they remain su
 - All 16 current site routes are included in the GitHub Actions regression checks; comprehensive sign-off and source/export status are tracked in `docs/site-release-readiness.md`.
 
 ## Boundaries
-The illustration work uses original vector compositions rather than photorealistic 3D renders. No backend, lead database or email delivery service has been configured in this repository.
+The website uses original vector compositions together with procedural, native-WebGL 3D scenes on all eleven industry pages; these are stylized conceptual visuals, not photorealistic representations or authenticated client projects. No backend, lead database or email delivery service has been configured in this repository.
