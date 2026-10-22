@@ -16,6 +16,19 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Construction — first cinematic industry landing page
+
+The Construction industry landing page at `/industries/construction/` now includes a **3D construction maquette**, with a scroll-controlled four-chapter storyline: FIND → SCOPE → COORDINATE → DELIVER. The geometric sequence progresses from groundwork and foundations to structural frame, crane/envelope and closing details. It is a **fictional visual metaphor for construction business communication**, not an engineering model, client project or claim that Taamerat360 performs construction.
+
+- Hero: high-contrast cinematic environment with a dimensional construction model, while retaining the original SVG if rendering is unavailable.
+- Scroll narrative: a sticky building scene and four complete text chapters, with a camera and building-assembly progression that can be reversed by scrolling upward.
+- Existing manual stage buttons, site motion toggle, business brief, package cards and approved-evidence placeholders stay functional. The brief stays browser-only.
+- Shared source: `assets/immersive-scene-kit.js` contains reusable low-level native-WebGL primitives (boxes, beams, camera matrices, lighting, rendering); construction-specific model and chapter logic are in `industries/construction/construction-3d.js`, with styles in `construction-3d.css`.
+- Access: no external CDN and no user data transmission, keyboard support, explicit no-JavaScript/no-WebGL SVG fallback, reduced-motion/static controls, WebGL resource limits.
+- QA: new `tests/construction-cinematic.spec.cjs` covers WebGL depth, scroll progress, reverse progress, manual stages, reduced motion, blocked WebGL and script-disabled fallback.
+- This increment does **not** make all eleven industry pages cinematic. The remaining ten industries and four business-need pages retain their current non-3D presentations until individually upgraded.
+- Publication remains preview-only `noindex`. Real projects, quotes, outcomes, client names and pricing still require approval.
+
 ## Immersive 3D homepage — first cinematic development increment
 
 The homepage now uses a **procedural WebGL 3D ecosystem** in the hero and FIND → CONNECT → DELIVER section, with dimensional storefront, customer meeting, delivery modules and a shared orange spatial connection. Unlike the earlier SVG parallax, the new renderer uses perspective camera matrices, lit mesh geometry and depth testing. The journey camera interpolates between all three scenes according to real scroll position; existing chapter buttons can select scenes, and the site motion toggle pauses camera movement.
