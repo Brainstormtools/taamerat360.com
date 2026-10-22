@@ -87,7 +87,7 @@ const mq=matchMedia("(prefers-reduced-motion: reduce)");
 let userPaused=false,paused=mq.matches;
 let selected=0,scrollValue=0,progress=0,manual=null,until=0,pending=false;
 let active=!document.hidden;
-let frameClock=0;
+let timer=null;
 const visible=el=>{const r=el.getBoundingClientRect();return r.top<innerHeight&&r.bottom>0;};
 function measure(){
  const pivot=innerHeight*.52,centers=chapters.map(el=>{const r=el.getBoundingClientRect();return r.top+r.height/2;});
@@ -111,7 +111,8 @@ function draw(ms){
  if(heroScene&&visible(hero))heroScene.draw(3,"hero",paused?0:ms*.001);
  if(chapterScene&&visible(stage))chapterScene.draw(progress,"chapter",paused?0:ms*.001);
  updateControls(Math.max(0,Math.min(3,Math.round(progress))));
- if(!paused&&(visible(hero)||visible(stage))){frameClock++;if(frameClock%4===0)request();else request();}
+ if(!paused&&(visible(hero)||visible(stage))&&timer===null)
+  timer=setTimeout(()=>{timer=null;request();},110);
  else if(Math.abs(goal-progress)>.006)request();
 }
 function syncScroll(){
