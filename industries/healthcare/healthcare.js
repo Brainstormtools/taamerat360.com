@@ -1,7 +1,7 @@
 (()=>{"use strict";
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>Array.from(r.querySelectorAll(s));
 let paused=matchMedia("(prefers-reduced-motion: reduce)").matches;
-const motion=$(".motion-toggle");function showMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+const motion=$(".motion-toggle");function showMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";window.dispatchEvent(new CustomEvent("healthcare:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;showMotion()});showMotion();
 const menu=$(".nav-toggle"),nav=$(".nav-links");
 function closeMenu(focus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");menu.setAttribute("aria-expanded","false");menu.setAttribute("aria-label","Open navigation");if(focus)menu.focus()}
@@ -18,7 +18,7 @@ coordinate:{no:"04 / 04",word:"COORDINATE",tag:"STAFF / BUSINESS COMMUNICATION",
 const keys=Object.keys(stages);
 function chooseStage(key){const item=stages[key];if(!item)return;
 $$(".h-stage").forEach(btn=>{const active=btn.dataset.stage===key;btn.classList.toggle("is-active",active);btn.setAttribute("aria-pressed",String(active))});
-$("#h-stage-number").textContent=item.no;$("#h-stage-word").textContent=item.word;$("#h-stage-tag").textContent=item.tag;$("#h-stage-title").textContent=item.title;$("#h-stage-desc").textContent=item.desc;$("#h-stage-focus-text").textContent=item.focus;$("#h-stage-count").textContent=item.count+" OF 4";$("#h-journey-path").setAttribute("stroke-dashoffset",String(item.offset))
+$("#h-stage-number").textContent=item.no;$("#h-stage-word").textContent=item.word;$("#h-stage-tag").textContent=item.tag;$("#h-stage-title").textContent=item.title;$("#h-stage-desc").textContent=item.desc;$("#h-stage-focus-text").textContent=item.focus;$("#h-stage-count").textContent=item.count+" OF 4";$("#h-journey-path").setAttribute("stroke-dashoffset",String(item.offset));window.dispatchEvent(new CustomEvent("healthcare:stage",{detail:{key}}))
 }
 $$(".h-stage").forEach(btn=>{btn.addEventListener("click",()=>chooseStage(btn.dataset.stage));btn.addEventListener("keydown",event=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(event.key))return;event.preventDefault();const delta=event.key==="ArrowDown"||event.key==="ArrowRight"?1:-1;const index=Math.max(0,Math.min(keys.length-1,keys.indexOf(btn.dataset.stage)+delta));chooseStage(keys[index]);$$(".h-stage")[index].focus()})});
 const form=$("#h-brief-form"),copy=$("#h-copy"),result=$("#h-result-text"),status=$("#h-status"),practice=$("#h-practice"),problem=$("#h-challenge"),priority=$("#h-priority");let draft="";
