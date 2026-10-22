@@ -16,6 +16,18 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Architecture — fourth cinematic industry landing page
+
+The Architecture page at `/industries/architecture/` includes a **fictional blueprint-to-3D studio maquette** that moves through four scroll-controlled business chapters: DISCOVERY → BRIEF → PROPOSAL → COORDINATION.
+
+- Starts with a technical-looking grid and plan lines, then introduces a 3D structural frame, building enclosure and abstract client/studio communication markers. These elements are visual metaphors, **not accurate construction drawings, architectural designs, client commissions, project records or completed works**.
+- Uses the shared `assets/immersive-scene-kit.js`, with page-specific geometry and animation in `industries/architecture/architecture-3d.js` and editorial styling in `architecture-3d.css`.
+- The cinematic hero and sticky scroll model retain the existing original `assets/architecture-studio.svg` illustration as a no-WebGL/no-JavaScript fallback. Reverse scrolling reverses the scene stages.
+- Existing studio journey buttons, keyboard arrows, site motion settings, FAQ explaining technical-profession boundaries, package descriptions, case-study placeholders and browser-only brief generator remain in place.
+- `tests/architecture-cinematic.spec.cjs` adds WebGL-depth checks, scroll forward/reverse, stage selection, reduced-motion, blocked-WebGL and disabled-JavaScript checks across all four viewport profiles.
+- **Taamerat360's scoped role remains business growth, communication and operations**, not design authorship, building permitting, statutory approval, structural engineering or architectural professional practice.
+- No CDN, external data transmission, real enquiry submission, live systems, verified outcomes or production deployment added. The page retains preview-only `noindex`.
+
 ## E-commerce — third cinematic industry landing page
 
 The E-commerce landing page at `/industries/e-commerce/` now includes a stylized **native-WebGL product showcase**, with a reversible four-chapter scroll narrative: DISCOVER → CONSIDER → COORDINATE → FOLLOW THROUGH.
