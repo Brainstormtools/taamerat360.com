@@ -7,7 +7,7 @@ test('E-commerce cinematic hero and product narrative retain accurate scope',asy
  await expect(page.locator('.e-cinema-hero h1')).toContainText('Every click');
  await expect(page.locator('#cinema-ecommerce')).toBeVisible();
  await expect(page.locator('.ecommerce-cinema-chapter')).toHaveCount(4);
- await expect(page.locator('.ecommerce-cinema-heading')).toContainText('not a real product for sale');
+ await expect(page.locator('.ecommerce-cinema-heading')).toContainText('No item shown here is a real product for sale');
  await expect(page.locator('.e-solutions')).toContainText('Payment processing, logistics and guaranteed revenue outcomes are not implied');
  await expect(page.locator('.e-placeholder-head')).toContainText('CONTENT PLACEHOLDER');
  await expect(page.locator('script[src="../../assets/immersive-scene-kit.js"]')).toHaveCount(1);
