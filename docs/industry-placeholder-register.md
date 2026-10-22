@@ -72,9 +72,9 @@ Implementation: full responsive landing page; native-WebGL cinematic product her
 | High | Proposal | /contact-us/?industry=architecture | Confirm real submission is received by business | Verification pending |
 | Medium | Offers | Existing generic service packages | Confirm architecture-market positioning, fees, exclusions and exact services | Awaiting client |
 | Medium | Sector workflow | Enquiry, brief, proposal and coordination illustrations | Confirm target studios and supported integrations / system boundaries | Review pending |
-| Low | Original illustrative hero | Conceptual architectural model and blueprints | Optional approved project photos; no claim the concept is built or delivered | Optional |
+| Low | Hero and cinematic study model | Fictional native-WebGL blueprint-to-maquette scene with original SVG fallback | Optional licensed actual architecture photography, approved practice projects and visual QA; do not represent the concept as built or professionally designed work | Illustrative 3D developed; client proof optional |
 
-Implementation: complete responsive architecture-practice landing page, original conceptual studio SVG, three sector-specific friction cards, four-stage interactive client-journey controls with keyboard access, relevant package links, marked proof placeholders, FAQ clarifying business support versus professional design, and local-only copyable starting brief.
+Implementation: complete responsive architecture-practice landing page; native-WebGL blueprint-to-maquette cinematic hero and four-stage reversible scroll story with original SVG/no-JS fallback; three sector-specific friction cards; original keyboard-operable four-stage client journey; relevant package links; marked proof placeholders; FAQ distinguishing business support from professional architectural design; and local-only copyable starting brief. The scene does not imply completed architecture, technical drawings, statutory approval, construction engineering, clients, or project outcomes.
 
 ## 05 — Healthcare
 
