@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Immersive 3D homepage — first cinematic development increment
+
+The homepage now uses a **procedural WebGL 3D ecosystem** in the hero and FIND → CONNECT → DELIVER section, with dimensional storefront, customer meeting, delivery modules and a shared orange spatial connection. Unlike the earlier SVG parallax, the new renderer uses perspective camera matrices, lit mesh geometry and depth testing. The journey camera interpolates between all three scenes according to real scroll position; existing chapter buttons can select scenes, and the site motion toggle pauses camera movement.
+
+- Source: `cinematic-3d.js` and `cinematic-3d.css`, attached to homepage `index.html` and existing `app.js` events.
+- Works without third-party JavaScript or CDN assets; there is **no Three.js dependency** in this initial lightweight prototype.
+- Original accessible editorial SVGs and navigation remain available as the **WebGL-unavailable and no-JavaScript fallback**; on reduced-motion devices 3D shows a static frame with no continuous camera motion.
+- New `tests/cinematic-homepage.spec.cjs` covers native rendering when available, no-WebGL fallback, chapter navigation, scroll movement and motion settings.
+- This is **homepage cinematic foundation only**. It does not claim the 11 industry and four solution pages have received 3D scene upgrades, photorealistic assets or full reference-video motion fidelity.
+- Maintain preview-only `noindex`, external form warnings, client proof placeholders and owner-managed deployment.
+
 ## Site-wide quality and release readiness
 
 - The **16-page** structural and navigation audit covers the homepage, all eleven industries and all four business-need pages.
