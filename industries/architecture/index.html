@@ -11,8 +11,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/architecture-studio.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./architecture.css">
-<script src="./architecture.js" defer></script></head>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./architecture.css"><link rel="stylesheet" href="./architecture-3d.css">
+<script src="./architecture.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./architecture-3d.js" defer></script></head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
@@ -21,16 +21,16 @@
 <div class="nav-links" id="nav-links"><a href="../../#industries">Industries</a><a href="#challenges">Challenges</a><a href="#studio-flow">Studio journey</a><a href="#solutions">Solutions</a><a href="#brief">Start a brief</a><a class="nav-cta" href="#brief">Discuss your practice <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="a-hero" aria-labelledby="a-hero-title"><div class="shell a-hero-grid">
+<section class="a-hero a-cinema-hero" aria-labelledby="a-hero-title"><div class="shell a-hero-grid">
 <div class="a-hero-content">
 <nav class="a-crumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>ARCHITECTURE</strong></nav>
 <p class="eyebrow a-kicker"><span class="a-point" aria-hidden="true"></span> INDUSTRY 04 / DESIGN PRACTICES</p>
 <h1 id="a-hero-title">Make room for<br><em>better business.</em></h1>
 <p class="a-lead">A great studio needs more than creative vision. Connect the first project enquiry, the right client brief, proposal conversations and the people making each project happen.</p>
-<div class="a-hero-actions"><a class="btn btn-dark" href="#studio-flow">Explore the studio journey <span aria-hidden="true">↗</span></a><a class="a-text-link" href="#brief">Build a starting brief <span aria-hidden="true">↗</span></a></div>
+<div class="a-hero-actions"><a class="btn btn-dark" href="#cinema-architecture">Explore the studio journey <span aria-hidden="true">↗</span></a><a class="a-text-link" href="#brief">Build a starting brief <span aria-hidden="true">↗</span></a></div>
 <div class="a-smallline"><span aria-hidden="true"></span> THOUGHTFUL DESIGN DESERVES A CLEAR PROCESS.</div>
 </div>
-<div class="a-visual"><div class="a-gridplane" aria-hidden="true"></div><div class="a-ring" aria-hidden="true"></div>
+<div class="a-visual" data-architecture-hero><div class="a-gridplane" aria-hidden="true"></div><div class="a-ring" aria-hidden="true"></div>
 <img src="../../assets/architecture-studio.svg" alt="Conceptual architectural workspace, isometric building model, blueprint sheets and an orange pathway linking project stages." width="1100" height="780" decoding="async" fetchpriority="high">
 <div class="a-studio-mark"><span>THE STUDIO</span><strong>BEHIND<br>THE WORK.</strong><span>04 / 11</span></div>
 <p class="a-art-caption">ORIGINAL CONCEPTUAL ARTWORK / NOT A COMPLETED PROJECT</p>
@@ -45,8 +45,55 @@
 <article class="a-challenge a-ch-gold"><div class="a-card-head"><span>02 / SCOPE & APPROVALS</span><span aria-hidden="true">↗</span></div><div class="a-abstract a-abstract-two" aria-hidden="true"><div></div><div></div><div></div></div><h3>Exciting briefs.<br><em>Unclear expectations.</em></h3><p>Early project goals, responsibilities and proposal decisions need clarity.</p></article>
 <article class="a-challenge a-ch-green"><div class="a-card-head"><span>03 / COMMUNICATION</span><span aria-hidden="true">↗</span></div><div class="a-abstract a-abstract-three" aria-hidden="true"><div></div><div></div><div></div></div><h3>Busy studios.<br><em>Scattered updates.</em></h3><p>Teams and clients benefit when revisions and next actions are visible.</p></article>
 </div></div></section>
+
+<section class="a-cinema-scroll" id="cinema-architecture" aria-labelledby="architecture-cinema-title">
+<div class="shell">
+  <div class="architecture-cinema-heading">
+    <p class="eyebrow">02 / FROM THE FIRST LINE TO A CLEARER CLIENT JOURNEY</p>
+    <h2 id="architecture-cinema-title">From drawing lines<br><em>to connecting people.</em></h2>
+    <p>Follow a <strong>fictional architectural study model</strong> as a visual metaphor for client enquiries, briefs, commercial proposals and coordination. This is conceptual business storytelling, not a commissioned design, a technical drawing, a completed building, or a service commitment.</p>
+  </div>
+  <div class="architecture-cinema-layout">
+    <div class="architecture-cinema-sticky">
+      <div class="architecture-cinema-frame" data-architecture-scene role="img" aria-label="Conceptual 3D architectural drawing grid progressively transforming into a building study model with illustrated communication touchpoints">
+        <img src="../../assets/architecture-studio.svg" class="architecture-cinema-fallback" width="1100" height="780" alt="" decoding="async">
+        <span class="architecture-cinema-watermark" aria-hidden="true">FORM / 04</span>
+        <div class="architecture-cinema-hud"><span>ARCHITECTURAL STUDY / CONCEPT ONLY</span><strong id="architecture-cinema-progress" aria-live="off">01 / 04</strong></div>
+      </div>
+      <p class="architecture-cinema-caption">Scroll to transform the drawing into a dimensional model · Scroll upward to reverse · Or choose any stage using the workflow buttons below.</p>
+    </div>
+    <div class="architecture-cinema-chapters">
+      <article class="architecture-cinema-chapter" data-architecture-chapter="0">
+        <span>01 / DISCOVERY</span>
+        <h3>Let the practice<br><em>be understood.</em></h3>
+        <p>Communicate what a studio does, who it serves and how the right prospective clients should get in touch.</p>
+        <small>PORTFOLIO DISCOVERY / BUSINESS POSITIONING</small>
+      </article>
+      <article class="architecture-cinema-chapter" data-architecture-chapter="1">
+        <span>02 / BRIEF</span>
+        <h3>Bring early ideas<br><em>into focus.</em></h3>
+        <p>Organize client goals, questions, constraints and commercial expectations before a design team commits to next steps.</p>
+        <small>INTAKE / SCOPE CLARITY</small>
+      </article>
+      <article class="architecture-cinema-chapter" data-architecture-chapter="2">
+        <span>03 / PROPOSAL</span>
+        <h3>Give a decision<br><em>a clear route.</em></h3>
+        <p>Make proposal communication, responsibilities and approvals easier to track without representing a real commission or guaranteeing agreement.</p>
+        <small>PROPOSAL COMMUNICATION / FOLLOW-UP</small>
+      </article>
+      <article class="architecture-cinema-chapter" data-architecture-chapter="3">
+        <span>04 / COORDINATION</span>
+        <h3>Keep the work<br><em>connected.</em></h3>
+        <p>Bring studio contacts, business updates and client conversations together while technical design decisions remain with qualified professionals.</p>
+        <small>PEOPLE / ACCOUNTABILITY / HANDOVERS</small>
+      </article>
+    </div>
+  </div>
+</div>
+</section>
+
 <section id="studio-flow" class="a-section a-workflow" aria-labelledby="a-workflow-title"><div class="shell">
-<div class="a-heading a-heading-dark"><div><p class="eyebrow">02 / THE CONNECTED STUDIO</p><h2 id="a-workflow-title">Every project starts<br>with <em>a conversation.</em></h2></div><p>Select a stage to see an example business workflow around an architecture project. Actual services and commitments depend on an agreed scope.</p></div>
+<div class="a-heading a-heading-dark"><div><p class="eyebrow">03 / THE CONNECTED STUDIO</p><h2 id="a-workflow-title">Every project starts<br>with <em>a conversation.</em></h2></div><p>Select a stage to see an example business workflow around an architecture project. Actual services and commitments depend on an agreed scope.</p></div>
 <div class="a-flow-grid">
 <div class="a-flow-options" role="group" aria-label="Architecture studio business journey">
 <button type="button" class="a-step is-active" data-stage="inquiry" aria-pressed="true"><span>01</span><strong>Welcome the enquiry</strong><span aria-hidden="true">↗</span></button>
@@ -68,7 +115,7 @@
 <div class="a-flow-foot"><span>ILLUSTRATIVE WORKFLOW / NOT A GUARANTEED SERVICE</span><span id="a-step-count">1 OF 4</span></div>
 </div></div></div></section>
 <section id="solutions" class="a-section a-solutions" aria-labelledby="a-solutions-title"><div class="shell">
-<div class="a-heading"><div><p class="eyebrow">03 / TAAMERAT360 FOR ARCHITECTURE PRACTICES</p><h2 id="a-solutions-title">Support the studio.<br><em>Protect the focus.</em></h2></div><p>Our focus is the business around architecture—not design authorship, drawings, building permits, professional certification or statutory approvals.</p></div>
+<div class="a-heading"><div><p class="eyebrow">04 / TAAMERAT360 FOR ARCHITECTURE PRACTICES</p><h2 id="a-solutions-title">Support the studio.<br><em>Protect the focus.</em></h2></div><p>Our focus is the business around architecture—not design authorship, drawings, building permits, professional certification or statutory approvals.</p></div>
 <div class="a-solution-grid">
 <article class="a-solution a-s-blue"><span>01 / ATTRACT</span><div class="a-s-glyph" aria-hidden="true">◎</div><h3>Lead Growth</h3><p>Make the practice easier to discover and its offer clearer to potential clients.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 <article class="a-solution a-s-rose"><span>02 / FOLLOW-UP</span><div class="a-s-glyph" aria-hidden="true">↗</div><h3>Sales Momentum</h3><p>Keep early conversations, quotations and agreed next steps visible.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
@@ -76,13 +123,13 @@
 <article class="a-solution a-s-dark"><span>04 / CONNECT</span><div class="a-s-glyph" aria-hidden="true">✳</div><h3>Connected Growth</h3><p>Connect the client relationship from first enquiry through follow-through.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 </div></div></section>
 <section class="a-section a-proof" id="proof" aria-labelledby="a-proof-title"><div class="shell a-proof-grid">
-<div><p class="eyebrow">04 / REAL WORK, NOT INVENTED WORK</p><h2 id="a-proof-title">A great portfolio<br>deserves <em>real projects.</em></h2><p>Approved practice stories, project imagery, verified outcomes and client testimonials will be shown here when permission and evidence are provided. Until then, the placeholders stay visible.</p><a class="a-text-link" href="#brief">Explore your own opportunity <span aria-hidden="true">↗</span></a></div>
+<div><p class="eyebrow">05 / REAL WORK, NOT INVENTED WORK</p><h2 id="a-proof-title">A great portfolio<br>deserves <em>real projects.</em></h2><p>Approved practice stories, project imagery, verified outcomes and client testimonials will be shown here when permission and evidence are provided. Until then, the placeholders stay visible.</p><a class="a-text-link" href="#brief">Explore your own opportunity <span aria-hidden="true">↗</span></a></div>
 <article class="a-case"><div class="a-case-head"><span>CONTENT PLACEHOLDER</span><span aria-hidden="true">◌</span></div>
 <div class="a-case-image" aria-label="Reserved space for approved architecture studio project image"><div class="a-case-lines" aria-hidden="true"></div><span>APPROVED PRACTICE / PROJECT IMAGE<br>TO BE PROVIDED</span></div>
 <div class="a-case-details"><span>ARCHITECTURE / VERIFIED BUSINESS CASE STUDY</span><h3>[Approved practice or project name]</h3><p>[Client-approved business challenge, approach and verified outcomes]</p><footer>[Approved client testimonial and attribution]</footer></div></article>
 </div></section>
 <section id="brief" class="a-section a-brief-section" aria-labelledby="a-brief-title"><div class="shell">
-<div class="a-heading"><div><p class="eyebrow">05 / YOUR NEXT PROJECT CONVERSATION</p><h2 id="a-brief-title">Begin with a<br><em>clearer brief.</em></h2></div><p>Choose the type of practice and your current challenge. A private browser-only tool will draft a simple discussion brief you can copy.</p></div>
+<div class="a-heading"><div><p class="eyebrow">06 / YOUR NEXT PROJECT CONVERSATION</p><h2 id="a-brief-title">Begin with a<br><em>clearer brief.</em></h2></div><p>Choose the type of practice and your current challenge. A private browser-only tool will draft a simple discussion brief you can copy.</p></div>
 <div class="a-brief-grid"><form class="a-brief-form" id="a-brief-form">
 <div class="a-form-top"><strong>BUILD A STARTING BRIEF</strong><span>03 QUESTIONS</span></div>
 <label for="a-practice">What kind of practice or business?</label>
@@ -100,7 +147,7 @@
 <p id="a-copy-status" role="status" aria-live="polite">Your selections stay in your browser unless you choose to share them.</p>
 </div></div></div></section>
 <section class="a-section a-faq" id="questions" aria-labelledby="a-faq-title"><div class="shell a-faq-grid">
-<div><p class="eyebrow">06 / THE IMPORTANT DISTINCTIONS</p><h2 id="a-faq-title">Business support.<br><em>Not design substitution.</em></h2></div>
+<div><p class="eyebrow">07 / THE IMPORTANT DISTINCTIONS</p><h2 id="a-faq-title">Business support.<br><em>Not design substitution.</em></h2></div>
 <div class="a-faq-items">
 <details><summary>Does Taamerat360 prepare architectural drawings?<span aria-hidden="true">+</span></summary><p>This landing page describes business growth, communication and operations support. Architectural drawings, professional design work and regulatory submissions are not included unless separately agreed with an appropriately qualified provider.</p></details>
 <details><summary>Can we define the workflow around our existing systems?<span aria-hidden="true">+</span></summary><p>That's the goal of an initial discovery conversation. Any integrations, deliverables, timeline or technical changes require confirmation before they become part of the agreed scope.</p></details>
