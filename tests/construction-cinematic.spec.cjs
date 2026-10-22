@@ -7,7 +7,7 @@ test('Construction immersive hero and scroll chapters retain accurate business c
  await expect(page.locator('.c-cinema-hero h1')).toContainText('move forward.');
  await expect(page.locator('#cinema-construction')).toBeVisible();
  await expect(page.locator('.construction-cinema-chapter')).toHaveCount(4);
- await expect(page.locator('.construction-cinema-heading')).toContainText('not an engineering design');
+ await expect(page.locator('.c-cinema-heading')).toContainText('not an engineering design');
  await expect(page.locator('.c-value')).toContainText('not structural design');
  await expect(page.locator('.c-placeholder-flag')).toContainText('CONTENT PLACEHOLDER');
  await expect(page.locator('script[src="../../assets/immersive-scene-kit.js"]')).toHaveCount(1);
