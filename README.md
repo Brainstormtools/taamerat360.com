@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Travel & Tourism — tenth cinematic industry landing page
+
+The Travel & Tourism page at `/industries/travel-tourism/` now contains an **original fictional 3D destination-discovery pavilion** in deep sea green, sea-glass, warm sand and coral, with abstract landscaping, information displays and an illustrative wayfinding route. Four scroll-responsive chapters reverse through DISCOVER → EXPLORE → ENQUIRE → COORDINATE.
+
+- Uses the existing procedural native-WebGL scene kit with `industries/travel-tourism/travel-tourism-3d.js` and `travel-tourism-3d.css`. No external 3D platform or business backend was added.
+- Both hero and sticky-story canvases render an initial frame before the original `assets/travel-tourism-connected.svg` is faded, including compact mobile pages where the story begins below the fold.
+- Existing accessible arrow-key journey controls, pause and reduced-motion behavior, full page copy, general-service offerings, clear evidence placeholders, fixed-choice browser-only business brief, FAQ, noindex preview policy and no-JavaScript/no-WebGL fallbacks remain intact.
+- `tests/travel-tourism-cinematic.spec.cjs` validates dimensional depth-tested WebGL, both first-frame canvases, four chapters, forward/reverse scroll, keyboard synchronization, motion settings and disabled-WebGL/JavaScript fallbacks across all four supported viewports.
+- **Not a real destination, destination review, confirmed itinerary, travel package, pricing/availability check, ticket, reservation, visa/safety advice, payment processor, tour operator or verified client result.** No names, passport numbers, booking codes, payment details or personal travel information are collected or processed.
+- Real operator claims, case studies, photographs, rights, contact delivery, pricing, offers, permitted integrations and travel-sector compliance remain explicitly client/owner approval gates. GitHub-only development; owner controls production deployment.
+
 ## Telecom — ninth cinematic industry landing page
 
 The Telecom page at `/industries/telecom/` includes an **original fictional native-WebGL public information district**, with a midnight-cobalt visual direction, luminous public service panels, abstract signal arcs, and a connected non-sensitive enquiry route. Its scroll-controlled story reverses through DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE.

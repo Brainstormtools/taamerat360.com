@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/travel-tourism-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./travel-tourism.css"><script src="./travel-tourism.js" defer></script></head><body>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./travel-tourism.css"><link rel="stylesheet" href="./travel-tourism-3d.css"><script src="./travel-tourism.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./travel-tourism-3d.js" defer></script></head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
 <a href="../../" class="brand" aria-label="Taamerat360 home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Taamerat<span class="brand-accent">360</span><span class="brand-arrow">↗</span></span></a>
@@ -17,15 +17,15 @@
 <div id="nav-links" class="nav-links"><a href="../../#industries">Industries</a><a href="#challenges">Challenges</a><a href="#journey">The journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Discuss a project <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="tt-hero" aria-labelledby="tt-hero-title"><div class="shell tt-hero-grid">
+<section class="tt-hero tt-cinema-hero" aria-labelledby="tt-hero-title"><div class="shell tt-hero-grid">
 <div class="tt-hero-copy">
 <nav class="tt-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>TRAVEL &amp; TOURISM</strong></nav>
 <p class="eyebrow tt-kicker"><span class="tt-dot" aria-hidden="true"></span> INDUSTRY 10 / TRAVEL &amp; TOURISM BUSINESSES</p>
 <h1 id="tt-hero-title">Make the journey<br><em>feel effortless.</em></h1>
 <p class="tt-lead">A journey begins long before departure. Help travellers explore accurate, approved experiences, ask the right general questions and understand the next administrative step—without turning this site into a booking engine.</p>
-<div class="tt-actions"><a class="btn btn-dark" href="#journey">Explore the journey <span aria-hidden="true">↗</span></a><a class="tt-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
+<div class="tt-actions"><a class="btn btn-dark" href="#cinema-travel-tourism">Explore the journey <span aria-hidden="true">↗</span></a><a class="tt-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
 <p class="tt-hero-note">DISCOVER → EXPLORE → ENQUIRE → COORDINATE</p>
-</div><div class="tt-art"><div class="tt-orbit" aria-hidden="true"></div><img src="../../assets/travel-tourism-connected.svg" alt="Conceptual travel information kiosk, itinerary card, suitcase, green gateway and orange connected path." width="1120" height="780" decoding="async" fetchpriority="high">
+</div><div class="tt-art" data-travel-tourism-hero><div class="tt-orbit" aria-hidden="true"></div><img src="../../assets/travel-tourism-connected.svg" alt="Conceptual travel information kiosk, itinerary card, suitcase, green gateway and orange connected path." width="1120" height="780" decoding="async" fetchpriority="high">
 <div class="tt-stamp"><span>A JOURNEY</span><strong>CONNECTED<br>FROM THE START.</strong><small>10 / 11</small></div><p class="tt-art-caption">CONCEPTUAL ARTWORK / NOT A REAL TRAVEL PACKAGE OR CONFIRMED ITINERARY</p></div></div>
 <div class="shell tt-hero-foot"><span>BETTER DISCOVERY. CLEARER TRAVEL BUSINESS CONVERSATIONS.</span><a href="#challenges">Explore the opportunities ↓</a></div></section>
 <div class="tt-ribbon" aria-hidden="true"><div class="tt-ribbon-track"><span>DESTINATION DISCOVERY <b>✳</b> GENERAL ENQUIRIES <b>✳</b> THOUGHTFUL FOLLOW-UP <b>✳</b> CONNECTED TRAVEL TEAMS <b>✳</b></span><span>DESTINATION DISCOVERY <b>✳</b> GENERAL ENQUIRIES <b>✳</b> THOUGHTFUL FOLLOW-UP <b>✳</b> CONNECTED TRAVEL TEAMS <b>✳</b></span></div></div>
@@ -36,6 +36,49 @@
 <article class="tt-card tt-card-gold"><div class="tt-card-top">02 / ENQUIRIES <span aria-hidden="true">↗</span></div><div class="tt-card-symbol" aria-hidden="true">↗</div><h3>Questions arrive.<br><em>Answers scatter.</em></h3><p>General tour and destination enquiries need the right team, consistent information and a clear response path.</p></article>
 <article class="tt-card tt-card-green"><div class="tt-card-top">03 / COORDINATION <span aria-hidden="true">↗</span></div><div class="tt-card-symbol" aria-hidden="true">≋</div><h3>Busy seasons.<br><em>Fragmented updates.</em></h3><p>Marketing, guest relations and partner teams benefit from thoughtful non-booking follow-up routines.</p></article>
 </div></div></section>
+
+<section class="tt-cinema-scroll" id="cinema-travel-tourism" aria-labelledby="travel-tourism-cinema-title">
+ <div class="shell">
+  <div class="travel-tourism-cinema-heading">
+   <p class="eyebrow">02 / A CONNECTED TRAVEL BUSINESS STORY</p>
+   <h2 id="travel-tourism-cinema-title">Inspire the journey.<br><em>Clarify the next step.</em></h2>
+   <p>Walk through a <strong>fictional dimensional discovery pavilion</strong> that illustrates public travel information, general enquiries and non-booking coordination. The imagined coastline, wayfinding route and experience cards are not a real destination, offer, confirmed itinerary, live availability, booking or travel-safety recommendation.</p>
+  </div>
+  <div class="travel-tourism-cinema-layout">
+   <div class="travel-tourism-cinema-sticky">
+    <div class="travel-tourism-cinema-frame" data-travel-tourism-scene role="img" aria-label="Imagined 3D coastal travel-information pavilion with progressively appearing discovery cards, illustrative wayfinding route and partner coordination notes">
+     <img src="../../assets/travel-tourism-connected.svg" width="1120" height="780" class="travel-tourism-cinema-fallback" alt="" decoding="async">
+     <span class="travel-tourism-cinema-watermark" aria-hidden="true">DISCOVER / 04</span>
+     <div class="travel-tourism-cinema-hud"><span>TRAVEL &amp; TOURISM / ILLUSTRATIVE BUSINESS CONCEPT</span><strong id="travel-tourism-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="travel-tourism-cinema-caption">Scroll to reveal each stage · Scroll up to reverse · Use the keyboard-operable journey controls below to choose a stage directly.</p>
+   </div>
+   <div class="travel-tourism-cinema-chapters">
+    <article class="travel-tourism-cinema-chapter" data-travel-tourism-chapter="0">
+     <span>01 / DISCOVER</span><h3>Help guests imagine<br><em>what could be possible.</em></h3>
+     <p>Present truthful, approved public descriptions of travel experiences and direct discovery to appropriate operator channels without suggesting real-time availability.</p>
+     <small>DISCOVER / APPROVED PUBLIC INFORMATION</small>
+    </article>
+    <article class="travel-tourism-cinema-chapter" data-travel-tourism-chapter="1">
+     <span>02 / EXPLORE</span><h3>Make experiences<br><em>easier to understand.</em></h3>
+     <p>Explain general inclusions, exclusions, experience themes and operator-confirmed next steps; decorative cards are not bookable packages or live offers.</p>
+     <small>EXPLORE / NO VERIFIED INVENTORY OR LIVE PRICES</small>
+    </article>
+    <article class="travel-tourism-cinema-chapter" data-travel-tourism-chapter="2">
+     <span>03 / ENQUIRE</span><h3>Give travel questions<br><em>a sensible destination.</em></h3>
+     <p>Guide non-sensitive general business enquiries to a responsible team without collecting passenger names, passport numbers, personal itineraries or booking references.</p>
+     <small>ENQUIRE / GENERAL QUESTIONS ONLY</small>
+    </article>
+    <article class="travel-tourism-cinema-chapter" data-travel-tourism-chapter="3">
+     <span>04 / COORDINATE</span><h3>Keep the people behind<br><em>the experience connected.</em></h3>
+     <p>Help marketing, guest-relations and partner teams coordinate everyday follow-up without reservations, ticketing, transactions or private guest records.</p>
+     <small>COORDINATE / NON-BOOKING ADMINISTRATIVE WORK</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="tt-section tt-dark" id="journey" aria-labelledby="tt-journey-title"><div class="shell">
 <div class="tt-heading tt-heading-dark"><div><p class="eyebrow">02 / THE CONNECTED BUSINESS JOURNEY</p><h2 id="tt-journey-title">From first inspiration<br>to <em>the next step.</em></h2></div><p>Explore an illustrative marketing and enquiry journey. This demonstration does not show live availability, issue tickets, make reservations, accept payments or provide destination-specific travel advice.</p></div>
 <div class="tt-journey-grid"><div class="tt-steps" role="group" aria-label="Travel and tourism general business enquiry journey">

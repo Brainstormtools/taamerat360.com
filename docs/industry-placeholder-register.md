@@ -183,9 +183,9 @@ Implementation: original illustrative responsive Telecom landing page upgraded w
 | High | Enquiry destination | Existing external /contact-us/?industry=travel-tourism; real submission/receipt test required; no traveller information should be shared | Verification pending |
 | Medium | Service details | Confirm approved packages, business value proposition, scope, pricing, exclusions, actual features and any supported partnerships | Awaiting client |
 | Medium | Integrations | Any reservation, guest-service, ticketing or payment integration requires formal technical discovery, security, privacy and operator authorisation | Not promised |
-| Low | Original hero | Conceptual travel information kiosk, itinerary card, abstract luggage and connected route; not a real destination or booking | Completed |
+| Low | Hero / cinematic visualization | Fictional native-WebGL coastal information pavilion, illustrated journey cards, wayfinding sculpture and original SVG fallback — no real destination, package or booking represented | Conceptual 3D developed; approved destination media awaits client |
 
-Implementation: responsive industry landing page, original conceptual SVG, three sector-specific discovery/enquiry/handover cards, four-stage accessible business journey, four general Taamerat360 package links, verified-client proof placeholders, browser-only fixed-choice copyable starting brief, reduced-motion control, privacy/scope FAQ, and four-device QA. No booking, live availability, ticketing, payment, itinerary certification, travel safety assurance or actual tour-operating capability is represented.
+Implementation: responsive industry landing page, fictional native-WebGL discovery pavilion, four reversible cinematic scroll chapters and original conceptual SVG fallback, three sector-specific discovery/enquiry/handover cards, four-stage accessible business journey, four general Taamerat360 package links, verified-client proof placeholders, browser-only fixed-choice copyable starting brief, reduced-motion control, privacy/scope FAQ, and four-device QA. No booking, live availability, ticketing, payment, itinerary certification, travel safety assurance or actual tour-operating capability is represented.
 
 ## 11 — Ride Hailing
 
