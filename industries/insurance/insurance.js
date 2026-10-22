@@ -2,7 +2,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>Array.from(r.querySelectorAll(s));
 let paused=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const motion=$(".motion-toggle");
-function showMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));motion.setAttribute("aria-label",paused?"Resume motion":"Pause motion");$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+function showMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));motion.setAttribute("aria-label",paused?"Resume motion":"Pause motion");$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";dispatchEvent(new CustomEvent("insurance:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;showMotion()});showMotion();
 const toggle=$(".nav-toggle"),nav=$(".nav-links");
 function closeMenu(focus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation");if(focus)toggle.focus()}
@@ -19,7 +19,7 @@ coordinate:{number:"04 / 04",word:"COORDINATE",label:"NON-CLAIMS BUSINESS TEAM /
 const keys=Object.keys(stages);
 function setStage(key){const v=stages[key];if(!v)return;
 $$(".i-step").forEach(b=>{const active=b.dataset.stage===key;b.classList.toggle("is-active",active);b.setAttribute("aria-pressed",String(active))});
-$("#i-stage-number").textContent=v.number;$("#i-stage-word").textContent=v.word;$("#i-stage-label").textContent=v.label;$("#i-stage-title").textContent=v.title;$("#i-stage-description").textContent=v.description;$("#i-stage-focus").textContent=v.focus;$("#i-stage-count").textContent=v.count+" OF 4";$("#i-progress-path").setAttribute("stroke-dashoffset",String(v.offset))}
+$("#i-stage-number").textContent=v.number;$("#i-stage-word").textContent=v.word;$("#i-stage-label").textContent=v.label;$("#i-stage-title").textContent=v.title;$("#i-stage-description").textContent=v.description;$("#i-stage-focus").textContent=v.focus;$("#i-stage-count").textContent=v.count+" OF 4";$("#i-progress-path").setAttribute("stroke-dashoffset",String(v.offset));dispatchEvent(new CustomEvent("insurance:stage",{detail:{key}}))}
 $$(".i-step").forEach(b=>{b.addEventListener("click",()=>setStage(b.dataset.stage));b.addEventListener("keydown",e=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key))return;e.preventDefault();const step=e.key==="ArrowDown"||e.key==="ArrowRight"?1:-1;const i=Math.max(0,Math.min(keys.length-1,keys.indexOf(b.dataset.stage)+step));setStage(keys[i]);$$(".i-step")[i].focus()})});
 const form=$("#i-form"),copy=$("#i-copy"),result=$("#i-result-text"),status=$("#i-status"),business=$("#i-business"),challenge=$("#i-challenge"),priority=$("#i-priority");let brief="";
 form.addEventListener("submit",e=>{e.preventDefault();
