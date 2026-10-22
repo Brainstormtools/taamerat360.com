@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/education-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./education.css"><script src="./education.js" defer></script>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./education.css"><link rel="stylesheet" href="./education-3d.css"><script src="./education.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./education-3d.js" defer></script>
 </head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation"><a href="../../" class="brand" aria-label="Taamerat360 home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Taamerat<span class="brand-accent">360</span><span class="brand-arrow">↗</span></span></a>
@@ -15,14 +15,14 @@
 <div class="nav-links" id="nav-links"><a href="../../#industries">All industries</a><a href="#challenges">Challenges</a><a href="#journey">The journey</a><a href="#solutions">Solutions</a><a href="#brief">Starting brief</a><a class="nav-cta" href="#brief">Discuss your institution <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="ed-hero"><div class="shell ed-hero-grid">
+<section class="ed-hero ed-cinema-hero"><div class="shell ed-hero-grid">
 <div class="ed-hero-copy"><nav class="ed-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>EDUCATION</strong></nav>
 <p class="eyebrow ed-kicker"><span class="ed-kicker-dot" aria-hidden="true"></span> INDUSTRY 06 / EDUCATION BUSINESSES</p>
 <h1>Every learner<br>starts <em>somewhere.</em></h1>
 <p class="ed-lead">From programme discovery to the first welcome, thoughtful communication makes a difference. Give prospective learners and education teams clearer information, better follow-up and a connected experience.</p>
-<div class="ed-hero-actions"><a class="btn btn-dark" href="#journey">Follow the journey <span aria-hidden="true">↗</span></a><a href="#brief" class="ed-inline-link">Find your starting point <span aria-hidden="true">↗</span></a></div>
+<div class="ed-hero-actions"><a class="btn btn-dark" href="#cinema-education">Follow the journey <span aria-hidden="true">↗</span></a><a href="#brief" class="ed-inline-link">Find your starting point <span aria-hidden="true">↗</span></a></div>
 <p class="ed-hero-note">DISCOVER → ENQUIRE → ENROL → CONNECT</p></div>
-<div class="ed-hero-art"><div class="ed-art-orbit" aria-hidden="true"></div><img src="../../assets/education-connected.svg" width="1050" height="720" alt="Stylized campus, learning programme card, books and an orange path representing the education journey." decoding="async" fetchpriority="high"><div class="ed-stamp"><span>LEARNING<br>BEGINS WITH</span><strong>CONNECTION.</strong><small>06 / 11</small></div><p class="ed-art-caption">CONCEPTUAL ILLUSTRATION / NOT A REAL CAMPUS OR INSTITUTION</p></div></div>
+<div class="ed-hero-art" data-education-hero><div class="ed-art-orbit" aria-hidden="true"></div><img src="../../assets/education-connected.svg" width="1050" height="720" alt="Stylized campus, learning programme card, books and an orange path representing the education journey." decoding="async" fetchpriority="high"><div class="ed-stamp"><span>LEARNING<br>BEGINS WITH</span><strong>CONNECTION.</strong><small>06 / 11</small></div><p class="ed-art-caption">CONCEPTUAL ILLUSTRATION / NOT A REAL CAMPUS OR INSTITUTION</p></div></div>
 <div class="shell ed-hero-bottom"><span>A CLEARER JOURNEY. A BETTER EXPERIENCE.</span><a href="#challenges">Explore the opportunities ↓</a></div></section>
 <div class="ed-ribbon" aria-hidden="true"><div class="ed-ribbon-track"><span>PROGRAMME DISCOVERY <b>✳</b> ADMISSIONS COMMUNICATION <b>✳</b> WELCOMING ONBOARDING <b>✳</b> CONNECTED TEAMS <b>✳</b></span><span>PROGRAMME DISCOVERY <b>✳</b> ADMISSIONS COMMUNICATION <b>✳</b> WELCOMING ONBOARDING <b>✳</b> CONNECTED TEAMS <b>✳</b></span></div></div>
 <section class="ed-section" id="challenges" aria-labelledby="ed-challenge-heading"><div class="shell">
@@ -32,8 +32,51 @@
 <article class="ed-challenge ed-ch-cream"><div class="ed-card-index">02 / ADMISSIONS <span aria-hidden="true">↗</span></div><div class="ed-symbol" aria-hidden="true">↗</div><h3>Questions arrive.<br><em>Next steps get lost.</em></h3><p>Inconsistent general enquiry responses can make important decisions harder to navigate.</p></article>
 <article class="ed-challenge ed-ch-green"><div class="ed-card-index">03 / ONBOARDING <span aria-hidden="true">↗</span></div><div class="ed-symbol" aria-hidden="true">≋</div><h3>People enrol.<br><em>Teams disconnect.</em></h3><p>Clear ownership of welcomes, documentation guidance and administrative updates benefits everyone.</p></article></div>
 </div></section>
+
+<section class="ed-cinema-scroll" id="cinema-education" aria-labelledby="education-cinema-title">
+<div class="shell">
+ <div class="education-cinema-heading">
+  <p class="eyebrow">02 / A CONNECTED LEARNING BUSINESS JOURNEY</p>
+  <h2 id="education-cinema-title">The first discovery<br><em>becomes a conversation.</em></h2>
+  <p>Explore a <strong>fictional campus and education business journey</strong> from finding useful programme information to general enquiries, welcoming guidance, and staff communication. The model is not a real institution, accreditation, enrolment system, student record, teaching service or verified project.</p>
+ </div>
+ <div class="education-cinema-layout">
+  <div class="education-cinema-sticky">
+   <div class="education-cinema-frame" data-education-scene role="img" aria-label="Illustrative 3D campus that progressively reveals public programme information, enquiry cards, welcome guidance and administrative team communication">
+    <img src="../../assets/education-connected.svg" width="1050" height="720" class="education-cinema-fallback" alt="" decoding="async">
+    <span class="education-cinema-watermark" aria-hidden="true">LEARN / 04</span>
+    <div class="education-cinema-hud"><span>EDUCATION BUSINESS JOURNEY / CONCEPT</span><strong id="education-cinema-progress" aria-live="off">01 / 04</strong></div>
+   </div>
+   <p class="education-cinema-caption">Scroll to explore each administrative moment · Scroll back to reverse · Use the existing journey buttons below to select directly.</p>
+  </div>
+  <div class="education-cinema-chapters">
+   <article class="education-cinema-chapter" data-education-chapter="0">
+    <span>01 / DISCOVER</span><h3>Let opportunities<br><em>be understood.</em></h3>
+    <p>Clear programme descriptions, general entry information and appropriate contacts help prospective learners decide whom to ask.</p>
+    <small>DISCOVERY / PUBLIC PROGRAMME INFORMATION</small>
+   </article>
+   <article class="education-cinema-chapter" data-education-chapter="1">
+    <span>02 / ENQUIRE</span><h3>Make the first<br><em>response worthwhile.</em></h3>
+    <p>General business and admissions enquiries need responsible routing and helpful expectations, without capturing sensitive student details.</p>
+    <small>GENERAL ENQUIRIES / CONTACT CLARITY</small>
+   </article>
+   <article class="education-cinema-chapter" data-education-chapter="2">
+    <span>03 / WELCOME</span><h3>Guide new beginnings<br><em>with clarity.</em></h3>
+    <p>Show illustrative onboarding communication, document guidance and accountable next steps without processing applications or student records.</p>
+    <small>ONBOARDING INFORMATION / ADMINISTRATIVE HANDOVER</small>
+   </article>
+   <article class="education-cinema-chapter" data-education-chapter="3">
+    <span>04 / CONNECT</span><h3>Keep education teams<br><em>in the picture.</em></h3>
+    <p>Help admissions and operations staff coordinate non-teaching responsibilities while academic decisions remain with qualified institutions.</p>
+    <small>COMMUNICATION / COORDINATION / RESPONSIBILITY</small>
+   </article>
+  </div>
+ </div>
+</div>
+</section>
+
 <section class="ed-section ed-dark" id="journey" aria-labelledby="ed-journey-heading"><div class="shell">
-<div class="ed-heading ed-heading-dark"><div><p class="eyebrow">02 / FOLLOW THE LEARNER JOURNEY</p><h2 id="ed-journey-heading">A promising start.<br><em>A connected path.</em></h2></div><p>Explore a sample administrative journey, without pretending to provide learning management systems, admission decisions or student record services.</p></div>
+<div class="ed-heading ed-heading-dark"><div><p class="eyebrow">03 / FOLLOW THE LEARNER JOURNEY</p><h2 id="ed-journey-heading">A promising start.<br><em>A connected path.</em></h2></div><p>Explore a sample administrative journey, without pretending to provide learning management systems, admission decisions or student record services.</p></div>
 <div class="ed-journey-grid">
 <div class="ed-stages" role="group" aria-label="Education business journey">
 <button type="button" class="ed-stage is-active" data-stage="discovery" aria-pressed="true"><span>01</span><strong>Help programmes get discovered</strong><span aria-hidden="true">↗</span></button>
@@ -51,7 +94,7 @@
 <div class="ed-stage-footer"><span>ILLUSTRATIVE PROCESS / NO STUDENT RECORDS</span><span id="ed-stage-count">1 OF 4</span></div></div></div>
 </div></section>
 <section class="ed-section" id="solutions" aria-labelledby="ed-sol-heading"><div class="shell">
-<div class="ed-heading"><div><p class="eyebrow">03 / TAAMERAT360 SUPPORT</p><h2 id="ed-sol-heading">Give your team<br><em>room to teach.</em></h2></div><p>We focus on marketing, business communication and administrative coordination—not teaching, accreditation, student assessments or educational guarantees.</p></div>
+<div class="ed-heading"><div><p class="eyebrow">04 / TAAMERAT360 SUPPORT</p><h2 id="ed-sol-heading">Give your team<br><em>room to teach.</em></h2></div><p>We focus on marketing, business communication and administrative coordination—not teaching, accreditation, student assessments or educational guarantees.</p></div>
 <div class="ed-solutions">
 <article class="ed-solution ed-sol-blue"><span>01 / REACH</span><div aria-hidden="true">◎</div><h3>Lead Growth</h3><p>Connect appropriate audiences with clear programme and service messaging.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 <article class="ed-solution ed-sol-orange"><span>02 / ENGAGE</span><div aria-hidden="true">↗</div><h3>Sales Momentum</h3><p>Organise general admissions enquiries, responses and follow-ups.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
@@ -59,11 +102,11 @@
 <article class="ed-solution ed-sol-dark"><span>04 / CONNECT</span><div aria-hidden="true">✳</div><h3>Connected Growth</h3><p>Make the business journey more coherent across discovery and onboarding.</p><a href="../../#packages">Explore package <span aria-hidden="true">↗</span></a></article>
 </div></div></section>
 <section class="ed-section ed-evidence" id="evidence" aria-labelledby="ed-proof-heading"><div class="shell ed-proof-grid">
-<div><p class="eyebrow">04 / VERIFY BEFORE WE CLAIM</p><h2 id="ed-proof-heading">Real institutions.<br><em>Real evidence.</em></h2><p>Approved institution stories, campaign results and testimonials will appear here when the information and permission are supplied. No invented enrolment numbers, learner outcomes or accreditations.</p><a href="#brief" class="ed-inline-link">Start with your own needs <span aria-hidden="true">↗</span></a></div>
+<div><p class="eyebrow">05 / VERIFY BEFORE WE CLAIM</p><h2 id="ed-proof-heading">Real institutions.<br><em>Real evidence.</em></h2><p>Approved institution stories, campaign results and testimonials will appear here when the information and permission are supplied. No invented enrolment numbers, learner outcomes or accreditations.</p><a href="#brief" class="ed-inline-link">Start with your own needs <span aria-hidden="true">↗</span></a></div>
 <article class="ed-proof-card"><div class="ed-placeholder-top">CONTENT PLACEHOLDER <span aria-hidden="true">◌</span></div><div class="ed-proof-image"><span>APPROVED EDUCATION ORGANISATION<br>IMAGE TO BE PROVIDED</span></div><div class="ed-proof-details"><span>EDUCATION / APPROVED BUSINESS CASE STUDY</span><h3>[Approved institution or project title]</h3><p>[Verified business challenge, approved approach and measurable outcomes]</p><footer>[Approved institutional testimonial and attribution]</footer></div></article>
 </div></section>
 <section class="ed-section" id="brief" aria-labelledby="ed-brief-heading"><div class="shell">
-<div class="ed-heading"><div><p class="eyebrow">05 / FIND THE FIRST IMPROVEMENT</p><h2 id="ed-brief-heading">Start with a<br><em>smarter conversation.</em></h2></div><p>Choose three general organisation preferences to create a copyable discussion brief. This is not an application form and does not collect student information.</p></div>
+<div class="ed-heading"><div><p class="eyebrow">06 / FIND THE FIRST IMPROVEMENT</p><h2 id="ed-brief-heading">Start with a<br><em>smarter conversation.</em></h2></div><p>Choose three general organisation preferences to create a copyable discussion brief. This is not an application form and does not collect student information.</p></div>
 <div class="ed-brief-grid"><form class="ed-form" id="ed-form">
 <div class="ed-form-top"><strong>EDUCATION BUSINESS BRIEF</strong><span>03 QUESTIONS</span></div>
 <label for="ed-organisation">What kind of education organisation?</label>
