@@ -1,0 +1,48 @@
+/* Education: cinematic campus world with accessible SVG and no-JS fallback. */
+.ed-cinema-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 75% 38%,#415e7a,#273e57 49%,#172b3f);color:#fff3de}
+.ed-cinema-hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#eee7d314 1px,transparent 1px),linear-gradient(90deg,#eee7d314 1px,transparent 1px);background-size:80px 80px;mask-image:linear-gradient(90deg,transparent,#000)}
+.ed-cinema-hero .ed-breadcrumb{color:#dfe9e5}.ed-cinema-hero .ed-breadcrumb strong{color:#f5c59e}.ed-cinema-hero .ed-breadcrumb span{color:#c4d0d4}
+.ed-cinema-hero .ed-kicker{color:#d9e6dc}.ed-cinema-hero .ed-kicker-dot{background:#ffba87}
+.ed-cinema-hero h1{font-size:clamp(62px,7.8vw,120px)}.ed-cinema-hero h1 em{color:#f2b991}
+.ed-cinema-hero .ed-lead{color:#e0e8e9}.ed-cinema-hero .ed-hero-actions .btn-dark{background:#f4bf8b;color:#192c40}
+.ed-cinema-hero .ed-hero-actions .btn-dark:hover{background:#ffdcad}.ed-cinema-hero .ed-inline-link{color:#fff1e0}
+.ed-cinema-hero .ed-hero-note{color:#dfebdf}.ed-cinema-hero .ed-hero-bottom{color:#e8ecdf;border-color:#dfeee047}
+.ed-cinema-hero .ed-hero-bottom a{color:#f4c59a}.ed-cinema-hero .ed-art-orbit{border-color:#deeddf47}.ed-cinema-hero .ed-art-orbit::before{border-color:#d4e8db3c}
+.ed-cinema-hero .ed-stamp{background:#f0c189;color:#213c4a;z-index:5}.ed-cinema-hero .ed-stamp small{color:#3e5561}
+.ed-cinema-hero .ed-art-caption{color:#e7e9df;background:#1b3143cc;padding:7px 10px;z-index:5}
+.ed-cinema-hero .ed-hero-art>img{filter:drop-shadow(0 24px 32px #08182866)}
+.immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:3;opacity:0;pointer-events:none;transition:opacity .56s ease}
+body.education-webgl-ready .immersive-webgl{opacity:1}
+body.education-webgl-ready .ed-cinema-hero .ed-hero-art>img{opacity:.03;filter:blur(12px);transition:opacity .55s}
+body.education-webgl-ready .education-cinema-fallback{opacity:.04;filter:blur(12px)}
+.ed-cinema-scroll{background:#1b3148;color:#fff4e5;position:relative;isolation:isolate;padding:106px 0 128px}
+.ed-cinema-scroll::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(90deg,#e9efe20f 1px,transparent 1px);background-size:90px 90px}
+.education-cinema-heading{position:relative;max-width:980px;padding-bottom:75px}
+.education-cinema-heading .eyebrow{color:#f5c49a}
+.education-cinema-heading h2{font-size:clamp(51px,6.3vw,98px);font-weight:500;line-height:1.04;letter-spacing:-.074em;margin:0 0 28px}
+.education-cinema-heading h2 em{font-family:"DM Serif Display",Georgia,serif;color:#f2b994;font-weight:400;letter-spacing:-.022em}
+.education-cinema-heading>p:last-child{font-size:16px;line-height:1.85;max-width:715px;color:#dce7e9;margin:0}
+.education-cinema-heading strong{color:#fff4e0}
+.education-cinema-layout{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(0,.87fr);align-items:start;gap:clamp(28px,5vw,80px)}
+.education-cinema-sticky{position:sticky;top:105px;min-width:0;z-index:2}
+.education-cinema-frame{height:clamp(440px,46vw,670px);position:relative;isolation:isolate;overflow:hidden;border:1px solid #bdcbd77c;background:radial-gradient(ellipse at 52% 40%,#657c97,#34506a 56%,#1c344b);box-shadow:0 30px 95px #07152168}
+.education-cinema-frame::before{content:"";position:absolute;inset:18px;border:1px solid #f0e6d82c;pointer-events:none;z-index:4}
+.education-cinema-fallback{position:absolute;inset:4% auto auto -4%;width:108%;height:92%;object-fit:contain;opacity:.74;transition:opacity .5s}
+.education-cinema-watermark{position:absolute;right:20px;top:13px;font-size:65px;letter-spacing:-.09em;font-weight:800;opacity:.075;color:#fff8e7;pointer-events:none;z-index:5}
+.education-cinema-hud{position:absolute;inset:auto 0 0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:22px 23px;border-top:1px solid #e1e9e048;background:#192f43ea;color:#f1ecde;font-size:10px;font-weight:800;letter-spacing:.08em}
+.education-cinema-hud strong{font-size:17px;color:#ffd1a2;white-space:nowrap}
+.education-cinema-caption{margin:16px 0 0;font-size:11px;line-height:1.75;color:#d1dce0}
+.education-cinema-chapters{min-width:0;display:flex;flex-direction:column}
+.education-cinema-chapter{min-height:clamp(380px,56vh,580px);border-top:1px solid #c6d2c863;scroll-margin-top:135px;display:flex;flex-direction:column;justify-content:center;padding:50px 5px 56px 9px;transition:background-color .25s,padding-left .25s}
+.education-cinema-chapter:last-child{border-bottom:1px solid #c6d2c863}
+.education-cinema-chapter>span{color:#f4c89f;font-size:11px;letter-spacing:.16em;font-weight:800}
+.education-cinema-chapter h3{font-size:clamp(37px,4vw,61px);font-weight:500;letter-spacing:-.057em;line-height:1.11;margin:23px 0}
+.education-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#f2bb95}
+.education-cinema-chapter p{font-size:15px;line-height:1.88;max-width:470px;margin:0 0 29px;color:#e0e8e8}
+.education-cinema-chapter small{color:#dde1d6;font-size:10px;font-weight:700;letter-spacing:.10em}
+body.education-webgl-ready .education-cinema-chapter.is-current{background:linear-gradient(90deg,#f4b98c18,transparent 76%);border-left:2px solid #f2bb96;padding-left:20px}
+@media(max-width:980px){.education-cinema-layout{grid-template-columns:minmax(0,1fr);gap:25px}.education-cinema-sticky{top:86px}.education-cinema-frame{height:338px}.education-cinema-chapter{min-height:337px;padding:38px 14px}.education-cinema-heading{padding-bottom:39px}.ed-cinema-scroll{padding:77px 0 96px}}
+@media(max-width:760px){.ed-cinema-hero h1{font-size:clamp(51px,12vw,83px)}.education-cinema-sticky{top:76px}.education-cinema-frame{height:261px}.education-cinema-watermark{font-size:46px;top:8px}.education-cinema-hud{padding:13px;font-size:9px}.education-cinema-hud strong{font-size:13px}.education-cinema-caption{font-size:10px}.education-cinema-chapter{min-height:315px;padding:31px 9px}.education-cinema-chapter h3{font-size:clamp(35px,9vw,48px)}.education-cinema-chapter p{font-size:14px}}
+@media(max-width:370px){.ed-cinema-hero h1{font-size:47px}.education-cinema-frame{height:219px}.education-cinema-sticky{top:72px}.education-cinema-hud{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.education-cinema-fallback,.education-cinema-chapter{transition:none!important}}
+body.motion-off .immersive-webgl,body.motion-off .education-cinema-chapter{transition:none!important}

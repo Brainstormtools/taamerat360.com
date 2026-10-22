@@ -108,9 +108,9 @@ Implementation: complete responsive landing page; fictional native-WebGL healthc
 | High | Privacy | Any future admissions, student or LMS integrations | Separate privacy, security, safeguarding and sector compliance assessment; not part of current scope | Not included |
 | Medium | Packages | Existing Taamerat360 categories | Confirm education-sector service commitments, pricing, integrations and exclusions | Awaiting client |
 | Medium | Market copy | School, university, academy and online learning examples | Validate intended educational organisation types and approved language | Review pending |
-| Low | Hero illustration | Conceptual campus, books and discovery path | Optional approved institution photography with permissions | Optional |
+| Low | Hero and scroll artwork | Fictional native-WebGL campus and administrative journey with original SVG fallback | Optional owned/licensed institution photography and explicit permissions, safeguarding review, visual acceptance; never represent model as an actual school or programme | 3D concept developed; institution proof optional |
 
-Implementation: complete responsive Education landing page; original campus artwork; sector-specific challenge cards; interactive four-stage programme discovery / enquiry / welcome / admin-team journey with keyboard controls; package cards; clearly marked case-study placeholders; three-question fixed-choice private discussion-brief generator, copy fallback, accessible mobile navigation, motion control and FAQ. No student data, information about minors, admissions decisions, accreditations or educational outcomes are collected or guaranteed.
+Implementation: responsive Education landing page; fictional native-WebGL campus hero and four-stage reversible scroll story with original SVG/no-JavaScript fallback; sector-specific challenge cards; original keyboard-operable programme discovery / enquiry / welcome / admin-team journey; package cards; verified-proof placeholders; three-question fixed-choice private discussion brief, copy fallback, accessible navigation, motion control and FAQ. No student data, information about minors, admissions decisions, accreditation, learning management systems or educational outcomes are collected or guaranteed.
 
 ## 07 — Banking & Fintech
 
