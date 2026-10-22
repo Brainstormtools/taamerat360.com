@@ -3,7 +3,7 @@ const $=(s,root=document)=>root.querySelector(s),$$=(s,root=document)=>Array.fro
 const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 let paused=reduced;
 const motion=$(".motion-toggle");
-function setMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+function setMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";window.dispatchEvent(new CustomEvent("architecture:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;setMotion()});setMotion();
 const toggle=$(".nav-toggle"),nav=$(".nav-links");
 function closeMenu(focus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation");if(focus)toggle.focus()}
@@ -20,7 +20,7 @@ coordinate:{number:"04 / 04",word:"DELIVERY",label:"STUDIO / CLIENT COMMUNICATIO
 const keys=Object.keys(journey);
 function setStage(key){const s=journey[key];if(!s)return;
 $$(".a-step").forEach(b=>{const active=b.dataset.stage===key;b.classList.toggle("is-active",active);b.setAttribute("aria-pressed",String(active))});
-$("#a-step-number").textContent=s.number;$("#a-plan-name").textContent=s.word;$("#a-step-eyebrow").textContent=s.label;$("#a-step-title").textContent=s.title;$("#a-step-description").textContent=s.description;$("#a-step-outcome").textContent=s.outcome;$("#a-step-count").textContent=s.count+" OF 4";$("#a-flow-path").setAttribute("stroke-dashoffset",String(s.offset))
+$("#a-step-number").textContent=s.number;$("#a-plan-name").textContent=s.word;$("#a-step-eyebrow").textContent=s.label;$("#a-step-title").textContent=s.title;$("#a-step-description").textContent=s.description;$("#a-step-outcome").textContent=s.outcome;$("#a-step-count").textContent=s.count+" OF 4";$("#a-flow-path").setAttribute("stroke-dashoffset",String(s.offset));window.dispatchEvent(new CustomEvent("architecture:stage",{detail:{key}}))
 }
 $$(".a-step").forEach(b=>{
 b.addEventListener("click",()=>setStage(b.dataset.stage));
