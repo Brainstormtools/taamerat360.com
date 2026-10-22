@@ -206,15 +206,10 @@ Implementation: responsive industry landing page, fictional native-WebGL discove
 
 Implementation: original responsive Ride Hailing landing page; native-WebGL conceptual city district with reversible cinematic chapters and original SVG fallback; three mobility-business communication challenges; keyboard-operated four-stage informational journey; four general Taamerat360 business packages; client-proof placeholders; fixed-choice, browser-only and copyable organisation brief; reduced-motion control, navigation, FAQs and four-device regression tests. The page does not book rides, calculate fares, connect drivers and riders, process payments, track GPS, operate dispatch or claim safety/security certification.
 
-## Remaining industry pages
+## Completed industry source — outstanding client approval gates
 
-2. Real Estate — developed (awaiting proof content)
-3. E-commerce — developed (awaiting proof content)
-4. Architecture — developed (awaiting verified client content)
-5. Healthcare — developed (awaiting approved content and privacy/scope review)
-6. Education — developed (awaiting client-approved proof and scope details)
-7. Banking & Fintech — developed (awaiting approved sector proof and privacy/compliance review)
-8. Insurance — developed (awaiting proof and legal/sector approval)
-9. Telecom — developed (pending client proof and telecom-sector review)
-10. Travel & Tourism — developed (awaiting approved proof, scope and travel-sector review)
-11. Ride Hailing — developed (awaiting client-approved evidence and mobility-sector review)
+All **11 of 11 industry landing pages** have been implemented with conceptual native-WebGL cinematic experiences and merged into `main`. The last independently verified source parity baseline is `d66b71c6f4fe8819c18dd683ec290a83984f3f61` (23 October 2026), with **968/968 browser QA checks passed**.
+
+This is **source completion, not verified production publication or client-evidence approval**. The outstanding content and sector-specific reviews for each industry remain in the detailed registers above: client case studies, image rights, independently verified outcomes, quotations, service scope, compliance and the externally hosted proposal submission/receipt test. Do not remove the placeholders or preview-only indexing restrictions without owner approval.
+
+The four Business Need pages are also present on `main` as editorial experiences, but their own cinematic 3D upgrades are a separate future development phase. See `docs/solution-placeholder-register.md` and `docs/site-release-readiness.md`.
