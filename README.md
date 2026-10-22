@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Banking & Fintech — seventh cinematic industry landing page
+
+The Banking & Fintech page at `/industries/banking-fintech/` now uses an **unbranded, fictional 3D public-service pavilion** with four reversible scroll chapters: DISCOVER → UNDERSTAND → ENQUIRE → CONNECT. Layered glass/metal panels represent public descriptions, information clarity, general enquiry routing and non-sensitive business-team coordination.
+
+- Native WebGL uses the existing shared `assets/immersive-scene-kit.js`; the new scene and styles are `industries/banking-fintech/banking-fintech-3d.js` and `banking-fintech-3d.css`. Both canvases render an initial frame even when one begins off-screen.
+- Original `assets/banking-fintech-connected.svg` remains for no-JavaScript/no-WebGL users. Scroll is reversible, and the original keyboard-operable business journey controls and pause/reduced-motion setting drive the same scene.
+- Existing public-service messaging, fixed-choice browser-only brief, package cards, FAQ, preview-only `noindex`, legal/sector review needs and evidence placeholders remain in place.
+- **Not a real financial institution, regulated product, licensed service, account application, payment process, identity verification, decision engine, security certification, live integration or verified customer case.** No personal, account or transaction data are solicited or processed by the scene.
+- `tests/banking-fintech-cinematic.spec.cjs` checks dimensional native rendering where supported, desktop/mobile initial canvas frames, forward/reverse scroll, keyboard and stage sync, pause, reduced motion and no-WebGL/no-JavaScript fallback.
+- No CDN, financial API, personal-data transmission or production deployment introduced. The owner remains responsible for public release and real-world financial-services compliance review.
+
 ## Education — sixth cinematic industry landing page
 
 The Education landing page at `/industries/education/` now has a **fictional campus and learning-business WebGL scene**. Its scroll-controlled narrative moves through DISCOVER → ENQUIRE → WELCOME → CONNECT. The dimensional world progressively reveals a model campus, general information cards, administrative welcome guidance and business handover signals; reverse scrolling reverses the phases.
