@@ -35,6 +35,7 @@
     motionToggle.setAttribute("aria-pressed", String(paused));
     $(".motion-label").textContent = paused ? "Resume motion" : "Pause motion";
     $(".motion-indicator").textContent = paused ? "▶" : "Ⅱ";
+    window.dispatchEvent(new CustomEvent("construction:motion", {detail: {paused}}));
   }
   motionToggle.addEventListener("click", () => { paused = !paused; setMotion(); });
   setMotion();
@@ -84,6 +85,7 @@
     $("#stage-outcome").textContent = item.outcome;
     $("#stage-counter").textContent = item.count;
     $("#stage-path").setAttribute("stroke-dashoffset", String(item.offset));
+    window.dispatchEvent(new CustomEvent("construction:stage", {detail: {key}}));
   }
   $$(".c-process-button").forEach(b => {
     b.addEventListener("click", () => setStage(b.dataset.stage));

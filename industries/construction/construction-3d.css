@@ -1,0 +1,76 @@
+/* Construction cinematic journey — native WebGL over genuine accessible HTML.
+   The original SVG remains visible without WebGL, without JS and after context loss.
+ */
+.c-cinema-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 76% 38%,#3d6666 0,#233f49 43%,#102631 100%);color:#fff3dc}
+.c-cinema-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#fbf5e417 1px,transparent 1px),linear-gradient(90deg,#fbf5e417 1px,transparent 1px);background-size:70px 70px;mask-image:linear-gradient(90deg,transparent,#000);pointer-events:none}
+.c-cinema-hero .c-breadcrumb{color:#dde8df}.c-cinema-hero .c-breadcrumb strong{color:#ffd394}
+.c-cinema-hero .c-breadcrumb span{color:#e4d9cb}
+.c-cinema-hero .c-kicker{color:#efddb9}
+.c-cinema-hero h1{font-size:clamp(62px,8.5vw,129px)}
+.c-cinema-hero h1 em{color:#f5b779}
+.c-cinema-hero .c-lead{color:#e6eee3}
+.c-cinema-hero .c-hero-actions .btn-dark{background:#f1bf7e;color:#20302b}
+.c-cinema-hero .c-hero-actions .btn-dark:hover{background:#ffe0af}
+.c-cinema-hero .c-hero-actions .text-link{color:#fff3df}
+.c-cinema-hero .c-hero-caption,.c-cinema-hero .c-hero-bottom{color:#d9e3d3}
+.c-cinema-hero .c-hero-bottom{border-color:#ffffff49}
+.c-cinema-hero .c-hero-bottom a span{color:#ffe1a8}
+.c-cinema-hero .c-keyline{background:#ed9d66}
+.c-cinema-hero .c-hero-visual::before,.c-cinema-hero .c-hero-visual::after{border-color:#edf3dc38}
+.c-cinema-hero .c-grid{background-image:linear-gradient(#dfeee329 1px,transparent 1px),linear-gradient(90deg,#dfeee329 1px,transparent 1px)}
+.c-cinema-hero .c-visual-label{color:#e1e6d9;z-index:5;background:#17313bd0;padding:7px 10px;font-size:9px}
+.c-cinema-hero .c-hero-stamp{background:#dba36b;color:#1a2d30}
+.c-cinema-hero .c-building{filter:drop-shadow(0 22px 27px #081b2480)}
+.immersive-webgl{position:absolute;inset:0;display:block;width:100%;height:100%;pointer-events:none;z-index:3;opacity:0;transition:opacity .55s ease}
+body.construction-webgl-ready .immersive-webgl{opacity:1}
+body.construction-webgl-ready .c-cinema-hero .c-building{opacity:.025;transition:opacity .5s}
+body.construction-webgl-ready .construction-cinema-fallback{opacity:.06;filter:blur(10px)}
+.c-cinema-scroll{background:#182e38;color:#fff4df;padding:108px 0 124px;position:relative;isolation:isolate}
+.c-cinema-scroll::before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,#d1e2d20c 1px,transparent 1px);background-size:95px 95px;pointer-events:none}
+.c-cinema-heading{position:relative;max-width:900px;padding-bottom:74px}
+.c-cinema-heading .eyebrow{color:#f6c68f}
+.c-cinema-heading h2{font-size:clamp(53px,6.7vw,102px);letter-spacing:-.072em;line-height:1.04;font-weight:500;margin:0 0 29px}
+.c-cinema-heading h2 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#f1b67a}
+.c-cinema-heading>p:last-child{line-height:1.82;font-size:16px;color:#d7e6df;max-width:640px}
+.c-cinema-heading strong{color:#fff5df}
+.construction-cinema-layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(28px,5vw,86px);align-items:start}
+.construction-cinema-stage{position:sticky;top:103px;min-width:0;z-index:2}
+.construction-cinema-canvas-wrap{height:clamp(430px,46vw,675px);position:relative;border:1px solid #79948c84;background:radial-gradient(ellipse at 50% 40%,#446770 0,#213c48 58%,#142b36 100%);overflow:hidden;isolation:isolate;box-shadow:0 30px 90px #071a2255}
+.construction-cinema-canvas-wrap::before{content:"";position:absolute;inset:18px;border:1px solid #e5dec621;pointer-events:none;z-index:4}
+.construction-cinema-fallback{position:absolute;width:105%;height:92%;top:4%;left:-2.5%;object-fit:contain;opacity:.70;transition:opacity .45s}
+.construction-cinema-watermark{position:absolute;right:25px;top:15px;font-weight:800;font-size:90px;letter-spacing:-.09em;opacity:.09;color:#fff;pointer-events:none;z-index:5}
+.construction-cinema-hud{position:absolute;bottom:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:10px;background:#112730df;border-top:1px solid #c5d8ca36;padding:22px 25px;color:#f4e8d0;font-size:10px;font-weight:800;letter-spacing:.09em}
+.construction-cinema-hud strong{font-size:17px;color:#ffd18d;white-space:nowrap}
+.construction-cinema-caption{margin:17px 0 0;font-size:11px;letter-spacing:.025em;color:#cfddd5;line-height:1.75}
+.construction-cinema-chapters{display:flex;flex-direction:column;gap:0;min-width:0}
+.construction-cinema-chapter{min-height:clamp(370px,55vh,570px);border-top:1px solid #97b1a15e;padding:51px 4px 55px 8px;display:flex;flex-direction:column;justify-content:center;transition:background-color .3s,padding-left .3s;scroll-margin-top:145px}
+.construction-cinema-chapter:last-child{border-bottom:1px solid #97b1a15e}
+.construction-cinema-chapter>span{font-size:11px;color:#f8c98f;letter-spacing:.17em;font-weight:800}
+.construction-cinema-chapter h3{font-size:clamp(39px,4vw,63px);line-height:1.11;font-weight:500;letter-spacing:-.055em;margin:22px 0}
+.construction-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#f1b67b}
+.construction-cinema-chapter p{font-size:15px;line-height:1.9;max-width:470px;color:#e1e7de;margin:0 0 32px}
+.construction-cinema-chapter small{color:#d9d5bf;font-size:10px;font-weight:700;letter-spacing:.10em}
+body.construction-webgl-ready .construction-cinema-chapter.is-current{padding-left:22px;background:linear-gradient(90deg,#efb07613,transparent 72%);border-left:2px solid #f3bf7a}
+@media(max-width:980px){
+ .construction-cinema-layout{grid-template-columns:minmax(0,1fr);gap:24px}
+ .construction-cinema-stage{top:86px}
+ .construction-cinema-canvas-wrap{height:330px}
+ .construction-cinema-chapter{min-height:335px;padding:39px 18px}
+ .construction-cinema-heading{padding-bottom:35px}
+ .c-cinema-scroll{padding:72px 0 85px}
+}
+@media(max-width:760px){
+ .c-cinema-hero h1{font-size:clamp(52px,12vw,85px)}
+ .construction-cinema-stage{top:76px}
+ .construction-cinema-canvas-wrap{height:258px}
+ .construction-cinema-watermark{font-size:58px;top:7px}
+ .construction-cinema-hud{padding:14px;font-size:9px}
+ .construction-cinema-hud strong{font-size:13px}
+ .construction-cinema-caption{font-size:10px;max-width:400px}
+ .construction-cinema-chapter{min-height:320px;padding:32px 10px}
+ .construction-cinema-chapter h3{font-size:clamp(35px,9vw,48px)}
+ .construction-cinema-chapter p{font-size:14px}
+}
+@media(max-width:370px){.c-cinema-hero h1{font-size:49px}.construction-cinema-canvas-wrap{height:215px}.construction-cinema-hud{font-size:8px}.construction-cinema-stage{top:73px}}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.construction-cinema-fallback,.construction-cinema-chapter{transition:none!important}}
+body.motion-off .immersive-webgl,body.motion-off .construction-cinema-chapter{transition:none!important}
