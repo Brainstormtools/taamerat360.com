@@ -202,9 +202,9 @@ Implementation: responsive industry landing page, fictional native-WebGL discove
 | High | Contact workflow | External /contact-us/?industry=ride-hailing: real enquiry delivery test needed without sharing rider/driver personal data | Verification pending |
 | Medium | Business packages | Confirm scope, pricing, compliance boundaries, deliverables, exclusions and integration feasibility | Awaiting client |
 | Medium | Integration | Any dispatch, trip management, identity, fleet data or payments work requires separate written authorization, security/privacy/transport compliance review | Not promised |
-| Low | Hero image | Conceptual city kiosk, illustrated car, service card, destination marker and orange connection path; no real trip coverage | Completed, replaceable |
+| Low | Hero / 3D cinematic illustration | Fictional native-WebGL urban business district, decorative vehicle, public information and abstract path with original SVG fallback; not a live ride map or transport service | Conceptual 3D developed; operator imagery requires permission |
 
-Implementation: original responsive Ride Hailing landing page; SVG illustration; three mobility-business communication challenges; keyboard-operated four-stage informational journey; four general Taamerat360 business packages; client-proof placeholders; fixed-choice, browser-only and copyable organisation brief; reduced-motion control, navigation, FAQs and four-device regression tests. The page does not book rides, calculate fares, connect drivers and riders, process payments, track GPS, operate dispatch or claim safety/security certification.
+Implementation: original responsive Ride Hailing landing page; native-WebGL conceptual city district with reversible cinematic chapters and original SVG fallback; three mobility-business communication challenges; keyboard-operated four-stage informational journey; four general Taamerat360 business packages; client-proof placeholders; fixed-choice, browser-only and copyable organisation brief; reduced-motion control, navigation, FAQs and four-device regression tests. The page does not book rides, calculate fares, connect drivers and riders, process payments, track GPS, operate dispatch or claim safety/security certification.
 
 ## Remaining industry pages
 
