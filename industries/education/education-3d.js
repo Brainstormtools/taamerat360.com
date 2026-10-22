@@ -71,6 +71,11 @@ B(2.64,3.00,1.11,.50,.06,.022,C.paper);
 B(2.64,2.81,1.11,.32,.05,.022,C.paper);
 const mesh=G.finish(),a=K.create(hero,mesh),b=K.create(stage,mesh);
 if(!a&&!b)return;
+// Render both canvases once before hiding fallback SVGs. On a narrow viewport,
+// the scene starts below the fold; off-screen-only animation scheduling would
+// otherwise leave a blank hero during full-page capture and initial layout.
+if(a)a.draw(3,'hero',0);
+if(b)b.draw(0,'chapter',0);
 document.body.classList.add('education-webgl-ready');
 const chapters=[...document.querySelectorAll('.education-cinema-chapter')],keys=['discovery','enquiry','welcome','connect'];
 const badge=document.getElementById('education-cinema-progress'),reduced=matchMedia('(prefers-reduced-motion: reduce)');
