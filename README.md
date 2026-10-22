@@ -16,6 +16,18 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Telecom — ninth cinematic industry landing page
+
+The Telecom page at `/industries/telecom/` includes an **original fictional native-WebGL public information district**, with a midnight-cobalt visual direction, luminous public service panels, abstract signal arcs, and a connected non-sensitive enquiry route. Its scroll-controlled story reverses through DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE.
+
+- Uses the existing `assets/immersive-scene-kit.js` with `industries/telecom/telecom-3d.js` and `telecom-3d.css`, without adding CDNs, external 3D services or backends.
+- The hero and sticky story canvases both render an initial WebGL frame before the original `assets/telecom-connected.svg` fallback is faded. No-WebGL and no-JavaScript users retain the original illustration, all textual chapters, brief and FAQ.
+- Existing keyboard-operable stage buttons, forward/reverse scroll, motion pause and reduced-motion accessibility, full content, fixed-choice browser-only discussion brief, solutions, evidence placeholders and preview `noindex` are retained.
+- `tests/telecom-cinematic.spec.cjs` covers native dimensional geometry, initial on- and off-screen frames, four chapters, bidirectional scroll, keyboard synchronization, motion controls and SVG/JavaScript fallbacks across all four supported viewports.
+- This artistic demo is **not** a real telecommunications provider, network, signal/coverage map, bandwidth or uptime measurement, activation, subscriber account, billing or support system, licensed service, verified integration or proven customer result.
+- Subscriber information, phone numbers, accounts, location, billing information, network credentials and technical incidents are not collected or processed. Actual service promises, licences, client cases, screenshots and testimonial evidence require owner approval and applicable privacy/legal/sector review.
+- GitHub-only development; production deployment remains owner-managed.
+
 ## Insurance — eighth cinematic industry landing page
 
 The Insurance landing page at `/industries/insurance/` now has an original **fictional 3D communications atrium** in deep forest, bronze and chalk tones, with an abstract open architectural arch. Its four reversible scroll chapters follow DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE for general insurance-business communications.
