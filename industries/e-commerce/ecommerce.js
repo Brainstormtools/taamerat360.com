@@ -3,7 +3,7 @@ const $=(s,root=document)=>root.querySelector(s),$$=(s,root=document)=>Array.fro
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 let paused=reduced;
 const motion=$(".motion-toggle");
-function updateMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+function updateMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";window.dispatchEvent(new CustomEvent("ecommerce:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;updateMotion()});updateMotion();
 const menu=$(".nav-toggle"),links=$(".nav-links");
 function closeMenu(returnFocus=false){if(!links.classList.contains("is-open"))return;links.classList.remove("is-open");menu.setAttribute("aria-expanded","false");menu.setAttribute("aria-label","Open navigation");if(returnFocus)menu.focus()}
@@ -20,7 +20,7 @@ return:{number:"04 / 04",word:"RETURN",tag:"AFTERCARE / STAY RELEVANT",title:"Ma
 const stageKeys=Object.keys(scenes);
 function selectStage(key){const s=scenes[key];if(!s)return;
 $$(".e-stage").forEach(btn=>{const active=btn.dataset.stage===key;btn.classList.toggle("is-active",active);btn.setAttribute("aria-pressed",String(active))});
-$("#e-stage-no").textContent=s.number;$("#e-stage-word").textContent=s.word;$("#e-stage-label").textContent=s.tag;$("#e-stage-title").textContent=s.title;$("#e-stage-desc").textContent=s.desc;$("#e-stage-focus").textContent=s.focus;$("#e-stage-count").textContent=s.count+" OF 4";$("#e-progress-path").setAttribute("stroke-dashoffset",String(s.offset))}
+$("#e-stage-no").textContent=s.number;$("#e-stage-word").textContent=s.word;$("#e-stage-label").textContent=s.tag;$("#e-stage-title").textContent=s.title;$("#e-stage-desc").textContent=s.desc;$("#e-stage-focus").textContent=s.focus;$("#e-stage-count").textContent=s.count+" OF 4";$("#e-progress-path").setAttribute("stroke-dashoffset",String(s.offset));window.dispatchEvent(new CustomEvent("ecommerce:stage",{detail:{key}}))}
 $$(".e-stage").forEach(btn=>{btn.addEventListener("click",()=>selectStage(btn.dataset.stage));btn.addEventListener("keydown",event=>{if(!["ArrowRight","ArrowLeft","ArrowUp","ArrowDown"].includes(event.key))return;event.preventDefault();const direction=event.key==="ArrowRight"||event.key==="ArrowDown"?1:-1;const index=Math.max(0,Math.min(stageKeys.length-1,stageKeys.indexOf(btn.dataset.stage)+direction));selectStage(stageKeys[index]);$$(".e-stage")[index].focus()})});
 const form=$("#e-form"),copy=$("#e-copy"),result=$("#e-brief-text"),status=$("#e-copy-status"),business=$("#e-business"),challenge=$("#e-challenge"),priority=$("#e-priority");let brief="";
 form.addEventListener("submit",e=>{e.preventDefault();

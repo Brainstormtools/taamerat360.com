@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/ecommerce-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./ecommerce.css">
-<script src="./ecommerce.js" defer></script></head><body>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./ecommerce.css"><link rel="stylesheet" href="./ecommerce-3d.css">
+<script src="./ecommerce.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./ecommerce-3d.js" defer></script></head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
 <a href="../../" class="brand" aria-label="Taamerat360 home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Taamerat<span class="brand-accent">360</span><span class="brand-arrow">↗</span></span></a>
@@ -18,16 +18,16 @@
 <div class="nav-links" id="nav-links"><a href="../../#industries">Industries</a><a href="#challenges">Challenges</a><a href="#customer-journey">Customer journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Explore an opportunity <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="e-hero">
+<section class="e-hero e-cinema-hero">
 <div class="shell e-hero-grid"><div class="e-hero-copy">
 <nav class="e-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>E-COMMERCE</strong></nav>
 <p class="eyebrow"><span class="e-status-dot" aria-hidden="true"></span> INDUSTRY 03 / DIGITAL COMMERCE</p>
 <h1>Every click<br>can start <em>something.</em></h1>
 <p class="e-lead">Getting attention is only the beginning. Turn discovery into useful conversations, smooth follow-through and a more connected online business.</p>
-<div class="e-actions"><a href="#customer-journey" class="btn btn-dark">Explore the journey <span aria-hidden="true">↗</span></a><a class="e-inline-link" href="#brief">Find my starting point <span aria-hidden="true">↗</span></a></div>
+<div class="e-actions"><a href="#cinema-ecommerce" class="btn btn-dark">Explore the journey <span aria-hidden="true">↗</span></a><a class="e-inline-link" href="#brief">Find my starting point <span aria-hidden="true">↗</span></a></div>
 <p class="e-hero-note">DISCOVER → CONSIDER → ORDER → RETURN</p>
 </div>
-<div class="e-hero-visual"><div class="e-ring" aria-hidden="true"></div><img src="../../assets/ecommerce-connected.svg" width="1080" height="760" alt="Original conceptual illustration of a digital storefront, product card, parcel boxes, shopping bag and orange pathway." decoding="async" fetchpriority="high"><div class="e-stamp"><span>DIGITAL<br>COMMERCE</span><strong>03 / 11</strong></div><p class="e-art-label">CONCEPTUAL ILLUSTRATION / NOT A CLIENT STORE</p></div>
+<div class="e-hero-visual" data-ecommerce-hero><div class="e-ring" aria-hidden="true"></div><img src="../../assets/ecommerce-connected.svg" width="1080" height="760" alt="Original conceptual illustration of a digital storefront, product card, parcel boxes, shopping bag and orange pathway." decoding="async" fetchpriority="high"><div class="e-stamp"><span>DIGITAL<br>COMMERCE</span><strong>03 / 11</strong></div><p class="e-art-label">CONCEPTUAL ILLUSTRATION / NOT A CLIENT STORE</p></div>
 </div><div class="shell e-hero-foot"><span>ONLINE BUSINESS. HUMAN CONNECTIONS.</span><a href="#challenges">Scroll to explore ↓</a></div>
 </section>
 <div class="e-ticker" aria-hidden="true"><div class="e-ticker-track"><span>BE DISCOVERED <b>✳</b> BUILD CONFIDENCE <b>✳</b> KEEP ORDERS MOVING <b>✳</b> INVITE CUSTOMERS BACK <b>✳</b></span><span>BE DISCOVERED <b>✳</b> BUILD CONFIDENCE <b>✳</b> KEEP ORDERS MOVING <b>✳</b> INVITE CUSTOMERS BACK <b>✳</b></span></div></div>
@@ -38,8 +38,51 @@
 <article class="e-challenge e-panel-pink"><div class="e-card-top"><span>02 / DECISION</span><span aria-hidden="true">↗</span></div><div class="e-card-graphic" aria-hidden="true"><span class="e-center-graphic">?</span><span class="e-orbit">◌</span></div><h3>Questions asked.<br><em>Replies delayed.</em></h3><p>Slow or fragmented conversations can interrupt a purchase decision.</p></article>
 <article class="e-challenge e-panel-green"><div class="e-card-top"><span>03 / OPERATIONS</span><span aria-hidden="true">↗</span></div><div class="e-card-graphic" aria-hidden="true"><span class="e-center-graphic">↗</span><span class="e-orbit">◌</span></div><h3>Orders placed.<br><em>Updates scattered.</em></h3><p>Customers and teams benefit from clearer next steps after an order is received.</p></article>
 </div></div></section>
+
+<section class="e-cinema-scroll" id="cinema-ecommerce" aria-labelledby="ecommerce-cinema-title">
+<div class="shell">
+  <div class="ecommerce-cinema-heading">
+    <p class="eyebrow">02 / THE CONNECTED COMMERCE STORY</p>
+    <h2 id="ecommerce-cinema-title">The product is a moment.<br><em>The journey is everything.</em></h2>
+    <p>Explore an <strong>illustrative product and packaging showcase</strong> as a story about customer discovery, understanding, coordination and follow-up. No item shown here is a real product for sale, an operating store, a checkout, a confirmed order, or a client case study.</p>
+  </div>
+  <div class="ecommerce-cinema-layout">
+    <div class="ecommerce-cinema-sticky">
+      <div class="ecommerce-cinema-frame" data-ecommerce-scene role="img" aria-label="Fictional 3D product display progressively revealing information cards, parcel coordination and customer follow-up as the page scrolls">
+        <img src="../../assets/ecommerce-connected.svg" class="ecommerce-cinema-fallback" width="1080" height="760" alt="" decoding="async">
+        <span class="ecommerce-cinema-watermark" aria-hidden="true">360°</span>
+        <div class="ecommerce-cinema-hud"><span>3D PRODUCT JOURNEY / CONCEPT ONLY</span><strong id="ecommerce-cinema-progress" aria-live="off">01 / 04</strong></div>
+      </div>
+      <p class="ecommerce-cinema-caption">Scroll forward to reveal each stage · Scroll backward to revisit · Use the stage controls below to jump directly to any moment.</p>
+    </div>
+    <div class="ecommerce-cinema-chapters">
+      <article class="ecommerce-cinema-chapter" data-ecommerce-chapter="0">
+        <span>01 / DISCOVER</span><h3>Make the product<br><em>worth discovering.</em></h3>
+        <p>Put a clear offer in front of relevant shoppers. Help them understand what is being presented before asking them to act.</p>
+        <small>REACH / OFFER CLARITY</small>
+      </article>
+      <article class="ecommerce-cinema-chapter" data-ecommerce-chapter="1">
+        <span>02 / CONSIDER</span><h3>Turn questions<br><em>into understanding.</em></h3>
+        <p>Communicate important product details and limitations so customers can make more informed decisions, without invented reviews or product claims.</p>
+        <small>PRODUCT INFORMATION / COMMUNICATION</small>
+      </article>
+      <article class="ecommerce-cinema-chapter" data-ecommerce-chapter="2">
+        <span>03 / COORDINATE</span><h3>Make handovers<br><em>feel connected.</em></h3>
+        <p>Clarify who handles order-related questions, customer updates and internal responsibilities. This example does not place or fulfil orders.</p>
+        <small>TEAM OWNERSHIP / CUSTOMER UPDATES</small>
+      </article>
+      <article class="ecommerce-cinema-chapter" data-ecommerce-chapter="3">
+        <span>04 / FOLLOW THROUGH</span><h3>Be useful<br><em>beyond the sale.</em></h3>
+        <p>Stay relevant through permission-based communication and useful aftercare, with realistic expectations for future engagement.</p>
+        <small>AFTERCARE / RESPONSIBLE RETENTION</small>
+      </article>
+    </div>
+  </div>
+</div>
+</section>
+
 <section class="e-dark e-section" id="customer-journey" aria-labelledby="journey-title"><div class="shell">
-<div class="e-heading e-heading-light"><div><p class="eyebrow">02 / CONNECT THE MOMENTS</p><h2 id="journey-title">From first click<br>to <em>what comes next.</em></h2></div><p>Explore an example customer experience, and how digital commerce teams might reduce friction at each stage.</p></div>
+<div class="e-heading e-heading-light"><div><p class="eyebrow">03 / CONNECT THE MOMENTS</p><h2 id="journey-title">From first click<br>to <em>what comes next.</em></h2></div><p>Explore an example customer experience, and how digital commerce teams might reduce friction at each stage.</p></div>
 <div class="e-journey-grid">
 <div class="e-journey-buttons" role="group" aria-label="E-commerce customer journey stages">
 <button type="button" class="e-stage is-active" data-stage="discover" aria-pressed="true"><span>01</span><strong>Get discovered</strong><span aria-hidden="true">↗</span></button>
@@ -60,7 +103,7 @@
 <div class="e-stage-bottom"><span>EXAMPLE WORKFLOW / FINAL SCOPE SUBJECT TO APPROVAL</span><span id="e-stage-count">1 OF 4</span></div></div>
 </div>
 </div></section>
-<section class="e-section e-solutions" id="solutions" aria-labelledby="solutions-title"><div class="shell"><div class="e-heading"><div><p class="eyebrow">03 / WHAT TAAMERAT360 CAN SUPPORT</p><h2 id="solutions-title">A clearer journey.<br><em>Better next steps.</em></h2></div><p>Our focus is growth, sales communication and business operations. Payment processing, logistics and guaranteed revenue outcomes are not implied.</p></div>
+<section class="e-section e-solutions" id="solutions" aria-labelledby="solutions-title"><div class="shell"><div class="e-heading"><div><p class="eyebrow">04 / WHAT TAAMERAT360 CAN SUPPORT</p><h2 id="solutions-title">A clearer journey.<br><em>Better next steps.</em></h2></div><p>Our focus is growth, sales communication and business operations. Payment processing, logistics and guaranteed revenue outcomes are not implied.</p></div>
 <div class="e-solutions-grid">
 <article class="e-solution e-s-blue"><span>01 / VISIBILITY</span><div class="e-s-icon" aria-hidden="true">◎</div><h3>Lead Growth</h3><p>Help relevant audiences discover an offer worth exploring.</p><a href="../../#packages">Explore this package <span aria-hidden="true">↗</span></a></article>
 <article class="e-solution e-s-red"><span>02 / CONVERSION</span><div class="e-s-icon" aria-hidden="true">↗</div><h3>Sales Momentum</h3><p>Organise timely answers and move conversations forward.</p><a href="../../#packages">Explore this package <span aria-hidden="true">↗</span></a></article>
@@ -68,10 +111,10 @@
 <article class="e-solution e-s-dark"><span>04 / COMPLETE JOURNEY</span><div class="e-s-icon" aria-hidden="true">✳</div><h3>Connected Growth</h3><p>Align customer engagement and operational follow-through.</p><a href="../../#packages">Explore this package <span aria-hidden="true">↗</span></a></article>
 </div></div></section>
 <section class="e-section e-proof" id="proof" aria-labelledby="proof-title"><div class="shell e-proof-grid">
-<div><p class="eyebrow">04 / PROOF BEATS PROMISES</p><h2 id="proof-title">Real results deserve<br><em>real evidence.</em></h2><p>Approved store examples, screenshots, business outcomes and customer testimonials belong here. These are placeholders until we have verifiable permission to publish them.</p><a href="#brief" class="e-inline-link">Discuss your business opportunity <span aria-hidden="true">↗</span></a></div>
+<div><p class="eyebrow">05 / PROOF BEATS PROMISES</p><h2 id="proof-title">Real results deserve<br><em>real evidence.</em></h2><p>Approved store examples, screenshots, business outcomes and customer testimonials belong here. These are placeholders until we have verifiable permission to publish them.</p><a href="#brief" class="e-inline-link">Discuss your business opportunity <span aria-hidden="true">↗</span></a></div>
 <article class="e-proof-card"><div class="e-placeholder-head"><span>CONTENT PLACEHOLDER</span><span aria-hidden="true">◌</span></div><div class="e-placeholder-image" aria-label="Placeholder for approved online store imagery"><div class="e-empty-product" aria-hidden="true"><span>◌</span><span>◻</span><span>▧</span></div><span>APPROVED STORE IMAGE / SCREENSHOT<br>TO BE PROVIDED</span></div><div class="e-proof-detail"><p>VERIFIED E-COMMERCE CASE STUDY</p><h3>[Approved brand or project]</h3><p>[Verified challenge, solution scope and measurable outcomes]</p><footer>[Client-approved testimonial and attribution]</footer></div></article>
 </div></section>
-<section class="e-section e-brief-section" id="brief" aria-labelledby="brief-title"><div class="shell"><div class="e-heading"><div><p class="eyebrow">05 / SHAPE YOUR NEXT STEP</p><h2 id="brief-title">What would you<br><em>improve first?</em></h2></div><p>Choose three simple details. We’ll assemble a brief you can copy into a proposal conversation. No information is sent automatically.</p></div>
+<section class="e-section e-brief-section" id="brief" aria-labelledby="brief-title"><div class="shell"><div class="e-heading"><div><p class="eyebrow">06 / SHAPE YOUR NEXT STEP</p><h2 id="brief-title">What would you<br><em>improve first?</em></h2></div><p>Choose three simple details. We’ll assemble a brief you can copy into a proposal conversation. No information is sent automatically.</p></div>
 <div class="e-brief-grid"><form class="e-form" id="e-form">
 <div class="e-form-top"><strong>BUILD A STARTING BRIEF</strong><span>03 QUESTIONS</span></div>
 <label for="e-business">Which kind of e-commerce business?</label>

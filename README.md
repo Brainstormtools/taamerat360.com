@@ -16,6 +16,18 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## E-commerce — third cinematic industry landing page
+
+The E-commerce landing page at `/industries/e-commerce/` now includes a stylized **native-WebGL product showcase**, with a reversible four-chapter scroll narrative: DISCOVER → CONSIDER → COORDINATE → FOLLOW THROUGH.
+
+- A cinematic product-display hero shows fictional, unbranded sample merchandise. The original `assets/ecommerce-connected.svg` illustration remains the reliable fallback when WebGL or JavaScript is unavailable.
+- In the sticky scroll scene, sample products progressively gain contextual information cards, a conceptual parcel and customer follow-up markers. This is **visual storytelling**, not a real product listing, functioning cart, checkout, payment service, order-tracking platform or fulfilment workflow.
+- This is built with the existing reusable `assets/immersive-scene-kit.js`; the source is `industries/e-commerce/ecommerce-3d.js` and `ecommerce-3d.css`. No external rendering dependencies or customer records.
+- Existing stage selectors with arrow-key navigation, the site motion toggle, the browser-only planning brief, package descriptions and evidence placeholders remain operational.
+- Cross-device checks in `tests/ecommerce-cinematic.spec.cjs` cover WebGL geometry/depth, forward/back scroll, manual stage selection, reduced motion, blocked WebGL and JavaScript-off fallbacks.
+- The scene does **not** claim an actual brand, product availability, customer reviews, conversion metrics, order handling or delivery service. Client proof and published integrations must be approved.
+- This is the **third of eleven industry-specific 3D upgrades**, separate from the homepage and four business-need pages. Preview-only `noindex` and owner-managed production release remain unchanged.
+
 ## Real Estate — second cinematic industry landing page
 
 The Real Estate landing page at `/industries/real-estate/` now uses a **fictional 3D property neighbourhood** with a four-chapter scroll sequence: DISCOVER → QUALIFY → VIEWING → FOLLOW THROUGH.
