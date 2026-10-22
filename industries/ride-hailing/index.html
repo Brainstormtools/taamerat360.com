@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/ride-hailing-connected.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./ride-hailing.css"><script src="./ride-hailing.js" defer></script></head><body>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./ride-hailing.css"><link rel="stylesheet" href="./ride-hailing-3d.css"><script src="./ride-hailing.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./ride-hailing-3d.js" defer></script></head><body>
 <a class="skip-link" href="#main">Skip to content</a><div class="scroll-meter" aria-hidden="true"></div>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
 <a href="../../" class="brand" aria-label="Taamerat360 home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Taamerat<span class="brand-accent">360</span><span class="brand-arrow">↗</span></span></a>
@@ -17,15 +17,15 @@
 <div id="nav-links" class="nav-links"><a href="../../#industries">Industries</a><a href="#challenges">Challenges</a><a href="#journey">The journey</a><a href="#solutions">Solutions</a><a href="#brief">Your brief</a><a class="nav-cta" href="#brief">Discuss a project <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="rh-hero" aria-labelledby="rh-hero-title"><div class="shell rh-hero-grid">
+<section class="rh-hero rh-cinema-hero" aria-labelledby="rh-hero-title"><div class="shell rh-hero-grid">
 <div class="rh-hero-copy">
 <nav class="rh-breadcrumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span>/</span><a href="../../#industries">INDUSTRIES</a><span>/</span><strong>RIDE HAILING</strong></nav>
 <p class="eyebrow rh-kicker"><span class="rh-dot" aria-hidden="true"></span> INDUSTRY 11 / RIDE-HAILING BUSINESSES</p>
 <h1 id="rh-hero-title">Better journeys.<br><em>Clearer connections.</em></h1>
 <p class="rh-lead">Mobility organisations connect people, places and partners. Make approved public service information easier to understand, business enquiries simpler to route and administrative follow-up more coherent.</p>
-<div class="rh-actions"><a class="btn btn-dark" href="#journey">Explore the journey <span aria-hidden="true">↗</span></a><a class="rh-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
+<div class="rh-actions"><a class="btn btn-dark" href="#cinema-ride-hailing">Explore the journey <span aria-hidden="true">↗</span></a><a class="rh-text-link" href="#brief">Prepare a starting brief <span aria-hidden="true">↗</span></a></div>
 <p class="rh-hero-note">DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE</p>
-</div><div class="rh-art"><div class="rh-orbit" aria-hidden="true"></div><img src="../../assets/ride-hailing-connected.svg" alt="Conceptual ride-hailing service kiosk, city skyline, illustrated car, destination pin and orange connecting path." width="1120" height="780" decoding="async" fetchpriority="high">
+</div><div class="rh-art" data-ride-hailing-hero><div class="rh-orbit" aria-hidden="true"></div><img src="../../assets/ride-hailing-connected.svg" alt="Conceptual ride-hailing service kiosk, city skyline, illustrated car, destination pin and orange connecting path." width="1120" height="780" decoding="async" fetchpriority="high">
 <div class="rh-stamp"><span>BETTER SERVICE</span><strong>CLEARLY<br>CONNECTED.</strong><small>11 / 11</small></div><p class="rh-art-caption">CONCEPTUAL ARTWORK / NOT A WORKING RIDE-BOOKING OR DISPATCH SYSTEM</p></div></div>
 <div class="shell rh-hero-foot"><span>CLEARER SERVICE DISCOVERY. BETTER BUSINESS CONVERSATIONS.</span><a href="#challenges">Explore the opportunities ↓</a></div></section>
 <div class="rh-ribbon" aria-hidden="true"><div class="rh-ribbon-track"><span>MOBILITY DISCOVERY <b>✳</b> GENERAL ENQUIRIES <b>✳</b> PARTNER COMMUNICATION <b>✳</b> CONNECTED BUSINESS TEAMS <b>✳</b></span><span>MOBILITY DISCOVERY <b>✳</b> GENERAL ENQUIRIES <b>✳</b> PARTNER COMMUNICATION <b>✳</b> CONNECTED BUSINESS TEAMS <b>✳</b></span></div></div>
@@ -36,6 +36,49 @@
 <article class="rh-card rh-card-gold"><div class="rh-card-top">02 / ENQUIRIES <span aria-hidden="true">↗</span></div><div class="rh-card-symbol" aria-hidden="true">↗</div><h3>Partners enquire.<br><em>Next steps blur.</em></h3><p>General corporate, partner and fleet enquiries need the correct business team and consistent response ownership.</p></article>
 <article class="rh-card rh-card-green"><div class="rh-card-top">03 / COORDINATION <span aria-hidden="true">↗</span></div><div class="rh-card-symbol" aria-hidden="true">≋</div><h3>Busy teams.<br><em>Disconnected handovers.</em></h3><p>Marketing, partnerships and administrative teams benefit from structured non-trip business handovers.</p></article>
 </div></div></section>
+
+<section class="rh-cinema-scroll" id="cinema-ride-hailing" aria-labelledby="ride-hailing-cinema-title">
+ <div class="shell">
+  <div class="ride-hailing-cinema-heading">
+   <p class="eyebrow">02 / FROM PUBLIC DISCOVERY TO BETTER BUSINESS COORDINATION</p>
+   <h2 id="ride-hailing-cinema-title">Move the conversation.<br><em>Not the passenger.</em></h2>
+   <p>Explore a <strong>fictional 3D urban information district</strong> that illustrates how mobility businesses can connect service descriptions, general enquiries and internal communication. Streets, car sculpture and wayfinding are decorative, not a real ride-hailing platform, GPS map, fare calculator, journey booking, driver dispatch or verified operating area.</p>
+  </div>
+  <div class="ride-hailing-cinema-layout">
+   <div class="ride-hailing-cinema-sticky">
+    <div class="ride-hailing-cinema-frame" data-ride-hailing-scene role="img" aria-label="Conceptual dimensional mobility-business information district with simplified buildings, public service panels, stylized car and generic partnership handover cards">
+     <img src="../../assets/ride-hailing-connected.svg" width="1120" height="780" class="ride-hailing-cinema-fallback" alt="" decoding="async">
+     <span class="ride-hailing-cinema-watermark" aria-hidden="true">CONNECTED / 04</span>
+     <div class="ride-hailing-cinema-hud"><span>RIDE HAILING / NON-TRANSACTIONAL BUSINESS CONCEPT</span><strong id="ride-hailing-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="ride-hailing-cinema-caption">Scroll to reveal four concept chapters · Scroll back to reverse · The original keyboard-operable journey controls below can also select a stage.</p>
+   </div>
+   <div class="ride-hailing-cinema-chapters">
+    <article class="ride-hailing-cinema-chapter" data-ride-hailing-chapter="0">
+     <span>01 / DISCOVER</span><h3>Make service information<br><em>easier to find.</em></h3>
+     <p>Show accurate approved public descriptions and general operating-area information with links to official providers, without asserting live trip availability.</p>
+     <small>DISCOVER / PUBLISHED SERVICE INFORMATION</small>
+    </article>
+    <article class="ride-hailing-cinema-chapter" data-ride-hailing-chapter="1">
+     <span>02 / UNDERSTAND</span><h3>Clarify opportunities<br><em>without a fare promise.</em></h3>
+     <p>Explain general corporate, fleet and partnership options without inventing prices, driver earnings, coverage, performance or rider outcomes.</p>
+     <small>UNDERSTAND / APPROVED BUSINESS OPTIONS</small>
+    </article>
+    <article class="ride-hailing-cinema-chapter" data-ride-hailing-chapter="2">
+     <span>03 / ENQUIRE</span><h3>Give business questions<br><em>a responsible destination.</em></h3>
+     <p>Illustrate non-sensitive commercial enquiry routing only, without collecting passenger names, driver identities, trip histories, vehicle records or GPS information.</p>
+     <small>ENQUIRE / GENERAL BUSINESS CONTACT</small>
+    </article>
+    <article class="ride-hailing-cinema-chapter" data-ride-hailing-chapter="3">
+     <span>04 / COORDINATE</span><h3>Keep business teams<br><em>working in step.</em></h3>
+     <p>Connect marketing, partnerships and administrative handovers without operating dispatch, ride matching, live tracking, fleet systems, or payments.</p>
+     <small>COORDINATE / NON-TRIP BUSINESS HANDOVERS</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="rh-section rh-dark" id="journey" aria-labelledby="rh-journey-title"><div class="shell">
 <div class="rh-heading rh-heading-dark"><div><p class="eyebrow">02 / THE CONNECTED BUSINESS JOURNEY</p><h2 id="rh-journey-title">From first interest<br>to <em>follow-through.</em></h2></div><p>Explore a non-transactional business journey, not a passenger trip. This page does not book rides, dispatch drivers, track locations, calculate real fares, process payments or make driver-safety decisions.</p></div>
 <div class="rh-journey-grid"><div class="rh-steps" role="group" aria-label="Ride hailing general business enquiry journey">
