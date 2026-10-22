@@ -1,6 +1,6 @@
 # Taamerat360 — Source audit and launch-readiness register
 
-**Audit scope:** website source at the all-four-solutions baseline f8b03a331e64f3812b33daf63f2a383ae09cff99, followed by source improvements in the sitewide-readiness-audit branch.
+**Historical audit scope:** all-four-solutions source baseline `f8b03a331e64f3812b33daf63f2a383ae09cff99` and subsequent sitewide-readiness improvements. **Latest verified source parity baseline:** `d66b71c6f4fe8819c18dd683ec290a83984f3f61` on 23 October 2026.
 
 **Release distinction:** Source-complete, browser-tested, and GitHub-merged are **not** synonyms for production-deployed, legally approved, integrated or verified lead delivery. The website owner controls live deployment. An automatic deploy may still be triggered by the owner's existing GitHub-to-hosting integration.
 
@@ -10,8 +10,16 @@
 - 11 industry pages under /industries/: Architecture, Banking & Fintech, Construction, E-commerce, Education, Healthcare, Insurance, Real Estate, Ride Hailing, Telecom, Travel & Tourism.
 - Four business-need pages under /solutions/: Reach More Customers, Move Sales Forward, Improve Customer Experience, Simplify Business Operations.
 - **Total: 16 HTML pages.** All use preview-only noindex, nofollow; root robots.txt denies indexing.
-- QA at the completed fourth-page milestone: **620/620 browser checks passed** against PR #19. CI checks run at four viewport profiles. Later audit QA counts must be taken from the current CI run, not this historic number.
+- Latest verified eleven-industry baseline: **968/968 browser checks passed** across four Chromium viewport profiles in [Frontend QA run 39859970649](https://github.com/Brainstormtools/taamerat360.com/actions/runs/39859970649). Earlier fourth-page milestone was 620/620 against PR #19. Always consult the newest run for commits after the baseline.
 - Site does not host a validated enquiry-submission backend. Proposal CTAs use an **external, separately hosted** /contact-us/ page. An HTTP 200 response does not demonstrate that a submitted enquiry is received.
+
+## GitHub source synchronization — 23 October 2026
+
+- On `main` at `d66b71c6f4fe8819c18dd683ec290a83984f3f61`, the 133 Git tracked-file paths and content blob SHA-1s **exactly matched** the complete website ZIP exported for that commit.
+- The exported nested ZIP matched `SHA256SUMS.txt` (`fbdbfbea85324208c55a624660ccb900d608f4f42fe4787cec7b55feb57ff9af`); the export's `SOURCE_COMMIT.txt` matched `main`.
+- Static HTML audit: **16 pages**, **zero** missing internal static assets, **zero** unresolved local page fragments, **zero** duplicate IDs, and **zero** missing `noindex` directives.
+- Source and tests are synced; no re-upload of duplicate website code was necessary. Documentation statuses were corrected to distinguish completed GitHub source from pending Business Need cinematic upgrades and owner/client launch gates.
+- This is a version-specific snapshot, not a statement that every future commit or a live hosting deployment has been independently checked. See `docs/github-source-synchronization-2026-10-23.md`.
 
 ## Source-level audit findings and repairs
 
