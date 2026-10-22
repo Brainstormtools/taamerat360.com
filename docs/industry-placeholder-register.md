@@ -55,9 +55,9 @@ Implementation: full editorial layout; cinematic WebGL property hero and four-ch
 | High | Contact | External /contact-us/?industry=e-commerce | Real end-to-end proposal submission and receipt confirmation | Verification pending |
 | Medium | Packages | Existing generic Taamerat360 packages | Approved scope/pricing/terms and any integrations promised to customers | Awaiting client |
 | Medium | Workflow copy | Illustrative online commerce customer journey | Confirm relevant sales channels, customer types and services supported | Review pending |
-| Low | Hero illustration | Original conceptual e-commerce scene | Optional client-approved product photography and store imagery | Optional |
+| Low | Hero and scroll imagery | Fictional native-WebGL product-display scene with original SVG fallback | Optional permissioned actual merchandise, storefront images, verified product content and visual acceptance; never present concept products as purchasable | Stylized 3D concept developed; proof optional |
 
-Implementation: full unique responsive landing page, original SVG artwork, customer challenge cards, four-stage interactive journey with keyboard access, package routing, evidence placeholders and browser-only brief builder with copy fallback. The page does not imply Taamerat360 performs payment processing, fulfillment or guaranteed sales.
+Implementation: full responsive landing page; native-WebGL cinematic product hero and four-stage reversible scroll story with original SVG/no-JS fallback; customer challenge cards; original keyboard-operable four-stage journey; package routing, evidence placeholders and browser-only brief builder with copy fallback. The product props are fictional and not for sale. The page does not imply Taamerat360 performs payment processing, fulfilment, real orders, live inventory, or guarantees revenue.
 
 ## 04 — Architecture
 
