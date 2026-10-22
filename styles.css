@@ -55,3 +55,13 @@ html.js-motion [data-reveal]:not(.is-visible){opacity:0;transform:translateY(22p
   .nav-links>a{padding:13px;font-size:14px}
   .nav-links .nav-cta{margin-top:12px;justify-content:space-between}
 }
+
+/* Readable static routes when JavaScript is unavailable. These elements exist only inside <noscript>. */
+.nojs-route-links{display:flex;flex-direction:column;gap:4px;width:100%;padding:20px 17px;min-width:0}
+.nojs-route-links>span{display:block;font-size:10px;letter-spacing:.12em;font-weight:800;color:#514b44;margin-bottom:9px}
+.nojs-route-links>a{display:flex;align-items:center;min-height:45px;padding:9px 12px;font-size:14px;font-weight:700;line-height:1.55;color:#203c34;background:#fdfaf2;border:1px solid #cdc6b7;overflow-wrap:anywhere}
+.nojs-route-links>a:hover{background:#e6ece0;text-decoration:underline}
+.nojs-route-links>a:focus-visible{outline:3px solid #315be4;outline-offset:3px}
+.nojs-industry-links{flex:1 1 100%;padding:0}
+.nojs-industry-links>a{min-height:44px}
+@media(max-width:760px){.nojs-route-links{padding:15px 4px}.nojs-industry-links{padding:0}}
