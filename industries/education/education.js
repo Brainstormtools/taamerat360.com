@@ -2,7 +2,7 @@
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>Array.from(r.querySelectorAll(s));
 let paused=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const motion=$(".motion-toggle");
-function applyMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));motion.setAttribute("aria-label",paused?"Resume motion":"Pause motion");$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ"}
+function applyMotion(){document.body.classList.toggle("motion-off",paused);motion.setAttribute("aria-pressed",String(paused));motion.setAttribute("aria-label",paused?"Resume motion":"Pause motion");$(".motion-label").textContent=paused?"Resume motion":"Pause motion";$(".motion-indicator").textContent=paused?"▶":"Ⅱ";window.dispatchEvent(new CustomEvent("education:motion",{detail:{paused}}))}
 motion.addEventListener("click",()=>{paused=!paused;applyMotion()});applyMotion();
 const toggle=$(".nav-toggle"),nav=$(".nav-links");
 function closeMenu(focus=false){if(!nav.classList.contains("is-open"))return;nav.classList.remove("is-open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation");if(focus)toggle.focus()}
@@ -18,7 +18,7 @@ connect:{number:"04 / 04",word:"CONNECT",label:"TEAM COORDINATION / BUSINESS PRO
 };const keys=Object.keys(stages);
 function selectStage(key){const v=stages[key];if(!v)return;
 $$(".ed-stage").forEach(b=>{const active=b.dataset.stage===key;b.classList.toggle("is-active",active);b.setAttribute("aria-pressed",String(active))});
-$("#ed-stage-number").textContent=v.number;$("#ed-stage-word").textContent=v.word;$("#ed-stage-label").textContent=v.label;$("#ed-stage-title").textContent=v.title;$("#ed-stage-description").textContent=v.description;$("#ed-stage-focus").textContent=v.focus;$("#ed-stage-count").textContent=v.count+" OF 4";$("#ed-path").setAttribute("stroke-dashoffset",String(v.offset))}
+$("#ed-stage-number").textContent=v.number;$("#ed-stage-word").textContent=v.word;$("#ed-stage-label").textContent=v.label;$("#ed-stage-title").textContent=v.title;$("#ed-stage-description").textContent=v.description;$("#ed-stage-focus").textContent=v.focus;$("#ed-stage-count").textContent=v.count+" OF 4";$("#ed-path").setAttribute("stroke-dashoffset",String(v.offset));window.dispatchEvent(new CustomEvent("education:stage",{detail:{key}}))}
 $$(".ed-stage").forEach(b=>{b.addEventListener("click",()=>selectStage(b.dataset.stage));b.addEventListener("keydown",event=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(event.key))return;event.preventDefault();const delta=event.key==="ArrowDown"||event.key==="ArrowRight"?1:-1;const i=Math.max(0,Math.min(keys.length-1,keys.indexOf(b.dataset.stage)+delta));selectStage(keys[i]);$$(".ed-stage")[i].focus()})});
 const form=$("#ed-form"),copy=$("#ed-copy"),result=$("#ed-result-text"),status=$("#ed-status"),org=$("#ed-organisation"),challenge=$("#ed-challenge"),priority=$("#ed-priority");let brief="";
 form.addEventListener("submit",e=>{e.preventDefault();brief=[
