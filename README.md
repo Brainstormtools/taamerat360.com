@@ -16,6 +16,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Ride Hailing — eleventh cinematic industry landing page
+
+The Ride Hailing page at `/industries/ride-hailing/` has a **fictional dimensional mobility-business information district**, combining simplified city architecture, abstract public-service panels, a stylized decorative car and non-transactional orange wayfinding. The urban cobalt, orange and mint scene advances and reverses through DISCOVER → UNDERSTAND → ENQUIRE → COORDINATE.
+
+- The page reuses the existing native-WebGL `assets/immersive-scene-kit.js` with `industries/ride-hailing/ride-hailing-3d.js` and `ride-hailing-3d.css`. No traffic feeds, map SDKs, telemetry APIs, backend, payments or external 3D providers were added.
+- Two WebGL canvases (hero and scroll-story) are rendered before fading the original `assets/ride-hailing-connected.svg`; mobile off-screen initial rendering is supported.
+- Existing accessible keyboard stage navigation, pause/reduced-motion controls, no-WebGL/no-JavaScript SVG fallback, fixed-choice browser-only business brief, FAQ, disclosure language, placeholders and preview noindex remain intact.
+- `tests/ride-hailing-cinematic.spec.cjs` adds seven cinematic test scenarios across four responsive devices: actual depth-tested WebGL and both initialized canvases, reversible scroll, stage synchronization, motion controls and fallback/JS-disabled behavior.
+- **No real ride-hailing application, rider-driver matching, dispatch, journey, live GPS location, fare estimate, booking, trip or driver earnings, safety score, coverage promise, payments, driver/vehicle identity data or operating claim is provided.** All geometry is conceptual business information artwork.
+- Real operating-area, commercial, licensing, safety and client-evidence claims require owner/client acceptance and transport-sector/legal/privacy review. Production deployment remains owner-controlled.
+
 ## Travel & Tourism — tenth cinematic industry landing page
 
 The Travel & Tourism page at `/industries/travel-tourism/` now contains an **original fictional 3D destination-discovery pavilion** in deep sea green, sea-glass, warm sand and coral, with abstract landscaping, information displays and an illustrative wayfinding route. Four scroll-responsive chapters reverse through DISCOVER → EXPLORE → ENQUIRE → COORDINATE.
