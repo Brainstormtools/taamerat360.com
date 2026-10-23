@@ -122,6 +122,10 @@ test("Cinematic sales page exports hero and scroll-story visual review screensho
  await page.goto(route);
  await expect(page.locator(".sf-cinema-hero h1")).toBeVisible();
  await page.evaluate(()=>document.fonts.ready);
+ if(await page.evaluate(()=>window.__salesForwardCinema?.available)){
+  await expect(page.locator("body")).toHaveClass(/sf-webgl-ready/);
+  await expect.poll(()=>page.locator(".sf-art-panel>img").evaluate(i=>Number(getComputedStyle(i).opacity)),{timeout:8000}).toBeLessThan(.15);
+ }
  await page.screenshot({path:"screenshots/move-sales-forward-"+test.info().project.name+"-hero.png",animations:"disabled"});
  await page.locator('.sf-cinema-chapter[data-sf-chapter="1"]').scrollIntoViewIfNeeded();
  await expect(page.locator(".sf-cinema-frame")).toBeVisible();
