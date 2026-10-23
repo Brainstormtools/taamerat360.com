@@ -12,9 +12,9 @@
 <link rel="preload" href="../../assets/customer-experience-connected.svg" as="image" type="image/svg+xml">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../reach-more-customers/reach-more-customers.css">
-<link rel="stylesheet" href="./improve-customer-experience.css">
+<link rel="stylesheet" href="./improve-customer-experience.css"><link rel="stylesheet" href="./improve-customer-experience-3d.css">
 <script src="../reach-more-customers/reach-more-customers.js" defer></script>
-<script src="./improve-customer-experience.js" defer></script>
+<script src="./improve-customer-experience.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./improve-customer-experience-3d.js" defer></script>
 </head>
 <body class="cx-page">
 <a href="#main" class="skip-link">Skip to content</a>
@@ -24,16 +24,16 @@
 <div id="nav-links" class="nav-links"><a href="../../#solutions">Business needs</a><a href="#challenge">The challenge</a><a href="#touchpoints">Explore touchpoints</a><a href="#packages">Packages</a><a href="#next-step" class="nav-cta">Request a proposal <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="rc-hero cx-hero" aria-labelledby="cx-title"><div class="shell rc-hero-grid">
+<section class="rc-hero cx-hero cx-cinema-hero" aria-labelledby="cx-title"><div class="shell rc-hero-grid">
 <div class="rc-hero-copy">
 <nav class="rc-crumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span aria-hidden="true">/</span><a href="../../#solutions">BUSINESS NEEDS</a><span aria-hidden="true">/</span><strong>IMPROVE CUSTOMER EXPERIENCE</strong></nav>
 <p class="rc-overline"><span class="rc-spark" aria-hidden="true">♡</span> YOUR BUSINESS NEED / 03</p>
 <h1 id="cx-title">Every interaction<br><em>leaves an impression.</em></h1>
 <p class="rc-intro">Customers remember how easy it was to understand your business, get an answer and know what happens next. Better experiences begin with clear communication and careful follow-through—not extra complexity.</p>
-<div class="rc-actions"><a href="#touchpoints" class="rc-button">Explore the journey <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
+<div class="rc-actions"><a href="#cinema-customer-experience" class="rc-button">Explore the journey <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
 <p class="rc-note">CLEAR ANSWERS <span aria-hidden="true">→</span> THOUGHTFUL HANDOVERS <span aria-hidden="true">→</span> BETTER UNDERSTANDING</p>
 </div>
-<figure class="rc-art"><div class="rc-art-panel cx-art-panel"><img src="../../assets/customer-experience-connected.svg" alt="Original illustration of a customer and team member connected by a warm orange path, conversation cards, and a helpful information desk." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / HELP PEOPLE FIND THE RIGHT ANSWER AND NEXT STEP</figcaption></figure>
+<figure class="rc-art"><div class="rc-art-panel cx-art-panel" data-customer-experience-hero><img src="../../assets/customer-experience-connected.svg" alt="Original illustration of a customer and team member connected by a warm orange path, conversation cards, and a helpful information desk." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / HELP PEOPLE FIND THE RIGHT ANSWER AND NEXT STEP</figcaption></figure>
 </div></section>
 <div class="rc-marquee cx-marquee" aria-hidden="true"><div class="shell">LISTEN WELL <span>✳</span> ANSWER CLEARLY <span>✳</span> FOLLOW THROUGH <span>✳</span></div></div>
 <section class="rc-section rc-paper" id="challenge" aria-labelledby="challenge-title"><div class="shell">
@@ -43,6 +43,56 @@
 <article class="rc-problem"><span>02 / FRAGMENTED HANDOVERS</span><div class="rc-big-icon" aria-hidden="true">↗</div><h3>Customers must<br>repeat themselves.</h3><p>Teams may lose context between enquiries, service conversations and delivery updates.</p></article>
 <article class="rc-problem"><span>03 / UNCERTAIN PROGRESS</span><div class="rc-big-icon" aria-hidden="true">◷</div><h3>No one knows<br>what comes next.</h3><p>Unclear owners and follow-up expectations make otherwise ordinary interactions more difficult.</p></article>
 </div></div></section>
+
+<section class="cx-cinema-scroll" id="cinema-customer-experience" aria-labelledby="customer-cinema-title">
+ <div class="shell">
+  <div class="cx-cinema-heading">
+   <p class="rc-label">02 / CONNECTIONS THAT MAKE SENSE</p>
+   <h2 id="customer-cinema-title">Make every interaction<br><em>easier to understand.</em></h2>
+   <p>This is a <strong>fictional native-3D customer conversation atrium</strong>, illustrating better public information, general enquiries, useful status explanations and continual improvement. Its cards, conversations and path are abstract. They do not represent a real customer, support system, ticket, response-time commitment, satisfaction result or a functioning messaging integration.</p>
+  </div>
+  <div class="cx-cinema-toolbar" role="group" aria-label="Select customer communication chapter or pause animation">
+   <button type="button" data-cx-cinema-stage="0" aria-pressed="true" class="is-active">01 / DISCOVER</button>
+   <button type="button" data-cx-cinema-stage="1" aria-pressed="false">02 / CONNECT</button>
+   <button type="button" data-cx-cinema-stage="2" aria-pressed="false">03 / CONTINUE</button>
+   <button type="button" data-cx-cinema-stage="3" aria-pressed="false">04 / IMPROVE</button>
+   <button type="button" class="cx-cinema-motion" id="cx-cinema-motion" aria-pressed="false" aria-label="Pause cinematic motion">Pause motion Ⅱ</button>
+  </div>
+  <div class="cx-cinema-layout">
+   <div class="cx-cinema-sticky">
+    <div class="cx-cinema-frame" data-customer-experience-scene role="img" aria-label="Fictional dimensional customer communication gallery with public-service information, abstract conversation shapes and anonymous improvement notes">
+     <img src="../../assets/customer-experience-connected.svg" width="1100" height="850" class="cx-cinema-fallback" alt="" decoding="async">
+     <span class="cx-cinema-watermark" aria-hidden="true">CONNECTION / 04</span>
+     <div class="cx-cinema-hud"><span>CUSTOMER EXPERIENCE / ILLUSTRATIVE CONCEPT</span><strong id="cx-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="cx-cinema-caption">Scroll forward through four chapters · Scroll up to reverse · Select a chapter above or use the existing touchpoint explorer below.</p>
+   </div>
+   <div class="cx-cinema-chapters">
+    <article class="cx-cinema-chapter" data-cx-chapter="0">
+     <span>01 / DISCOVER</span><h3>Answer before<br><em>people need to ask.</em></h3>
+     <p>Show accurate public service descriptions, contact options and expectations so customers can choose a sensible next step without guesswork.</p>
+     <small>INFORMATION / TRANSPARENT EXPECTATIONS</small>
+    </article>
+    <article class="cx-cinema-chapter" data-cx-chapter="1">
+     <span>02 / CONNECT</span><h3>Hear the need.<br><em>Keep the context.</em></h3>
+     <p>Design a clear path to the right team and explain what information may be necessary in a real privacy-respecting conversation. No user details are collected on this page.</p>
+     <small>UNDERSTANDING / RESPONSIBLE HELP</small>
+    </article>
+    <article class="cx-cinema-chapter" data-cx-chapter="2">
+     <span>03 / CONTINUE</span><h3>Make the next moment<br><em>predictable.</em></h3>
+     <p>Outline reasonable status-update practices, channel preferences and follow-up responsibilities without inventing a support response guarantee or live case progress.</p>
+     <small>FOLLOW-THROUGH / USEFUL STATUS</small>
+    </article>
+    <article class="cx-cinema-chapter" data-cx-chapter="3">
+     <span>04 / IMPROVE</span><h3>Listen to patterns.<br><em>Improve with evidence.</em></h3>
+     <p>Identify recurring questions and opportunities to clarify approved information. These conceptual cards contain no feedback data, measurements or verified customer outcomes.</p>
+     <small>REFINEMENT / NO FABRICATED RESULTS</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="rc-section cx-touchpoints" id="touchpoints" aria-labelledby="touchpoints-title"><div class="shell">
 <div class="rc-section-heading"><p class="rc-label">02 / INTERACTIVE CUSTOMER JOURNEY</p><h2 id="touchpoints-title">Make the next moment<br><em>feel effortless.</em></h2><p>Select a touchpoint to explore useful ways of communicating. These are fictional, general business examples—not an active support desk, ticketing service or customer account.</p></div>
 <div class="cx-explorer">
