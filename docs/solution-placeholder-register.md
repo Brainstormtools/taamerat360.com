@@ -7,7 +7,7 @@ The four business-need landing pages are original editorial source components, c
 | Reach More Customers | /solutions/reach-more-customers/ | Cinematic native-WebGL experience merged to `main`; 1000/1000 browser tests passed on approved PR #35 | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Original editorial page in `main`; cinematic 3D developed in review branch, QA/merge pending | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
 | Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
-| Simplify Business Operations | /solutions/simplify-business-operations/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
+| Simplify Business Operations | /solutions/simplify-business-operations/ | Editorial baseline merged; 3D operations workshop implemented on staged feature branch, QA/merge subject to validation | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — cinematic source boundaries
 
@@ -35,6 +35,10 @@ The independent native-WebGL conversation studio visually illustrates INBOUND �
 - [ ] Keep preview-only `noindex, nofollow` until public launch is approved.
 
 The page's four-stage timeline is a **fictional business-process illustration**; stage selection happens only in the visitor's browser. Nothing is saved or sent, and no customer records, automated follow-ups, sales forecasts, or actual conversion outcomes are implied.
+
+## Simplify Business Operations — conceptual 3D demonstration
+
+The four chapter workshop is a reversible illustrative native-WebGL environment, not a live task platform, employee-data store or connected operational system. The original SVG and complete text remain available without WebGL or JavaScript. Existing workflow keyboard controls and new scroll controls are synchronized in-browser only. Real changes to client processes, integrations, authorisations, measurable efficiency claims and contact delivery require separate client/owner review.
 
 ## Simplify Business Operations — workflow and integration boundaries
 
