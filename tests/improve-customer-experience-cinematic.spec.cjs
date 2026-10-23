@@ -1,7 +1,7 @@
 const {test,expect}=require("@playwright/test");
 const route="/solutions/improve-customer-experience/";
 
-test("Customer experience cinema preserves original sales editorial journey and claims",async({page})=>{
+test("Customer experience cinema preserves existing touchpoint content and privacy claims",async({page})=>{
  const errors=[];page.on("pageerror",e=>errors.push(e.message));await page.goto(route);
  await expect(page.locator(".cx-cinema-hero h1")).toContainText("Every interaction");
  await expect(page.locator("#cinema-customer-experience")).toBeVisible();
@@ -36,7 +36,7 @@ test("Native WebGL creates two depth-tested canvases with initialized mobile-saf
  }
  expect(errors).toEqual([]);
 });
-test("Operations cinema chapters progress forward and reverse when scrolling",async({page})=>{
+test("Customer experience chapters progress forward and reverse when scrolling",async({page})=>{
  await page.goto(route);
  const last=page.locator('.cx-cinema-chapter[data-cx-chapter="3"]');
  await last.scrollIntoViewIfNeeded();await expect(last).toBeVisible();
@@ -59,7 +59,7 @@ test("Direct stage selectors work with clicks and keyboard navigation",async({pa
  await expect(controls.nth(2)).toBeFocused();
  await expect(controls.nth(2)).toHaveAttribute("aria-pressed","true");
 });
-test("Original four-stage sales route synchronizes the cinematic scene",async({page})=>{
+test("Original four-touchpoint explorer synchronizes the cinematic scene",async({page})=>{
  await page.goto(route);
  await page.locator('.cx-touchpoint-button[data-cx-stage="3"]').click();
  await expect(page.locator("#cx-stage-panel-3")).toBeVisible();
@@ -84,7 +84,7 @@ test("Pause control and operating-system reduced motion keep the story readable"
  expect(await page.evaluate(()=>window.__customerExperienceCinema.paused)).toBe(true);
  await expect(page.locator(".cx-cinema-chapter")).toHaveCount(4);
 });
-test("Blocked WebGL retains the original SVG and sales journey interactions",async({page})=>{
+test("Blocked WebGL retains the original SVG and touchpoint interactions",async({page})=>{
  await page.addInitScript(()=>{
   const original=HTMLCanvasElement.prototype.getContext;
   HTMLCanvasElement.prototype.getContext=function(type,...args){
@@ -102,7 +102,7 @@ test("Blocked WebGL retains the original SVG and sales journey interactions",asy
  await expect(page.locator("#cx-stage-panel-3")).toBeVisible();
  expect(errors).toEqual([]);
 });
-test("Without JavaScript sales editorial, proposal destinations and story chapters remain visible",async({browser})=>{
+test("Without JavaScript customer information, proposal destinations and story chapters remain visible",async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false});
  try{
   const page=await context.newPage();await page.goto("http://127.0.0.1:4173"+route);
