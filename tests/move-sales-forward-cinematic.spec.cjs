@@ -115,3 +115,15 @@ test("Without JavaScript sales editorial, proposal destinations and story chapte
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content","noindex, nofollow");
  }finally{await context.close();}
 });
+
+test("Cinematic sales page exports hero and scroll-story visual review screenshots",async({page})=>{
+ const fs=require("node:fs");
+ fs.mkdirSync("screenshots",{recursive:true});
+ await page.goto(route);
+ await expect(page.locator(".sf-cinema-hero h1")).toBeVisible();
+ await page.evaluate(()=>document.fonts.ready);
+ await page.screenshot({path:"screenshots/move-sales-forward-"+test.info().project.name+"-hero.png",animations:"disabled"});
+ await page.locator('.sf-cinema-chapter[data-sf-chapter="1"]').scrollIntoViewIfNeeded();
+ await expect(page.locator(".sf-cinema-frame")).toBeVisible();
+ await page.screenshot({path:"screenshots/move-sales-forward-"+test.info().project.name+"-story.png",animations:"disabled"});
+});
