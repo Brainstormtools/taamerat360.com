@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/reach-more-customers.svg" as="image" type="image/svg+xml">
-<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./reach-more-customers.css">
-<script src="./reach-more-customers.js" defer></script>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="./reach-more-customers.css"><link rel="stylesheet" href="./reach-more-customers-3d.css">
+<script src="./reach-more-customers.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./reach-more-customers-3d.js" defer></script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
@@ -21,16 +21,16 @@
 <div id="nav-links" class="nav-links"><a href="../../#solutions">Business needs</a><a href="#challenge">The challenge</a><a href="#approach">The approach</a><a href="#packages">Packages</a><a href="#next-step" class="nav-cta">Request a proposal <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="rc-hero" aria-labelledby="rc-title"><div class="shell rc-hero-grid">
+<section class="rc-hero rc-cinema-hero" aria-labelledby="rc-title"><div class="shell rc-hero-grid">
 <div class="rc-hero-copy">
 <nav class="rc-crumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span aria-hidden="true">/</span><a href="../../#solutions">BUSINESS NEEDS</a><span aria-hidden="true">/</span><strong>REACH MORE CUSTOMERS</strong></nav>
 <p class="rc-overline"><span class="rc-spark" aria-hidden="true">✳</span> YOUR BUSINESS NEED / 01</p>
 <h1 id="rc-title">Good business.<br><em>Not enough eyes.</em></h1>
 <p class="rc-intro">When the right people cannot find you—or cannot quickly see why you are relevant—even a great offer gets overlooked. Make discovery easier, explain your value clearly, and offer one obvious way to get in touch.</p>
-<div class="rc-actions"><a href="#approach" class="rc-button">See the approach <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
+<div class="rc-actions"><a href="#cinema-reach" class="rc-button">See the approach <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
 <p class="rc-note">RELEVANT DISCOVERY <span aria-hidden="true">→</span> CLEAR MESSAGE <span aria-hidden="true">→</span> GENUINE ENQUIRY</p>
 </div>
-<figure class="rc-art"><div class="rc-art-panel"><img src="../../assets/reach-more-customers.svg" alt="Editorial illustration of an owner preparing a storefront display while a visitor discovers it along an orange path." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / A CLEARER PATH BETWEEN A BUSINESS AND ITS CUSTOMERS</figcaption></figure>
+<figure class="rc-art"><div class="rc-art-panel" data-reach-customers-hero><img src="../../assets/reach-more-customers.svg" alt="Editorial illustration of an owner preparing a storefront display while a visitor discovers it along an orange path." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / A CLEARER PATH BETWEEN A BUSINESS AND ITS CUSTOMERS</figcaption></figure>
 </div></section>
 <div class="rc-marquee" aria-hidden="true"><div class="shell">BE FOUND <span>✳</span> BE UNDERSTOOD <span>✳</span> MAKE CONTACT EASY <span>✳</span></div></div>
 <section class="rc-section rc-paper" id="challenge" aria-labelledby="challenge-title"><div class="shell">
@@ -40,6 +40,59 @@
 <article class="rc-problem"><span>02 / CLARITY</span><div class="rc-big-icon" aria-hidden="true">✳</div><h3>They notice you,<br>but do not get it.</h3><p>Vague descriptions leave important questions unanswered and make choosing feel harder than it should.</p></article>
 <article class="rc-problem"><span>03 / ACTION</span><div class="rc-big-icon" aria-hidden="true">↗</div><h3>Interest appears.<br>Then goes nowhere.</h3><p>A confusing contact route gives people a reason to leave before starting a useful conversation.</p></article>
 </div></div></section>
+
+<section class="rc-cinema-scroll" id="cinema-reach" aria-labelledby="reach-cinema-title">
+ <div class="shell">
+  <div class="rc-cinema-heading">
+   <p class="rc-label">02 / A CLEARER CUSTOMER DISCOVERY JOURNEY</p>
+   <h2 id="reach-cinema-title">Turn being overlooked<br>into <em>being understood.</em></h2>
+   <p>This original <strong>fictional 3D discovery constellation</strong> illustrates four connected business communication decisions. Buildings, arcs, cards and wayfinding paths are abstract artwork—not real advertising-platform results, customers, a live lead funnel, verified traffic data or a completed client case study.</p>
+  </div>
+  <div class="rc-cinema-toolbar" role="group" aria-label="Choose customer discovery stage or pause animation">
+   <button type="button" data-rc-cinema-stage="0" aria-pressed="true" class="is-active">01 / FIND</button>
+   <button type="button" data-rc-cinema-stage="1" aria-pressed="false">02 / ATTRACT</button>
+   <button type="button" data-rc-cinema-stage="2" aria-pressed="false">03 / EXPLAIN</button>
+   <button type="button" data-rc-cinema-stage="3" aria-pressed="false">04 / CONNECT</button>
+   <button type="button" class="rc-cinema-motion" id="rc-cinema-motion" aria-pressed="false" aria-label="Pause cinematic motion">Pause motion Ⅱ</button>
+  </div>
+  <div class="rc-cinema-layout">
+   <div class="rc-cinema-sticky">
+    <div class="rc-cinema-frame" data-reach-customers-scene role="img" aria-label="Conceptual three-dimensional business discovery artwork with a glowing public information gallery, abstract audience arcs, clear message cards and non-sensitive enquiry handover">
+     <img src="../../assets/reach-more-customers.svg" width="1100" height="850" class="rc-cinema-fallback" alt="" decoding="async">
+     <span class="rc-cinema-watermark" aria-hidden="true">BE SEEN / 04</span>
+     <div class="rc-cinema-hud"><span>REACH MORE CUSTOMERS / CONCEPTUAL BUSINESS STORY</span><strong id="rc-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="rc-cinema-caption">Scroll down to reveal each business stage · Scroll up to reverse · Choose a stage using the buttons above · Pause motion at any time.</p>
+   </div>
+   <div class="rc-cinema-chapters">
+    <article class="rc-cinema-chapter" data-rc-chapter="0">
+     <span>01 / FIND THE RIGHT PEOPLE</span>
+     <h3>Be discoverable<br><em>where it matters.</em></h3>
+     <p>Map the customer situations, useful questions and relevant channels worth researching before investing in promotion. No audience reach or ad performance is asserted.</p>
+     <small>AUDIENCE RESEARCH / RELEVANT DISCOVERY</small>
+    </article>
+    <article class="rc-cinema-chapter" data-rc-chapter="1">
+     <span>02 / ATTRACT RELEVANT INTEREST</span>
+     <h3>Create a reason<br><em>to pay attention.</em></h3>
+     <p>Align ideas and creative messages with genuine customer needs. The radiating connection arcs visualize possibilities, not real measured reach or campaign results.</p>
+     <small>CREATIVE STRATEGY / CUSTOMER PSYCHOLOGY</small>
+    </article>
+    <article class="rc-cinema-chapter" data-rc-chapter="2">
+     <span>03 / EXPLAIN THE VALUE CLEARLY</span>
+     <h3>Answer the question<br><em>behind the click.</em></h3>
+     <p>Give a visitor accurate offer details, useful context and transparent next steps. Our illustration does not represent real conversion statistics or guaranteed customer decisions.</p>
+     <small>WEBSITE MESSAGING / CLEAR EXPECTATIONS</small>
+    </article>
+    <article class="rc-cinema-chapter" data-rc-chapter="3">
+     <span>04 / CONNECT HUMAN CONVERSATIONS</span>
+     <h3>Make genuine interest<br><em>easy to continue.</em></h3>
+     <p>Make an appropriate contact route clear, assign general enquiry follow-up and learn from recurring questions. This page itself does not capture personal leads or submit enquiries.</p>
+     <small>CONTACT CLARITY / REAL BUSINESS FOLLOW-UP</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
 <section class="rc-section rc-dark" id="approach" aria-labelledby="approach-title"><div class="shell">
 <div class="rc-section-heading"><p class="rc-label">02 / WHAT CHANGES</p><h2 id="approach-title">Less guesswork.<br><em>A clearer route in.</em></h2><p>Our starting point is not “run more ads.” It is understanding who should discover your offer, what they need to know, and how they can enquire.</p></div>
 <div class="rc-steps">

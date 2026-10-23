@@ -7,8 +7,8 @@ test('Reach More Customers page loads with its original artwork and clear value 
  await page.goto(path);
  await expect(page.locator('h1')).toContainText('Good business.');
  await expect(page.locator('h1')).toContainText('Not enough eyes.');
- await expect(page.locator('img[src$="reach-more-customers.svg"]')).toBeVisible();
- await expect.poll(()=>page.locator('img[src$="reach-more-customers.svg"]').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
+ await expect(page.locator('.rc-art-panel>img[src$="reach-more-customers.svg"]')).toBeVisible();
+ await expect.poll(()=>page.locator('.rc-art-panel>img[src$="reach-more-customers.svg"]').evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await expect(page.locator('.rc-steps article')).toHaveCount(3);
  await expect(page.locator('.rc-problem')).toHaveCount(3);
  expect(errors).toEqual([]);

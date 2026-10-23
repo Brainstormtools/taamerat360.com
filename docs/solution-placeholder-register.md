@@ -4,10 +4,14 @@ The four business-need landing pages are original editorial source components, c
 
 | Page | Route | Source status | Still required |
 |---|---|---|---|
-| Reach More Customers | /solutions/reach-more-customers/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
+| Reach More Customers | /solutions/reach-more-customers/ | Original page merged; cinematic 3D implemented in development PR, QA/merge subject to checks | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
 | Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
 | Simplify Business Operations | /solutions/simplify-business-operations/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
+
+## Reach More Customers — cinematic source boundaries
+
+An original native-WebGL concept illustration and reversible FIND → ATTRACT → EXPLAIN → CONNECT scroll narrative have been developed for this page. These are illustrative business communications—not a running campaign, customer acquisition engine, external contact integration, measured performance or verified project. The original SVG is maintained for blocked WebGL/no JS, and stage buttons, motion pause and reduced-motion settings support accessibility. The client/owner launch checklist below remains mandatory.
 
 ## Reach More Customers — required before claims/public launch
 
