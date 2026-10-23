@@ -24,6 +24,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Improve Customer Experience — fourth cinematic Business Need page
+
+The page at `/solutions/improve-customer-experience/` now includes an original **fictional customer-conversation atrium** in lilac, sea-glass and coral. Four reversible native-WebGL scroll chapters — **DISCOVER → CONNECT → CONTINUE → IMPROVE** — visualize transparent public service information and general business follow-through, never actual customer care outcomes.
+
+- The local `assets/immersive-scene-kit.js` and new `solutions/improve-customer-experience/improve-customer-experience-3d.js` and `improve-customer-experience-3d.css` render a distinct conceptual scene. No customer information, external messaging provider, API calls, contact tracking, ticketing, support account or backend is added.
+- Both original depth-tested hero and chapter WebGL canvases draw their initial frames before the original `assets/customer-experience-connected.svg` fades; the SVG and original complete editorial page persist without WebGL or JavaScript.
+- Reversible scrolling, direct stage buttons with keyboard arrows, motion pause/reduced-motion, and readable mobile story layout. The existing four-stage `#touchpoints` explorer with arrow/Home/End keyboard behavior remains in place and synchronizes its stage to the scene using an in-browser event.
+- The original package links, case-study placeholder, preview `noindex` and external proposal route remain unchanged; this is not a verified submitted-and-received contact.
+- Nine new Playwright scenarios across four viewport profiles cover true WebGL first-frame rendering, chapter progression, stage synchronization, fallback and screenshot review.
+- No real client support case, customer identity, ticket, conversation, response-time SLA, satisfaction measurement, conversion result or promised service outcome is represented. Verified examples, client consent, approved channels, privacy review, scope, contact receipt and owner-controlled release remain pending.
+
 ## Move Sales Forward — second cinematic Business Need page
 
 The page at `/solutions/move-sales-forward/` contains an original **fictional native-WebGL sales conversation studio**, using indigo, deep violet and copper to illustrate the four reversible business stages: **INBOUND → DISCOVERY → AGREEMENT → FOLLOW-THROUGH**.
