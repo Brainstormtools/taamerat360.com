@@ -7,7 +7,7 @@ test('Simplify Business Operations page loads the original illustration and key 
  await page.goto(route);
  await expect(page.locator('h1')).toContainText('Less chasing.');
  await expect(page.locator('h1')).toContainText('More doing.');
- const artwork=page.locator('img[src$="simplify-business-operations.svg"]');
+ const artwork=page.locator('.op-art-panel>img[src$="simplify-business-operations.svg"]');
  await expect(artwork).toBeVisible();
  await expect.poll(()=>artwork.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await expect(page.locator('.op-problems article')).toHaveCount(3);
