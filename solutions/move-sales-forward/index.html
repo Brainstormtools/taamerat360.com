@@ -12,9 +12,9 @@
 <link rel="preload" href="../../assets/move-sales-forward.svg" as="image" type="image/svg+xml">
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../reach-more-customers/reach-more-customers.css">
-<link rel="stylesheet" href="./move-sales-forward.css">
+<link rel="stylesheet" href="./move-sales-forward.css"><link rel="stylesheet" href="./move-sales-forward-3d.css">
 <script src="../reach-more-customers/reach-more-customers.js" defer></script>
-<script src="./move-sales-forward.js" defer></script>
+<script src="./move-sales-forward.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./move-sales-forward-3d.js" defer></script>
 </head>
 <body class="sf-page">
 <a href="#main" class="skip-link">Skip to content</a>
@@ -26,16 +26,16 @@
 </nav>
 </header>
 <main id="main">
-<section class="rc-hero sf-hero" aria-labelledby="sf-title"><div class="shell rc-hero-grid">
+<section class="rc-hero sf-hero sf-cinema-hero" aria-labelledby="sf-title"><div class="shell rc-hero-grid">
 <div class="rc-hero-copy">
 <nav class="rc-crumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span aria-hidden="true">/</span><a href="../../#solutions">BUSINESS NEEDS</a><span aria-hidden="true">/</span><strong>MOVE SALES FORWARD</strong></nav>
 <p class="rc-overline"><span class="rc-spark" aria-hidden="true">↗</span> YOUR BUSINESS NEED / 02</p>
 <h1 id="sf-title">Interest is good.<br><em>Momentum is better.</em></h1>
 <p class="rc-intro">The enquiry came in. The conversation started. Then what? Help every opportunity reach a clear decision by making follow-ups, responsibilities and next steps easier to understand.</p>
-<div class="rc-actions"><a class="rc-button" href="#sales-route">Explore the sales route <span aria-hidden="true">↗</span></a><a class="rc-text-link" href="#next-step">Request a proposal <span aria-hidden="true">↗</span></a></div>
+<div class="rc-actions"><a class="rc-button" href="#cinema-sales">Explore the sales route <span aria-hidden="true">↗</span></a><a class="rc-text-link" href="#next-step">Request a proposal <span aria-hidden="true">↗</span></a></div>
 <p class="rc-note">ENQUIRY <span aria-hidden="true">→</span> CONVERSATION <span aria-hidden="true">→</span> AGREED NEXT STEP</p>
 </div>
-<figure class="rc-art"><div class="rc-art-panel sf-art-panel"><img src="../../assets/move-sales-forward.svg" alt="An editorial illustration showing a desk, a conversation, four milestone cards and an orange ribbon connecting each next step." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / FROM AN ENQUIRY TO A CONSIDERED NEXT STEP</figcaption></figure>
+<figure class="rc-art"><div class="rc-art-panel sf-art-panel" data-sales-forward-hero><img src="../../assets/move-sales-forward.svg" alt="An editorial illustration showing a desk, a conversation, four milestone cards and an orange ribbon connecting each next step." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / FROM AN ENQUIRY TO A CONSIDERED NEXT STEP</figcaption></figure>
 </div></section>
 <div class="rc-marquee sf-marquee" aria-hidden="true"><div class="shell">FOLLOW UP <span>↗</span> REMOVE FRICTION <span>↗</span> KEEP PROMISES VISIBLE <span>↗</span></div></div>
 <section class="rc-section rc-paper" id="challenge" aria-labelledby="challenge-title"><div class="shell">
@@ -45,6 +45,56 @@
 <article class="rc-problem"><span>02 / DELAYED FOLLOW-UP</span><div class="rc-big-icon" aria-hidden="true">◷</div><h3>Good enquiries<br>go quiet.</h3><p>No agreed owner, timing or next action means potential work sits in the gaps.</p></article>
 <article class="rc-problem"><span>03 / UNCLEAR NEXT STEP</span><div class="rc-big-icon" aria-hidden="true">↗</div><h3>Interest does not<br>become a decision.</h3><p>Without a clear proposal, helpful answer or decision point, customers cannot easily move forward.</p></article>
 </div></div></section>
+
+<section class="sf-cinema-scroll" id="cinema-sales" aria-labelledby="sales-cinema-title">
+ <div class="shell">
+  <div class="sf-cinema-heading">
+   <p class="rc-label">02 / A CONNECTED SALES CONVERSATION</p>
+   <h2 id="sales-cinema-title">Keep the conversation moving.<br><em>Without losing context.</em></h2>
+   <p>This <strong>fictional 3D conversation studio</strong> illustrates human-centred business follow-through from enquiry to an agreed next step. The moving lines, cards and milestones are conceptual: there is no customer database, live CRM pipeline, sales automation, measured conversion rate or verified commercial outcome.</p>
+  </div>
+  <div class="sf-cinema-toolbar" role="group" aria-label="Choose sales conversation chapter or pause animation">
+   <button type="button" data-sf-cinema-stage="0" aria-pressed="true" class="is-active">01 / INBOUND</button>
+   <button type="button" data-sf-cinema-stage="1" aria-pressed="false">02 / DISCOVERY</button>
+   <button type="button" data-sf-cinema-stage="2" aria-pressed="false">03 / AGREEMENT</button>
+   <button type="button" data-sf-cinema-stage="3" aria-pressed="false">04 / FOLLOW-THROUGH</button>
+   <button type="button" class="sf-cinema-motion" id="sf-cinema-motion" aria-pressed="false" aria-label="Pause cinematic motion">Pause motion Ⅱ</button>
+  </div>
+  <div class="sf-cinema-layout">
+   <div class="sf-cinema-sticky">
+    <div class="sf-cinema-frame" data-sales-forward-scene role="img" aria-label="Fictional three-dimensional sales conversation studio with an anonymous reception, public question cards, illustrative proposal milestones and a non-sensitive coordination desk">
+     <img src="../../assets/move-sales-forward.svg" alt="" class="sf-cinema-fallback" width="1100" height="850" decoding="async">
+     <span class="sf-cinema-watermark" aria-hidden="true">MOMENTUM / 04</span>
+     <div class="sf-cinema-hud"><span>SALES MOMENTUM / ILLUSTRATIVE CONCEPT</span><strong id="sf-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="sf-cinema-caption">Scroll down to reveal a step · Scroll upward to reverse · Use the stage selectors above, or the full sales workflow below, to explore directly.</p>
+   </div>
+   <div class="sf-cinema-chapters">
+    <article class="sf-cinema-chapter" data-sf-chapter="0">
+     <span>01 / INBOUND</span><h3>Notice the question.<br><em>Preserve the context.</em></h3>
+     <p>A useful response starts by understanding what the prospective customer actually wants. This is a design concept, not a captured or stored lead.</p>
+     <small>GENERAL ENQUIRY / RIGHTFUL RESPONSIBILITY</small>
+    </article>
+    <article class="sf-cinema-chapter" data-sf-chapter="1">
+     <span>02 / DISCOVERY</span><h3>Understand the need.<br><em>Ask better questions.</em></h3>
+     <p>Clarify requirements, constraints and decision criteria with an appropriate privacy and permission process before suggesting possible options.</p>
+     <small>CONVERSATION / HUMAN UNDERSTANDING</small>
+    </article>
+    <article class="sf-cinema-chapter" data-sf-chapter="2">
+     <span>03 / AGREEMENT</span><h3>Show what happens next.<br><em>Make scope visible.</em></h3>
+     <p>Outline the deliverables, responsibilities, timeline and terms that a real business could discuss. No quote, agreement, approval or close is represented here.</p>
+     <small>TRANSPARENT PROPOSAL / NO INVENTED RESULTS</small>
+    </article>
+    <article class="sf-cinema-chapter" data-sf-chapter="3">
+     <span>04 / FOLLOW-THROUGH</span><h3>Make the next action<br><em>easy to remember.</em></h3>
+     <p>Support respectful, agreed follow-up and handovers between people, without sending messages, integrating a CRM, accessing customer records or pressuring recipients.</p>
+     <small>HUMAN FOLLOW-UP / CONSENT &amp; ACCOUNTABILITY</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="rc-section sf-process" id="sales-route" aria-labelledby="route-title"><div class="shell">
 <div class="rc-section-heading"><p class="rc-label">02 / INTERACTIVE SALES ROUTE</p><h2 id="route-title">Four moments.<br><em>One clearer journey.</em></h2><p>Explore an illustrative sales workflow. Choose a stage to see how a business might organize the next conversation. This is a browser-only demonstration, not a connected CRM or a record of actual customers.</p></div>
 <div class="sf-workflow" aria-label="Illustrative sales follow-up journey">
