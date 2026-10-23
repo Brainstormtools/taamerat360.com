@@ -1,6 +1,6 @@
 # Taamerat360 — Business-need page placeholders and approvals
 
-The four business-need landing pages are original editorial source components, committed in `main` and covered by the full 16-page regression suite (968/968 passing on the 23 October 2026 baseline). Their distinct cinematic native-WebGL upgrades are future work. Marketing descriptions explain intended processes and proposed benefits; no invented clients, metrics, testimonials, promises, or research results are permitted. The site owner manages production deployment.
+The four business-need landing pages are original editorial source components, committed in `main` and covered by the full 16-page regression suite (968/968 passing on the 23 October 2026 baseline). Distinct conceptual native-WebGL cinematic modules have been developed for all four pages in versioned branches; confirm final merge and exact-commit QA through GitHub rather than treating source work or preview pages as approved public publication. Marketing descriptions explain intended processes and proposed benefits; no invented clients, metrics, testimonials, promises, or research results are permitted. The site owner manages production deployment.
 
 | Page | Route | Source status | Still required |
 |---|---|---|---|
