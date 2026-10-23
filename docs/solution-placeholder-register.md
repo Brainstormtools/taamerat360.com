@@ -4,10 +4,10 @@ The four business-need landing pages are original editorial source components, c
 
 | Page | Route | Source status | Still required |
 |---|---|---|---|
-| Reach More Customers | /solutions/reach-more-customers/ | Original page merged; cinematic 3D implemented in development PR, QA/merge subject to checks | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
-| Move Sales Forward | /solutions/move-sales-forward/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
+| Reach More Customers | /solutions/reach-more-customers/ | Cinematic native-WebGL experience merged to `main`; 1000/1000 browser tests passed on approved PR #35 | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
+| Move Sales Forward | /solutions/move-sales-forward/ | Cinematic native-WebGL studio merged into `main`; exact-head QA **1,036/1,036 passed** on PR #36 | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
 | Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
-| Simplify Business Operations | /solutions/simplify-business-operations/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
+| Simplify Business Operations | /solutions/simplify-business-operations/ | Original editorial page merged; independent 3D operations workshop in PR #37, QA and merge pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — cinematic source boundaries
 
@@ -22,6 +22,10 @@ An original native-WebGL concept illustration and reversible FIND → ATTRACT �
 - [ ] Confirm how enquiries will be processed, and secure consent/privacy information before adding a real hosted form or backend.
 - [ ] Confirm publication approval before removing noindex and robots.txt restrictions.
 
+## Move Sales Forward — cinematic development boundaries
+
+The independent native-WebGL conversation studio visually illustrates INBOUND → DISCOVERY → AGREEMENT → FOLLOW-THROUGH. Decorative anonymous cards and geometry are not a connected sales system, CRM pipeline, customer data or proof of results. The new scroll-controlled narrative and direct controls synchronize with the existing accessible browser-only four-stage sales route. No data collection, automated messages, sales predictions, pricing or real approvals are introduced. Public-facing evidence and actual contact receipt still require sign-off.
+
 ## Move Sales Forward — approval and content boundaries
 
 - [ ] Confirm Sales Momentum service deliverables, exclusions, pricing, timeline and whether any CRM setup, integration or training will be offered. No live software integration is assumed.
@@ -31,6 +35,10 @@ An original native-WebGL concept illustration and reversible FIND → ATTRACT �
 - [ ] Keep preview-only `noindex, nofollow` until public launch is approved.
 
 The page's four-stage timeline is a **fictional business-process illustration**; stage selection happens only in the visitor's browser. Nothing is saved or sent, and no customer records, automated follow-ups, sales forecasts, or actual conversion outcomes are implied.
+
+## Simplify Business Operations — conceptual 3D demonstration
+
+The four chapter workshop is a reversible illustrative native-WebGL environment, not a live task platform, employee-data store or connected operational system. The original SVG and complete text remain available without WebGL or JavaScript. Existing workflow keyboard controls and new scroll controls are synchronized in-browser only. Real changes to client processes, integrations, authorisations, measurable efficiency claims and contact delivery require separate client/owner review.
 
 ## Simplify Business Operations — workflow and integration boundaries
 
