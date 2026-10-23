@@ -10,6 +10,7 @@ function select(index,focus=false){
     button.setAttribute('aria-pressed',String(active));
     panels[i].hidden=!active;
   });
+  dispatchEvent(new CustomEvent("sales-forward:stage",{detail:{index}}));
   if(focus)buttons[index].focus();
 }
 buttons.forEach((button,index)=>{
