@@ -24,6 +24,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Move Sales Forward — second cinematic Business Need page
+
+The page at `/solutions/move-sales-forward/` contains an original **fictional native-WebGL sales conversation studio**, using indigo, deep violet and copper to illustrate the four reversible business stages: **INBOUND → DISCOVERY → AGREEMENT → FOLLOW-THROUGH**.
+
+- Uses the self-hosted `assets/immersive-scene-kit.js` with independent `solutions/move-sales-forward/move-sales-forward-3d.js` geometry and `move-sales-forward-3d.css`; no CDNs, real CRM records, external APIs, customer storage or outbound messages.
+- Hero and sticky chapter canvases render initial frames before fading the original `assets/move-sales-forward.svg`; no-WebGL/no-JavaScript visitors retain the illustration and original editorial process.
+- Adds reversible scroll, direct keyboard-operable cinematic chapter selectors and a motion-pause button. The existing four-step `#sales-route` workflow stays intact, including its accessible arrow/Home/End navigation, and is synchronized to the conceptual 3D chapter state through an in-browser event.
+- Keeps existing customer-process descriptions, packages, proof placeholders, privacy note, preview `noindex` and external proposal links unchanged. Opening the proposal page does not verify submission delivery.
+- `tests/move-sales-forward-cinematic.spec.cjs` adds eight tests × four viewport profiles; the historical original-image assertion was made specific to the original hero illustration because the chapter story introduces another legitimate SVG fallback.
+- No real customer, pipeline, deal, response time, conversion, follow-up automation, sales guarantee, quoted agreement or verified client evidence is represented; service claims and real contact-delivery require owner approval. Production publication remains owner controlled.
+
 ## Reach More Customers — first cinematic Business Need page
 
 The page at `/solutions/reach-more-customers/` now has a **fictional 3D discovery constellation** in deep forest green, warm paper, copper and sea-glass. Its original native-WebGL gallery and imagined audience arcs advance through four reversible business communication chapters: **FIND → ATTRACT → EXPLAIN → CONNECT**.
