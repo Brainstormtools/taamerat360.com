@@ -1,0 +1,84 @@
+/* Business Need 04 — cinematic, conceptual customer conversation atrium.
+ * Complete editorial page survives disabled JS, blocked WebGL, and reduced motion.
+ */
+.cx-page .cx-cinema-hero{background:radial-gradient(ellipse at 72% 41%,#5a547f,#343955 57%,#262c4a);color:#fbf4e6;position:relative;isolation:isolate}
+.cx-cinema-hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#dcd4ee08 1px,transparent 1px),linear-gradient(#dcd4ee08 1px,transparent 1px);background-size:89px 89px}
+.cx-page .cx-cinema-hero .rc-crumb{color:#e9e5f5}.cx-page .cx-cinema-hero .rc-crumb strong{color:#ffd3af}
+.cx-page .cx-cinema-hero .rc-overline{color:#f9d9ae}
+.cx-page .cx-cinema-hero h1 em{color:#efb4bc}
+.cx-page .cx-cinema-hero .rc-intro{color:#e6e3f2}
+.cx-page .cx-cinema-hero .rc-button{background:#f3d7b8;color:#292940}.cx-page .cx-cinema-hero .rc-button:hover{background:#ffe3c7}
+.cx-page .cx-cinema-hero .rc-text-link{color:#f5e5cf}
+.cx-page .cx-cinema-hero .rc-note{color:#e2ddef}.cx-page .cx-cinema-hero .rc-note span{color:#f4a997}
+.cx-page .cx-cinema-hero .cx-art-panel{background:radial-gradient(ellipse at 55% 38%,#76799a,#525676 67%,#353e63);border:1px solid #d2c7eb77}
+.cx-page .cx-cinema-hero .cx-art-panel::before{border-color:#edf5db45}
+.cx-page .cx-cinema-hero .rc-art figcaption{color:#e8e4f2}
+.cx-page .cx-cinema-hero .cx-art-panel>img{transition:opacity .5s ease,filter .5s ease}
+.immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;opacity:0;transition:opacity .5s ease}
+body.cx-webgl-ready .immersive-webgl{opacity:1}
+body.cx-webgl-ready .cx-cinema-hero .cx-art-panel>img{opacity:.025;filter:blur(13px)}
+body.cx-webgl-ready .cx-cinema-fallback{opacity:.025;filter:blur(13px)}
+.cx-page .cx-cinema-scroll{position:relative;isolation:isolate;background:#272d4d;color:#fff7e8;padding:112px 0 126px}
+.cx-page .cx-cinema-scroll:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#d8eacb08 1px,transparent 1px);background-size:87px 87px}
+.cx-cinema-heading{max-width:950px;padding-bottom:67px;position:relative}
+.cx-cinema-heading .rc-label{color:#ffceba}
+.cx-cinema-heading h2{font-size:clamp(48px,6.2vw,93px);letter-spacing:-.074em;font-weight:500;line-height:1.05;margin:20px 0 26px}
+.cx-cinema-heading h2 em,.cx-cinema-chapter h3 em{font-family:"DM Serif Display",Georgia,serif;color:#f3bac1;font-weight:400;letter-spacing:-.025em}
+.cx-cinema-heading>p:last-child{max-width:740px;font-size:15px;line-height:1.86;color:#dfddea}
+.cx-cinema-toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:21px 0 41px}
+.cx-cinema-toolbar button{border:1px solid #cbc8e480;background:#4e527c;color:#f9f2ee;font-family:inherit;cursor:pointer;font-size:12px;font-weight:800;padding:10px 15px;min-height:43px}
+.cx-cinema-toolbar button:hover,.cx-cinema-toolbar button:focus-visible{background:#60628e;outline-offset:3px}
+.cx-cinema-toolbar button[aria-pressed="true"]{background:#f5ceb3;border-color:#f5ceb3;color:#303351}
+.cx-cinema-toolbar button.cx-cinema-motion{margin-left:auto;background:#424663}
+.cx-cinema-toolbar button.cx-cinema-motion[aria-pressed="true"]{background:#f5ceb3;color:#343857}
+.cx-cinema-layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(25px,4.5vw,65px);align-items:start}
+.cx-cinema-sticky{position:sticky;top:100px;min-width:0;z-index:2}
+.cx-cinema-frame{height:clamp(425px,43vw,635px);position:relative;isolation:isolate;overflow:hidden;border:1px solid #d9c9e865;background:radial-gradient(ellipse at 52% 40%,#777ba4,#515478 60%,#333b64);box-shadow:0 26px 76px #16192e99}
+.cx-cinema-frame:before{content:"";position:absolute;inset:16px;border:1px solid #f6dccb36;z-index:4;pointer-events:none}
+.cx-cinema-fallback{position:absolute;inset:4% auto auto -3%;width:106%;height:92%;object-fit:contain;opacity:.85;transition:opacity .5s ease;pointer-events:none}
+.cx-cinema-watermark{position:absolute;z-index:5;top:13px;right:22px;font-size:clamp(33px,5vw,61px);letter-spacing:-.09em;font-weight:800;opacity:.13;pointer-events:none}
+.cx-cinema-hud{position:absolute;z-index:5;inset:auto 0 0;padding:19px 21px;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#303257e9;border-top:1px solid #bdbfe06c;color:#edeaf7;font-size:10px;font-weight:800;letter-spacing:.07em}
+.cx-cinema-hud strong{color:#fbd2b9;font-size:18px;white-space:nowrap}
+.cx-cinema-caption{font-size:11px;line-height:1.8;color:#e6e1f0;margin:14px 0 0}
+.cx-cinema-chapters{display:flex;flex-direction:column;min-width:0}
+.cx-cinema-chapter{min-height:clamp(380px,55vh,560px);display:flex;flex-direction:column;justify-content:center;border-top:1px solid #b9b5d76e;padding:49px 8px;scroll-margin-top:130px;transition:padding-left .2s ease,background-color .2s ease}
+.cx-cinema-chapter:last-child{border-bottom:1px solid #b9b5d76e}
+.cx-cinema-chapter>span{font-size:11px;color:#ffd0a2;font-weight:800;letter-spacing:.14em}
+.cx-cinema-chapter h3{font-size:clamp(37px,4vw,63px);letter-spacing:-.06em;font-weight:500;line-height:1.08;margin:23px 0}
+.cx-cinema-chapter p{font-size:15px;line-height:1.81;color:#e5e0f1;max-width:460px;margin:0 0 26px}
+.cx-cinema-chapter small{color:#f2dfd2;font-size:10px;font-weight:800;letter-spacing:.08em}
+body.cx-webgl-ready .cx-cinema-chapter.is-current{padding-left:20px;border-left:2px solid #eeb4ad;background:linear-gradient(90deg,#ddd3eb1a,transparent 80%)}
+@media(max-width:980px){
+ .cx-cinema-layout{grid-template-columns:minmax(0,1fr);gap:27px}
+ .cx-cinema-sticky{top:86px}
+ .cx-cinema-frame{height:345px}
+ .cx-cinema-chapter{min-height:337px;padding:40px 14px}
+ .cx-cinema-heading{padding-bottom:38px}
+ .cx-cinema-scroll{padding:80px 0 95px}
+}
+@media(max-width:760px){
+ .cx-cinema-sticky{top:73px}
+ .cx-cinema-frame{height:265px}
+ .cx-cinema-toolbar{gap:7px;margin-bottom:23px}
+ .cx-cinema-toolbar button{padding:9px;font-size:10px;min-height:42px}
+ .cx-cinema-toolbar button.cx-cinema-motion{margin-left:0}
+ .cx-cinema-watermark{top:8px}
+ .cx-cinema-hud{padding:13px;font-size:9px}
+ .cx-cinema-hud strong{font-size:13px}
+ .cx-cinema-chapter{min-height:304px;padding:30px 9px}
+ .cx-cinema-chapter h3{font-size:clamp(34px,9vw,48px)}
+ .cx-cinema-chapter p{font-size:14px}
+ .cx-cinema-caption{font-size:10px}
+}
+@media(max-width:370px){
+ .cx-cinema-frame{height:215px}
+ .cx-cinema-sticky{top:69px}
+ .cx-cinema-hud{font-size:8px}
+ .cx-cinema-toolbar button{font-size:9px;padding:8px}
+}
+@media(prefers-reduced-motion:reduce){.immersive-webgl,.cx-cinema-fallback,.cx-cinema-chapter,.cx-art-panel>img{transition:none!important}}
+body.cx-motion-paused .immersive-webgl,body.cx-motion-paused .cx-cinema-chapter{transition:none!important}
+
+/* Small screens: keep cinematic artwork in document flow so that the sticky
+ * canvas cannot obscure a chapter heading or body during scroll. */
+@media(max-width:760px){.cx-page .cx-cinema-sticky{position:relative;top:auto}}
