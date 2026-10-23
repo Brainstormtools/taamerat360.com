@@ -24,6 +24,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Improve Customer Experience — fourth cinematic Business Need page
+
+The page at `/solutions/improve-customer-experience/` now includes an original **fictional customer-conversation atrium** in lilac, sea-glass and coral. Four reversible native-WebGL scroll chapters — **DISCOVER → CONNECT → CONTINUE → IMPROVE** — visualize transparent public service information and general business follow-through, never actual customer care outcomes.
+
+- The local `assets/immersive-scene-kit.js` and new `solutions/improve-customer-experience/improve-customer-experience-3d.js` and `improve-customer-experience-3d.css` render a distinct conceptual scene. No customer information, external messaging provider, API calls, contact tracking, ticketing, support account or backend is added.
+- Both original depth-tested hero and chapter WebGL canvases draw their initial frames before the original `assets/customer-experience-connected.svg` fades; the SVG and original complete editorial page persist without WebGL or JavaScript.
+- Reversible scrolling, direct stage buttons with keyboard arrows, motion pause/reduced-motion, and readable mobile story layout. The existing four-stage `#touchpoints` explorer with arrow/Home/End keyboard behavior remains in place and synchronizes its stage to the scene using an in-browser event.
+- The original package links, case-study placeholder, preview `noindex` and external proposal route remain unchanged; this is not a verified submitted-and-received contact.
+- Nine new Playwright scenarios across four viewport profiles cover true WebGL first-frame rendering, chapter progression, stage synchronization, fallback and screenshot review.
+- No real client support case, customer identity, ticket, conversation, response-time SLA, satisfaction measurement, conversion result or promised service outcome is represented. Verified examples, client consent, approved channels, privacy review, scope, contact receipt and owner-controlled release remain pending.
+
 ## Simplify Business Operations — third cinematic Business Need page
 
 The page at `/solutions/simplify-business-operations/` now includes a **fictional native-WebGL operations workshop** in jade, deep teal, parchment and warm orange. Four reversible chapters illustrate RECEIVE → ASSIGN → DELIVER → LEARN. Anonymous cards, handover paths and review stations are purely conceptual.
@@ -237,7 +248,7 @@ All 11 planned industry landing pages have been developed, browser-tested, and m
 3. **Improve Customer Experience** — source at `/solutions/improve-customer-experience/`: original customer-and-service illustration, three communication friction points, accessible four-touchpoint explorer (discover, connect, continue, improve) with no-script fallback, Connected Growth and Business Efficiency package directions, verified-proof placeholder and externally linked proposal destination. Service channel and integration boundaries require approval.
 4. **Simplify Business Operations** — source at `/solutions/simplify-business-operations/`: custom coordination illustration, three operational friction points, keyboard-accessible four-step request-to-review workflow explorer with no-JS fallback, Business Efficiency and Connected Growth package directions, client-proof placeholder and external proposal CTA. Workflow integrations and deliverables require separate approval.
 
-All **four business-need pages** are already implemented, merged into `main`, and included in the site-wide **968/968 passing browser regression baseline**. Their separate cinematic 3D upgrades are **not yet implemented**. Client approvals, live-proposal receipt testing and owner-managed production publication remain outstanding. These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
+All **four business-need pages** are already implemented, merged into `main`, and included in the site-wide **968/968 passing browser regression baseline**. All four have separate **conceptual cinematic 3D source implementations** in this repository; the latest GitHub PR and successful exact-commit QA runs determine which revisions are merged and release-verified. This does not constitute a production publication or evidence approval. Client approvals, live-proposal receipt testing and owner-managed production publication remain outstanding. These business-need pages are distinct from the 11 completed industry pages. Public outcomes must not claim guaranteed leads, conversion lifts or client results; see `docs/solution-placeholder-register.md`. The existing external proposal page is not a verified submission integration.
 
 ## Current development & release boundaries
 
