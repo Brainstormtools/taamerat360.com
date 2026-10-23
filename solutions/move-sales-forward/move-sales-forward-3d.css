@@ -78,3 +78,7 @@ body.sf-webgl-ready .sf-cinema-chapter.is-current{padding-left:20px;border-left:
 }
 @media(prefers-reduced-motion:reduce){.immersive-webgl,.sf-cinema-fallback,.sf-cinema-chapter,.sf-art-panel>img{transition:none!important}}
 body.sf-motion-paused .immersive-webgl,body.sf-motion-paused .sf-cinema-chapter{transition:none!important}
+
+/* Small screens: keep cinematic artwork in document flow so that the sticky
+ * canvas cannot obscure a chapter heading or body during scroll. */
+@media(max-width:760px){.sf-page .sf-cinema-sticky{position:relative;top:auto}}
