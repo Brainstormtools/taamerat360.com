@@ -6,8 +6,8 @@ The four business-need landing pages are original editorial source components, c
 |---|---|---|---|
 | Reach More Customers | /solutions/reach-more-customers/ | Cinematic native-WebGL experience merged to `main`; 1000/1000 browser tests passed on approved PR #35 | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Cinematic native-WebGL studio merged into `main`; exact-head QA **1,036/1,036 passed** on PR #36 | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
-| Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
-| Simplify Business Operations | /solutions/simplify-business-operations/ | Original editorial page merged; independent 3D operations workshop in PR #37, QA and merge pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
+| Improve Customer Experience | /solutions/improve-customer-experience/ | Existing editorial source merged; cinematic customer atrium developed in review PR; QA/merge pending | Channel permissions, privacy and response expectations, verified examples and external proposal receipt test |
+| Simplify Business Operations | /solutions/simplify-business-operations/ | Cinematic native-WebGL workshop merged into `main` via PR #38; **1,072/1,072 tests passed** on exact-head QA | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — cinematic source boundaries
 
@@ -50,6 +50,10 @@ The four chapter workshop is a reversible illustrative native-WebGL environment,
 - [ ] Maintain `noindex, nofollow` and preview-only robots policy until the website owner approves public release.
 
 The operations journey is **fictional and browser-only**. Selecting stages does not create tasks, trigger messages, assign staff, share data, update workflow tools or persist anything.
+
+## Improve Customer Experience — conceptual cinema privacy boundary
+
+The fictional native-WebGL atrium visualizes DISCOVER → CONNECT → CONTINUE → IMPROVE with anonymous information displays and hypothetical paths. It is not a running support system, live ticketing, client communications service, customer account, stored record, feedback submission or verified satisfaction result. The original SVG, privacy disclosures, full editorial content and external proposal links remain intact. The owner/client checklist below still applies.
 
 ## Improve Customer Experience — content and compliance boundaries
 
