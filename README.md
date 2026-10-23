@@ -24,6 +24,17 @@ GitHub Actions: `Frontend QA` (`.github/workflows/frontend-qa.yml`)
 - Tests cover graphics, navigation, selectors, keyboard dismissal, reduced motion, accessibility, no-JS text readability, responsive overflow, robots policy and proposal link syntax
 - Screenshots and HTML QA reports are available in the CI run artifacts
 
+## Simplify Business Operations — third cinematic Business Need page
+
+The page at `/solutions/simplify-business-operations/` now includes a **fictional native-WebGL operations workshop** in jade, deep teal, parchment and warm orange. Four reversible chapters illustrate RECEIVE → ASSIGN → DELIVER → LEARN. Anonymous cards, handover paths and review stations are purely conceptual.
+
+- Dedicated `simplify-business-operations-3d.js` and `simplify-business-operations-3d.css` reuse the local `assets/immersive-scene-kit.js`. No real operational data, staff identities, credentials, files, network requests, task stores, third-party automation or outbound messages are added.
+- Hero and story canvases render initial frames and retain the existing `assets/simplify-business-operations.svg` artwork for no-JavaScript/no-WebGL.
+- Scroll works forward and backward; direct buttons support keyboard arrows and motion pause/reduced-motion preferences. On mobile, the visualization stays in normal flow rather than obscuring the chapter headings.
+- The original `#workflow` explorer's four existing keyboard-operable steps synchronize the cinematic state. Its illustrative no-data disclaimer, existing content, package links, evidence placeholders, external proposal links and preview `noindex` remain intact.
+- `tests/simplify-business-operations-cinematic.spec.cjs` tests WebGL, stage progression, source controls, accessibility fallbacks and visual screenshot capture across the four browser viewport profiles. The original art assertion is scoped to its unchanged hero image.
+- No real task, workflow assignment, employee record, business integration, measured efficiency gain, client result or production launch is represented. Approved scope, permissions, case studies, commercial claims and actual proposal submission/receipt remain release gates.
+
 ## Move Sales Forward — second cinematic Business Need page
 
 The page at `/solutions/move-sales-forward/` contains an original **fictional native-WebGL sales conversation studio**, using indigo, deep violet and copper to illustrate the four reversible business stages: **INBOUND → DISCOVERY → AGREEMENT → FOLLOW-THROUGH**.
