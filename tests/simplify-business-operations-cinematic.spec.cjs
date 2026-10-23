@@ -21,7 +21,7 @@ test("Native WebGL creates two depth-tested canvases with initialized mobile-saf
   kind:window.__operationsCinema.kind,available:window.__operationsCinema.available,
   mounts:window.__operationsCinema.mounts,vertices:window.__operationsCinema.meshVertices
  }:null);
- expect(scene?.kind).toBe("native-webgl-simplify-business-operations");
+ expect(scene?.kind).toBe("native-webgl-simplify-operations");
  expect(scene?.vertices).toBeGreaterThan(300);
  if(scene.available){
   expect(scene.mounts).toBe(2);
@@ -36,13 +36,13 @@ test("Native WebGL creates two depth-tested canvases with initialized mobile-saf
  }
  expect(errors).toEqual([]);
 });
-test("Sales cinema chapters progress forward and reverse when scrolling",async({page})=>{
+test("Operations cinema chapters progress forward and reverse when scrolling",async({page})=>{
  await page.goto(route);
- const last=page.locator('.op-cinema-chapter[data-sf-chapter="3"]');
+ const last=page.locator('.op-cinema-chapter[data-op-chapter="3"]');
  await last.scrollIntoViewIfNeeded();await expect(last).toBeVisible();
  if(await page.evaluate(()=>window.__operationsCinema?.available))
   await expect.poll(()=>page.evaluate(()=>window.__operationsCinema.progress),{timeout:8000}).toBeGreaterThan(2);
- const first=page.locator('.op-cinema-chapter[data-sf-chapter="0"]');
+ const first=page.locator('.op-cinema-chapter[data-op-chapter="0"]');
  await first.scrollIntoViewIfNeeded();
  if(await page.evaluate(()=>window.__operationsCinema?.available))
   await expect.poll(()=>page.evaluate(()=>window.__operationsCinema.progress),{timeout:8000}).toBeLessThan(1);
@@ -116,7 +116,7 @@ test("Without JavaScript sales editorial, proposal destinations and story chapte
  }finally{await context.close();}
 });
 
-test("Cinematic sales page exports hero and scroll-story visual review screenshots",async({page})=>{
+test("Cinematic operations page exports hero and scroll-story visual review screenshots",async({page})=>{
  const fs=require("node:fs");
  fs.mkdirSync("screenshots",{recursive:true});
  await page.goto(route);
@@ -127,7 +127,7 @@ test("Cinematic sales page exports hero and scroll-story visual review screensho
   await expect.poll(()=>page.locator(".op-art-panel>img").evaluate(i=>Number(getComputedStyle(i).opacity)),{timeout:8000}).toBeLessThan(.15);
  }
  await page.screenshot({path:"screenshots/simplify-business-operations-"+test.info().project.name+"-hero.png",animations:"disabled"});
- await page.locator('.op-cinema-chapter[data-sf-chapter="1"]').scrollIntoViewIfNeeded();
+ await page.locator('.op-cinema-chapter[data-op-chapter="1"]').scrollIntoViewIfNeeded();
  await expect(page.locator(".op-cinema-frame")).toBeVisible();
  await page.screenshot({path:"screenshots/simplify-business-operations-"+test.info().project.name+"-story.png",animations:"disabled"});
 });
