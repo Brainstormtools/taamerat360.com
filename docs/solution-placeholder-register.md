@@ -6,7 +6,7 @@ The four business-need landing pages are original editorial source components, c
 |---|---|---|---|
 | Reach More Customers | /solutions/reach-more-customers/ | Cinematic native-WebGL experience merged to `main`; 1000/1000 browser tests passed on approved PR #35 | Approval of offer and scope, real case-study evidence, client permission for names/images, specific deliverables and pricing, real proposal-submission test |
 | Move Sales Forward | /solutions/move-sales-forward/ | Original editorial page in `main`; cinematic 3D developed in review branch, QA/merge pending | Approval of Sales Momentum and Connected Growth scope; CRM/privacy/integration boundaries; verified case study; proposal receipt test |
-| Improve Customer Experience | /solutions/improve-customer-experience/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
+| Improve Customer Experience | /solutions/improve-customer-experience/ | Original editorial source merged; cinematic 3D customer atrium developed on review branch, QA and merge pending | Channel availability and response expectations, permissions/privacy review, service scope, verified examples and external proposal receipt test |
 | Simplify Business Operations | /solutions/simplify-business-operations/ | Merged into `main`; editorial page browser-tested; cinematic 3D upgrade pending | Approved workflow scope, integration/access/security approvals, real client evidence, actual proposal-receipt test |
 
 ## Reach More Customers — cinematic source boundaries
@@ -46,6 +46,10 @@ The page's four-stage timeline is a **fictional business-process illustration**;
 - [ ] Maintain `noindex, nofollow` and preview-only robots policy until the website owner approves public release.
 
 The operations journey is **fictional and browser-only**. Selecting stages does not create tasks, trigger messages, assign staff, share data, update workflow tools or persist anything.
+
+## Improve Customer Experience — conceptual cinema privacy boundary
+
+The fictional native-WebGL atrium visualizes DISCOVER → CONNECT → CONTINUE → IMPROVE with anonymous information displays and hypothetical paths. It is not a running support system, live ticketing, client communications service, customer account, stored record, feedback submission or verified satisfaction result. The original SVG, privacy disclosures, full editorial content and external proposal links remain intact. The owner/client checklist below still applies.
 
 ## Improve Customer Experience — content and compliance boundaries
 
