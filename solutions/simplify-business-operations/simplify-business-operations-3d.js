@@ -122,7 +122,7 @@ pauseButton.addEventListener("click",()=>{userPaused=!userPaused;updatePause();}
 if(mq.addEventListener)mq.addEventListener("change",updatePause);
 addEventListener("scroll",syncScroll,{passive:true});
 addEventListener("resize",syncScroll,{passive:true});
-addEventListener("operations-flow:stage",event=>{
+addEventListener("operations:stage",event=>{
  const i=Number(event.detail?.index);
  if(!Number.isInteger(i)||i<0||i>3)return;
  selected=i;manual=i;until=performance.now()+1800;
