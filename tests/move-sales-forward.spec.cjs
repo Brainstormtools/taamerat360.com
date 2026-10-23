@@ -7,7 +7,7 @@ test('Move Sales Forward loads original artwork, headline, and visible sales cha
  await page.goto(route);
  await expect(page.locator('h1')).toContainText('Interest is good.');
  await expect(page.locator('h1')).toContainText('Momentum is better.');
- const art=page.locator('img[src$="move-sales-forward.svg"]');
+ const art=page.locator('.sf-art-panel>img[src$="move-sales-forward.svg"]');
  await expect(art).toBeVisible();
  await expect.poll(()=>art.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await expect(page.locator('.sf-problems article')).toHaveCount(3);
