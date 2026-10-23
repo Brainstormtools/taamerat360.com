@@ -16,7 +16,7 @@
 .sf-page .sf-cinema-hero .sf-art-panel>img{transition:opacity .5s ease,filter .5s ease}
 .immersive-webgl{display:block;position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;opacity:0;transition:opacity .5s ease}
 body.sf-webgl-ready .immersive-webgl{opacity:1}
-body.sf-webgl-ready .sf-page .sf-cinema-hero .sf-art-panel>img{opacity:.025;filter:blur(13px)}
+body.sf-webgl-ready .sf-cinema-hero .sf-art-panel>img{opacity:.025;filter:blur(13px)}
 body.sf-webgl-ready .sf-cinema-fallback{opacity:.025;filter:blur(13px)}
 .sf-page .sf-cinema-scroll{position:relative;isolation:isolate;background:#282843;color:#fff7e8;padding:112px 0 126px}
 .sf-page .sf-cinema-scroll:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#d8eacb08 1px,transparent 1px);background-size:87px 87px}
