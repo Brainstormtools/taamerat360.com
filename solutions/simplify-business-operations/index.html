@@ -10,9 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <link rel="preload" href="../../assets/simplify-business-operations.svg" as="image" type="image/svg+xml">
 <link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../reach-more-customers/reach-more-customers.css">
-<link rel="stylesheet" href="./simplify-business-operations.css">
+<link rel="stylesheet" href="./simplify-business-operations.css"><link rel="stylesheet" href="./simplify-business-operations-3d.css">
 <script src="../reach-more-customers/reach-more-customers.js" defer></script>
-<script src="./simplify-business-operations.js" defer></script>
+<script src="./simplify-business-operations.js" defer></script><script src="../../assets/immersive-scene-kit.js" defer></script><script src="./simplify-business-operations-3d.js" defer></script>
 </head><body class="op-page">
 <a href="#main" class="skip-link">Skip to content</a>
 <header class="site-header" id="top"><nav class="nav shell" aria-label="Main navigation">
@@ -21,16 +21,16 @@
 <div id="nav-links" class="nav-links"><a href="../../#solutions">Business needs</a><a href="#challenge">The challenge</a><a href="#workflow">Workflow explorer</a><a href="#packages">Packages</a><a href="#next-step" class="nav-cta">Request a proposal <span aria-hidden="true">↗</span></a></div>
 </nav></header>
 <main id="main">
-<section class="rc-hero op-hero" aria-labelledby="op-title"><div class="shell rc-hero-grid">
+<section class="rc-hero op-hero op-cinema-hero" aria-labelledby="op-title"><div class="shell rc-hero-grid">
 <div class="rc-hero-copy">
 <nav class="rc-crumb" aria-label="Breadcrumb"><a href="../../">HOME</a><span aria-hidden="true">/</span><a href="../../#solutions">BUSINESS NEEDS</a><span aria-hidden="true">/</span><strong>SIMPLIFY BUSINESS OPERATIONS</strong></nav>
 <p class="rc-overline"><span class="rc-spark" aria-hidden="true">≋</span> YOUR BUSINESS NEED / 04</p>
 <h1 id="op-title">Less chasing.<br><em>More doing.</em></h1>
 <p class="rc-intro">When a simple task needs five messages and three follow-ups, work gets harder than it has to be. Make responsibilities, handovers and next steps easier to see—without adding complexity for its own sake.</p>
-<div class="rc-actions"><a href="#workflow" class="rc-button">Explore the workflow <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
+<div class="rc-actions"><a href="#cinema-operations" class="rc-button">Explore the workflow <span aria-hidden="true">↗</span></a><a href="#next-step" class="rc-text-link">Request a proposal <span aria-hidden="true">↗</span></a></div>
 <p class="rc-note">CLEAR OWNERS <span aria-hidden="true">→</span> VISIBLE HANDOVERS <span aria-hidden="true">→</span> STEADY PROGRESS</p>
 </div>
-<figure class="rc-art"><div class="rc-art-panel op-art-panel"><img src="../../assets/simplify-business-operations.svg" alt="An editorial illustration of a project coordination desk, two team members, and a winding orange ribbon connecting planning, handover and completion cards." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / PEOPLE AND TASKS MOVING TOGETHER</figcaption></figure>
+<figure class="rc-art"><div class="rc-art-panel op-art-panel" data-operations-flow-hero><img src="../../assets/simplify-business-operations.svg" alt="An editorial illustration of a project coordination desk, two team members, and a winding orange ribbon connecting planning, handover and completion cards." width="1100" height="850" decoding="async" fetchpriority="high"></div><figcaption>ILLUSTRATION / PEOPLE AND TASKS MOVING TOGETHER</figcaption></figure>
 </div></section>
 <div class="rc-marquee op-marquee" aria-hidden="true"><div class="shell">FEWER GAPS <span>✳</span> CLEARER HANDOVERS <span>✳</span> VISIBLE NEXT STEPS <span>✳</span></div></div>
 <section class="rc-section rc-paper" id="challenge" aria-labelledby="challenge-title"><div class="shell">
@@ -40,6 +40,56 @@
 <article class="rc-problem"><span>02 / UNCLEAR OWNERSHIP</span><div class="rc-big-icon" aria-hidden="true">?</div><h3>Who is doing<br>the next part?</h3><p>When responsibilities aren't visible, tasks can be delayed or duplicated.</p></article>
 <article class="rc-problem"><span>03 / FRAGMENTED INFORMATION</span><div class="rc-big-icon" aria-hidden="true">≋</div><h3>Information lives<br>in too many places.</h3><p>Different versions of work, status or requirements make coordination harder to trust.</p></article>
 </div></div></section>
+
+<section class="op-cinema-scroll" id="cinema-operations" aria-labelledby="operations-cinema-title">
+ <div class="shell">
+  <div class="op-cinema-heading">
+   <p class="rc-label">02 / THE WORK BEHIND EVERY HANDOVER</p>
+   <h2 id="operations-cinema-title">Make responsibilities visible.<br><em>Let better work flow.</em></h2>
+   <p>Explore a <strong>fictional dimensional operations workshop</strong> using anonymous coordination cards, paths and handover desks. It illustrates decisions to discuss, not a deployed workflow, actual company process, team data, connected software, automated task assignment or verified productivity improvement.</p>
+  </div>
+  <div class="op-cinema-toolbar" role="group" aria-label="Select operations process chapter or pause animation">
+   <button type="button" data-op-cinema-stage="0" aria-pressed="true" class="is-active">01 / RECEIVE</button>
+   <button type="button" data-op-cinema-stage="1" aria-pressed="false">02 / ASSIGN</button>
+   <button type="button" data-op-cinema-stage="2" aria-pressed="false">03 / DELIVER</button>
+   <button type="button" data-op-cinema-stage="3" aria-pressed="false">04 / LEARN</button>
+   <button type="button" class="op-cinema-motion" id="op-cinema-motion" aria-pressed="false" aria-label="Pause cinematic motion">Pause motion Ⅱ</button>
+  </div>
+  <div class="op-cinema-layout">
+   <div class="op-cinema-sticky">
+    <div class="op-cinema-frame" data-operations-flow-scene role="img" aria-label="Illustrative three-dimensional operations workshop with anonymous request cards, responsibility handovers, progress milestones and a review desk">
+     <img src="../../assets/simplify-business-operations.svg" alt="" class="op-cinema-fallback" width="1100" height="850" decoding="async">
+     <span class="op-cinema-watermark" aria-hidden="true">WORKFLOW / 04</span>
+     <div class="op-cinema-hud"><span>OPERATIONS / ILLUSTRATIVE BUSINESS PROCESS</span><strong id="op-cinema-progress" aria-live="off">01 / 04</strong></div>
+    </div>
+    <p class="op-cinema-caption">Scroll down through four chapters and back up to reverse. Choose chapters above or use the existing keyboard-operable workflow below.</p>
+   </div>
+   <div class="op-cinema-chapters">
+    <article class="op-cinema-chapter" data-op-chapter="0">
+     <span>01 / RECEIVE</span><h3>Define the request.<br><em>Make it understandable.</em></h3>
+     <p>Agree what work is needed and what context should accompany it. The workshop’s cards are abstract placeholders, not incoming tasks or real staff messages.</p>
+     <small>INTAKE / CLEAR REQUEST AND NEXT STEP</small>
+    </article>
+    <article class="op-cinema-chapter" data-op-chapter="1">
+     <span>02 / ASSIGN</span><h3>Make ownership clear.<br><em>Reduce assumptions.</em></h3>
+     <p>Discuss who owns a task, what must happen first and when to review it. No employee identity, schedule, permission or assignment is stored here.</p>
+     <small>OWNERSHIP / ROLES AND DEPENDENCIES</small>
+    </article>
+    <article class="op-cinema-chapter" data-op-chapter="2">
+     <span>03 / DELIVER</span><h3>Show meaningful progress.<br><em>Keep handovers simple.</em></h3>
+     <p>Provide useful updates through approved channels and decide which steps should remain human-led. No real project status, integration or automatic workflow executes.</p>
+     <small>STATUS / PRACTICAL HANDOVER</small>
+    </article>
+    <article class="op-cinema-chapter" data-op-chapter="3">
+     <span>04 / LEARN</span><h3>Close the loop.<br><em>Improve with evidence.</em></h3>
+     <p>Confirm completion and discuss bottlenecks using appropriate feedback and permissions. This concept does not represent actual time savings, service guarantees or delivered results.</p>
+     <small>REVIEW / AGREED IMPROVEMENTS</small>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
 <section class="rc-section op-flow" id="workflow" aria-labelledby="workflow-title"><div class="shell">
 <div class="rc-section-heading"><p class="rc-label">02 / INTERACTIVE OPERATING FLOW</p><h2 id="workflow-title">Four simple steps<br><em>to a clearer handover.</em></h2><p>Explore an illustrative internal workflow—from request to review. It is an example of how responsibilities can be organized, not an active project manager or operational system.</p></div>
 <div class="op-explorer">
