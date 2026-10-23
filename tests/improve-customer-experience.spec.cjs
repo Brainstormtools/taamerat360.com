@@ -7,7 +7,7 @@ test('Customer Experience page loads original illustration and service challenge
  await page.goto(route);
  await expect(page.locator('h1')).toContainText('Every interaction');
  await expect(page.locator('h1')).toContainText('leaves an impression.');
- const artwork=page.locator('img[src$="customer-experience-connected.svg"]');
+ const artwork=page.locator('.cx-art-panel>img[src$="customer-experience-connected.svg"]');
  await expect(artwork).toBeVisible();
  await expect.poll(()=>artwork.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
  await expect(page.locator('.cx-problems article')).toHaveCount(3);
